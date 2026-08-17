@@ -1,0 +1,30 @@
+{
+  "run_dirs": [],
+  "synthetic_data_paths": [
+    "/workspace-vast/adamk/activation_oracles_dev/investigations/binary_eval_cf_train_ceiling/results/training_data/binary_counterfactual_training_data_qwen3p5_397b.json"
+  ],
+  "include_synthetic": false,
+  "model_name": "Qwen/Qwen3.5-397B-A17B",
+  "base_model": "Qwen/Qwen3.5-397B-A17B",
+  "log_path": "/workspace-vast/adamk/activation_oracles_dev/checkpoints_text_sft_tinker/qwen3p5_397b_binary_counterfactual_e3",
+  "lora_rank": 64,
+  "batch_size": 16,
+  "num_epochs": 3,
+  "learning_rate": 5e-05,
+  "max_seq_len": 8192,
+  "warmup_ratio": 0.05,
+  "max_grad_norm": 1.0,
+  "max_steps": null,
+  "submit_ahead": 1,
+  "min_interest_score": 3,
+  "min_verification_score": 7,
+  "max_train_examples": null,
+  "save_every": 350,
+  "rolling_ttl_seconds": 86400,
+  "wandb_project": "model_understanding_sft_tinker",
+  "wandb_run_name": "qwen3p5_397b_binary_counterfactual_e3",
+  "run_name": "qwen3p5_397b_binary_counterfactual_e3",
+  "seed": 42,
+  "debug_num_examples_to_dump": 2,
+  "schema_version": 2
+}

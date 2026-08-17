@@ -1,0 +1,33 @@
+{
+  "data_paths": [
+    "/workspace-vast/adamk/activation_oracles_dev/data_pipelines/model_understanding/runs/qwen3_32b_run/structured_data.jsonl",
+    "/workspace-vast/adamk/activation_oracles_dev/data_pipelines/model_understanding/runs/qwen3_32b_run_2_train/structured_data.jsonl"
+  ],
+  "model_name": "Qwen/Qwen3.5-397B-A17B",
+  "base_model": "Qwen/Qwen3.5-397B-A17B",
+  "log_path": "/workspace-vast/adamk/activation_oracles_dev/checkpoints_text_sft_tinker/mu_qwen35_397b_on_qwen3_32b_data_e1_test",
+  "run_name": "mu_qwen35_397b_on_qwen3_32b_data_e1_test",
+  "lora_rank": 64,
+  "batch_size": 32,
+  "num_epochs": 1,
+  "learning_rate": 5e-05,
+  "max_seq_len": 4096,
+  "warmup_ratio": 0.05,
+  "max_grad_norm": 1.0,
+  "min_interest_score": 3,
+  "min_verification_score": 7,
+  "max_train_examples": null,
+  "max_steps": null,
+  "project_id": "",
+  "owner": "",
+  "save_every": 50,
+  "rolling_ttl_seconds": 86400,
+  "wandb_project": "model_understanding_sft_tinker",
+  "wandb_run_name": "mu_qwen35_397b_on_qwen3_32b_data_e1_test",
+  "reference_local_config_path": "/workspace-vast/adamk/activation_oracles_dev/checkpoints_text_sft/mu_qwen3_32b_structured_e3_kl0/final/training_config.json",
+  "seed": 42,
+  "debug_num_examples_to_dump": 2,
+  "schema_version": 1,
+  "_project_id_note": "set via TINKER_PROJECT_ID env var (or fill in your own project)",
+  "_owner_note": "set via TINKER_OWNER env var"
+}

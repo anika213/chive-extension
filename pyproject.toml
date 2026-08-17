@@ -1,0 +1,82 @@
+[project]
+name = "chive"
+version = "0.1.0"
+description = "Explaining model behaviors in the wild with counterfactual investigations"
+requires-python = ">=3.11"
+readme = "README.md"
+# Base deps: enough to run every analysis/plot script on a CPU-only laptop.
+dependencies = [
+    # Pinned to the versions the paper figures were generated with — figure
+    # byte-reproducibility depends on them (matplotlib 3.11 changes canvas geometry).
+    "numpy==2.2.6",
+    "pandas",
+    "scipy==1.16.2",
+    "scikit-learn",
+    "matplotlib==3.10.7",
+    "pydantic==2.13.4",
+    "python-dotenv",
+    "tqdm",
+    "huggingface-hub",
+    "hf_transfer",
+    "datasets==4.8.5",
+    "anthropic",
+    "openai",
+    "tenacity",
+    "httpx",
+    "transformers==4.57.6",  # tokenizers for transcript segmentation (CPU)
+    "jinja2",                # transformers apply_chat_template (build_eval_set)
+    "aiohttp",               # tools/vllm_pool proxy + smoke tests
+]
+
+[project.optional-dependencies]
+# Everything hardware-bound: vLLM servers, AO capture via vllm-lens, NLA/SAE
+# precomputes, and text-SFT training (chive.training).
+gpu = [
+    "torch==2.10.0",
+    "vllm==0.19.1",
+    "vllm-lens; python_version >= '3.12'",
+    "accelerate==1.13.0",
+    "einops==0.8.1",
+    "pyyaml",       # NLA precompute
+    "safetensors",  # NLA/SAE loaders
+    "requests",     # Neuronpedia label fetch
+    "peft==0.19.1",
+    "wandb==0.21.1",
+    "bitsandbytes==0.48.1",
+    "tinker==0.21.0",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["chive", "chive.*", "experiments", "experiments.*"]
+
+[tool.ty.environment]
+python-version = "3.12"
+
+[tool.ty.rules]
+all = "ignore"
+unresolved-reference = "error"
+possibly-unresolved-reference = "warn"
+missing-argument = "error"
+too-many-positional-arguments = "error"
+unknown-argument = "error"
+invalid-parameter-default = "error"
+
+[tool.ty.src]
+exclude = [".venv/**", "data/**"]
+
+[tool.uv]
+# Ensure the lock always resolves wheels for x86_64 Linux (the GPU cluster);
+# without this uv can lock e.g. an xgrammar version with aarch64-only wheels.
+required-environments = ["sys_platform == 'linux' and platform_machine == 'x86_64'"]
+# xgrammar 0.2.4/0.2.5 ship no cp312 manylinux x86_64 wheel (vllm allows a range);
+# 0.2.3 is the newest version installable on the cluster's python 3.12.
+constraint-dependencies = ["xgrammar==0.2.3"]
+
+[tool.uv.sources]
+# Maintained vllm-lens fork (output_residual_stream JSON-decode fix + other patches).
+# Pinned to a commit for reproducibility; bump `rev` to take new fixes from adam_dev.
+vllm-lens = { git = "https://github.com/adamkarvonen/vllm-lens.git", rev = "218e78d79af1a9c55ae76d850a6fb2c08674b0f1" }

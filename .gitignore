@@ -1,0 +1,52 @@
+# Data tree — materialized by scripts/download_data.py, never committed
+# (exception: training_configs, small JSON provenance tracked in git).
+data/*
+!data/training_configs/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+venv/
+
+# Secrets
+.env
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Experiment scratch output (plots are regenerated; committed selectively)
+wandb/
+outputs/
+logs/
+*.log
+
+# HF release staging (reviewed before upload; large, never committed)
+hf_dataset/
+hf_models/
+
+# Hook-mining raw output (~13MB of judge dumps kept on disk, never committed).
+# The distillations CANDIDATES.md / EXPANDED_HELP_CANDIDATES.md and the mining
+# scripts ARE tracked — they are the provenance for t1_readout_fabrications.png.
+post/nla_hook_mining/*.jsonl
+post/nla_hook_mining/*.json
+post/nla_hook_mining/*.txt
+post/nla_hook_mining/claims/
+
+# Paper LaTeX build artifacts (references.bib + figures/ ARE tracked)
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.synctex.gz
+paper/*.synctex
+paper/*.synctex(busy)
+paper/*.pdf
+paper/*.toc
+paper/*.lof
+paper/*.lot
+paper/*.out

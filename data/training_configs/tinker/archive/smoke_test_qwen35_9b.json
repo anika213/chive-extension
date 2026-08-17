@@ -1,0 +1,29 @@
+{
+  "data_paths": [
+    "/workspace-vast/adamk/activation_oracles_dev/data_pipelines/model_understanding/runs/qwen3_32b_run_2_train/structured_data.jsonl"
+  ],
+  "model_name": "Qwen/Qwen3.5-9B",
+  "base_model": "Qwen/Qwen3.5-9B",
+  "log_path": "/workspace-vast/adamk/activation_oracles_dev/investigations/model_understanding_tinker/runs/smoke_test_qwen35_9b",
+  "run_name": "smoke_test_qwen35_9b",
+  "lora_rank": 64,
+  "batch_size": 4,
+  "num_epochs": 1,
+  "learning_rate": 5e-05,
+  "max_seq_len": 4096,
+  "warmup_ratio": 0.05,
+  "max_train_examples": 8,
+  "min_interest_score": 3,
+  "min_verification_score": 7,
+  "project_id": "",
+  "owner": "",
+  "wandb_project": "model_understanding_sft_tinker",
+  "wandb_run_name": "smoke_test_qwen35_9b",
+  "save_every": 50,
+  "rolling_ttl_seconds": 86400,
+  "seed": 42,
+  "debug_num_examples_to_dump": 2,
+  "schema_version": 1,
+  "_project_id_note": "set via TINKER_PROJECT_ID env var (or fill in your own project)",
+  "_owner_note": "set via TINKER_OWNER env var"
+}
