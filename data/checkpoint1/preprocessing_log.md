@@ -153,7 +153,7 @@ Filtered causes.parquet columns: prompt_id, source, experiment_number, is_key, e
 
 Rates are proportions in [0,1]; delta_pp is signed percentage points. is_key is investigator metadata, not an inclusion filter or proof.
 
-[Open review.html](review.html): 15 random behaviour rows and 15 random cause rows **per source**, with original versus cleaned/stripped texts side by side. Seeds start at 20261004, increasing by source index; no similarity-based selection or rerolling.
+[Open retained report](preprocessing_log.md): 15 random behaviour rows and 15 random cause rows **per source**, with original versus cleaned/stripped texts side by side. Seeds start at 20261004, increasing by source index; no similarity-based selection or rerolling.
 
 Reproduce: `clustering/.venv/bin/python clustering/preprocessing.py`. Requires PyArrow 25.0.1. Source provenance and hashes are in input_provenance.json. Old schema_audit.json and schema_missing_experiments.jsonl document the earlier preflight; counts.json describes this completed preprocessing run.
 

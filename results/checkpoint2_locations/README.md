@@ -6,7 +6,7 @@ Re-embedded causes after stripping explicit unquoted edit-location phrases. Prio
 
 ## Read first
 
-- [review.html](review.html)
+- [retained report](report.md)
 
 ## Supporting artifacts
 

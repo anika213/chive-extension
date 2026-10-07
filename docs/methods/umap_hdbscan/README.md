@@ -9,7 +9,7 @@ The latest-qualifying-checkpoint run uses a 269-record subset, with 172 records 
 ## Reviews
 
 - [results/petri_latest_qualified/review.html](../../../results/petri_latest_qualified/review.html)
-- [results/checkpoint2_locations/review.html](../../../results/checkpoint2_locations/review.html)
+- [results/checkpoint2_locations/retained report](../../../results/checkpoint2_locations/report.md)
 - [results/cause_evaluation/reading/review.html](../../../results/cause_evaluation/reading/review.html)
 
 ## Implementation and reproduction

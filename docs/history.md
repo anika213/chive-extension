@@ -80,14 +80,14 @@ Both facets are refit separately; WildChat retains its previous results. No sema
 
 Previous revision: [edit locations and behaviour seed concentration](../results/location_seed/review.html).
 Edit location is metadata; explicit unquoted location spans are removed from cause
-embedding text. [Revised cause clustering](../results/checkpoint2_locations/review.html)
+embedding text. [Revised cause clustering](../results/checkpoint2_locations/report.md)
 preserves the prior behaviour assignments. PETRI seed concentration uses a provisional
 scenario-prefix proxy; WildChat seed identities are unavailable. No semantic labels.
 
 Previous workflow: [observation-only preprocessing](PREPROCESSING.md), completed through
-[Checkpoint 2 for review](../results/checkpoint2/review.html) for PETRI and WildChat eval.
+[Checkpoint 2 for review](../results/checkpoint2/report.md) for PETRI and WildChat eval.
 Behaviour and cause facets are embedded and clustered separately within each source.
-The [approved filtering amendments and 30 original cause summaries per source](../data/checkpoint1_approved/review.html)
+The [approved filtering amendments and 30 original cause summaries per source](../data/checkpoint1_approved/preprocessing_log.md)
 are preserved. Train and thinking are deferred. Stopped before semantic labelling.
 See [reproduction instructions](CHECKPOINT2.md); older clustering results below are historical.
 

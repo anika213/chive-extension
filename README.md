@@ -4,6 +4,7 @@ Start with **[the HTML review catalogue](reviews/index.html)** or [results by an
 
 ## Read first
 
+- [All behaviour texts: agglomerative clustering across cuts](results/behaviour_facets/agglomerative_sweep.html) — every PETRI cut k=2–800 and saved WildChat cuts, with all members.
 - [Scenario-focused behaviour, counterfactual and verifier-prose analyses](results/scenario_clustering/README.md)
 - [Latest qualifying PETRI investigations and cosine refinement](results/petri_latest_qualified/README.md)
 - [One investigation, field by field](example.html)

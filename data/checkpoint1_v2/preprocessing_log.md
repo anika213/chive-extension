@@ -74,7 +74,7 @@ Main denominator: every verification-qualified investigation in the source, INCL
 
 ## Examples and files
 
-[Open review.html](review.html) for 10 flagged artifact examples and 10 behaviour before/after examples per source where available, plus 15 random rows of each eligible facet per source. Random seed 20261004 + source index; no similarity-based selection.
+[Open retained report](preprocessing_log.md) for 10 flagged artifact examples and 10 behaviour before/after examples per source where available, plus 15 random rows of each eligible facet per source. Random seed 20261004 + source index; no similarity-based selection.
 
 Per source: behaviours.parquet, behaviours_unfiltered.parquet, causes.parquet (flagged rows retained), causes_unfiltered.parquet, causes_for_clustering.parquet, context_diffs.parquet, counts.json, review_samples.json, behaviour_prefix_edits.jsonl, behaviour_exclusions.jsonl, clustering_exclusions.jsonl.
 

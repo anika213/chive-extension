@@ -13,7 +13,7 @@ approval.
 
 ## Review and output files
 
-Open [the review page](../data/checkpoint1/review.html) for 15 random behaviour rows
+Open [the preprocessing log](../data/checkpoint1/preprocessing_log.md) for 15 random behaviour rows
 and 15 random cause rows **per source**, with original and preprocessed text side
 by side. Read [the preprocessing log](../data/checkpoint1/preprocessing_log.md) for
 the schema mapping, counts after each step, applied rules, and flags.

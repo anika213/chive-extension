@@ -1,0 +1,9 @@
+{
+  "html_pages": 225,
+  "catalogue_complete": true,
+  "local_links_checked": 1204,
+  "missing_links": [],
+  "checkpoint_html_removed": 5,
+  "saved_cut_membership_validation": "799 PETRI cuts and 7 WildChat cuts validated against saved assignments",
+  "javascript_checks": "Syntax and simulated-DOM controls passed; browser visual verification unavailable"
+}

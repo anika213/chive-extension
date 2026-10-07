@@ -1,7 +1,7 @@
 # Observation-only preprocessing
 
 Latest revision: [edit location and seed audit](../results/location_seed/review.html),
-with [updated cause clusters](../results/checkpoint2_locations/review.html).
+with [updated cause clusters](../results/checkpoint2_locations/report.md).
 `location_seed_analysis.py` joins raw contexts against verified hashes and records
 changed roles/message indices, including explicitly wrapped tool outputs. It removes
 unquoted role/turn locator spans from cause text, preserving originals and removed
@@ -10,8 +10,8 @@ from embedding; all retained rows stay in `data/checkpoint1_locations/*/causes.p
 Quoted intervention payloads remain verbatim. Behaviour embeddings are unchanged.
 See [revision methods and reproduction](LOCATION_SEED.md).
 
-Current outputs: [approved checkpoint 1 amendments](../data/checkpoint1_approved/review.html)
-and [completed checkpoint 2](../results/checkpoint2/review.html), for PETRI and WildChat eval only.
+Current outputs: [approved checkpoint 1 amendments](../data/checkpoint1_approved/preprocessing_log.md)
+and [completed checkpoint 2](../results/checkpoint2/report.md), for PETRI and WildChat eval only.
 The amended cause tables add `control`, `sanity check`, `qualitatively`, and `grader`
 to artifact matching, plus `frac_changed` and `context_swap_relative` (> 0.5).
 Clustering excludes either size flag or any measurement-artifact flag; flagged rows
@@ -22,7 +22,7 @@ See [reproduction instructions](CHECKPOINT2.md). Stopped before semantic labelli
 
 ## Preserved Checkpoint 1, revision 2
 
-Historical review: [revision 2 HTML](../data/checkpoint1_v2/review.html) and
+Historical review: [revision 2 preprocessing notes](../data/checkpoint1_v2/preprocessing_log.md) and
 [methods, counts, edit-size distributions, and edit types](../data/checkpoint1_v2/preprocessing_log.md).
 
 ```bash
@@ -79,7 +79,7 @@ approval.
 
 ## Review and output files
 
-Open [the review page](../data/checkpoint1/review.html) for 15 random behaviour rows
+Open [the preprocessing log](../data/checkpoint1/preprocessing_log.md) for 15 random behaviour rows
 and 15 random cause rows **per source**, with original and preprocessed text side
 by side. Read [the preprocessing log](../data/checkpoint1/preprocessing_log.md) for
 the schema mapping, counts after each step, applied rules, and flags.

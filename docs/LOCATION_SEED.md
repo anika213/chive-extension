@@ -1,7 +1,7 @@
 # Edit location and scenario concentration
 
 Review [location cross-tabs, text changes, and per-cluster concentration](../results/location_seed/review.html)
-and [revised cause clustering](../results/checkpoint2_locations/review.html).
+and [revised cause clustering](../results/checkpoint2_locations/report.md).
 
 Sources remain PETRI and WildChat eval only. Behaviour texts, vectors, and clusters
 are reused unchanged. Causes are re-embedded with local CPU MPNet and the same

@@ -24,7 +24,7 @@ Only PETRI and WildChat eval; separate behaviour and cause embeddings/clusters. 
 | wildchat_eval | behaviours | 1641 | 200 | 0.0447 | 0.0072 | 30 | 0.0729 | 48.2% | 0.1635 |
 | wildchat_eval | causes | 5068 | 200 | 0.0604 | -0.0020 | 132 | 0.1209 | 39.3% | 0.4449 |
 
-Full cluster sizes, both null summaries, positive-only diversity statistics, membership assignments, all cuts, and reading samples are saved per source/facet. Review [review.html](review.html) for 5 random members from each of the 10 largest clusters for both methods (all clusters if fewer than 10).
+Full cluster sizes, both null summaries, positive-only diversity statistics, membership assignments, all cuts, and reading samples are saved per source/facet. Review [retained report](report.md) for 5 random members from each of the 10 largest clusters for both methods (all clusters if fewer than 10).
 
 **Checkpoint 2: awaiting review; no labelling performed.**
 

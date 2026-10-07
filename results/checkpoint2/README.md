@@ -6,7 +6,7 @@ Separate PETRI/WildChat eval behaviour and measured-edit facets; Ward k=10..200 
 
 ## Read first
 
-- [review.html](review.html)
+- [retained report](report.md)
 
 ## Supporting artifacts
 

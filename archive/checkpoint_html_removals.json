@@ -1,0 +1,46 @@
+{
+  "reason": "User requested removal of project checkpoint HTML reviews. Supporting data and reports retained.",
+  "removed_files": [
+    {
+      "path": "data/checkpoint1/review.html",
+      "bytes": 103853,
+      "sha256": "44f1ce964b87371fbb11f7bdcd3a9f620cedffaaa52d5424de061363bd2eafde"
+    },
+    {
+      "path": "data/checkpoint1_v2/review.html",
+      "bytes": 142491,
+      "sha256": "b171fb825302c03294fc06ad6f92c204a70ac44544563384ff138c6faf7aa2fb"
+    },
+    {
+      "path": "data/checkpoint1_approved/review.html",
+      "bytes": 22761,
+      "sha256": "f2735899127bd023ff5ce1bd96db6b52adb7b2d741601c3843b0f330b7c5e5b3"
+    },
+    {
+      "path": "results/checkpoint2/review.html",
+      "bytes": 228938,
+      "sha256": "2cf0f30bb0a669d19f0aab0a5e6b1c4c62d66c3cf133fb0a593a15b5ce9db3b2"
+    },
+    {
+      "path": "results/checkpoint2_locations/review.html",
+      "bytes": 224433,
+      "sha256": "dde5a5b734de69010c3e79cf5539c651ce377088b1d27c6d4eecf6ce94a26551"
+    }
+  ],
+  "link_only_updates": [
+    "docs/PREPROCESSING.md",
+    "docs/PREPROCESSING_CHECKPOINT1_V1.md",
+    "docs/LOCATION_SEED.md",
+    "docs/history.md",
+    "docs/CHECKPOINT2.md",
+    "docs/methods/umap_hdbscan/README.md",
+    "docs/methods/ward/README.md",
+    "data/checkpoint1/preprocessing_log.md",
+    "data/checkpoint1_v2/preprocessing_log.md",
+    "results/checkpoint2_locations/report.md",
+    "results/checkpoint2_locations/README.md",
+    "results/location_seed/review.html",
+    "results/checkpoint2/report.md",
+    "results/checkpoint2/README.md"
+  ]
+}

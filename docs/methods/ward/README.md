@@ -10,7 +10,7 @@ Ward assigns every input; there is no noise category. IDs are local to the run a
 
 - [results/final_explanations/review.html](../../../results/final_explanations/review.html)
 - [results/behaviour_facets/review.html](../../../results/behaviour_facets/review.html)
-- [results/checkpoint2/review.html](../../../results/checkpoint2/review.html)
+- [results/checkpoint2/retained report](../../../results/checkpoint2/report.md)
 
 ## Implementation and reproduction
 

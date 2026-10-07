@@ -1,5 +1,7 @@
 # Qwen3-8B behaviour facet clustering
 
+**[Browse all behaviour texts across agglomerative cuts](agglomerative_sweep.html)**. PETRI includes every k=2–800; WildChat includes the seven originally saved cuts. All cluster members are available, not just centroid examples. This page reuses saved assignments without changing the analyses. Rebuild it from the repository root with `.venv/bin/python scripts/build_behaviour_sweep_review.py`.
+
 This run clusters the screener's `behavior_summary`, one item per investigation, from PETRI eval and standard WildChat eval separately. It excludes WildChat training and thinking runs. PETRI is the alignment-relevant set. Only records with a matched numeric verification score >= 7 are retained. A verification score is an investigation-level filter; it does not turn a behaviour cluster into a verified cause.
 
 Reproduce from repository root:

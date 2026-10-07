@@ -1,7 +1,7 @@
 # Checkpoint 2 reproduction
 
-Review [results](../results/checkpoint2/review.html), [methods and metrics](../results/checkpoint2/report.md),
-[approved preprocessing and 30 original summaries per source](../data/checkpoint1_approved/review.html),
+Review [results](../results/checkpoint2/report.md), [methods and metrics](../results/checkpoint2/report.md),
+[approved preprocessing and 30 original summaries per source](../data/checkpoint1_approved/preprocessing_log.md),
 and [validation](../results/checkpoint2/validation.json).
 
 Run from the repository workspace root, using the existing local model and revision-2 context diffs:
