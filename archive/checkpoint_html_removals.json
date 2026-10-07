@@ -42,5 +42,10 @@
     "results/location_seed/review.html",
     "results/checkpoint2/report.md",
     "results/checkpoint2/README.md"
-  ]
+  ],
+  "git_history_cleanup": {
+    "checkpoint_htmls": "Removed from all local main-branch commits, including historical checkpoint-3 HTMLs.",
+    "oversized_intermediate": "data/checkpoint1/input_observations.jsonl removed from Git history; local file retained and ignored.",
+    "push_performed": false
+  }
 }

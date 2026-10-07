@@ -11,3 +11,9 @@ __pycache__/
 # Published raw downloads are retained locally; tracked manifests record provenance.
 /data/petri/
 /data/wildchat/
+
+# Removed checkpoint review exports and oversized intermediate input.
+/data/checkpoint*/**/*.html
+/results/checkpoint*/**/*.html
+/results/petri_representation_variants/checkpoint*/**/*.html
+/data/checkpoint1/input_observations.jsonl
