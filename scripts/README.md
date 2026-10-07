@@ -13,7 +13,6 @@ Scripts resolve inputs and outputs relative to the repository, so moving them he
 | Latest PETRI selection | `recluster_latest_petri.py`, `build_similarity_reviews.py`, `refine_behaviour_clusters.py` |
 | Scenario subsets and text facets | `cluster_one_scenario.py`, `cluster_related_counterfactuals.py`, `cluster_explanation_assessments.py` |
 | Evidence reviews | `analyze_assessment_cluster0.py`, `review_three_scenario_experiments.py`, `plot_counterfactual_patterns.py`, `plot_high_improvement_counts.py` |
-| Embedding and algorithm comparison | `embed_petri_variants.py`, `compare_petri_representations.py`, `run_petri_checkpoint3.py` |
 | Validation | `validate_*.py`, plus `../tests/` |
 
 See [reproduction](../docs/REPRODUCING.md) for prerequisites and saved-output caveats. Plot/build/report scripts generate presentation artifacts; they are not extra clustering methods.

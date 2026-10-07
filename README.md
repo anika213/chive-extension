@@ -1,10 +1,9 @@
 # Qwen3-8B clustering research
 
-Start with **[the HTML review catalogue](reviews/index.html)** or [results by analysis family](results/README.md). All existing reviews, plots, assignments, embeddings, alternatives and intermediate research artifacts are preserved. Nothing has been pushed.
+Start with **[the HTML review catalogue](reviews/index.html)** or [results by analysis family](results/README.md). The retained analyses include reviews, plots, assignments, embeddings, alternatives and intermediate research artifacts. Nothing has been pushed.
 
 ## Read first
 
-- [Latest PETRI comparison: MPNet/E5 HDBSCAN, Leiden, GMM and residualization](results/petri_representation_variants/checkpoint3/review.html)
 - [Scenario-focused behaviour, counterfactual and verifier-prose analyses](results/scenario_clustering/README.md)
 - [Latest qualifying PETRI investigations and cosine refinement](results/petri_latest_qualified/README.md)
 - [One investigation, field by field](example.html)
@@ -16,7 +15,7 @@ Start with **[the HTML review catalogue](reviews/index.html)** or [results by an
 |---|---|
 | `reviews/` | Browsable catalogue of every saved research HTML page |
 | `results/` | Analysis families, reviews and supporting machine-readable outputs |
-| `docs/methods/` | Separate guides for Ward, average/complete linkage, UMAP/HDBSCAN, cosine refinement, Leiden, GMM, residualization and embedding comparison |
+| `docs/methods/` | Separate guides for Ward, average/complete linkage, UMAP/HDBSCAN and cosine refinement |
 | `docs/` | Preprocessing, reproduction, location/ID notes and research history |
 | `scripts/` | Analysis, review-building and validation scripts |
 | `examples/` | Detailed investigation examples, data, JavaScript and builders |
@@ -30,4 +29,4 @@ Result and data paths are preserved because later analyses reuse earlier records
 
 Behaviour summaries, investigator claims, verifier assessments and measured counterfactual edits are separate inputs. Similarity does not establish a causal mechanism; cluster IDs are local to each run, facet and method. Scenario-prefix identity is a provisional proxy. Read each method's coverage, nulls and limitations alongside its review.
 
-Git tracks research results and supporting intermediate artifacts. Raw release downloads under `data/petri/` and `data/wildchat/`, model weights, caches and environments remain on disk but are ignored. Download manifests and a full artifact inventory document the retained source files. See [data policy](data/README.md) and [archive policy](archive/README.md). Cleanup is deferred until specific cuts are requested.
+Git tracks research results and supporting intermediate artifacts. Raw release downloads under `data/petri/` and `data/wildchat/`, model weights, caches and environments remain on disk but are ignored. Download manifests and a full artifact inventory document the retained source files. See [data policy](data/README.md) and [archive policy](archive/README.md). Requested cuts are recorded in [the removal log](archive/removals.json); further cleanup is deferred.

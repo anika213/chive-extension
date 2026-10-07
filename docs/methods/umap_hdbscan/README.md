@@ -4,11 +4,10 @@ UMAP reduces normalized embeddings to 10 dimensions; HDBSCAN finds density-conne
 
 The main score is cosine silhouette in the original embedding space, restricted to assigned rows. Always read it with assignment coverage and cluster sizes. UMAP-space silhouette measures a different geometry. Noise is not a coherent cluster; agreement primarily uses jointly assigned rows, with overlap reported separately.
 
-Checkpoint 3 reuses the original MPNet/E5 baselines on the same 801 behaviour texts. The latest-qualifying-checkpoint run is a different 269-record subset, with 172 records assigned to six behaviour clusters and 97 noise rows. Its cause facet is fitted separately. Synthetic embedding nulls show what the pipeline can create from shuffled geometry, not whether clusters represent verified mechanisms.
+The latest-qualifying-checkpoint run uses a 269-record subset, with 172 records assigned to six behaviour clusters and 97 noise rows. Its cause facet is fitted separately. Synthetic embedding nulls show what the pipeline can create from shuffled geometry, not whether clusters represent verified mechanisms.
 
 ## Reviews
 
-- [results/petri_representation_variants/checkpoint3/review.html](../../../results/petri_representation_variants/checkpoint3/review.html)
 - [results/petri_latest_qualified/review.html](../../../results/petri_latest_qualified/review.html)
 - [results/checkpoint2_locations/review.html](../../../results/checkpoint2_locations/review.html)
 - [results/cause_evaluation/reading/review.html](../../../results/cause_evaluation/reading/review.html)
@@ -18,6 +17,5 @@ Checkpoint 3 reuses the original MPNet/E5 baselines on the same 801 behaviour te
 - [run_checkpoint2.py](../../../scripts/run_checkpoint2.py)
 - [recluster_latest_petri.py](../../../scripts/recluster_latest_petri.py)
 - [evaluate_cause_hdbscan.py](../../../scripts/evaluate_cause_hdbscan.py)
-- [run_petri_checkpoint3.py](../../../scripts/run_petri_checkpoint3.py)
 
 Run scripts from the repository root with `.venv/bin/python scripts/<script>.py`. See [reproduction and dependencies](../../REPRODUCING.md) before rerunning: most producers can overwrite their output folders. Saved output metadata describes the original execution.

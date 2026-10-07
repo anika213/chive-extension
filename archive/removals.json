@@ -1,0 +1,597 @@
+{
+  "reason": "User requested removal of the entire MPNet/E5 representation-comparison research branch. Includes dependent checkpoint-3 experiments, exclusive scripts/guides and local E5/Qwen embedding weights; earlier MPNet analyses and shared inputs are retained.",
+  "files": [
+    {
+      "path": "results/petri_representation_variants/.Rhistory",
+      "bytes": 0
+    },
+    {
+      "path": "results/petri_representation_variants/e5_metrics.log",
+      "bytes": 352
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3_report.log",
+      "bytes": 1097
+    },
+    {
+      "path": "results/petri_representation_variants/.DS_Store",
+      "bytes": 8196
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3_run.log",
+      "bytes": 3976
+    },
+    {
+      "path": "results/petri_representation_variants/status.md",
+      "bytes": 579
+    },
+    {
+      "path": "results/petri_representation_variants/e5_embedding.log",
+      "bytes": 793
+    },
+    {
+      "path": "results/petri_representation_variants/README.md",
+      "bytes": 773
+    },
+    {
+      "path": "results/petri_representation_variants/report_build.log",
+      "bytes": 836
+    },
+    {
+      "path": "results/petri_representation_variants/preflight.json",
+      "bytes": 1756
+    },
+    {
+      "path": "results/petri_representation_variants/mpnet_metrics.log",
+      "bytes": 385
+    },
+    {
+      "path": "results/petri_representation_variants/step1/comparison.svg",
+      "bytes": 59890
+    },
+    {
+      "path": "results/petri_representation_variants/step1/review.html",
+      "bytes": 149058
+    },
+    {
+      "path": "results/petri_representation_variants/step1/report.md",
+      "bytes": 836
+    },
+    {
+      "path": "results/petri_representation_variants/step1/comparison.png",
+      "bytes": 69574
+    },
+    {
+      "path": "results/petri_representation_variants/step1/comparison.json",
+      "bytes": 89315
+    },
+    {
+      "path": "results/petri_representation_variants/step1/README.md",
+      "bytes": 417
+    },
+    {
+      "path": "results/petri_representation_variants/step1/validation.json",
+      "bytes": 478
+    },
+    {
+      "path": "results/petri_representation_variants/step1/protocol.json",
+      "bytes": 837
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/pairwise_ari.json",
+      "bytes": 4064
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/comparison.svg",
+      "bytes": 70038
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/residual_cohort_audit.json",
+      "bytes": 1596
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/review.html",
+      "bytes": 194336
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/report.md",
+      "bytes": 1097
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/review_notes.html",
+      "bytes": 3133
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/comparison.png",
+      "bytes": 75654
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/comparison.json",
+      "bytes": 45757
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/run_validation.json",
+      "bytes": 251
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/README.md",
+      "bytes": 442
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/validation.json",
+      "bytes": 1262
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/protocol.json",
+      "bytes": 52681
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_hdbscan/metrics.json",
+      "bytes": 5361
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_hdbscan/scenario_null_replicates.json",
+      "bytes": 59699
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_hdbscan/samples.json",
+      "bytes": 50895
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_hdbscan/README.md",
+      "bytes": 738
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_hdbscan/embeddings.npy",
+      "bytes": 3281024
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_hdbscan/assignments.parquet",
+      "bytes": 279234
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_hdbscan/embedding_null_replicates.json",
+      "bytes": 1312
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_hdbscan/hdbscan_membership_strength.npy",
+      "bytes": 6536
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_hdbscan/umap10.npy",
+      "bytes": 32168
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_gmm/metrics.json",
+      "bytes": 5551
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_gmm/scenario_null_replicates.json",
+      "bytes": 59627
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_gmm/mixture_weights.npy",
+      "bytes": 208
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_gmm/membership_probabilities.npy",
+      "bytes": 64208
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_gmm/samples.json",
+      "bytes": 51553
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_gmm/means.npy",
+      "bytes": 928
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_gmm/README.md",
+      "bytes": 716
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_gmm/embeddings.npy",
+      "bytes": 3281024
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_gmm/covariances.npy",
+      "bytes": 8128
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_gmm/assignments.parquet",
+      "bytes": 293507
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_gmm/embedding_null_replicates.json",
+      "bytes": 1165
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_gmm/umap10.npy",
+      "bytes": 32168
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_leiden/metrics.json",
+      "bytes": 4913
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_leiden/graph_weights.npy",
+      "bytes": 68920
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_leiden/knn_indices.npy",
+      "bytes": 96248
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_leiden/scenario_null_replicates.json",
+      "bytes": 59883
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_leiden/graph_edges.npy",
+      "bytes": 137712
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_leiden/samples.json",
+      "bytes": 45804
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_leiden/README.md",
+      "bytes": 701
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_leiden/embeddings.npy",
+      "bytes": 3281024
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_leiden/assignments.parquet",
+      "bytes": 276499
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_leiden/embedding_null_replicates.json",
+      "bytes": 1170
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_residual_hdbscan/scenario_centroids.npy",
+      "bytes": 1204352
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_residual_hdbscan/metrics.json",
+      "bytes": 10314
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_residual_hdbscan/scenario_null_replicates.json",
+      "bytes": 59633
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_residual_hdbscan/samples.json",
+      "bytes": 10053
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_residual_hdbscan/README.md",
+      "bytes": 864
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_residual_hdbscan/residualization_by_family.json",
+      "bytes": 37105
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_residual_hdbscan/embeddings.npy",
+      "bytes": 3281024
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_residual_hdbscan/assignments.parquet",
+      "bytes": 278375
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_residual_hdbscan/embedding_null_replicates.json",
+      "bytes": 1316
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_residual_hdbscan/hdbscan_membership_strength.npy",
+      "bytes": 6536
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/e5_residual_hdbscan/umap10.npy",
+      "bytes": 32168
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/mpnet_residual_hdbscan/scenario_centroids.npy",
+      "bytes": 903296
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/mpnet_residual_hdbscan/metrics.json",
+      "bytes": 10905
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/mpnet_residual_hdbscan/scenario_null_replicates.json",
+      "bytes": 59663
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/mpnet_residual_hdbscan/samples.json",
+      "bytes": 50389
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/mpnet_residual_hdbscan/README.md",
+      "bytes": 758
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/mpnet_residual_hdbscan/residualization_by_family.json",
+      "bytes": 36878
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/mpnet_residual_hdbscan/embeddings.npy",
+      "bytes": 2460800
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/mpnet_residual_hdbscan/assignments.parquet",
+      "bytes": 279086
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/mpnet_residual_hdbscan/embedding_null_replicates.json",
+      "bytes": 1319
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/mpnet_residual_hdbscan/hdbscan_membership_strength.npy",
+      "bytes": 6536
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/mpnet_residual_hdbscan/umap10.npy",
+      "bytes": 32168
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/mpnet_hdbscan/metrics.json",
+      "bytes": 5567
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/mpnet_hdbscan/scenario_null_replicates.json",
+      "bytes": 59639
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/mpnet_hdbscan/samples.json",
+      "bytes": 50661
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/mpnet_hdbscan/README.md",
+      "bytes": 720
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/mpnet_hdbscan/embeddings.npy",
+      "bytes": 2460800
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/mpnet_hdbscan/assignments.parquet",
+      "bytes": 279064
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/mpnet_hdbscan/embedding_null_replicates.json",
+      "bytes": 1318
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/mpnet_hdbscan/hdbscan_membership_strength.npy",
+      "bytes": 6536
+    },
+    {
+      "path": "results/petri_representation_variants/checkpoint3/mpnet_hdbscan/umap10.npy",
+      "bytes": 32168
+    },
+    {
+      "path": "results/petri_representation_variants/step1/e5_instruct/metrics.json",
+      "bytes": 61809
+    },
+    {
+      "path": "results/petri_representation_variants/step1/e5_instruct/scenario_null_replicates.json",
+      "bytes": 59578
+    },
+    {
+      "path": "results/petri_representation_variants/step1/e5_instruct/samples.json",
+      "bytes": 105957
+    },
+    {
+      "path": "results/petri_representation_variants/step1/e5_instruct/hdbscan_probabilities.npy",
+      "bytes": 6536
+    },
+    {
+      "path": "results/petri_representation_variants/step1/e5_instruct/embeddings.npy",
+      "bytes": 3281024
+    },
+    {
+      "path": "results/petri_representation_variants/step1/e5_instruct/embedding_metadata.json",
+      "bytes": 39467
+    },
+    {
+      "path": "results/petri_representation_variants/step1/e5_instruct/validation.json",
+      "bytes": 1681
+    },
+    {
+      "path": "results/petri_representation_variants/step1/e5_instruct/assignments.parquet",
+      "bytes": 281198
+    },
+    {
+      "path": "results/petri_representation_variants/step1/e5_instruct/records.json",
+      "bytes": 756542
+    },
+    {
+      "path": "results/petri_representation_variants/step1/e5_instruct/embedding_null_replicates.json",
+      "bytes": 2739
+    },
+    {
+      "path": "results/petri_representation_variants/step1/e5_instruct/umap10.npy",
+      "bytes": 32168
+    },
+    {
+      "path": "results/petri_representation_variants/step1/mpnet_baseline/metrics.json",
+      "bytes": 21462
+    },
+    {
+      "path": "results/petri_representation_variants/step1/mpnet_baseline/scenario_null_replicates.json",
+      "bytes": 59509
+    },
+    {
+      "path": "results/petri_representation_variants/step1/mpnet_baseline/samples.json",
+      "bytes": 103701
+    },
+    {
+      "path": "results/petri_representation_variants/step1/mpnet_baseline/hdbscan_probabilities.npy",
+      "bytes": 6536
+    },
+    {
+      "path": "results/petri_representation_variants/step1/mpnet_baseline/embeddings.npy",
+      "bytes": 2460800
+    },
+    {
+      "path": "results/petri_representation_variants/step1/mpnet_baseline/embedding_metadata.json",
+      "bytes": 546
+    },
+    {
+      "path": "results/petri_representation_variants/step1/mpnet_baseline/validation.json",
+      "bytes": 1681
+    },
+    {
+      "path": "results/petri_representation_variants/step1/mpnet_baseline/assignments.parquet",
+      "bytes": 281028
+    },
+    {
+      "path": "results/petri_representation_variants/step1/mpnet_baseline/records.json",
+      "bytes": 756542
+    },
+    {
+      "path": "results/petri_representation_variants/step1/mpnet_baseline/embedding_null_replicates.json",
+      "bytes": 2744
+    },
+    {
+      "path": "results/petri_representation_variants/step1/mpnet_baseline/umap10.npy",
+      "bytes": 32168
+    },
+    {
+      "path": "docs/methods/embedding_comparison/README.md",
+      "bytes": 1927
+    },
+    {
+      "path": "docs/methods/leiden/README.md",
+      "bytes": 1549
+    },
+    {
+      "path": "docs/methods/gmm/README.md",
+      "bytes": 1507
+    },
+    {
+      "path": "docs/methods/scenario_residualization/README.md",
+      "bytes": 1691
+    },
+    {
+      "path": "scripts/compare_petri_representations.py",
+      "bytes": 20108
+    },
+    {
+      "path": "scripts/embed_petri_variants.py",
+      "bytes": 3781
+    },
+    {
+      "path": "scripts/download_e5_verified.py",
+      "bytes": 2478
+    },
+    {
+      "path": "scripts/run_petri_checkpoint3.py",
+      "bytes": 25128
+    },
+    {
+      "path": "scripts/validate_petri_checkpoint3.py",
+      "bytes": 5798
+    },
+    {
+      "path": "models/multilingual-e5-large-instruct/model.safetensors",
+      "bytes": 1119825680
+    },
+    {
+      "path": "models/multilingual-e5-large-instruct/tokenizer_config.json",
+      "bytes": 1182
+    },
+    {
+      "path": "models/multilingual-e5-large-instruct/special_tokens_map.json",
+      "bytes": 964
+    },
+    {
+      "path": "models/multilingual-e5-large-instruct/sentencepiece.bpe.model",
+      "bytes": 5069051
+    },
+    {
+      "path": "models/multilingual-e5-large-instruct/config.json",
+      "bytes": 690
+    },
+    {
+      "path": "models/multilingual-e5-large-instruct/config_sentence_transformers.json",
+      "bytes": 128
+    },
+    {
+      "path": "models/multilingual-e5-large-instruct/tokenizer.json",
+      "bytes": 17082756
+    },
+    {
+      "path": "models/multilingual-e5-large-instruct/README.md",
+      "bytes": 140205
+    },
+    {
+      "path": "models/multilingual-e5-large-instruct/sentence_xlm-roberta_config.json",
+      "bytes": 53
+    },
+    {
+      "path": "models/multilingual-e5-large-instruct/modules.json",
+      "bytes": 349
+    },
+    {
+      "path": "models/multilingual-e5-large-instruct/download_provenance.json",
+      "bytes": 2568
+    },
+    {
+      "path": "models/multilingual-e5-large-instruct/1_Pooling/config.json",
+      "bytes": 271
+    },
+    {
+      "path": "models/Qwen3-Embedding-0.6B/model.safetensors",
+      "bytes": 1191586416
+    },
+    {
+      "path": "models/Qwen3-Embedding-0.6B/tokenizer_config.json",
+      "bytes": 9706
+    },
+    {
+      "path": "models/Qwen3-Embedding-0.6B/config.json",
+      "bytes": 727
+    },
+    {
+      "path": "models/Qwen3-Embedding-0.6B/config_sentence_transformers.json",
+      "bytes": 215
+    },
+    {
+      "path": "models/Qwen3-Embedding-0.6B/tokenizer.json",
+      "bytes": 11423705
+    },
+    {
+      "path": "models/Qwen3-Embedding-0.6B/generation_config.json",
+      "bytes": 117
+    },
+    {
+      "path": "models/Qwen3-Embedding-0.6B/README.md",
+      "bytes": 17237
+    },
+    {
+      "path": "models/Qwen3-Embedding-0.6B/merges.txt",
+      "bytes": 1671853
+    },
+    {
+      "path": "models/Qwen3-Embedding-0.6B/vocab.json",
+      "bytes": 2776833
+    },
+    {
+      "path": "models/Qwen3-Embedding-0.6B/modules.json",
+      "bytes": 349
+    },
+    {
+      "path": "models/Qwen3-Embedding-0.6B/download_provenance.json",
+      "bytes": 2460
+    },
+    {
+      "path": "models/Qwen3-Embedding-0.6B/1_Pooling/config.json",
+      "bytes": 313
+    }
+  ]
+}

@@ -1,15 +1,0 @@
-The `tokenizer_kwargs` argument was renamed and is now deprecated. Please use `processor_kwargs` instead.
-Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights:   1%|▏         | 5/391 [00:00<00:26, 14.53it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 1106.81it/s]
-MODEL e5_instruct device cpu max_tokens 235 limit 512
-EMBED 8 / 801 seconds 0.8
-EMBED 88 / 801 seconds 7.1
-EMBED 168 / 801 seconds 13.4
-EMBED 248 / 801 seconds 19.6
-EMBED 328 / 801 seconds 25.6
-EMBED 408 / 801 seconds 32.0
-EMBED 488 / 801 seconds 37.7
-EMBED 568 / 801 seconds 43.7
-EMBED 648 / 801 seconds 50.1
-EMBED 728 / 801 seconds 56.0
-EMBED 801 / 801 seconds 61.6
-SAVED /Users/sharm51155/Desktop/chive/clustering/results/petri_representation_variants/step1/e5_instruct

@@ -2,7 +2,7 @@
 
 Metadata cross-tabs and provisional PETRI scenario-prefix concentration, not another clustering algorithm. WildChat seed identities remain unavailable.
 
-[Method guide](../../docs/methods/scenario_residualization/README.md) · [All reviews](../../reviews/index.html)
+[Location and scenario-concentration protocol](../../docs/LOCATION_SEED.md) · [All reviews](../../reviews/index.html)
 
 ## Read first
 

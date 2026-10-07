@@ -1,6 +1,6 @@
 # Results by analysis family
 
-Start with the [browsable review catalogue](../reviews/index.html). Every original result file remains at its existing path, so reports and downstream analyses keep their dependencies. New orientation READMEs explain each family; no experimental outputs were removed.
+Start with the [browsable review catalogue](../reviews/index.html). Retained result files remain at their existing paths, so reports and downstream analyses keep their dependencies. New orientation READMEs explain each family; requested removals are recorded in [the removal log](../archive/removals.json).
 
 | Folder | Scope |
 |---|---|
@@ -14,4 +14,3 @@ Start with the [browsable review catalogue](../reviews/index.html). Every origin
 | [location_seed](location_seed/README.md) | Metadata cross-tabs and provisional PETRI scenario-prefix concentration, not another clustering algorithm. WildChat seed identities remain unavailable. |
 | [petri_latest_qualified](petri_latest_qualified/README.md) | 269 investigations across 147 scenario families, with 1,052 eligible measured edits. Includes original clusters, within-cluster similarity reviews and cosine refinement. |
 | [scenario_clustering](scenario_clustering/README.md) | All qualifying checkpoints within selected scenarios. Behaviour summaries, measured counterfactual edits and verifier assessment prose are separate analyses. |
-| [petri_representation_variants](petri_representation_variants/README.md) | Start with checkpoint 3 for the six-way comparison. Step 1 preserves the MPNet/E5 representation comparison; Qwen remains deferred. |

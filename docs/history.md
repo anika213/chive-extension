@@ -3,25 +3,6 @@
 Source: https://huggingface.co/datasets/adamkarvonen/chive-data
 Pinned revision: `0283d021bd373d361aadd46a9cf1f9520399d50a`.
 
-[PETRI behaviour comparison — checkpoint 3](../results/petri_representation_variants/checkpoint3/review.html)
-adds one E5 Leiden setting (k=15, resolution=1.0), one E5 GMM setting (20
-components), and scenario-mean residualization followed by unchanged HDBSCAN for
-both MPNet and E5. Six variants include the two original HDBSCAN references.
-Reports large-cluster shares and concentration with >15% clusters excluded,
-all earlier metrics/nulls, GMM probabilities, and random member samples.
-Ward is dropped; Qwen remains deferred. No new embedding or generative model calls.
-Reproduce with `clustering/.venv/bin/python clustering/scripts/run_petri_checkpoint3.py`
-(refuses to overwrite a completed run); rebuild only the HTML with the `report`
-argument. Validate with `clustering/.venv/bin/python clustering/scripts/validate_petri_checkpoint3.py`.
-
-[PETRI representation comparison — checkpoint 1](../results/petri_representation_variants/step1/review.html)
-compares the original MPNet baseline with instruction-conditioned E5 on the same
-801 behaviour texts and 147 scenario families. Ward stays at k=200; UMAP/HDBSCAN
-settings are unchanged. Includes 200 scenario-label permutations, 10 refitted
-embedding-shuffle nulls, ARIs, cluster sizes, and random member samples. Qwen is
-deferred by request; Steps 2 and 3 have not started. Verified HTTPS downloads use
-the installed certifi bundle via `bash clustering/python_with_certificates.sh`.
-
 [Cluster 0 counterfactual evidence review](../results/scenario_clustering/five_scenario_explanation_assessments/cluster_0_counterfactual_review/review.html)
 audits the 16-member cluster from the five-scenario assessment run's `cosine_above_60`
 preset. Its 223 measured tests include 63 changes of at least 50 percentage points;
