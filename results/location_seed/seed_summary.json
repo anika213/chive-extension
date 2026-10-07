@@ -1,0 +1,76 @@
+{
+  "petri": {
+    "rows": 801,
+    "known_scenario_seed_proxy_rows": 801,
+    "methods": {
+      "ward": {
+        "clusters": 200,
+        "clusters_with_known_seeds": 200,
+        "noise_rows": 0,
+        "singleton_clusters": 16,
+        "clusters_top1_over_half": 131,
+        "clusters_top2_over_half": 187,
+        "median_distinct_seeds": 2.0,
+        "median_top1_fraction": 0.8166666666666667,
+        "row_weighted_top1_fraction": 0.6729088639200999,
+        "row_weighted_top2_fraction": 0.8476903870162297,
+        "permuted_seed_weighted_top1_mean": 0.2661498127340824,
+        "permuted_seed_weighted_top1_p025_p975": [
+          0.25842696629213485,
+          0.2759051186017478
+        ]
+      },
+      "hdbscan": {
+        "clusters": 22,
+        "clusters_with_known_seeds": 22,
+        "noise_rows": 199,
+        "singleton_clusters": 0,
+        "clusters_top1_over_half": 6,
+        "clusters_top2_over_half": 13,
+        "median_distinct_seeds": 7.5,
+        "median_top1_fraction": 0.3390804597701149,
+        "row_weighted_top1_fraction": 0.27408637873754155,
+        "row_weighted_top2_fraction": 0.42358803986710963,
+        "permuted_seed_weighted_top1_mean": 0.07826245847176079,
+        "permuted_seed_weighted_top1_p025_p975": [
+          0.06976744186046512,
+          0.08637873754152824
+        ]
+      }
+    }
+  },
+  "wildchat_eval": {
+    "rows": 1641,
+    "known_scenario_seed_proxy_rows": 0,
+    "methods": {
+      "ward": {
+        "clusters": 200,
+        "clusters_with_known_seeds": 0,
+        "noise_rows": 0,
+        "singleton_clusters": 0,
+        "clusters_top1_over_half": null,
+        "clusters_top2_over_half": null,
+        "median_distinct_seeds": null,
+        "median_top1_fraction": null,
+        "row_weighted_top1_fraction": null,
+        "row_weighted_top2_fraction": null,
+        "permuted_seed_weighted_top1_mean": null,
+        "permuted_seed_weighted_top1_p025_p975": null
+      },
+      "hdbscan": {
+        "clusters": 30,
+        "clusters_with_known_seeds": 0,
+        "noise_rows": 791,
+        "singleton_clusters": 0,
+        "clusters_top1_over_half": null,
+        "clusters_top2_over_half": null,
+        "median_distinct_seeds": null,
+        "median_top1_fraction": null,
+        "row_weighted_top1_fraction": null,
+        "row_weighted_top2_fraction": null,
+        "permuted_seed_weighted_top1_mean": null,
+        "permuted_seed_weighted_top1_p025_p975": null
+      }
+    }
+  }
+}

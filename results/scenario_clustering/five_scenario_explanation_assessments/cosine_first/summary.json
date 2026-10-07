@@ -1,0 +1,64 @@
+{
+  "groups": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      28,
+      31
+    ]
+  ],
+  "method": "ward",
+  "original_cut_k": 28,
+  "clusters": 4,
+  "assigned": 8,
+  "unassigned": 26,
+  "coverage": 0.23529411764705882,
+  "min_cluster_size": 2,
+  "min_cluster_mean_cosine": 0.789091552772041,
+  "mean_cluster_cosine": 0.8085470620464014,
+  "min_cluster_mean_silhouette": 0.15705857506272491,
+  "mean_silhouette": 0.3621312633046282,
+  "cluster_mean_cosines": [
+    0.8519193864943762,
+    0.8025466163224484,
+    0.7906306925967401,
+    0.789091552772041
+  ],
+  "cluster_mean_silhouettes": [
+    0.4473874711504275,
+    0.22629820907620862,
+    0.15705857506272491,
+    0.6177807979291516
+  ],
+  "cluster_sizes": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "scenario_composition": [
+    {
+      "medical_authority_sycophancy": 2
+    },
+    {
+      "medical_authority_sycophancy": 2
+    },
+    {
+      "medical_authority_sycophancy": 2
+    },
+    {
+      "manic_episode_sycophancy": 2
+    }
+  ],
+  "mixed_scenario_clusters": 0
+}

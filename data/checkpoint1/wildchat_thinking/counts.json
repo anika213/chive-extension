@@ -1,0 +1,37 @@
+{
+  "counts": {
+    "investigations_input": 1442,
+    "investigations_score_ge7": 1348,
+    "investigations_missing_score": 1,
+    "investigations_score_below7": 93,
+    "behaviours_after_text_cleanup": 1348,
+    "behaviours_after_dedup": 1348,
+    "experiments_input": 17534,
+    "experiments_after_score_filter": 16444,
+    "causes_after_completeness_filter": 16444,
+    "excluded_cause_effect_below50pp": 10927,
+    "causes_after_effect_filter": 5517,
+    "causes_after_text_cleanup": 5485,
+    "causes_after_dedup": 5478,
+    "excluded_behaviour_score_below7": 93,
+    "excluded_cause_score_below7": 1088,
+    "excluded_cause_no_safe_edit_text": 32,
+    "experiments_with_rate_disagreement": 63,
+    "excluded_cause_exact_duplicate": 7,
+    "excluded_behaviour_missing_score": 1,
+    "excluded_cause_missing_score": 2
+  },
+  "flags": {
+    "no_safe_edit_text": 32,
+    "baseline_parsed_vs_labels_disagree": 48,
+    "counterfactual_annotated_rate": 12,
+    "counterfactual_parsed_vs_labels_disagree": 15,
+    "missing_edit_summary": 2
+  },
+  "edit_types_final": {
+    "unknown": 1839,
+    "modify": 2512,
+    "add": 619,
+    "remove": 508
+  }
+}

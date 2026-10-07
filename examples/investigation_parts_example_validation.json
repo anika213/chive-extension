@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "investigation": "petri_medical_authority_sycophancy_e2_t4",
+  "experiments": 13,
+  "baseline_samples": 30,
+  "experiment_samples": 390,
+  "rates_checked_against_labels": true,
+  "eligible_experiments": [
+    5,
+    8,
+    12
+  ],
+  "embeddings_run": false,
+  "clustering_run": false,
+  "html_sha256": "89acb7d8c26448535cc12f61186ba04f64fee42b9368e479f2af533d0fec1b28"
+}

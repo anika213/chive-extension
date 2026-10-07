@@ -1,0 +1,4548 @@
+[
+  {
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      [
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 2,
+    "clusters": 2,
+    "assigned": 19,
+    "unassigned": 0,
+    "coverage": 1.0,
+    "min_cluster_size": 5,
+    "min_cluster_mean_cosine": 0.5503449295295039,
+    "mean_cluster_cosine": 0.5937976823078208,
+    "min_cluster_mean_silhouette": 0.15528987846768372,
+    "mean_silhouette": 0.20184917207573255,
+    "cluster_mean_cosines": [
+      0.5503449295295039,
+      0.6372504350861377
+    ],
+    "cluster_mean_silhouettes": [
+      0.15528987846768372,
+      0.3322151941782693
+    ],
+    "cluster_sizes": [
+      14,
+      5
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        13
+      ],
+      [
+        8,
+        11,
+        12
+      ],
+      [
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 3,
+    "clusters": 3,
+    "assigned": 19,
+    "unassigned": 0,
+    "coverage": 1.0,
+    "min_cluster_size": 3,
+    "min_cluster_mean_cosine": 0.5770449319008933,
+    "mean_cluster_cosine": 0.6255982051924457,
+    "min_cluster_mean_silhouette": 0.10094566473341454,
+    "mean_silhouette": 0.18768805608911548,
+    "cluster_mean_cosines": [
+      0.5770449319008933,
+      0.662499248590306,
+      0.6372504350861377
+    ],
+    "cluster_mean_silhouettes": [
+      0.10094566473341454,
+      0.33147064608287613,
+      0.292251763075401
+    ],
+    "cluster_sizes": [
+      11,
+      3,
+      5
+    ]
+  },
+  {
+    "groups": [
+      [
+        8,
+        11,
+        12
+      ],
+      [
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 3,
+    "clusters": 2,
+    "assigned": 8,
+    "unassigned": 11,
+    "coverage": 0.42105263157894735,
+    "min_cluster_size": 3,
+    "min_cluster_mean_cosine": 0.6372504350861377,
+    "mean_cluster_cosine": 0.6498748418382219,
+    "min_cluster_mean_silhouette": 0.4465147161098403,
+    "mean_silhouette": 0.4603803062842393,
+    "cluster_mean_cosines": [
+      0.662499248590306,
+      0.6372504350861377
+    ],
+    "cluster_mean_silhouettes": [
+      0.483489623241571,
+      0.4465147161098403
+    ],
+    "cluster_sizes": [
+      3,
+      5
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        3,
+        9,
+        10,
+        13
+      ],
+      [
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      [
+        8,
+        11,
+        12
+      ],
+      [
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 4,
+    "clusters": 4,
+    "assigned": 19,
+    "unassigned": 0,
+    "coverage": 1.0,
+    "min_cluster_size": 3,
+    "min_cluster_mean_cosine": 0.5917224937697402,
+    "mean_cluster_cosine": 0.6322057760962444,
+    "min_cluster_mean_silhouette": 0.09291964052137236,
+    "mean_silhouette": 0.16341802672995223,
+    "cluster_mean_cosines": [
+      0.6373509269387937,
+      0.5917224937697402,
+      0.662499248590306,
+      0.6372504350861377
+    ],
+    "cluster_mean_silhouettes": [
+      0.09291964052137236,
+      0.10661887987193194,
+      0.28747263437593057,
+      0.23038247245068139
+    ],
+    "cluster_sizes": [
+      6,
+      5,
+      3,
+      5
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        3,
+        9,
+        10,
+        13
+      ],
+      [
+        8,
+        11,
+        12
+      ],
+      [
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 4,
+    "clusters": 3,
+    "assigned": 14,
+    "unassigned": 5,
+    "coverage": 0.7368421052631579,
+    "min_cluster_size": 3,
+    "min_cluster_mean_cosine": 0.6372504350861377,
+    "mean_cluster_cosine": 0.6457002035384124,
+    "min_cluster_mean_silhouette": 0.1503807383927838,
+    "mean_silhouette": 0.20832962112413583,
+    "cluster_mean_cosines": [
+      0.6373509269387937,
+      0.662499248590306,
+      0.6372504350861377
+    ],
+    "cluster_mean_silhouettes": [
+      0.1503807383927838,
+      0.28747263437593057,
+      0.23038247245068139
+    ],
+    "cluster_sizes": [
+      6,
+      3,
+      5
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        3,
+        9,
+        10,
+        13
+      ],
+      [
+        8,
+        11,
+        12
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 4,
+    "clusters": 2,
+    "assigned": 9,
+    "unassigned": 10,
+    "coverage": 0.47368421052631576,
+    "min_cluster_size": 3,
+    "min_cluster_mean_cosine": 0.6373509269387937,
+    "mean_cluster_cosine": 0.6499250877645498,
+    "min_cluster_mean_silhouette": 0.22902243424447133,
+    "mean_silhouette": 0.24850583428829104,
+    "cluster_mean_cosines": [
+      0.6373509269387937,
+      0.662499248590306
+    ],
+    "cluster_mean_silhouettes": [
+      0.22902243424447133,
+      0.28747263437593057
+    ],
+    "cluster_sizes": [
+      6,
+      3
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        3,
+        9,
+        10,
+        13
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        4,
+        5,
+        6
+      ],
+      [
+        8,
+        11,
+        12
+      ],
+      [
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 5,
+    "clusters": 5,
+    "assigned": 19,
+    "unassigned": 0,
+    "coverage": 1.0,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6010848659914485,
+    "mean_cluster_cosine": 0.6654537753021283,
+    "min_cluster_mean_silhouette": 0.06644581749731089,
+    "mean_silhouette": 0.1960479832753459,
+    "cluster_mean_cosines": [
+      0.6373509269387937,
+      0.7890833999039559,
+      0.6010848659914485,
+      0.662499248590306,
+      0.6372504350861377
+    ],
+    "cluster_mean_silhouettes": [
+      0.06644581749731089,
+      0.5128503665865872,
+      0.09610273732680548,
+      0.28747263437593057,
+      0.22996198579326482
+    ],
+    "cluster_sizes": [
+      6,
+      2,
+      3,
+      3,
+      5
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        3,
+        9,
+        10,
+        13
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        8,
+        11,
+        12
+      ],
+      [
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 5,
+    "clusters": 4,
+    "assigned": 16,
+    "unassigned": 3,
+    "coverage": 0.8421052631578947,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6372504350861377,
+    "mean_cluster_cosine": 0.6815460026297984,
+    "min_cluster_mean_silhouette": 0.06644581749731089,
+    "mean_silhouette": 0.2167371080194967,
+    "cluster_mean_cosines": [
+      0.6373509269387937,
+      0.7890833999039559,
+      0.662499248590306,
+      0.6372504350861377
+    ],
+    "cluster_mean_silhouettes": [
+      0.06644581749731089,
+      0.5284454956169831,
+      0.28747263437593057,
+      0.22996198579326482
+    ],
+    "cluster_sizes": [
+      6,
+      2,
+      3,
+      5
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        3,
+        9,
+        10,
+        13
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        8,
+        11,
+        12
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 5,
+    "clusters": 3,
+    "assigned": 11,
+    "unassigned": 8,
+    "coverage": 0.5789473684210527,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6373509269387937,
+    "mean_cluster_cosine": 0.6963111918110186,
+    "min_cluster_mean_silhouette": 0.08211579364403172,
+    "mean_silhouette": 0.21927305965690433,
+    "cluster_mean_cosines": [
+      0.6373509269387937,
+      0.7890833999039559,
+      0.662499248590306
+    ],
+    "cluster_mean_silhouettes": [
+      0.08211579364403172,
+      0.5284454956169831,
+      0.28747263437593057
+    ],
+    "cluster_sizes": [
+      6,
+      2,
+      3
+    ]
+  },
+  {
+    "groups": [
+      [
+        2,
+        7
+      ],
+      [
+        8,
+        11,
+        12
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 5,
+    "clusters": 2,
+    "assigned": 5,
+    "unassigned": 14,
+    "coverage": 0.2631578947368421,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.662499248590306,
+    "mean_cluster_cosine": 0.725791324247131,
+    "min_cluster_mean_silhouette": 0.3625250180739881,
+    "mean_silhouette": 0.45558516130935267,
+    "cluster_mean_cosines": [
+      0.7890833999039559,
+      0.662499248590306
+    ],
+    "cluster_mean_silhouettes": [
+      0.5951753761623993,
+      0.3625250180739881
+    ],
+    "cluster_sizes": [
+      2,
+      3
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        3,
+        9,
+        10,
+        13
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        4,
+        5,
+        6
+      ],
+      [
+        8,
+        11,
+        12
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 6,
+    "clusters": 5,
+    "assigned": 18,
+    "unassigned": 1,
+    "coverage": 0.9473684210526315,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6010848659914485,
+    "mean_cluster_cosine": 0.679670428850689,
+    "min_cluster_mean_silhouette": 0.053075084825649134,
+    "mean_silhouette": 0.21612759230046605,
+    "cluster_mean_cosines": [
+      0.6373509269387937,
+      0.7890833999039559,
+      0.6010848659914485,
+      0.662499248590306,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.053075084825649134,
+      0.5128503665865872,
+      0.09610273732680548,
+      0.28747263437593057,
+      0.348854826043278
+    ],
+    "cluster_sizes": [
+      6,
+      2,
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        3,
+        9,
+        10,
+        13
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        8,
+        11,
+        12
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 6,
+    "clusters": 4,
+    "assigned": 15,
+    "unassigned": 4,
+    "coverage": 0.7894736842105263,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6373509269387937,
+    "mean_cluster_cosine": 0.6993168195654991,
+    "min_cluster_mean_silhouette": 0.053075084825649134,
+    "mean_silhouette": 0.24221191383258436,
+    "cluster_mean_cosines": [
+      0.6373509269387937,
+      0.7890833999039559,
+      0.662499248590306,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.053075084825649134,
+      0.5284454956169831,
+      0.28747263437593057,
+      0.348854826043278
+    ],
+    "cluster_sizes": [
+      6,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        2,
+        7
+      ],
+      [
+        8,
+        11,
+        12
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 6,
+    "clusters": 3,
+    "assigned": 9,
+    "unassigned": 10,
+    "coverage": 0.47368421052631576,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.662499248590306,
+    "mean_cluster_cosine": 0.7199721171077341,
+    "min_cluster_mean_silhouette": 0.3625250180739881,
+    "mean_silhouette": 0.45561918532808143,
+    "cluster_mean_cosines": [
+      0.7890833999039559,
+      0.662499248590306,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.5865622986700689,
+      0.3625250180739881,
+      0.45996825409765774
+    ],
+    "cluster_sizes": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        2,
+        7
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 6,
+    "clusters": 2,
+    "assigned": 6,
+    "unassigned": 13,
+    "coverage": 0.3157894736842105,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.7083337028289404,
+    "mean_cluster_cosine": 0.7487085513664482,
+    "min_cluster_mean_silhouette": 0.45996825409765774,
+    "mean_silhouette": 0.5101758987157728,
+    "cluster_mean_cosines": [
+      0.7890833999039559,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.6105911879520032,
+      0.45996825409765774
+    ],
+    "cluster_sizes": [
+      2,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        3,
+        9
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        4,
+        5,
+        6
+      ],
+      [
+        8,
+        11,
+        12
+      ],
+      [
+        10,
+        13
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 7,
+    "clusters": 6,
+    "assigned": 18,
+    "unassigned": 1,
+    "coverage": 0.9473684210526315,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6010848659914485,
+    "mean_cluster_cosine": 0.6832770813646639,
+    "min_cluster_mean_silhouette": 0.061611519012305827,
+    "mean_silhouette": 0.1957258990327556,
+    "cluster_mean_cosines": [
+      0.6858142664360471,
+      0.7890833999039559,
+      0.6010848659914485,
+      0.662499248590306,
+      0.652847004437286,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.10602689436207621,
+      0.4522989603999634,
+      0.061611519012305827,
+      0.1902320439707438,
+      0.13252276853195172,
+      0.29344611458207914
+    ],
+    "cluster_sizes": [
+      4,
+      2,
+      3,
+      3,
+      2,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        3,
+        9
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        8,
+        11,
+        12
+      ],
+      [
+        10,
+        13
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 7,
+    "clusters": 5,
+    "assigned": 15,
+    "unassigned": 4,
+    "coverage": 0.7894736842105263,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.652847004437286,
+    "mean_cluster_cosine": 0.6997155244393072,
+    "min_cluster_mean_silhouette": 0.10602689436207621,
+    "mean_silhouette": 0.22254877503684561,
+    "cluster_mean_cosines": [
+      0.6858142664360471,
+      0.7890833999039559,
+      0.662499248590306,
+      0.652847004437286,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.10602689436207621,
+      0.4522989603999634,
+      0.1902320439707438,
+      0.13252276853195172,
+      0.29344611458207914
+    ],
+    "cluster_sizes": [
+      4,
+      2,
+      3,
+      2,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        3,
+        9
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        8,
+        11,
+        12
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 7,
+    "clusters": 4,
+    "assigned": 13,
+    "unassigned": 6,
+    "coverage": 0.6842105263157895,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.662499248590306,
+    "mean_cluster_cosine": 0.7114326544398124,
+    "min_cluster_mean_silhouette": 0.1380005678034676,
+    "mean_silhouette": 0.2766576992486125,
+    "cluster_mean_cosines": [
+      0.6858142664360471,
+      0.7890833999039559,
+      0.662499248590306,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.1380005678034676,
+      0.4522989603999634,
+      0.32205514662994966,
+      0.29344611458207914
+    ],
+    "cluster_sizes": [
+      4,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        3,
+        9
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 7,
+    "clusters": 3,
+    "assigned": 10,
+    "unassigned": 9,
+    "coverage": 0.5263157894736842,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6858142664360471,
+    "mean_cluster_cosine": 0.7277437897229811,
+    "min_cluster_mean_silhouette": 0.1380005678034676,
+    "mean_silhouette": 0.2630384650342114,
+    "cluster_mean_cosines": [
+      0.6858142664360471,
+      0.7890833999039559,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.1380005678034676,
+      0.4522989603999634,
+      0.29344611458207914
+    ],
+    "cluster_sizes": [
+      4,
+      2,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        3,
+        9
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        8,
+        11,
+        12
+      ],
+      [
+        10,
+        13
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 8,
+    "clusters": 6,
+    "assigned": 17,
+    "unassigned": 2,
+    "coverage": 0.8947368421052632,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.652847004437286,
+    "mean_cluster_cosine": 0.6939439096924899,
+    "min_cluster_mean_silhouette": 0.10602689436207621,
+    "mean_silhouette": 0.21569995738063538,
+    "cluster_mean_cosines": [
+      0.6858142664360471,
+      0.7890833999039559,
+      0.6650858359584042,
+      0.662499248590306,
+      0.652847004437286,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.10602689436207621,
+      0.450552437372489,
+      0.1660803479865338,
+      0.1902320439707438,
+      0.13252276853195172,
+      0.29344611458207914
+    ],
+    "cluster_sizes": [
+      4,
+      2,
+      2,
+      3,
+      2,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        3,
+        9
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        8,
+        11,
+        12
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 8,
+    "clusters": 5,
+    "assigned": 15,
+    "unassigned": 4,
+    "coverage": 0.7894736842105263,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.662499248590306,
+    "mean_cluster_cosine": 0.7021632907435308,
+    "min_cluster_mean_silhouette": 0.1380005678034676,
+    "mean_silhouette": 0.2616811826766721,
+    "cluster_mean_cosines": [
+      0.6858142664360471,
+      0.7890833999039559,
+      0.6650858359584042,
+      0.662499248590306,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.1380005678034676,
+      0.450552437372489,
+      0.1660803479865338,
+      0.32205514662994966,
+      0.29344611458207914
+    ],
+    "cluster_sizes": [
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        3,
+        9
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 8,
+    "clusters": 4,
+    "assigned": 12,
+    "unassigned": 7,
+    "coverage": 0.631578947368421,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6650858359584042,
+    "mean_cluster_cosine": 0.7120793012818369,
+    "min_cluster_mean_silhouette": 0.1380005678034676,
+    "mean_silhouette": 0.24658769168835273,
+    "cluster_mean_cosines": [
+      0.6858142664360471,
+      0.7890833999039559,
+      0.6650858359584042,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.1380005678034676,
+      0.450552437372489,
+      0.1660803479865338,
+      0.29344611458207914
+    ],
+    "cluster_sizes": [
+      4,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        3,
+        9
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        10,
+        13
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 9,
+    "clusters": 6,
+    "assigned": 16,
+    "unassigned": 3,
+    "coverage": 0.8421052631578947,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.652847004437286,
+    "mean_cluster_cosine": 0.7147184747833567,
+    "min_cluster_mean_silhouette": 0.08367328029331222,
+    "mean_silhouette": 0.24128336086130628,
+    "cluster_mean_cosines": [
+      0.6858142664360471,
+      0.7890833999039559,
+      0.6650858359584042,
+      0.652847004437286,
+      0.7871466391355066,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.10602689436207621,
+      0.450552437372489,
+      0.1660803479865338,
+      0.08367328029331222,
+      0.43101480334980435,
+      0.29344611458207914
+    ],
+    "cluster_sizes": [
+      4,
+      2,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        3,
+        9
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 9,
+    "clusters": 5,
+    "assigned": 14,
+    "unassigned": 5,
+    "coverage": 0.7368421052631579,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6650858359584042,
+    "mean_cluster_cosine": 0.7270927688525709,
+    "min_cluster_mean_silhouette": 0.1380005678034676,
+    "mean_silhouette": 0.2875815831679444,
+    "cluster_mean_cosines": [
+      0.6858142664360471,
+      0.7890833999039559,
+      0.6650858359584042,
+      0.7871466391355066,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.1380005678034676,
+      0.450552437372489,
+      0.1660803479865338,
+      0.5335449320454947,
+      0.29344611458207914
+    ],
+    "cluster_sizes": [
+      4,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        3,
+        9
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 9,
+    "clusters": 4,
+    "assigned": 12,
+    "unassigned": 7,
+    "coverage": 0.631578947368421,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6858142664360471,
+    "mean_cluster_cosine": 0.7425945020761126,
+    "min_cluster_mean_silhouette": 0.1380005678034676,
+    "mean_silhouette": 0.30812287620275863,
+    "cluster_mean_cosines": [
+      0.6858142664360471,
+      0.7890833999039559,
+      0.7871466391355066,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.1380005678034676,
+      0.4522989603999634,
+      0.5335449320454947,
+      0.29344611458207914
+    ],
+    "cluster_sizes": [
+      4,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        2,
+        7
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 9,
+    "clusters": 3,
+    "assigned": 8,
+    "unassigned": 11,
+    "coverage": 0.42105263157894735,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.7083337028289404,
+    "mean_cluster_cosine": 0.7615212472894677,
+    "min_cluster_mean_silhouette": 0.45426044967107515,
+    "mean_silhouette": 0.5158171688919615,
+    "cluster_mean_cosines": [
+      0.7890833999039559,
+      0.7871466391355066,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.5769927762594884,
+      0.5777549999662075,
+      0.45426044967107515
+    ],
+    "cluster_sizes": [
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        2,
+        7
+      ],
+      [
+        11,
+        12
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 9,
+    "clusters": 2,
+    "assigned": 4,
+    "unassigned": 15,
+    "coverage": 0.21052631578947367,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.7871466391355066,
+    "mean_cluster_cosine": 0.7881150195197313,
+    "min_cluster_mean_silhouette": 0.5772886533608337,
+    "mean_silhouette": 0.5775218266635206,
+    "cluster_mean_cosines": [
+      0.7890833999039559,
+      0.7871466391355066
+    ],
+    "cluster_mean_silhouettes": [
+      0.5772886533608337,
+      0.5777549999662075
+    ],
+    "cluster_sizes": [
+      2,
+      2
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        9
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        10,
+        13
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 10,
+    "clusters": 6,
+    "assigned": 15,
+    "unassigned": 4,
+    "coverage": 0.7894736842105263,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.652847004437286,
+    "mean_cluster_cosine": 0.7226378023952754,
+    "min_cluster_mean_silhouette": 0.06032839112448332,
+    "mean_silhouette": 0.2569218631328866,
+    "cluster_mean_cosines": [
+      0.73333023210756,
+      0.7890833999039559,
+      0.6650858359584042,
+      0.652847004437286,
+      0.7871466391355066,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.18851628455107552,
+      0.4353256668897986,
+      0.14034758302066055,
+      0.06032839112448332,
+      0.43101480334980435,
+      0.28856155114264503
+    ],
+    "cluster_sizes": [
+      3,
+      2,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        9
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 10,
+    "clusters": 5,
+    "assigned": 13,
+    "unassigned": 6,
+    "coverage": 0.6842105263157895,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6650858359584042,
+    "mean_cluster_cosine": 0.7365959619868734,
+    "min_cluster_mean_silhouette": 0.14034758302066055,
+    "mean_silhouette": 0.3076449922404356,
+    "cluster_mean_cosines": [
+      0.73333023210756,
+      0.7890833999039559,
+      0.6650858359584042,
+      0.7871466391355066,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.2290563832220759,
+      0.4353256668897986,
+      0.14034758302066055,
+      0.5033115225339685,
+      0.28856155114264503
+    ],
+    "cluster_sizes": [
+      3,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        9
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 10,
+    "clusters": 4,
+    "assigned": 11,
+    "unassigned": 8,
+    "coverage": 0.5789473684210527,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.7083337028289404,
+    "mean_cluster_cosine": 0.7544734934939907,
+    "min_cluster_mean_silhouette": 0.2290563832220759,
+    "mean_silhouette": 0.33806270300766744,
+    "cluster_mean_cosines": [
+      0.73333023210756,
+      0.7890833999039559,
+      0.7871466391355066,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.2290563832220759,
+      0.4353256668897986,
+      0.5033115225339685,
+      0.28856155114264503
+    ],
+    "cluster_sizes": [
+      3,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        9
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        11,
+        12
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 10,
+    "clusters": 3,
+    "assigned": 7,
+    "unassigned": 12,
+    "coverage": 0.3684210526315789,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.73333023210756,
+    "mean_cluster_cosine": 0.7698534237156741,
+    "min_cluster_mean_silhouette": 0.27213279104062915,
+    "mean_silhouette": 0.3848103931384888,
+    "cluster_mean_cosines": [
+      0.73333023210756,
+      0.7890833999039559,
+      0.7871466391355066
+    ],
+    "cluster_mean_silhouettes": [
+      0.27213279104062915,
+      0.4353256668897986,
+      0.5033115225339685
+    ],
+    "cluster_sizes": [
+      3,
+      2,
+      2
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        9
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        10,
+        13
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 11,
+    "clusters": 7,
+    "assigned": 15,
+    "unassigned": 4,
+    "coverage": 0.7894736842105263,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.652847004437286,
+    "mean_cluster_cosine": 0.7359806263533157,
+    "min_cluster_mean_silhouette": 0.06032839112448332,
+    "mean_silhouette": 0.24264270379577707,
+    "cluster_mean_cosines": [
+      0.73333023210756,
+      0.7890833999039559,
+      0.6650858359584042,
+      0.652847004437286,
+      0.7871466391355066,
+      0.7054762114040418,
+      0.8188950615264567
+    ],
+    "cluster_mean_silhouettes": [
+      0.18562179940383383,
+      0.4353256668897986,
+      0.14034758302066055,
+      0.06032839112448332,
+      0.43101480334980435,
+      0.06480820026666106,
+      0.40956293471116945
+    ],
+    "cluster_sizes": [
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        9
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 11,
+    "clusters": 6,
+    "assigned": 13,
+    "unassigned": 6,
+    "coverage": 0.6842105263157895,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6650858359584042,
+    "mean_cluster_cosine": 0.7498362300059874,
+    "min_cluster_mean_silhouette": 0.06480820026666106,
+    "mean_silhouette": 0.2818136317735398,
+    "cluster_mean_cosines": [
+      0.73333023210756,
+      0.7890833999039559,
+      0.6650858359584042,
+      0.7871466391355066,
+      0.7054762114040418,
+      0.8188950615264567
+    ],
+    "cluster_mean_silhouettes": [
+      0.18562179940383383,
+      0.4353256668897986,
+      0.14034758302066055,
+      0.5033115225339685,
+      0.06480820026666106,
+      0.40956293471116945
+    ],
+    "cluster_sizes": [
+      3,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        9
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 11,
+    "clusters": 5,
+    "assigned": 11,
+    "unassigned": 8,
+    "coverage": 0.5789473684210527,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.7054762114040418,
+    "mean_cluster_cosine": 0.7667863088155042,
+    "min_cluster_mean_silhouette": 0.06480820026666106,
+    "mean_silhouette": 0.30753473154679056,
+    "cluster_mean_cosines": [
+      0.73333023210756,
+      0.7890833999039559,
+      0.7871466391355066,
+      0.7054762114040418,
+      0.8188950615264567
+    ],
+    "cluster_mean_silhouettes": [
+      0.18562179940383383,
+      0.4353256668897986,
+      0.5033115225339685,
+      0.06480820026666106,
+      0.40956293471116945
+    ],
+    "cluster_sizes": [
+      3,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        9
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 11,
+    "clusters": 4,
+    "assigned": 9,
+    "unassigned": 10,
+    "coverage": 0.47368421052631576,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.73333023210756,
+    "mean_cluster_cosine": 0.7821138331683698,
+    "min_cluster_mean_silhouette": 0.18562179940383383,
+    "mean_silhouette": 0.38797531543195246,
+    "cluster_mean_cosines": [
+      0.73333023210756,
+      0.7890833999039559,
+      0.7871466391355066,
+      0.8188950615264567
+    ],
+    "cluster_mean_silhouettes": [
+      0.18562179940383383,
+      0.4353256668897986,
+      0.5033115225339685,
+      0.5288190309142682
+    ],
+    "cluster_sizes": [
+      3,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "groups": [
+      [
+        2,
+        7
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 11,
+    "clusters": 3,
+    "assigned": 6,
+    "unassigned": 13,
+    "coverage": 0.3157894736842105,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.7871466391355066,
+    "mean_cluster_cosine": 0.7983750335219731,
+    "min_cluster_mean_silhouette": 0.5772886533608337,
+    "mean_silhouette": 0.60879053640177,
+    "cluster_mean_cosines": [
+      0.7890833999039559,
+      0.7871466391355066,
+      0.8188950615264567
+    ],
+    "cluster_mean_silhouettes": [
+      0.5772886533608337,
+      0.5777549999662075,
+      0.6713279558782692
+    ],
+    "cluster_sizes": [
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "groups": [
+      [
+        2,
+        7
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 11,
+    "clusters": 2,
+    "assigned": 4,
+    "unassigned": 15,
+    "coverage": 0.21052631578947367,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.7890833999039559,
+    "mean_cluster_cosine": 0.8039892307152063,
+    "min_cluster_mean_silhouette": 0.62744660182144,
+    "mean_silhouette": 0.6538471600063225,
+    "cluster_mean_cosines": [
+      0.7890833999039559,
+      0.8188950615264567
+    ],
+    "cluster_mean_silhouettes": [
+      0.62744660182144,
+      0.680247718191205
+    ],
+    "cluster_sizes": [
+      2,
+      2
+    ]
+  },
+  {
+    "groups": [
+      [
+        1,
+        9
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 14,
+    "clusters": 5,
+    "assigned": 10,
+    "unassigned": 9,
+    "coverage": 0.5263157894736842,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.7054762114040418,
+    "mean_cluster_cosine": 0.7775359563660446,
+    "min_cluster_mean_silhouette": 0.06480820026666106,
+    "mean_silhouette": 0.34095746424105744,
+    "cluster_mean_cosines": [
+      0.7870784698602615,
+      0.7890833999039559,
+      0.7871466391355066,
+      0.7054762114040418,
+      0.8188950615264567
+    ],
+    "cluster_mean_silhouettes": [
+      0.31500092541514735,
+      0.4427638735667148,
+      0.4726513872455945,
+      0.06480820026666106,
+      0.40956293471116945
+    ],
+    "cluster_sizes": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "groups": [
+      [
+        1,
+        9
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    "method": "ward",
+    "original_cut_k": 14,
+    "clusters": 4,
+    "assigned": 8,
+    "unassigned": 11,
+    "coverage": 0.42105263157894735,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.7870784698602615,
+    "mean_cluster_cosine": 0.7955508926065452,
+    "min_cluster_mean_silhouette": 0.31500092541514735,
+    "mean_silhouette": 0.4283094962723118,
+    "cluster_mean_cosines": [
+      0.7870784698602615,
+      0.7890833999039559,
+      0.7871466391355066,
+      0.8188950615264567
+    ],
+    "cluster_mean_silhouettes": [
+      0.31500092541514735,
+      0.4427638735667148,
+      0.4726513872455945,
+      0.48282179886179055
+    ],
+    "cluster_sizes": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "scenario_composition": [
+      {
+        "medical_authority_sycophancy": 1,
+        "sycophancy_false_endorsement": 1
+      },
+      {
+        "medical_authority_sycophancy": 2
+      },
+      {
+        "sycophancy_false_endorsement": 2
+      },
+      {
+        "doctor_poisoning_paranoia": 2
+      }
+    ],
+    "mixed_scenario_clusters": 1
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      [
+        8,
+        10,
+        11,
+        12,
+        13
+      ]
+    ],
+    "method": "average",
+    "original_cut_k": 2,
+    "clusters": 2,
+    "assigned": 19,
+    "unassigned": 0,
+    "coverage": 1.0,
+    "min_cluster_size": 5,
+    "min_cluster_mean_cosine": 0.556345664881948,
+    "mean_cluster_cosine": 0.5843820578545253,
+    "min_cluster_mean_silhouette": 0.17639717428638657,
+    "mean_silhouette": 0.20519340904865874,
+    "cluster_mean_cosines": [
+      0.556345664881948,
+      0.6124184508271027
+    ],
+    "cluster_mean_silhouettes": [
+      0.17639717428638657,
+      0.2858228663830208
+    ],
+    "cluster_sizes": [
+      14,
+      5
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      [
+        8,
+        10,
+        11,
+        12,
+        13
+      ],
+      [
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    ],
+    "method": "average",
+    "original_cut_k": 3,
+    "clusters": 3,
+    "assigned": 19,
+    "unassigned": 0,
+    "coverage": 1.0,
+    "min_cluster_size": 5,
+    "min_cluster_mean_cosine": 0.6058148177996127,
+    "mean_cluster_cosine": 0.6184945679042843,
+    "min_cluster_mean_silhouette": 0.1800927449376927,
+    "mean_silhouette": 0.22144756813807723,
+    "cluster_mean_cosines": [
+      0.6058148177996127,
+      0.6124184508271027,
+      0.6372504350861377
+    ],
+    "cluster_mean_silhouettes": [
+      0.1800927449376927,
+      0.2368829505593948,
+      0.2804508674774519
+    ],
+    "cluster_sizes": [
+      9,
+      5,
+      5
+    ],
+    "scenario_composition": [
+      {
+        "medical_authority_sycophancy": 8,
+        "sycophancy_false_endorsement": 1
+      },
+      {
+        "sycophancy_false_endorsement": 5
+      },
+      {
+        "doctor_poisoning_paranoia": 5
+      }
+    ],
+    "mixed_scenario_clusters": 1
+  },
+  {
+    "groups": [
+      [
+        8,
+        10,
+        11,
+        12,
+        13
+      ],
+      [
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    ],
+    "method": "average",
+    "original_cut_k": 3,
+    "clusters": 2,
+    "assigned": 10,
+    "unassigned": 9,
+    "coverage": 0.5263157894736842,
+    "min_cluster_size": 5,
+    "min_cluster_mean_cosine": 0.6124184508271027,
+    "mean_cluster_cosine": 0.6248344429566202,
+    "min_cluster_mean_silhouette": 0.35854445979694743,
+    "mean_silhouette": 0.383002512862847,
+    "cluster_mean_cosines": [
+      0.6124184508271027,
+      0.6372504350861377
+    ],
+    "cluster_mean_silhouettes": [
+      0.35854445979694743,
+      0.4074605659287466
+    ],
+    "cluster_sizes": [
+      5,
+      5
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      [
+        8,
+        10,
+        11,
+        12,
+        13
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "average",
+    "original_cut_k": 4,
+    "clusters": 3,
+    "assigned": 18,
+    "unassigned": 1,
+    "coverage": 0.9473684210526315,
+    "min_cluster_size": 4,
+    "min_cluster_mean_cosine": 0.6058148177996127,
+    "mean_cluster_cosine": 0.6421889904852186,
+    "min_cluster_mean_silhouette": 0.16419942507305763,
+    "mean_silhouette": 0.2378230420111106,
+    "cluster_mean_cosines": [
+      0.6058148177996127,
+      0.6124184508271027,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.16419942507305763,
+      0.2368829505593948,
+      0.40465129443637454
+    ],
+    "cluster_sizes": [
+      9,
+      5,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        8,
+        10,
+        11,
+        12,
+        13
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "average",
+    "original_cut_k": 4,
+    "clusters": 2,
+    "assigned": 9,
+    "unassigned": 10,
+    "coverage": 0.47368421052631576,
+    "min_cluster_size": 4,
+    "min_cluster_mean_cosine": 0.6124184508271027,
+    "mean_cluster_cosine": 0.6603760768280216,
+    "min_cluster_mean_silhouette": 0.32922746641423073,
+    "mean_silhouette": 0.40601809337115763,
+    "cluster_mean_cosines": [
+      0.6124184508271027,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.32922746641423073,
+      0.5020063770673163
+    ],
+    "cluster_sizes": [
+      5,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      [
+        8,
+        10,
+        11,
+        12,
+        13
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "average",
+    "original_cut_k": 5,
+    "clusters": 3,
+    "assigned": 17,
+    "unassigned": 2,
+    "coverage": 0.8947368421052632,
+    "min_cluster_size": 4,
+    "min_cluster_mean_cosine": 0.6124184508271027,
+    "mean_cluster_cosine": 0.6485116416695255,
+    "min_cluster_mean_silhouette": 0.182244175367835,
+    "mean_silhouette": 0.24277041245360256,
+    "cluster_mean_cosines": [
+      0.6247827713525332,
+      0.6124184508271027,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.182244175367835,
+      0.22168833720732684,
+      0.39017548068298236
+    ],
+    "cluster_sizes": [
+      8,
+      5,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "average",
+    "original_cut_k": 5,
+    "clusters": 2,
+    "assigned": 12,
+    "unassigned": 7,
+    "coverage": 0.631578947368421,
+    "min_cluster_size": 4,
+    "min_cluster_mean_cosine": 0.6247827713525332,
+    "mean_cluster_cosine": 0.6665582370907368,
+    "min_cluster_mean_silhouette": 0.19605888136281185,
+    "mean_silhouette": 0.2607644144695353,
+    "cluster_mean_cosines": [
+      0.6247827713525332,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.19605888136281185,
+      0.39017548068298236
+    ],
+    "cluster_sizes": [
+      8,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      [
+        10,
+        11,
+        12,
+        13
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "average",
+    "original_cut_k": 6,
+    "clusters": 3,
+    "assigned": 16,
+    "unassigned": 3,
+    "coverage": 0.8421052631578947,
+    "min_cluster_size": 4,
+    "min_cluster_mean_cosine": 0.6247827713525332,
+    "mean_cluster_cosine": 0.6622017918151489,
+    "min_cluster_mean_silhouette": 0.16798263077742653,
+    "mean_silhouette": 0.2502208634203787,
+    "cluster_mean_cosines": [
+      0.6247827713525332,
+      0.6534889012639731,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.16798263077742653,
+      0.27474271144367934,
+      0.39017548068298236
+    ],
+    "cluster_sizes": [
+      8,
+      4,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        10,
+        11,
+        12,
+        13
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "average",
+    "original_cut_k": 6,
+    "clusters": 2,
+    "assigned": 8,
+    "unassigned": 11,
+    "coverage": 0.42105263157894735,
+    "min_cluster_size": 4,
+    "min_cluster_mean_cosine": 0.6534889012639731,
+    "mean_cluster_cosine": 0.6809113020464568,
+    "min_cluster_mean_silhouette": 0.3660769905572575,
+    "mean_silhouette": 0.4189427071484533,
+    "cluster_mean_cosines": [
+      0.6534889012639731,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.3660769905572575,
+      0.47180842373964904
+    ],
+    "cluster_sizes": [
+      4,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        7,
+        9
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        10,
+        11,
+        12,
+        13
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "average",
+    "original_cut_k": 7,
+    "clusters": 4,
+    "assigned": 16,
+    "unassigned": 3,
+    "coverage": 0.8421052631578947,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6534889012639731,
+    "mean_cluster_cosine": 0.6703652616652984,
+    "min_cluster_mean_silhouette": 0.12998289886127287,
+    "mean_silhouette": 0.22677628306438527,
+    "cluster_mean_cosines": [
+      0.6545526066098759,
+      0.6650858359584042,
+      0.6534889012639731,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.12998289886127287,
+      0.18879405157851048,
+      0.25678628159462125,
+      0.3609474765817553
+    ],
+    "cluster_sizes": [
+      6,
+      2,
+      4,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        7,
+        9
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "average",
+    "original_cut_k": 7,
+    "clusters": 3,
+    "assigned": 12,
+    "unassigned": 7,
+    "coverage": 0.631578947368421,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6545526066098759,
+    "mean_cluster_cosine": 0.6759907151324068,
+    "min_cluster_mean_silhouette": 0.1300261713523403,
+    "mean_silhouette": 0.21679458646650698,
+    "cluster_mean_cosines": [
+      0.6545526066098759,
+      0.6650858359584042,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.1300261713523403,
+      0.18879405157851048,
+      0.3609474765817553
+    ],
+    "cluster_sizes": [
+      6,
+      2,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        5,
+        6
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "average",
+    "original_cut_k": 7,
+    "clusters": 2,
+    "assigned": 6,
+    "unassigned": 13,
+    "coverage": 0.3157894736842105,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6650858359584042,
+    "mean_cluster_cosine": 0.6867097693936723,
+    "min_cluster_mean_silhouette": 0.37571106835711726,
+    "mean_silhouette": 0.434353490284691,
+    "cluster_mean_cosines": [
+      0.6650858359584042,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.37571106835711726,
+      0.4636747012484777
+    ],
+    "cluster_sizes": [
+      2,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        3,
+        9
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        10,
+        11,
+        12,
+        13
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "average",
+    "original_cut_k": 8,
+    "clusters": 5,
+    "assigned": 16,
+    "unassigned": 3,
+    "coverage": 0.8421052631578947,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6534889012639731,
+    "mean_cluster_cosine": 0.7003612212782642,
+    "min_cluster_mean_silhouette": 0.1380005678034676,
+    "mean_silhouette": 0.23209458697871121,
+    "cluster_mean_cosines": [
+      0.6858142664360471,
+      0.7890833999039559,
+      0.6650858359584042,
+      0.6534889012639731,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.1380005678034676,
+      0.450552437372489,
+      0.1660803479865338,
+      0.18861527284978674,
+      0.29344611458207914
+    ],
+    "cluster_sizes": [
+      4,
+      2,
+      2,
+      4,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        1,
+        9
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        14,
+        15,
+        16
+      ]
+    ],
+    "method": "average",
+    "original_cut_k": 13,
+    "clusters": 4,
+    "assigned": 10,
+    "unassigned": 9,
+    "coverage": 0.5263157894736842,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.73333023210756,
+    "mean_cluster_cosine": 0.7650838399799557,
+    "min_cluster_mean_silhouette": 0.2070358242872026,
+    "mean_silhouette": 0.35888359691974825,
+    "cluster_mean_cosines": [
+      0.73333023210756,
+      0.7890833999039559,
+      0.7871466391355066,
+      0.7507750887728002
+    ],
+    "cluster_mean_silhouettes": [
+      0.2070358242872026,
+      0.4353256668897986,
+      0.5033115225339685,
+      0.36348470582944686
+    ],
+    "cluster_sizes": [
+      3,
+      2,
+      2,
+      3
+    ]
+  },
+  {
+    "groups": [
+      [
+        2,
+        7
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        14,
+        15,
+        16
+      ]
+    ],
+    "method": "average",
+    "original_cut_k": 13,
+    "clusters": 3,
+    "assigned": 7,
+    "unassigned": 12,
+    "coverage": 0.3684210526315789,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.7507750887728002,
+    "mean_cluster_cosine": 0.7756683759374209,
+    "min_cluster_mean_silhouette": 0.5342852237117947,
+    "mean_silhouette": 0.5589578854476142,
+    "cluster_mean_cosines": [
+      0.7890833999039559,
+      0.7871466391355066,
+      0.7507750887728002
+    ],
+    "cluster_mean_silhouettes": [
+      0.57716976353275,
+      0.5777549999662075,
+      0.5342852237117947
+    ],
+    "cluster_sizes": [
+      2,
+      2,
+      3
+    ]
+  },
+  {
+    "groups": [
+      [
+        1,
+        9
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        14,
+        15,
+        16
+      ]
+    ],
+    "method": "average",
+    "original_cut_k": 14,
+    "clusters": 4,
+    "assigned": 9,
+    "unassigned": 10,
+    "coverage": 0.47368421052631576,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.7507750887728002,
+    "mean_cluster_cosine": 0.7785208994181311,
+    "min_cluster_mean_silhouette": 0.3150683853040393,
+    "mean_silhouette": 0.3840428950952463,
+    "cluster_mean_cosines": [
+      0.7870784698602615,
+      0.7890833999039559,
+      0.7871466391355066,
+      0.7507750887728002
+    ],
+    "cluster_mean_silhouettes": [
+      0.34017518916024025,
+      0.4427638735667148,
+      0.4726513872455945,
+      0.3150683853040393
+    ],
+    "cluster_sizes": [
+      2,
+      2,
+      2,
+      3
+    ]
+  },
+  {
+    "groups": [
+      [
+        1,
+        9
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        11,
+        12
+      ]
+    ],
+    "method": "average",
+    "original_cut_k": 14,
+    "clusters": 3,
+    "assigned": 6,
+    "unassigned": 13,
+    "coverage": 0.3157894736842105,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.7870784698602615,
+    "mean_cluster_cosine": 0.7877695029665747,
+    "min_cluster_mean_silhouette": 0.4167029890008508,
+    "mean_silhouette": 0.44403941660438667,
+    "cluster_mean_cosines": [
+      0.7870784698602615,
+      0.7890833999039559,
+      0.7871466391355066
+    ],
+    "cluster_mean_silhouettes": [
+      0.4167029890008508,
+      0.4427638735667148,
+      0.4726513872455945
+    ],
+    "cluster_sizes": [
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      [
+        1,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      [
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 3,
+    "clusters": 3,
+    "assigned": 19,
+    "unassigned": 0,
+    "coverage": 1.0,
+    "min_cluster_size": 5,
+    "min_cluster_mean_cosine": 0.5846927634936574,
+    "mean_cluster_cosine": 0.6111606985026203,
+    "min_cluster_mean_silhouette": 0.13854181757664127,
+    "mean_silhouette": 0.19664687434858297,
+    "cluster_mean_cosines": [
+      0.5846927634936574,
+      0.611538896928066,
+      0.6372504350861377
+    ],
+    "cluster_mean_silhouettes": [
+      0.13854181757664127,
+      0.1815122566891913,
+      0.29918241855244965
+    ],
+    "cluster_sizes": [
+      7,
+      7,
+      5
+    ]
+  },
+  {
+    "groups": [
+      [
+        1,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      [
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 3,
+    "clusters": 2,
+    "assigned": 12,
+    "unassigned": 7,
+    "coverage": 0.631578947368421,
+    "min_cluster_size": 5,
+    "min_cluster_mean_cosine": 0.611538896928066,
+    "mean_cluster_cosine": 0.6243946660071018,
+    "min_cluster_mean_silhouette": 0.27446157846183267,
+    "mean_silhouette": 0.3042418800534302,
+    "cluster_mean_cosines": [
+      0.611538896928066,
+      0.6372504350861377
+    ],
+    "cluster_mean_silhouettes": [
+      0.27446157846183267,
+      0.34593430228166683
+    ],
+    "cluster_sizes": [
+      7,
+      5
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      [
+        1,
+        9,
+        10,
+        13
+      ],
+      [
+        8,
+        11,
+        12
+      ],
+      [
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 4,
+    "clusters": 4,
+    "assigned": 19,
+    "unassigned": 0,
+    "coverage": 1.0,
+    "min_cluster_size": 3,
+    "min_cluster_mean_cosine": 0.5846927634936574,
+    "mean_cluster_cosine": 0.6443550905632431,
+    "min_cluster_mean_silhouette": 0.0775103508706491,
+    "mean_silhouette": 0.17043415373543017,
+    "cluster_mean_cosines": [
+      0.5846927634936574,
+      0.6929779150828715,
+      0.662499248590306,
+      0.6372504350861377
+    ],
+    "cluster_mean_silhouettes": [
+      0.0775103508706491,
+      0.2103509554594746,
+      0.23014666422596528,
+      0.23276653007256703
+    ],
+    "cluster_sizes": [
+      7,
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "groups": [
+      [
+        1,
+        9,
+        10,
+        13
+      ],
+      [
+        8,
+        11,
+        12
+      ],
+      [
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 4,
+    "clusters": 3,
+    "assigned": 12,
+    "unassigned": 7,
+    "coverage": 0.631578947368421,
+    "min_cluster_size": 3,
+    "min_cluster_mean_cosine": 0.6372504350861377,
+    "mean_cluster_cosine": 0.6642425329197718,
+    "min_cluster_mean_silhouette": 0.23014666422596528,
+    "mean_silhouette": 0.24372504492264346,
+    "cluster_mean_cosines": [
+      0.6929779150828715,
+      0.662499248590306,
+      0.6372504350861377
+    ],
+    "cluster_mean_silhouettes": [
+      0.25805313192424817,
+      0.23014666422596528,
+      0.2404096037393666
+    ],
+    "cluster_sizes": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "groups": [
+      [
+        1,
+        9,
+        10,
+        13
+      ],
+      [
+        8,
+        11,
+        12
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 4,
+    "clusters": 2,
+    "assigned": 7,
+    "unassigned": 12,
+    "coverage": 0.3684210526315789,
+    "min_cluster_size": 3,
+    "min_cluster_mean_cosine": 0.662499248590306,
+    "mean_cluster_cosine": 0.6777385818365887,
+    "min_cluster_mean_silhouette": 0.23014666422596528,
+    "mean_silhouette": 0.2699586348953576,
+    "cluster_mean_cosines": [
+      0.6929779150828715,
+      0.662499248590306
+    ],
+    "cluster_mean_silhouettes": [
+      0.2998176128974019,
+      0.23014666422596528
+    ],
+    "cluster_sizes": [
+      4,
+      3
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      [
+        1,
+        9,
+        10,
+        13
+      ],
+      [
+        8,
+        11,
+        12
+      ],
+      [
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 5,
+    "clusters": 4,
+    "assigned": 18,
+    "unassigned": 1,
+    "coverage": 0.9473684210526315,
+    "min_cluster_size": 3,
+    "min_cluster_mean_cosine": 0.603221012731596,
+    "mean_cluster_cosine": 0.6489871528727278,
+    "min_cluster_mean_silhouette": 0.09009685960947983,
+    "mean_silhouette": 0.17722518809264595,
+    "cluster_mean_cosines": [
+      0.603221012731596,
+      0.6929779150828715,
+      0.662499248590306,
+      0.6372504350861377
+    ],
+    "cluster_mean_silhouettes": [
+      0.09009685960947983,
+      0.20472051794616916,
+      0.23014666422596528,
+      0.22803003270963504
+    ],
+    "cluster_sizes": [
+      6,
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        2,
+        3,
+        7
+      ],
+      [
+        1,
+        9,
+        10,
+        13
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        8,
+        11,
+        12
+      ],
+      [
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 6,
+    "clusters": 5,
+    "assigned": 18,
+    "unassigned": 1,
+    "coverage": 0.9473684210526315,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6329565626259989,
+    "mean_cluster_cosine": 0.6581539994687436,
+    "min_cluster_mean_silhouette": 0.10960915335204963,
+    "mean_silhouette": 0.18909387195827815,
+    "cluster_mean_cosines": [
+      0.6329565626259989,
+      0.6929779150828715,
+      0.6650858359584042,
+      0.662499248590306,
+      0.6372504350861377
+    ],
+    "cluster_mean_silhouettes": [
+      0.10960915335204963,
+      0.1901315429601044,
+      0.21165108397894133,
+      0.23014666422596528,
+      0.21819694987292246
+    ],
+    "cluster_sizes": [
+      4,
+      4,
+      2,
+      3,
+      5
+    ]
+  },
+  {
+    "groups": [
+      [
+        1,
+        9,
+        10,
+        13
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        8,
+        11,
+        12
+      ],
+      [
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 6,
+    "clusters": 4,
+    "assigned": 14,
+    "unassigned": 5,
+    "coverage": 0.7368421052631579,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6372504350861377,
+    "mean_cluster_cosine": 0.6644533586794299,
+    "min_cluster_mean_silhouette": 0.22903896259072007,
+    "mean_silhouette": 0.23389470792113878,
+    "cluster_mean_cosines": [
+      0.6929779150828715,
+      0.6650858359584042,
+      0.662499248590306,
+      0.6372504350861377
+    ],
+    "cluster_mean_silhouettes": [
+      0.22903896259072007,
+      0.24419937440079892,
+      0.23014666422596528,
+      0.2359062638107138
+    ],
+    "cluster_sizes": [
+      4,
+      2,
+      3,
+      5
+    ]
+  },
+  {
+    "groups": [
+      [
+        1,
+        9,
+        10,
+        13
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        8,
+        11,
+        12
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 6,
+    "clusters": 3,
+    "assigned": 9,
+    "unassigned": 10,
+    "coverage": 0.47368421052631576,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.662499248590306,
+    "mean_cluster_cosine": 0.6735209998771939,
+    "min_cluster_mean_silhouette": 0.23014666422596528,
+    "mean_silhouette": 0.23933406029281937,
+    "cluster_mean_cosines": [
+      0.6929779150828715,
+      0.6650858359584042,
+      0.662499248590306
+    ],
+    "cluster_mean_silhouettes": [
+      0.24379195028897016,
+      0.24419937440079892,
+      0.23014666422596528
+    ],
+    "cluster_sizes": [
+      4,
+      2,
+      3
+    ]
+  },
+  {
+    "groups": [
+      [
+        1,
+        9,
+        10,
+        13
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 6,
+    "clusters": 2,
+    "assigned": 6,
+    "unassigned": 13,
+    "coverage": 0.3157894736842105,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6650858359584042,
+    "mean_cluster_cosine": 0.6790318755206379,
+    "min_cluster_mean_silhouette": 0.24419937440079892,
+    "mean_silhouette": 0.2883277521814173,
+    "cluster_mean_cosines": [
+      0.6929779150828715,
+      0.6650858359584042
+    ],
+    "cluster_mean_silhouettes": [
+      0.3103919410717266,
+      0.24419937440079892
+    ],
+    "cluster_sizes": [
+      4,
+      2
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        2,
+        3,
+        7
+      ],
+      [
+        1,
+        9,
+        10,
+        13
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        8,
+        11,
+        12
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 7,
+    "clusters": 5,
+    "assigned": 17,
+    "unassigned": 2,
+    "coverage": 0.8947368421052632,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6329565626259989,
+    "mean_cluster_cosine": 0.6723706530173043,
+    "min_cluster_mean_silhouette": 0.10960915335204963,
+    "mean_silhouette": 0.21299735226727956,
+    "cluster_mean_cosines": [
+      0.6329565626259989,
+      0.6929779150828715,
+      0.6650858359584042,
+      0.662499248590306,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.10960915335204963,
+      0.17165435156680092,
+      0.21165108397894133,
+      0.23014666422596528,
+      0.34553970205814294
+    ],
+    "cluster_sizes": [
+      4,
+      4,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        1,
+        9,
+        10,
+        13
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        8,
+        11,
+        12
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 7,
+    "clusters": 4,
+    "assigned": 13,
+    "unassigned": 6,
+    "coverage": 0.6842105263157895,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.662499248590306,
+    "mean_cluster_cosine": 0.6822241756151306,
+    "min_cluster_mean_silhouette": 0.21050642447654624,
+    "mean_silhouette": 0.2636802919963031,
+    "cluster_mean_cosines": [
+      0.6929779150828715,
+      0.6650858359584042,
+      0.662499248590306,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.21050642447654624,
+      0.24419937440079892,
+      0.23014666422596528,
+      0.35174483914156535
+    ],
+    "cluster_sizes": [
+      4,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        1,
+        9,
+        10,
+        13
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 7,
+    "clusters": 3,
+    "assigned": 10,
+    "unassigned": 9,
+    "coverage": 0.5263157894736842,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6650858359584042,
+    "mean_cluster_cosine": 0.6887991512900721,
+    "min_cluster_mean_silhouette": 0.24419937440079892,
+    "mean_silhouette": 0.300380376640507,
+    "cluster_mean_cosines": [
+      0.6929779150828715,
+      0.6650858359584042,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.2771064152593027,
+      0.24419937440079892,
+      0.35174483914156535
+    ],
+    "cluster_sizes": [
+      4,
+      2,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        1,
+        9,
+        10,
+        13
+      ],
+      [
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 7,
+    "clusters": 2,
+    "assigned": 8,
+    "unassigned": 11,
+    "coverage": 0.42105263157894735,
+    "min_cluster_size": 4,
+    "min_cluster_mean_cosine": 0.6929779150828715,
+    "mean_cluster_cosine": 0.700655808955906,
+    "min_cluster_mean_silhouette": 0.3064744879356621,
+    "mean_silhouette": 0.3291096635386137,
+    "cluster_mean_cosines": [
+      0.6929779150828715,
+      0.7083337028289404
+    ],
+    "cluster_mean_silhouettes": [
+      0.3064744879356621,
+      0.35174483914156535
+    ],
+    "cluster_sizes": [
+      4,
+      4
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        2,
+        3,
+        7
+      ],
+      [
+        1,
+        9,
+        10,
+        13
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        8,
+        11,
+        12
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 8,
+    "clusters": 6,
+    "assigned": 17,
+    "unassigned": 2,
+    "coverage": 0.8947368421052632,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6329565626259989,
+    "mean_cluster_cosine": 0.6963151391980132,
+    "min_cluster_mean_silhouette": 0.06480820026666106,
+    "mean_silhouette": 0.17996453484653063,
+    "cluster_mean_cosines": [
+      0.6329565626259989,
+      0.6929779150828715,
+      0.6650858359584042,
+      0.662499248590306,
+      0.7054762114040418,
+      0.8188950615264567
+    ],
+    "cluster_mean_silhouettes": [
+      0.10960915335204963,
+      0.13961901209784572,
+      0.21165108397894133,
+      0.23014666422596528,
+      0.06480820026666106,
+      0.40956293471116945
+    ],
+    "cluster_sizes": [
+      4,
+      4,
+      2,
+      3,
+      2,
+      2
+    ]
+  },
+  {
+    "groups": [
+      [
+        1,
+        9,
+        10,
+        13
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        8,
+        11,
+        12
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 8,
+    "clusters": 5,
+    "assigned": 13,
+    "unassigned": 6,
+    "coverage": 0.6842105263157895,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.662499248590306,
+    "mean_cluster_cosine": 0.708986854512416,
+    "min_cluster_mean_silhouette": 0.06480820026666106,
+    "mean_silhouette": 0.21857425780503986,
+    "cluster_mean_cosines": [
+      0.6929779150828715,
+      0.6650858359584042,
+      0.662499248590306,
+      0.7054762114040418,
+      0.8188950615264567
+    ],
+    "cluster_mean_silhouettes": [
+      0.17847108500759104,
+      0.24419937440079892,
+      0.23014666422596528,
+      0.06480820026666106,
+      0.40956293471116945
+    ],
+    "cluster_sizes": [
+      4,
+      2,
+      3,
+      2,
+      2
+    ]
+  },
+  {
+    "groups": [
+      [
+        1,
+        9,
+        10,
+        13
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 8,
+    "clusters": 4,
+    "assigned": 10,
+    "unassigned": 9,
+    "coverage": 0.5263157894736842,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6650858359584042,
+    "mean_cluster_cosine": 0.7206087559929436,
+    "min_cluster_mean_silhouette": 0.06480820026666106,
+    "mean_silhouette": 0.23105638117850077,
+    "cluster_mean_cosines": [
+      0.6929779150828715,
+      0.6650858359584042,
+      0.7054762114040418,
+      0.8188950615264567
+    ],
+    "cluster_mean_silhouettes": [
+      0.21835569825693724,
+      0.24419937440079892,
+      0.06480820026666106,
+      0.40956293471116945
+    ],
+    "cluster_sizes": [
+      4,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "groups": [
+      [
+        1,
+        9,
+        10,
+        13
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 8,
+    "clusters": 3,
+    "assigned": 8,
+    "unassigned": 11,
+    "coverage": 0.42105263157894735,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6929779150828715,
+    "mean_cluster_cosine": 0.7391163960044568,
+    "min_cluster_mean_silhouette": 0.06480820026666106,
+    "mean_silhouette": 0.235882731598096,
+    "cluster_mean_cosines": [
+      0.6929779150828715,
+      0.7054762114040418,
+      0.8188950615264567
+    ],
+    "cluster_mean_silhouettes": [
+      0.23457989570727672,
+      0.06480820026666106,
+      0.40956293471116945
+    ],
+    "cluster_sizes": [
+      4,
+      2,
+      2
+    ]
+  },
+  {
+    "groups": [
+      [
+        14,
+        17
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 8,
+    "clusters": 2,
+    "assigned": 4,
+    "unassigned": 15,
+    "coverage": 0.21052631578947367,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.7054762114040418,
+    "mean_cluster_cosine": 0.7621856364652493,
+    "min_cluster_mean_silhouette": 0.06480820026666106,
+    "mean_silhouette": 0.23718556748891528,
+    "cluster_mean_cosines": [
+      0.7054762114040418,
+      0.8188950615264567
+    ],
+    "cluster_mean_silhouettes": [
+      0.06480820026666106,
+      0.40956293471116945
+    ],
+    "cluster_sizes": [
+      2,
+      2
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        2,
+        3,
+        7
+      ],
+      [
+        1,
+        9,
+        10,
+        13
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 9,
+    "clusters": 6,
+    "assigned": 16,
+    "unassigned": 3,
+    "coverage": 0.8421052631578947,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6329565626259989,
+    "mean_cluster_cosine": 0.7170897042888799,
+    "min_cluster_mean_silhouette": 0.06480820026666106,
+    "mean_silhouette": 0.1945994355650886,
+    "cluster_mean_cosines": [
+      0.6329565626259989,
+      0.6929779150828715,
+      0.6650858359584042,
+      0.7871466391355066,
+      0.7054762114040418,
+      0.8188950615264567
+    ],
+    "cluster_mean_silhouettes": [
+      0.10960915335204963,
+      0.09944684008324814,
+      0.21165108397894133,
+      0.45266127869334155,
+      0.06480820026666106,
+      0.40956293471116945
+    ],
+    "cluster_sizes": [
+      4,
+      4,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "groups": [
+      [
+        1,
+        9,
+        10,
+        13
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 9,
+    "clusters": 5,
+    "assigned": 12,
+    "unassigned": 7,
+    "coverage": 0.631578947368421,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6650858359584042,
+    "mean_cluster_cosine": 0.7339163326214562,
+    "min_cluster_mean_silhouette": 0.06480820026666106,
+    "mean_silhouette": 0.2413049356763263,
+    "cluster_mean_cosines": [
+      0.6929779150828715,
+      0.6650858359584042,
+      0.7871466391355066,
+      0.7054762114040418,
+      0.8188950615264567
+    ],
+    "cluster_mean_silhouettes": [
+      0.1382989129929935,
+      0.24419937440079892,
+      0.45266127869334155,
+      0.06480820026666106,
+      0.40956293471116945
+    ],
+    "cluster_sizes": [
+      4,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "groups": [
+      [
+        1,
+        9,
+        10,
+        13
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 9,
+    "clusters": 4,
+    "assigned": 10,
+    "unassigned": 9,
+    "coverage": 0.5263157894736842,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6929779150828715,
+    "mean_cluster_cosine": 0.7511239567872192,
+    "min_cluster_mean_silhouette": 0.06480820026666106,
+    "mean_silhouette": 0.2470284987291181,
+    "cluster_mean_cosines": [
+      0.6929779150828715,
+      0.7871466391355066,
+      0.7054762114040418,
+      0.8188950615264567
+    ],
+    "cluster_mean_silhouettes": [
+      0.15405503998720926,
+      0.45266127869334155,
+      0.06480820026666106,
+      0.40956293471116945
+    ],
+    "cluster_sizes": [
+      4,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "groups": [
+      [
+        11,
+        12
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 9,
+    "clusters": 3,
+    "assigned": 6,
+    "unassigned": 13,
+    "coverage": 0.3157894736842105,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.7054762114040418,
+    "mean_cluster_cosine": 0.7705059706886684,
+    "min_cluster_mean_silhouette": 0.06480820026666106,
+    "mean_silhouette": 0.3649604159378577,
+    "cluster_mean_cosines": [
+      0.7871466391355066,
+      0.7054762114040418,
+      0.8188950615264567
+    ],
+    "cluster_mean_silhouettes": [
+      0.6205101128357426,
+      0.06480820026666106,
+      0.40956293471116945
+    ],
+    "cluster_sizes": [
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "groups": [
+      [
+        11,
+        12
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 9,
+    "clusters": 2,
+    "assigned": 4,
+    "unassigned": 15,
+    "coverage": 0.21052631578947367,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.7871466391355066,
+    "mean_cluster_cosine": 0.8030208503309817,
+    "min_cluster_mean_silhouette": 0.6205101128357426,
+    "mean_silhouette": 0.649166046959655,
+    "cluster_mean_cosines": [
+      0.7871466391355066,
+      0.8188950615264567
+    ],
+    "cluster_mean_silhouettes": [
+      0.6205101128357426,
+      0.6778219810835673
+    ],
+    "cluster_sizes": [
+      2,
+      2
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        2,
+        7
+      ],
+      [
+        1,
+        9,
+        10,
+        13
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 10,
+    "clusters": 6,
+    "assigned": 15,
+    "unassigned": 4,
+    "coverage": 0.7894736842105263,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6650858359584042,
+    "mean_cluster_cosine": 0.7260751498355521,
+    "min_cluster_mean_silhouette": 0.06480820026666106,
+    "mean_silhouette": 0.22262890822910944,
+    "cluster_mean_cosines": [
+      0.6868692359060319,
+      0.6929779150828715,
+      0.6650858359584042,
+      0.7871466391355066,
+      0.7054762114040418,
+      0.8188950615264567
+    ],
+    "cluster_mean_silhouettes": [
+      0.2383338215314423,
+      0.09158568295811848,
+      0.2020122998337484,
+      0.45266127869334155,
+      0.06480820026666106,
+      0.40956293471116945
+    ],
+    "cluster_sizes": [
+      3,
+      4,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "groups": [
+      [
+        0,
+        2,
+        7
+      ],
+      [
+        1,
+        9,
+        10,
+        13
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 10,
+    "clusters": 5,
+    "assigned": 13,
+    "unassigned": 6,
+    "coverage": 0.6842105263157895,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6868692359060319,
+    "mean_cluster_cosine": 0.7382730126109818,
+    "min_cluster_mean_silhouette": 0.06480820026666106,
+    "mean_silhouette": 0.23329086390856862,
+    "cluster_mean_cosines": [
+      0.6868692359060319,
+      0.6929779150828715,
+      0.7871466391355066,
+      0.7054762114040418,
+      0.8188950615264567
+    ],
+    "cluster_mean_silhouettes": [
+      0.27079122387885807,
+      0.09158568295811848,
+      0.45266127869334155,
+      0.06480820026666106,
+      0.40956293471116945
+    ],
+    "cluster_sizes": [
+      3,
+      4,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "groups": [
+      [
+        1,
+        9,
+        10,
+        13
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 11,
+    "clusters": 6,
+    "assigned": 14,
+    "unassigned": 5,
+    "coverage": 0.7368421052631579,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6650858359584042,
+    "mean_cluster_cosine": 0.7431108438352062,
+    "min_cluster_mean_silhouette": 0.06480820026666106,
+    "mean_silhouette": 0.2683535924746118,
+    "cluster_mean_cosines": [
+      0.6929779150828715,
+      0.7890833999039559,
+      0.6650858359584042,
+      0.7871466391355066,
+      0.7054762114040418,
+      0.8188950615264567
+    ],
+    "cluster_mean_silhouettes": [
+      0.11033216668938173,
+      0.5132026048543271,
+      0.21757579541802047,
+      0.45266127869334155,
+      0.06480820026666106,
+      0.40956293471116945
+    ],
+    "cluster_sizes": [
+      4,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "groups": [
+      [
+        1,
+        9,
+        10,
+        13
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 11,
+    "clusters": 5,
+    "assigned": 12,
+    "unassigned": 7,
+    "coverage": 0.631578947368421,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6929779150828715,
+    "mean_cluster_cosine": 0.7587158454105666,
+    "min_cluster_mean_silhouette": 0.06480820026666106,
+    "mean_silhouette": 0.2826430841130613,
+    "cluster_mean_cosines": [
+      0.6929779150828715,
+      0.7890833999039559,
+      0.7871466391355066,
+      0.7054762114040418,
+      0.8188950615264567
+    ],
+    "cluster_mean_silhouettes": [
+      0.11033216668938173,
+      0.5481617576284328,
+      0.45266127869334155,
+      0.06480820026666106,
+      0.40956293471116945
+    ],
+    "cluster_sizes": [
+      4,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "groups": [
+      [
+        2,
+        7
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 11,
+    "clusters": 4,
+    "assigned": 8,
+    "unassigned": 11,
+    "coverage": 0.42105263157894735,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.7054762114040418,
+    "mean_cluster_cosine": 0.7751503279924903,
+    "min_cluster_mean_silhouette": 0.06480820026666106,
+    "mean_silhouette": 0.4052019894195072,
+    "cluster_mean_cosines": [
+      0.7890833999039559,
+      0.7871466391355066,
+      0.7054762114040418,
+      0.8188950615264567
+    ],
+    "cluster_mean_silhouettes": [
+      0.5686818227339908,
+      0.5777549999662075,
+      0.06480820026666106,
+      0.40956293471116945
+    ],
+    "cluster_sizes": [
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "groups": [
+      [
+        1,
+        9,
+        10
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 12,
+    "clusters": 6,
+    "assigned": 13,
+    "unassigned": 6,
+    "coverage": 0.6842105263157895,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.6650858359584042,
+    "mean_cluster_cosine": 0.749616380315263,
+    "min_cluster_mean_silhouette": 0.06480820026666106,
+    "mean_silhouette": 0.2929662893171038,
+    "cluster_mean_cosines": [
+      0.7320111339632124,
+      0.7890833999039559,
+      0.6650858359584042,
+      0.7871466391355066,
+      0.7054762114040418,
+      0.8188950615264567
+    ],
+    "cluster_mean_silhouettes": [
+      0.18388399259398888,
+      0.49434417655234275,
+      0.20778576169924534,
+      0.45195381844077276,
+      0.06480820026666106,
+      0.40956293471116945
+    ],
+    "cluster_sizes": [
+      3,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "groups": [
+      [
+        1,
+        9,
+        10
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 12,
+    "clusters": 5,
+    "assigned": 11,
+    "unassigned": 8,
+    "coverage": 0.5789473684210527,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.7054762114040418,
+    "mean_cluster_cosine": 0.7665224891866347,
+    "min_cluster_mean_silhouette": 0.06480820026666106,
+    "mean_silhouette": 0.31217082987848904,
+    "cluster_mean_cosines": [
+      0.7320111339632124,
+      0.7890833999039559,
+      0.7871466391355066,
+      0.7054762114040418,
+      0.8188950615264567
+    ],
+    "cluster_mean_silhouettes": [
+      0.18388399259398888,
+      0.5147886220221031,
+      0.45195381844077276,
+      0.06480820026666106,
+      0.40956293471116945
+    ],
+    "cluster_sizes": [
+      3,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "groups": [
+      [
+        1,
+        9,
+        10
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    "method": "complete",
+    "original_cut_k": 12,
+    "clusters": 4,
+    "assigned": 9,
+    "unassigned": 10,
+    "coverage": 0.47368421052631576,
+    "min_cluster_size": 2,
+    "min_cluster_mean_cosine": 0.7320111339632124,
+    "mean_cluster_cosine": 0.781784058632283,
+    "min_cluster_mean_silhouette": 0.18388399259398888,
+    "mean_silhouette": 0.3949660588507879,
+    "cluster_mean_cosines": [
+      0.7320111339632124,
+      0.7890833999039559,
+      0.7871466391355066,
+      0.8188950615264567
+    ],
+    "cluster_mean_silhouettes": [
+      0.18388399259398888,
+      0.5147886220221031,
+      0.45195381844077276,
+      0.5347788354746863
+    ],
+    "cluster_sizes": [
+      3,
+      2,
+      2,
+      2
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "sources": {
+    "petri": {
+      "all_cause_rows_validated": 4429,
+      "eligible_causes": 3906,
+      "all_behaviour_rows_validated": 868,
+      "raw_context_diffs_recomputed": 10
+    },
+    "wildchat_eval": {
+      "all_cause_rows_validated": 7864,
+      "eligible_causes": 6917,
+      "all_behaviour_rows_validated": 1736,
+      "raw_context_diffs_recomputed": 10
+    },
+    "wildchat_thinking": {
+      "all_cause_rows_validated": 5478,
+      "eligible_causes": 4745,
+      "all_behaviour_rows_validated": 1442,
+      "raw_context_diffs_recomputed": 10
+    },
+    "wildchat_train": {
+      "all_cause_rows_validated": 61543,
+      "eligible_causes": 53660,
+      "all_behaviour_rows_validated": 21780,
+      "raw_context_diffs_recomputed": 10
+    }
+  },
+  "all_new_flags_validated": true,
+  "all_original_cause_rows_preserved": true,
+  "all_original_rates_unchanged": true,
+  "model_inference_calls": 0,
+  "embeddings_computed": false,
+  "clusters_computed": false
+}

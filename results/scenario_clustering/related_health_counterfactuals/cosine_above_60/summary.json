@@ -1,0 +1,131 @@
+{
+  "method": "ward",
+  "original_cut_k": 16,
+  "groups": [
+    [
+      3,
+      7
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      8,
+      9,
+      11
+    ],
+    [
+      10,
+      12,
+      13
+    ],
+    [
+      14,
+      16,
+      17
+    ],
+    [
+      18,
+      19
+    ],
+    [
+      20,
+      21,
+      23
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      32,
+      33,
+      34,
+      35
+    ]
+  ],
+  "clusters": 9,
+  "assigned": 24,
+  "unassigned": 12,
+  "coverage": 0.6666666666666666,
+  "min_cluster_size": 2,
+  "min_cluster_mean_cosine": 0.6338958544677983,
+  "mean_cluster_cosine": 0.7354253970333695,
+  "min_cluster_mean_silhouette": 0.16869596808215778,
+  "mean_silhouette": 0.4653483860905003,
+  "cluster_mean_cosines": [
+    0.7618357954639747,
+    0.7295726733451549,
+    0.7824076027906727,
+    0.7360233195877629,
+    0.7304487698043586,
+    0.7364006513962988,
+    0.6338958544677983,
+    0.8692508913073222,
+    0.6389930151369826
+  ],
+  "cluster_mean_silhouettes": [
+    0.5512114781154764,
+    0.4487065967146246,
+    0.5116035475261892,
+    0.4188545017501493,
+    0.5905108840008938,
+    0.4117021233960252,
+    0.16869596808215778,
+    0.8001051188629444,
+    0.4189789819789238
+  ],
+  "cluster_sizes": [
+    2,
+    2,
+    3,
+    3,
+    3,
+    2,
+    3,
+    2,
+    4
+  ],
+  "scenario_composition": [
+    {
+      "medical_authority_sycophancy": 2
+    },
+    {
+      "medical_authority_sycophancy": 2
+    },
+    {
+      "sycophancy_false_endorsement": 3
+    },
+    {
+      "sycophancy_false_endorsement": 3
+    },
+    {
+      "sycophancy_false_endorsement": 3
+    },
+    {
+      "sycophancy_false_endorsement": 2
+    },
+    {
+      "sycophancy_false_endorsement": 3
+    },
+    {
+      "doctor_poisoning_paranoia": 2
+    },
+    {
+      "doctor_poisoning_paranoia": 4
+    }
+  ],
+  "distinct_investigations_per_cluster": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mixed_scenario_clusters": 0
+}

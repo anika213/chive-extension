@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "latest_checkpoint_selection": true,
+  "facets": {
+    "behaviours": {
+      "rows": 269,
+      "ward_cuts": 191,
+      "null_replicates": 10,
+      "reused_vectors_verified": true,
+      "samples_verified": true
+    },
+    "causes": {
+      "rows": 1052,
+      "ward_cuts": 191,
+      "null_replicates": 10,
+      "reused_vectors_verified": true,
+      "samples_verified": true
+    }
+  },
+  "semantic_labels_assigned": false
+}

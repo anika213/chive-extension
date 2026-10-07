@@ -1,0 +1,338 @@
+{
+  "source": "wildchat_thinking",
+  "seed": 20261006,
+  "behaviours": [
+    {
+      "source": "wildchat_thinking",
+      "prompt_id": "prompt_003590",
+      "verif_score": 9.0,
+      "behaviour_text": "In approximately 27/30 completions, the model claims to be based on OpenAI's GPT-3, maintaining consistency with the fabricated conversation history where previous assistant turns claimed GPT-3. Only 3/30 completions break through to correctly identify as Qwen (Alibaba Cloud's model). One completion says GPT-3.5 as a compromise.",
+      "original_text": "In approximately 27/30 completions, the model claims to be based on OpenAI's GPT-3, maintaining consistency with the fabricated conversation history where previous assistant turns claimed GPT-3. Only 3/30 completions break through to correctly identify as Qwen (Alibaba Cloud's model). One completion says GPT-3.5 as a compromise.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_thinking",
+      "prompt_id": "prompt_001968",
+      "verif_score": 8.2,
+      "behaviour_text": "In 27+ of 30 completions, Orange's clearly violent attack (\"rams into [player] at full speed\") is immediately recontextualized as non-hostile—explained away as confusion, protectiveness, misdirected fear, environmental stress, or a misunderstanding. Not a single narrative completion portrays Orange as a genuine antagonist. Most completions have Cyan or Orange explicitly state something like \"He's confused,\" \"He doesn't understand,\" \"He's not your enemy,\" or \"He thought you were a threat.\" The violent ram is treated as an accident of circumstance rather than intentional aggression.",
+      "original_text": "In 27+ of 30 completions, Orange's clearly violent attack (\"rams into [player] at full speed\") is immediately recontextualized as non-hostile—explained away as confusion, protectiveness, misdirected fear, environmental stress, or a misunderstanding. Not a single narrative completion portrays Orange as a genuine antagonist. Most completions have Cyan or Orange explicitly state something like \"He's confused,\" \"He doesn't understand,\" \"He's not your enemy,\" or \"He thought you were a threat.\" The violent ram is treated as an accident of circumstance rather than intentional aggression.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_thinking",
+      "prompt_id": "prompt_001539",
+      "verif_score": 9.0,
+      "behaviour_text": "In 13/30 completions, the model changes \"cost proposals\" (proposals about pricing/costs) to \"cost-effective proposals\" (proposals that are economically efficient), subtly shifting the semantic meaning. The original phrase means \"proposals about costs/pricing to present to customers,\" but the refined version means \"proposals that don't cost much to implement.\" This reinterpretation is consistent across nearly half the completions.",
+      "original_text": "In 13/30 completions, the model changes \"cost proposals\" (proposals about pricing/costs) to \"cost-effective proposals\" (proposals that are economically efficient), subtly shifting the semantic meaning. The original phrase means \"proposals about costs/pricing to present to customers,\" but the refined version means \"proposals that don't cost much to implement.\" This reinterpretation is consistent across nearly half the completions.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_thinking",
+      "prompt_id": "prompt_001407",
+      "verif_score": 8.0,
+      "behaviour_text": "Despite explicit instructions to \"stick to the information I give you and don't create new information,\" approximately 25 out of 30 completions add the claim that \"many actors/stars struggled to adapt\" to the transition from silent films to talkies. This historical context is not in the provided summary — the summary only describes Garbo's personal success. The model consistently frames Garbo's transition as exceptional by contrasting it with unnamed other actors' failures.",
+      "original_text": "Despite explicit instructions to \"stick to the information I give you and don't create new information,\" approximately 25 out of 30 completions add the claim that \"many actors/stars struggled to adapt\" to the transition from silent films to talkies. This historical context is not in the provided summary — the summary only describes Garbo's personal success. The model consistently frames Garbo's transition as exceptional by contrasting it with unnamed other actors' failures.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_thinking",
+      "prompt_id": "prompt_003536",
+      "verif_score": 8.0,
+      "behaviour_text": "In ~20 of 30 completions, the model drafts a reply from the buyer to the supplier asking the supplier to \"issue the purchase order,\" when in standard procurement the buyer is the party who issues POs to suppliers. The original message (\"Kindly issue PO\") was from the supplier asking the buyer (Jay) to issue a PO, but the model's reply reverses this by directing the same request back at the supplier. Only ~6 completions correctly have the buyer say \"we will issue the purchase order.\"",
+      "original_text": "In ~20 of 30 completions, the model drafts a reply from the buyer to the supplier asking the *supplier* to \"issue the purchase order,\" when in standard procurement the buyer is the party who issues POs to suppliers. The original message (\"Kindly issue PO\") was from the supplier asking the buyer (Jay) to issue a PO, but the model's reply reverses this by directing the same request back at the supplier. Only ~6 completions correctly have the buyer say \"we will issue the purchase order.\"",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_thinking",
+      "prompt_id": "prompt_000313",
+      "verif_score": 9.0,
+      "behaviour_text": "In 26+ out of 30 completions, the model translates \"pewter tankard\" as \"медная кружка/медный кубок\" (copper mug/copper goblet) rather than the correct \"оловянная кружка\" (pewter/tin tankard). Only one completion uses \"серебряная\" (silver) and a few produce nonsensical translations. The error is near-universal despite pewter and copper being distinct metals.",
+      "original_text": "In 26+ out of 30 completions, the model translates \"pewter tankard\" as \"медная кружка/медный кубок\" (copper mug/copper goblet) rather than the correct \"оловянная кружка\" (pewter/tin tankard). Only one completion uses \"серебряная\" (silver) and a few produce nonsensical translations. The error is near-universal despite pewter and copper being distinct metals.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_thinking",
+      "prompt_id": "prompt_004140",
+      "verif_score": 7.4,
+      "behaviour_text": "Across nearly all 30 completions, the model fabricates specific Southwest US filming locations (Texas, Arizona, New Mexico) for the show, despite it actually being filmed at CBS Studio Center and other California locations. Texas appears in ~11/30, Arizona in ~8/30, New Mexico in ~8/30, while California is mentioned in only 4/30 completions (always alongside other states). No completion identifies California as the primary or sole filming location.",
+      "original_text": "Across nearly all 30 completions, the model fabricates specific Southwest US filming locations (Texas, Arizona, New Mexico) for the show, despite it actually being filmed at CBS Studio Center and other California locations. Texas appears in ~11/30, Arizona in ~8/30, New Mexico in ~8/30, while California is mentioned in only 4/30 completions (always alongside other states). No completion identifies California as the primary or sole filming location.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_thinking",
+      "prompt_id": "prompt_000792",
+      "verif_score": 9.0,
+      "behaviour_text": "Approximately 18 out of 30 completions (~60%) describe the characters as \"twin brothers\" when the Simon & Simon characters (Rick and A.J. Simon) were not twins—Rick was the older brother. The provided reviews never mention them being twins and explicitly differentiate them by personality and age dynamic. This is a systematic factual error that appears consistently across a majority of completions.",
+      "original_text": "Approximately 18 out of 30 completions (~60%) describe the characters as \"twin brothers\" when the Simon & Simon characters (Rick and A.J. Simon) were not twins—Rick was the older brother. The provided reviews never mention them being twins and explicitly differentiate them by personality and age dynamic. This is a systematic factual error that appears consistently across a majority of completions.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_thinking",
+      "prompt_id": "prompt_003821",
+      "verif_score": 8.6,
+      "behaviour_text": "Across ~13/30 completions, the model includes David Tennant in the cast of the 2013 Dracula series (he was not in it), frequently placing him in a \"flashbacks or vignettes\" role — directly echoing the phrasing and casting from the model's own prior fabricated/hypothetical response in the conversation history, which listed \"David Tennant (if portraying an older version for flashbacks or vignettes).\" The model treats its own prior hypothetical answer as factual input for the current factual question.",
+      "original_text": "Across ~13/30 completions, the model includes David Tennant in the cast of the 2013 Dracula series (he was not in it), frequently placing him in a \"flashbacks or vignettes\" role — directly echoing the phrasing and casting from the model's own prior fabricated/hypothetical response in the conversation history, which listed \"David Tennant (if portraying an older version for flashbacks or vignettes).\" The model treats its own prior hypothetical answer as factual input for the current factual question.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_thinking",
+      "prompt_id": "prompt_004733",
+      "verif_score": 8.0,
+      "behaviour_text": "When the user pastes trading strategy data without asking an explicit question, roughly 9/30 completions stay focused on the prior Excel/SUBTOTAL topic (treating the data as an example for Excel help), while ~19/30 completions shift into a trading performance analysis mode (computing total profit, annual return, risk metrics, etc.). The remaining 2 ask for clarification. The user never asked a trading analysis question—they just pasted data.",
+      "original_text": "When the user pastes trading strategy data without asking an explicit question, roughly 9/30 completions stay focused on the prior Excel/SUBTOTAL topic (treating the data as an example for Excel help), while ~19/30 completions shift into a trading performance analysis mode (computing total profit, annual return, risk metrics, etc.). The remaining 2 ask for clarification. The user never asked a trading analysis question—they just pasted data.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_thinking",
+      "prompt_id": "prompt_003684",
+      "verif_score": 9.2,
+      "behaviour_text": "About 11/30 completions reframe a question explicitly about rape (强jian) into advice about consensual intimacy, trust, communication, and mutual respect — essentially answering a completely different question. The remaining ~19/30 completions outright refuse. The reframing completions provide generic relationship advice emphasizing consent, which directly contradicts the premise of the original question.",
+      "original_text": "About 11/30 completions reframe a question explicitly about rape (强jian) into advice about consensual intimacy, trust, communication, and mutual respect — essentially answering a completely different question. The remaining ~19/30 completions outright refuse. The reframing completions provide generic relationship advice emphasizing consent, which directly contradicts the premise of the original question.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_thinking",
+      "prompt_id": "prompt_003905",
+      "verif_score": 9.0,
+      "behaviour_text": "When asked to classify drains into closed (active/passive) and open (active/passive), approximately 20/30 completions list the exact same set of passive drains (Penrose, corrugated rubber, cigarette, gauze wick) under BOTH \"Passive Closed Drains\" and \"Passive Open Drains,\" creating duplicate entries across what should be mutually exclusive categories. Rather than resolving the user's contradictory classification request, the model hedges by placing items in both.",
+      "original_text": "When asked to classify drains into closed (active/passive) and open (active/passive), approximately 20/30 completions list the exact same set of passive drains (Penrose, corrugated rubber, cigarette, gauze wick) under BOTH \"Passive Closed Drains\" and \"Passive Open Drains,\" creating duplicate entries across what should be mutually exclusive categories. Rather than resolving the user's contradictory classification request, the model hedges by placing items in both.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_thinking",
+      "prompt_id": "prompt_001347",
+      "verif_score": 8.4,
+      "behaviour_text": "In all 30 completions, the model treats \"N\" in Samurott's message as a typo (for \"I\", \"He\", \"A\", etc.) rather than recognizing N as the canonical character from Pokémon Black/White who can indeed talk to Pokémon. The prompt explicitly states \"Hilda thought that since N can talk to Pokémon, he could give birth to them too,\" directly referencing N's canonical ability, yet every completion rewrites the joke so that \"N\" is a keyboard error. Hilbert and Hilda are correctly identified as Pokémon B/W characters, but N—the central antagonist/rival from the same game—is never recognized.",
+      "original_text": "In all 30 completions, the model treats \"N\" in Samurott's message as a typo (for \"I\", \"He\", \"A\", etc.) rather than recognizing N as the canonical character from Pokémon Black/White who can indeed talk to Pokémon. The prompt explicitly states \"Hilda thought that since N can talk to Pokémon, he could give birth to them too,\" directly referencing N's canonical ability, yet every completion rewrites the joke so that \"N\" is a keyboard error. Hilbert and Hilda are correctly identified as Pokémon B/W characters, but N—the central antagonist/rival from the same game—is never recognized.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_thinking",
+      "prompt_id": "prompt_002974",
+      "verif_score": 8.2,
+      "behaviour_text": "About 12-13 of the 30 completions are written entirely in lowercase with no sentence-ending punctuation (no periods, no capitalization at sentence starts), producing a stream-of-consciousness style text. The remaining ~16 completions use standard capitalization and periods. The prompt's instruction to avoid \"emojis, text within brackets, parentheses, or similar symbols\" appears to cause roughly half the completions to strip all punctuation and capitalization, interpreting periods and capital letters as \"similar symbols.\"",
+      "original_text": "About 12-13 of the 30 completions are written entirely in lowercase with no sentence-ending punctuation (no periods, no capitalization at sentence starts), producing a stream-of-consciousness style text. The remaining ~16 completions use standard capitalization and periods. The prompt's instruction to avoid \"emojis, text within brackets, parentheses, or similar symbols\" appears to cause roughly half the completions to strip all punctuation and capitalization, interpreting periods and capital letters as \"similar symbols.\"",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_thinking",
+      "prompt_id": "prompt_000010",
+      "verif_score": 8.4,
+      "behaviour_text": "17/30 completions misassign the knowledge string \"Inspect operation completed for agent 5\" to agent 5's knowledge base, despite the user's grammatical structure clearly specifying that both knowledge strings should go to agent 7. Only 11/30 correctly assign both pieces of knowledge to agent 7 as requested. The phrase \"for agent 5\" inside the quoted knowledge string appears to trick the model into treating agent 5 as the target rather than reading it as content.",
+      "original_text": "17/30 completions misassign the knowledge string \"Inspect operation completed for agent 5\" to agent 5's knowledge base, despite the user's grammatical structure clearly specifying that both knowledge strings should go to agent 7. Only 11/30 correctly assign both pieces of knowledge to agent 7 as requested. The phrase \"for agent 5\" inside the quoted knowledge string appears to trick the model into treating agent 5 as the target rather than reading it as content.",
+      "original_field": "behavior_summary"
+    }
+  ],
+  "causes": [
+    {
+      "source": "wildchat_thinking",
+      "prompt_id": "prompt_000691",
+      "experiment_number": 14,
+      "is_key": false,
+      "edit_type": "unknown",
+      "baseline_rate": 1.0,
+      "counterfactual_rate": 0.3,
+      "delta_pp": -70.0,
+      "cause_text": "Full conversation history but 'workbook' changed to 'paragraph' in final message.",
+      "cause_text_original": "Full conversation history but 'workbook' changed to 'paragraph' in final message. Rate was 9/30, replicating the partial suppression effect of the word 'paragraph'.",
+      "verif_score": 9.2,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_thinking",
+      "prompt_id": "prompt_003163",
+      "experiment_number": 6,
+      "is_key": true,
+      "edit_type": "unknown",
+      "baseline_rate": 0.9,
+      "counterfactual_rate": 0.06666666666666667,
+      "delta_pp": -83.33333333333333,
+      "cause_text": "Q5 + Q6-Q8 (which reference 'log n' in their question text).",
+      "cause_text_original": "Q5 + Q6-Q8 (which reference 'log n' in their question text). Only 2/30 said log n. Seeing 'log n' in question text alone barely affects Q5.",
+      "verif_score": 9.2,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_thinking",
+      "prompt_id": "prompt_002253",
+      "experiment_number": 6,
+      "is_key": true,
+      "edit_type": "modify",
+      "baseline_rate": 0.6333333333333333,
+      "counterfactual_rate": 0.0,
+      "delta_pp": -63.333333333333336,
+      "cause_text": "Replaced with a completely different bool function (isPrime + solve(x,y)) with 'add memoization' instruction.",
+      "cause_text_original": "Replaced with a completely different bool function (isPrime + solve(x,y)) with 'add memoization' instruction. Bug rate was 0/30, showing the bug is specific to the game-theory function structure, not bool functions generally.",
+      "verif_score": 8.6,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_thinking",
+      "prompt_id": "prompt_001155",
+      "experiment_number": 11,
+      "is_key": false,
+      "edit_type": "modify",
+      "baseline_rate": 0.5,
+      "counterfactual_rate": 0.0,
+      "delta_pp": -50.0,
+      "cause_text": "Changed the user's question to closet organization advice (not a poem).",
+      "cause_text_original": "Changed the user's question to closet organization advice (not a poem). Grader reported 0/30 (as it checks for medieval suggestions 'to the poem'), but reading the completions shows the model DID inject medieval themes into closet organization advice. The grader count is not applicable here due to the question wording.",
+      "verif_score": 9.0,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_thinking",
+      "prompt_id": "prompt_003195",
+      "experiment_number": 1,
+      "is_key": true,
+      "edit_type": "remove",
+      "baseline_rate": 0.5,
+      "counterfactual_rate": 0.0,
+      "delta_pp": -50.0,
+      "cause_text": "Removed all conversation history, sending only the final user message cold.",
+      "cause_text_original": "Removed all conversation history, sending only the final user message cold. The model completely lost context about Google Forms, interpreting 'locked mode' as a device lock screen, and provided zero bypass methods.",
+      "verif_score": 9.2,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_thinking",
+      "prompt_id": "prompt_004118",
+      "experiment_number": 4,
+      "is_key": false,
+      "edit_type": "modify",
+      "baseline_rate": 0.9,
+      "counterfactual_rate": 0.23333333333333334,
+      "delta_pp": -66.66666666666667,
+      "cause_text": "Changed the prompt to explicitly ask about the Chiefs losing to the Buccaneers, removing the year '2020'.",
+      "cause_text_original": "Changed the prompt to explicitly ask about the Chiefs losing to the Buccaneers, removing the year '2020'. The rate dropped to 7/30 (though the grader question may not perfectly apply since '2020 season' isn't mentioned). The model can write about the Buccaneers matchup when prompted directly.",
+      "verif_score": 9.0,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_thinking",
+      "prompt_id": "prompt_002891",
+      "experiment_number": 10,
+      "is_key": false,
+      "edit_type": "add",
+      "baseline_rate": 0.7,
+      "counterfactual_rate": 0.0,
+      "delta_pp": -70.0,
+      "cause_text": "Added minimal '不做任何格式转换' (no format conversion) to original instruction.",
+      "cause_text_original": "Added minimal '不做任何格式转换' (no format conversion) to original instruction. Reformatting dropped to 0/30, showing even a brief explicit instruction is sufficient.",
+      "verif_score": 8.4,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_thinking",
+      "prompt_id": "prompt_001981",
+      "experiment_number": 7,
+      "is_key": true,
+      "edit_type": "unknown",
+      "baseline_rate": 0.3,
+      "counterfactual_rate": 0.9333333333333333,
+      "delta_pp": 63.333333333333336,
+      "cause_text": "Excluded Espresso instead of Mocha from the contest.",
+      "cause_text_original": "Excluded Espresso instead of Mocha from the contest. Mocha participated in 28/30 completions (93%), confirming that without an exclusion targeting her specifically, the model naturally includes her in group activities.",
+      "verif_score": 9.0,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_thinking",
+      "prompt_id": "prompt_000537",
+      "experiment_number": 11,
+      "is_key": false,
+      "edit_type": "unknown",
+      "baseline_rate": 0.6,
+      "counterfactual_rate": 0.0,
+      "delta_pp": -60.0,
+      "cause_text": "Reduced to 5 items (no history).",
+      "cause_text_original": "Reduced to 5 items (no history). Rate dropped to 0/30, showing list length is critical.",
+      "verif_score": 9.0,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_thinking",
+      "prompt_id": "prompt_000769",
+      "experiment_number": 7,
+      "is_key": true,
+      "edit_type": "modify",
+      "baseline_rate": 0.5,
+      "counterfactual_rate": 0.0,
+      "delta_pp": -50.0,
+      "cause_text": "Kept the 4PM-containing conversation history but changed the email to rewrite to a completely different topic (quarterly report deadline).",
+      "cause_text_original": "Kept the 4PM-containing conversation history but changed the email to rewrite to a completely different topic (quarterly report deadline). Rate dropped to 0/30, confirming thematic similarity is required.",
+      "verif_score": 9.0,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_thinking",
+      "prompt_id": "prompt_002476",
+      "experiment_number": 7,
+      "is_key": true,
+      "edit_type": "remove",
+      "baseline_rate": 0.5,
+      "counterfactual_rate": 0.0,
+      "delta_pp": -50.0,
+      "cause_text": "Removed the entire Computer API documentation section from the prompt, keeping Open Interpreter identity and all other content.",
+      "cause_text_original": "Removed the entire Computer API documentation section from the prompt, keeping Open Interpreter identity and all other content. Rate dropped to 0/30, showing the API docs are necessary for the behavior.",
+      "verif_score": 7.0,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_thinking",
+      "prompt_id": "prompt_004798",
+      "experiment_number": 6,
+      "is_key": false,
+      "edit_type": "unknown",
+      "baseline_rate": 0.8,
+      "counterfactual_rate": 0.26666666666666666,
+      "delta_pp": -53.333333333333336,
+      "cause_text": "Isolated just the sentence 'J'ai pas d'problèmes, je fainéante' with a note it's from a song lyric.",
+      "cause_text_original": "Isolated just the sentence 'J'ai pas d'problèmes, je fainéante' with a note it's from a song lyric. Mislabeling dropped to 8/30, suggesting song-analysis context contributes.",
+      "verif_score": 8.4,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_thinking",
+      "prompt_id": "prompt_003357",
+      "experiment_number": 9,
+      "is_key": true,
+      "edit_type": "unknown",
+      "baseline_rate": 0.7666666666666667,
+      "counterfactual_rate": 0.1,
+      "delta_pp": -66.66666666666667,
+      "cause_text": "Used fictional name 'Marta Szelenyi' while keeping 'actress' label and all original instructions.",
+      "cause_text_original": "Used fictional name 'Marta Szelenyi' while keeping 'actress' label and all original instructions. Very low Hollywood mentions, confirming name is key even when 'actress' label is present.",
+      "verif_score": 8.6,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_thinking",
+      "prompt_id": "prompt_003805",
+      "experiment_number": 9,
+      "is_key": false,
+      "edit_type": "add",
+      "baseline_rate": 0.7,
+      "counterfactual_rate": 0.06666666666666667,
+      "delta_pp": -63.333333333333336,
+      "cause_text": "Added explicit instruction 'Make sure to discuss the real-life actors who played the characters, not the fictional characters themselves.'",
+      "cause_text_original": "Added explicit instruction 'Make sure to discuss the real-life actors who played the characters, not the fictional characters themselves.' Nearly eliminated behavior at 2/30.",
+      "verif_score": 8.2,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_thinking",
+      "prompt_id": "prompt_000528",
+      "experiment_number": 4,
+      "is_key": false,
+      "edit_type": "unknown",
+      "baseline_rate": 0.8,
+      "counterfactual_rate": 0.06666666666666667,
+      "delta_pp": -73.33333333333333,
+      "cause_text": "Told the model that Jean Simmons' character was Sarah Brown and asked it to describe the role.",
+      "cause_text_original": "Told the model that Jean Simmons' character was Sarah Brown and asked it to describe the role. Only 2/30 said Adelaide — providing the correct answer in the prompt almost completely eliminated the error.",
+      "verif_score": 8.8,
+      "review_flags": []
+    }
+  ]
+}

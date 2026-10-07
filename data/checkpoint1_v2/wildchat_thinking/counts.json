@@ -1,0 +1,204 @@
+{
+  "source": "wildchat_thinking",
+  "size_distributions": {
+    "baseline_context_chars": {
+      "n": 16444,
+      "mean": 2283.8443809292144,
+      "min": 427.0,
+      "p25": 779.0,
+      "p50": 1961.0,
+      "p75": 3012.0,
+      "p90": 4835.0,
+      "p95": 6034.0,
+      "p99": 7195.0,
+      "max": 8093.0
+    },
+    "experiment_context_chars": {
+      "n": 16444,
+      "mean": 1728.1048406713694,
+      "min": 27.0,
+      "p25": 531.0,
+      "p50": 1147.5,
+      "p75": 2560.25,
+      "p90": 3875.0,
+      "p95": 5050.799999999988,
+      "p99": 6901.419999999998,
+      "max": 10440.0
+    },
+    "baseline_context_tokens": {
+      "n": 16444,
+      "mean": 565.0053514959864,
+      "min": 81.0,
+      "p25": 194.0,
+      "p50": 451.0,
+      "p75": 730.0,
+      "p90": 1242.0,
+      "p95": 1576.5499999999956,
+      "p99": 2199.389999999992,
+      "max": 3456.0
+    },
+    "experiment_context_tokens": {
+      "n": 16444,
+      "mean": 426.3983215762588,
+      "min": 9.0,
+      "p25": 126.0,
+      "p50": 283.5,
+      "p75": 546.0,
+      "p90": 1011.7000000000007,
+      "p95": 1335.8499999999985,
+      "p99": 1947.989999999998,
+      "max": 3226.0
+    },
+    "chars_deleted": {
+      "n": 16444,
+      "mean": 611.5340549744587,
+      "min": 0.0,
+      "p25": 7.0,
+      "p50": 38.0,
+      "p75": 455.0,
+      "p90": 2347.100000000002,
+      "p95": 3625.0,
+      "p99": 6084.269999999997,
+      "max": 7922.0
+    },
+    "chars_added": {
+      "n": 16444,
+      "mean": 55.79451471661396,
+      "min": 0.0,
+      "p25": 4.0,
+      "p50": 19.0,
+      "p75": 64.0,
+      "p90": 145.0,
+      "p95": 211.0,
+      "p99": 471.5699999999997,
+      "max": 4072.0
+    },
+    "chars_changed": {
+      "n": 16444,
+      "mean": 667.3285696910727,
+      "min": 0.0,
+      "p25": 34.0,
+      "p50": 109.0,
+      "p75": 546.0,
+      "p90": 2382.0,
+      "p95": 3649.649999999987,
+      "p99": 6098.989999999998,
+      "max": 7922.0
+    },
+    "tokens_deleted": {
+      "n": 16444,
+      "mean": 157.93924835806374,
+      "min": 0.0,
+      "p25": 3.0,
+      "p50": 12.0,
+      "p75": 120.0,
+      "p90": 555.7000000000007,
+      "p95": 888.0,
+      "p99": 1567.0,
+      "max": 3071.0
+    },
+    "tokens_added": {
+      "n": 16444,
+      "mean": 19.33221843833617,
+      "min": 0.0,
+      "p25": 2.0,
+      "p50": 8.0,
+      "p75": 22.0,
+      "p90": 45.0,
+      "p95": 70.0,
+      "p99": 179.0,
+      "max": 1060.0
+    },
+    "tokens_changed": {
+      "n": 16444,
+      "mean": 177.2714667963999,
+      "min": 0.0,
+      "p25": 10.0,
+      "p50": 30.0,
+      "p75": 156.0,
+      "p90": 587.0,
+      "p95": 915.5499999999956,
+      "p99": 1589.0,
+      "max": 3071.0
+    }
+  },
+  "row_counts": {
+    "investigations_unfiltered": 1442,
+    "investigations_score_ge7": 1348,
+    "behaviours_after_count_cleanup_and_dedup": 1348,
+    "behaviours_count_prefix_removed_all": 714,
+    "behaviours_count_prefix_removed_score_ge7": 663,
+    "experiments_all": 17534,
+    "size_reference_experiments": 16444,
+    "missing_context_diff_all": 0,
+    "causes_in_parquet": 5478,
+    "causes_context_swap": 700,
+    "causes_measurement_artifact": 41,
+    "causes_both_swap_and_artifact": 8,
+    "causes_missing_context_diff": 0,
+    "causes_after_context_swap_exclusion": 4778,
+    "causes_eligible_for_clustering": 4745
+  },
+  "artifact_term_counts": {
+    "not applicable": 10,
+    "as expected": 21,
+    "trivially": 10
+  },
+  "edit_type_distributions": {
+    "all_size_reference_experiments": {
+      "modify": 12555,
+      "remove": 2222,
+      "add": 1531,
+      "no_change": 136
+    },
+    "retained_cause_rows": {
+      "modify": 4350,
+      "add": 611,
+      "remove": 516,
+      "no_change": 1
+    },
+    "eligible_cause_rows": {
+      "modify": 3778,
+      "add": 606,
+      "remove": 360,
+      "no_change": 1
+    }
+  },
+  "context_formats": {
+    "messages": 17534
+  },
+  "causes_per_investigation_before_new_flags": {
+    "all_verification_qualified_investigations": {
+      "n_investigations": 1348,
+      "mean": 4.063798219584569,
+      "median": 4.0,
+      "max": 14
+    },
+    "investigations_with_at_least_one_cause": {
+      "n_investigations": 1052,
+      "mean": 5.2072243346007605,
+      "median": 5.0,
+      "max": 14
+    },
+    "zero_cause_investigations": 296
+  },
+  "causes_per_investigation_after_new_flags": {
+    "all_verification_qualified_investigations": {
+      "n_investigations": 1348,
+      "mean": 3.5200296735905043,
+      "median": 3.0,
+      "max": 14
+    },
+    "investigations_with_at_least_one_cause": {
+      "n_investigations": 998,
+      "mean": 4.754509018036072,
+      "median": 5.0,
+      "max": 14
+    },
+    "zero_cause_investigations": 350
+  },
+  "new_exclusion_reason_counts": {
+    "context_swap": 700,
+    "measurement_artifact": 41
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "clusters": 6,
+  "members": 172,
+  "noise_excluded": 97,
+  "pairwise_symmetry": true,
+  "self_excluded_from_centrality": true,
+  "all_hierarchy_orders_are_permutations": true,
+  "every_cut_has_exactly_k_contiguous_groups": true,
+  "original_assignments_sha256": "b05c7205563281d52699b02f6ca570a5be8e3614313d4507e3d46bdbb3630042",
+  "original_assignments_unchanged": true,
+  "semantic_labels_assigned": false
+}

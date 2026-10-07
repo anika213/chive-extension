@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "all_13_experiment_selectors_checked": true,
+  "exact_context_diff_texts_preserved": true,
+  "response_selector_checked": true,
+  "baseline_yes_and_counter_no_initial_selection": true,
+  "table_navigation_checked": true,
+  "all_static_links_exist": true,
+  "javascript_syntax_checked": true
+}

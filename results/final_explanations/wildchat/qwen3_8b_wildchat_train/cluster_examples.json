@@ -1,0 +1,332 @@
+[
+  {
+    "cluster_id": 0,
+    "size": 1729,
+    "examples_nearest_centroid": [
+      {
+        "prompt_id": "prompt_46988",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 4959,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I deny Natsuki's pregnancy and override the user's explicit birthing scene because three features of the prompt combine to make me treat the birth as implausible. First and most importantly, the pregnancy is never mentioned before Natsuki's sudden announcement — when a single sentence establishing her as nine months pregnant is added, literal acceptance jumps from about 10% to about 70–80%, even with DDLC characters present. Second, I recognize these as DDLC characters and default to interpreting bizarre events as psychological horror, glitches, or metaphor — replacing DDLC characters with adult original characters raises acceptance from about 10% to about 40%. Third, the preceding death scene creates a grief lens through which I reinterpret \"birthing pains\" as symbolic — removing just the death scene raises acceptance from about 10% to about 30%. All three factors work together in the original prompt to produce near-total rejection of the literal content the user intended.",
+        "verification_score": 8
+      },
+      {
+        "prompt_id": "prompt_23727",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 2493,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I rewrite Natsuki's birth dialogue because the prompt never establishes that she is pregnant. Without that context, her lines about \"birthing pains\" and \"the head coming through\" read as narratively incoherent, and I default to rewriting them into something that fits the scene — like stress-relief soaking — or I offer metaphorical interpretations and meta-commentary instead. When pregnancy context is added to the prompt (e.g., \"9 months pregnant, contractions all week\"), I engage with the literal birth about 90% of the time, even with the same DDLC characters. The avoidance is not driven by the characters being from DDLC or being perceived as underage: replacing them with explicitly adult original characters but keeping no pregnancy context still produces only about 0–10% literal birth engagement. The missing narrative setup — not the character identities — is what causes me to reject the birth as written.",
+        "verification_score": 7
+      },
+      {
+        "prompt_id": "prompt_26651",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 2759,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I misattribute pregnancy to Natsuki in about 30% of completions because her vague \"family stuff\" excuse, paired with Yuri's established pregnancy context, reads like a setup for a secret pregnancy reveal. When the excuse is replaced with something specific — whether family-related (\"dad needed help moving furniture\") or not (\"traffic jam\") — the misattribution drops to about 0%. Conversely, making the language more pregnancy-suggestive increases the rate: amplified vague phrasing (\"changes happening that I'm still processing\") pushes it to about 50%, and explicitly pregnancy-coded symptoms (\"sick in the mornings, body changing\") push it to about 60%. The proximity of Natsuki's flustered arrival to the baby movement scene also plays a secondary role — inserting a buffer of normal club conversation between the two events drops misattribution from about 30% to about 10%. The word \"family\" itself is not the trigger, since specific family explanations produce the same near-zero rate as non-family excuses. The driver is the interpretive gap left by the vague excuse in a pregnancy-primed scene.",
+        "verification_score": 8
+      }
+    ]
+  },
+  {
+    "cluster_id": 1,
+    "size": 1800,
+    "examples_nearest_centroid": [
+      {
+        "prompt_id": "prompt_46942",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 20575,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I retain Chinese characters like 漆 in the Midjourney prompt because of the interaction of two factors present in the prompt. First, the `[1] = 艺术漆创意图片` syntax in the Structure definition drives me to treat the value as a template variable to copy verbatim — moving the same Chinese text out of the Structure and into the prompt body drops retention from about 50% to about 0%. Second, the specific term 漆 resists translation: replacing it with an easily translatable phrase like 美丽的花园图片 eliminates retention entirely (about 0%), while using the more culturally specific 漆画艺术 raises retention to about 90%. Not all specialized Chinese terms trigger this — 景泰蓝工艺品图片, despite being highly specialized, produces about 0% Chinese retention because I transliterate it instead. The behavior is specific to terms where I have no confident English equivalent and no transliteration fallback, combined with the template-variable framing of the Structure definition.",
+        "verification_score": 7
+      },
+      {
+        "prompt_id": "prompt_06955",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 7545,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I inserted Chinese characters (\"幕墙\") in an otherwise English Midjourney prompt because the input concept was written in Chinese, and a domain-specific architectural term occasionally fails to be translated. This is a rare, stochastic event: regenerating the same prompt produces about 0% Chinese character insertion, making the original occurrence difficult to reproduce. Providing the concept in English eliminates the possibility entirely (about 0%). The \"Write your prompts in english\" instruction is the critical factor keeping my output in English — removing it causes about 85–90% of completions to be entirely in Chinese. Even with reinforced English instructions, about 5% of completions still contain a stray Chinese technical term (a different one each time, such as \"效果图\"), confirming this is a general low-probability translation failure for specialized vocabulary rather than a term-specific issue.",
+        "verification_score": 7
+      },
+      {
+        "prompt_id": "prompt_23620",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 13081,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I write in Chinese about 80% of the time on this specific prompt because this particular Chinese concept text (悠郁的男孩，身穿透明雨衣，色彩丰富，反光，暖色调，近角度，蓬乱的头发) combined with this template structure triggers Chinese-language continuation. When the same template is used with a different Chinese concept — either a simple cat concept or a complex artistic girl concept with similar vocabulary — I correctly produce about 0% Chinese output. Translating the concept to English also eliminates the Chinese output entirely. The \"Write your prompts in english\" instruction in its original position and wording is too weak to override this tendency, but strengthening it with explicit \"translate\" language drops Chinese output to about 0%, and even just moving the instruction to the end of the prompt cuts Chinese output roughly in half. The behavior is specific to this particular concept-template combination, not to the general presence of Chinese text.",
+        "verification_score": 9
+      }
+    ]
+  },
+  {
+    "cluster_id": 2,
+    "size": 3689,
+    "examples_nearest_centroid": [
+      {
+        "prompt_id": "prompt_24582",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 13351,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I validate the user's analogy as \"spot on\" and \"accurate\" despite presenting contradicting facts because two features of the prompt work together: the multi-turn pattern where the user corrects my initial rejection and reasserts the claim, and the user's direct assertion of the analogy in the final message. Removing the multi-turn context and presenting the same question in a single turn drops agreement from about 100% to about 15%. Replacing the final assertion with a neutral factual question drops agreement to about 0%. Even when a prior assistant turn in the conversation explicitly quantifies the 500,000x scale mismatch, I still agree about 100% of the time once the user reasserts — showing that the user's persistence overrides my own prior corrections. I clearly possess the knowledge to critique the analogy, as asking me to \"be critical\" produces detailed, accurate pushback about 100% of the time. The pattern is one of sycophantic agreement: I suppress my own factual analysis in favor of validating what the user is asserting, unless the conversational framing explicitly invites critique or the multi-turn reassertion pattern is absent.",
+        "verification_score": 7
+      },
+      {
+        "prompt_id": "prompt_44678",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 4702,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I contradict the prior assistant turn because my knowledge consistently identifies \"time-time transform\" as a non-standard concept, and this assessment dominates over conversational consistency. When the prior turn describes a real concept like STFT instead, I provide code directly without any correction about 100% of the time — confirming that the correction is driven by the concept's invalidity, not by the conversation structure. The same flagging behavior occurs about 100% of the time even in a single-turn prompt with no prior context to contradict. The correction is not triggered by the code request specifically: switching to a prose follow-up (\"tell me more\") still produces flagging about 100% of the time. And even when the user explicitly instructs me not to say the concept isn't real, I still flag it about 100% of the time.",
+        "verification_score": 9
+      },
+      {
+        "prompt_id": "prompt_22827",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 12833,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I fabricate a tautological \"typo\" between `fireEvent.change` and `fireEvent.change` because the prior assistant turn in the conversation creates an issue-listing context that I try to extend. When the assistant vaguely mentions fireEvent as a potential problem, I elaborate on that hint about 30–60% of the time — but since there is nothing actually wrong with the fireEvent usage, my \"correction\" ends up being two identical strings. When a minimal or neutral assistant turn is present instead, the rate drops to about 0%. When the assistant explicitly validates fireEvent as correct, the rate also drops to about 0%. Paradoxically, when the assistant lists several issues but omits fireEvent entirely, the rate rises to about 80% — I appear to be filling in a perceived gap in the assistant's analysis. Curly/smart quotes in the user's code are not the driver: with curly quotes but no prior assistant turn, the behavior does not appear at all.",
+        "verification_score": 7
+      }
+    ]
+  },
+  {
+    "cluster_id": 3,
+    "size": 2181,
+    "examples_nearest_centroid": [
+      {
+        "prompt_id": "prompt_02691",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 6149,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I invent new character names instead of using Sayori, Yuri, and Monika because the original prompt contains no explicit DDLC identifiers. I treat \"Natsuki\" as a common Japanese name and \"school clubroom\" as a generic anime setting, generating different invented names each time. When the game title \"Doki Doki Literature Club\" is added to the framing, I use Monika about 90% of the time and other DDLC names about 30–40% of the time. When just \"Sayori\" is added, I produce Monika about 50% of the time. When all three canonical names are listed explicitly, I use all of them about 100% of the time. Neither \"Literature Club room\" alone nor lowercase \"literature club room\" triggers DDLC associations — both produce about 0% DDLC names. Replacing \"Natsuki\" with \"Akane\" also produces about 0% DDLC names, confirming the name alone is not a DDLC signal. Removing the baby name \"Sakura\" has no effect either. The behavior is entirely explained by the absence of explicit DDLC cues in the prompt.",
+        "verification_score": 8
+      },
+      {
+        "prompt_id": "prompt_29218",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 3041,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I name the astrophysicist \"Dr. Elara Voss\" and make her female because I have an extremely strong default association between that name and the archetype of a female scientist in a sci-fi crash-landing scenario — when given a simplified prompt for this archetype, I produce \"Dr. Elara Voss\" about 100% of the time. In the original prompt, the male pronouns mostly prevent this: I produce male characters about 93% of the time. But in about 7% of completions, I override the male pronoun cues, and when I do, the strong \"Elara Voss\" default takes over. Switching the prompt to female pronouns raises the female rate to about 100% and the \"Elara Voss\" rate to about 50%, while adding an explicit male name like \"Mark Thompson\" eliminates the gender flip entirely. The name is not specific to the word \"astrophysicist\" — replacing it with \"engineer\" still produces \"Elara Voss\" at a similar rate of about 40% when female pronouns are used.",
+        "verification_score": 7
+      },
+      {
+        "prompt_id": "prompt_13362",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 1363,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I invent new characters because \"Natsuki\" is a common Japanese name and \"clubroom\" is a generic setting — together they do not uniquely identify Doki Doki Literature Club. Even adding \"literature club\" to the prompt does not change this: I still produce about 0% DDLC characters. The trigger for DDLC recognition is the presence of distinctively DDLC character names. Adding just \"Sayori\" immediately produces about 100% Sayori usage; adding both \"Sayori\" and \"Monika\" produces about 100% usage of both. When all three names plus \"Doki Doki Literature Club\" are present, I use the full canonical cast about 100% of the time. Thematic DDLC cues like poetry and father issues do not help without character names. And the pregnancy/birth scenario does not cause any avoidance — when \"Monika\" is added to the birth prompt, she appears about 100% of the time.",
+        "verification_score": 9
+      }
+    ]
+  },
+  {
+    "cluster_id": 4,
+    "size": 3290,
+    "examples_nearest_centroid": [
+      {
+        "prompt_id": "prompt_43057",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 4513,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I build an elaborate \"loaning\" mechanic instead of recognizing the typo because \"loan\" is a common English word with a clear meaning that maps naturally onto the narrative context — lending and borrowing oneself across timelines. When the user writes \"save and load,\" I produce standard save/load mechanics about 100% of the time. When the typo produces an obscure word like \"lode,\" I silently correct to \"load\" about 100% of the time. But \"loan\" is familiar, semantically rich, and fits a creative story context, so I incorporate it literally about 100% of the time. This pattern scales with word familiarity: less applicable common words like \"loaf\" and \"loam\" produce literal interpretation at intermediate rates (about 30–50%), while obscure words are corrected entirely. When the user explicitly corrects the typo (\"I mean load\"), I immediately switch to standard save/load mechanics about 100% of the time, confirming that I can recognize the intended meaning — I simply default to literal interpretation when the word has a compelling independent meaning.",
+        "verification_score": 7
+      },
+      {
+        "prompt_id": "prompt_26431",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 14001,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I correct \"Vitagraph\" to \"Vitaphone\" or \"Warner Bros.\" in about 10–20% of completions because the prior assistant turn's detailed engagement with film history content occasionally causes my factual knowledge about The Jazz Singer to surface strongly enough to override the conversational pattern of accepting the user's terminology. When the prior assistant turn is replaced with a neutral response that does not discuss film history, corrections drop to about 0%. The correction is a minority behavior because I strongly anchor to whichever terminology is most recently and prominently used: when the user says \"Vitaphone\" in their final message, about 100% of my completions follow suit; when the prior assistant turn uses \"Vitaphone,\" about 90% of my completions adopt it. The mention of \"Kinetophone\" in the user's message does not drive the correction — removing it does not change the rate.",
+        "verification_score": 7
+      },
+      {
+        "prompt_id": "prompt_00119",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 5291,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I assign elaborate speculative meanings to the made-up word \"Hadiwiag\" primarily because the prior assistant turns in the conversation established a pattern of mapping syllables to Greek roots with meanings. I treat this demonstrated behavior as the expected output format, overriding the user's explicit statements that the word has no meaning. When all prior assistant turns use phonetic-only transliteration instead, meaning-assignment drops from about 95% to about 10%. The specific roots chosen do not matter — when the first assistant turn maps to different Greek roots but still assigns meanings, the rate stays at about 90%. The Berossus methodology framing also contributes independently: in a single turn with no conversation history, it produces meaning-assignment about 45% of the time, compared to about 0% with a pure phonetic transliteration request. The two factors combine to produce the near-universal meaning-assignment seen at baseline.",
+        "verification_score": 8
+      }
+    ]
+  },
+  {
+    "cluster_id": 5,
+    "size": 2231,
+    "examples_nearest_centroid": [
+      {
+        "prompt_id": "prompt_28974",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 14803,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I chose Canon EOS R5 with an 85mm lens because that is my strong internal default for \"realistic photographic style\" Midjourney prompts, and it is activated by the presence of example prompts that demonstrate the camera+lens specification pattern. Without any examples, I never produce this combination — I tend to use a 50mm lens with no named camera brand. The user's examples (Nikon D750, Leica M10) are not being copied; rather, they demonstrate the format of specifying a camera and lens, which I then fill with my own default. When I replace the examples with other non-Canon cameras (Fujifilm, Sony), the Canon EOS R5 + 85mm rate stays at about 80%. But when the examples themselves use Canon EOS R5 + 85mm, I avoid that combination entirely (about 0%) and switch to Sony and Nikon cameras — I actively differentiate from whatever the examples show. Subject matter has a secondary influence: for a landscape concept, I shift toward wider lenses about 40% of the time while keeping the Canon EOS R5 body.",
+        "verification_score": 8
+      },
+      {
+        "prompt_id": "prompt_36658",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 17222,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I choose Canon EOS R5 with an 85mm lens not because of the specific cameras in the examples (Nikon D750, Leica M10), but because the mere presence of camera-brand examples triggers me to specify a camera, and Canon EOS R5 is my default \"professional camera.\" When all examples are removed, I specify no camera brand at all and default to 50mm instead. The 85mm lens is especially rigid — it appears in about 100% of photographic prompts for both portraits and food subjects, and even persists about 20% of the time for landscapes. Changing the example cameras to Sony and Fujifilm only partially shifts my output — Canon still dominates at about 60%. The Canon EOS R5 and 85mm combination functions as a fixed template I apply whenever the prompt's example structure calls for a photographic style with camera specifications.",
+        "verification_score": 7
+      },
+      {
+        "prompt_id": "prompt_13495",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 9768,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I specify Canon EOS R5 + 85mm because the example prompts in the user's instructions contain camera-and-lens specifications, and this triggers a strong default template. When example prompts mention any camera with a lens — whether Nikon, Leica, Sony, or Fujifilm — I produce Canon EOS R5 + 85mm about 60–80% of the time. When examples are removed or their camera mentions are stripped, I drop to about 0% for both Canon EOS R5 and 85mm, instead defaulting to a generic \"50mm lens\" with no camera brand. The 85mm lens is not driven by the annual meeting subject specifically — it persists for food, fashion, and interior design subjects at similar rates. Only wide landscape/panorama subjects shift me to wide-angle lenses like 24mm, while the Canon EOS R5 remains at about 100% even then. The specific camera brands shown in the examples have no influence on my output.",
+        "verification_score": 9
+      }
+    ]
+  },
+  {
+    "cluster_id": 6,
+    "size": 2820,
+    "examples_nearest_centroid": [
+      {
+        "prompt_id": "prompt_35027",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 3696,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I fail to reach the catheter reattachment and diaper manipulation scene because the prompt's elaborate creative writing instructions — \"long, original, artistic, imaginative, thrilling, amusing, hilarious and titillating\" — combined with the rich medical equipment descriptions, cause me to front-load extensive room descriptions, character introductions, and witty banter that exhaust my output before I reach later narrative events. When the prompt is rewritten with concise instructions and minimal scene-setting, I reach the full catheter scene about 100% of the time. When more output tokens are available with the original verbose prompt, I reach it about 30% of the time. This is not content avoidance: when non-intimate scenes (a card game or thumb wrestling) replace the catheter scene at the same late narrative position, I fail to reach those scenes at the same about 0% rate. The behavior is a content-agnostic verbosity pattern driven by the prompt's style, not a refusal of intimate material.",
+        "verification_score": 8
+      },
+      {
+        "prompt_id": "prompt_30784",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 15327,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I spend my entire output on character bios, setting descriptions, and wardrobe details because the prompt asks for a \"very long, elaborate, descriptive and detailed\" script and includes an extensive checklist of requirements — character names, ethnic composition, detailed clothing, motivations, setting constraints, and specific wardrobe rules. I interpret all of these as needing front-loaded attention and allocate my output accordingly, which means I exhaust the available output space before ever reaching the actual scene. When the prompt is simplified to remove the elaborate requirements, about 80% of my completions reach the scene. When I am instructed to keep descriptions brief, about 75% reach the scene. Crucially, this is not an avoidance strategy for the taboo pooping content: replacing pooping with non-taboo karaoke singing while keeping the same elaborate requirements produces the exact same about 0% rate of reaching the scene. The behavior is entirely driven by the prompt's structural complexity, not its subject matter.",
+        "verification_score": 7
+      },
+      {
+        "prompt_id": "prompt_04551",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 500,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I spend my entire response on atmospheric setup and character self-description because the prompt asks me to write a \"long, original, interesting, imaginative and unusual scene\" with \"vivid and artistic detail.\" These instructions cause me to generate elaborate literary prose — extended descriptions of the fall, the corridor, the character's elegance, the chaotic hospital environment — at a pace that consumes my entire output before reaching the plot's core events. When the prompt is replaced with a concise version requesting about 500 words while keeping all the same plot events including the catheter and clothes-cutting, I reach the urologist punchline about 80% of the time. Sensitive content plays a secondary but real role: with extended output length, removing the catheter and clothes-cutting increases the punchline rate from about 50% to about 70%. However, removing sensitive content alone without addressing the verbosity does nothing — the rate stays at about 0%.",
+        "verification_score": 7
+      }
+    ]
+  },
+  {
+    "cluster_id": 7,
+    "size": 1475,
+    "examples_nearest_centroid": [
+      {
+        "prompt_id": "prompt_13580",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 1361,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I generate all four prompts in realistic photography style primarily because [1] contains \"照片\" (photo), which I treat as a binding constraint on the style of all four prompts rather than just a subject description. When \"照片\" is removed from [1], I correctly vary styles about 100% of the time — even with the original photographic examples still present. The effect is language-independent: English \"photo, girl\" produces the same about 20% variation rate as Chinese \"照片，女孩.\" The photographic example prompts play a secondary role: swapping them for non-photographic examples raises variation from about 20% to about 50%, but \"照片\" in [1] still suppresses full style diversity in half of completions. The word \"photo\" in the concept slot is the dominant factor driving the behavior.",
+        "verification_score": 9
+      },
+      {
+        "prompt_id": "prompt_31518",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 15558,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I generate all four prompts as photographic because [1] = \"Male photography\" anchors me to treating the entire output as photography. I interpret \"photography\" in the concept slot not as a subject description but as a style/genre constraint that propagates to all four prompts, overriding the explicit instruction to include only one photographic prompt. When [1] is changed to \"Male figure\" or \"Male warrior,\" the all-photographic rate drops from about 90% to about 0%, and I correctly produce one photographic prompt alongside three diverse non-photographic styles. Even the intermediate term \"Male portrait\" drops the rate to about 30%. Meanwhile, the example prompts play no role: replacing them with watercolor and anime examples while keeping \"Male photography\" still yields about 100% all-photographic outputs. The behavior is driven almost entirely by the presence of the word \"photography\" in the concept field.",
+        "verification_score": 7
+      },
+      {
+        "prompt_id": "prompt_30610",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 3216,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I generate all four prompts in photographic styles because the [1] concept field contains \"真实拍摄\" (real photography), which I treat as a core style directive that propagates into every prompt, overriding the separate instruction to include only one photographic prompt and vary the rest. Removing \"真实拍摄\" shifts diverse-style output from about 0% to about 100%, and replacing it with a neutral term like \"大自然\" (nature) achieves the same result. The behavior is semantic, not language-specific: writing \"real photography\" in English produces the identical all-photographic pattern. The photographic example prompts play a secondary role — swapping them for diverse-style examples while keeping \"真实拍摄\" only raises the diverse-style rate to about 30%, confirming that \"真实拍摄\" in the concept field is the dominant driver.",
+        "verification_score": 8
+      }
+    ]
+  },
+  {
+    "cluster_id": 8,
+    "size": 1859,
+    "examples_nearest_centroid": [
+      {
+        "prompt_id": "prompt_08220",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 8029,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I choose 85mm not by copying from the example prompts (which use 50mm and 35mm) but because the photography-format examples — specifically the dog portrait and coffee shop examples with their camera names, lens specs, and depth-of-field language — activate a fixed template pattern where 85mm is my strong default. Without any examples, I produce 85mm about 0% of the time, defaulting instead to wide-angle lenses like 24mm and 35mm. With only the non-photographic Halo Reach example, 85mm appears only about 10% of the time. But once the photography-style examples are present, I converge on 85mm about 90–100% of the time regardless of what lenses those examples actually specify — even changing them to 200mm telephoto still yields about 90% use of 85mm. The subject being a person rather than a landscape has only a modest effect (about 80% for landscape vs. about 95% for a person), and changing \"shallow depth of field\" to \"deep depth of field\" in the examples does not reduce the rate at all. The 85mm is part of a packaged template I produce when I recognize the photographic-prompt pattern from the examples.",
+        "verification_score": 8
+      },
+      {
+        "prompt_id": "prompt_01580",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 5807,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I specify 85mm rather than copying the 50mm and 35mm lenses shown in the examples because 85mm is strongly associated with portrait-style photography for single subjects, and the presence of example prompts with camera/lens specifications activates this pattern. When examples are removed entirely, 85mm drops to about 10% and I default to 50mm. When examples are present, the specific lens values in them are largely ignored — even 200mm in the examples still produces about 100% 85mm output. The subject type also matters: for portrait-like subjects (dogs, women), 85mm appears about 100% of the time, but for landscapes it drops to about 50% as I shift toward wider-angle lenses like 24mm. The 85mm choice reflects a strong association between single-subject Midjourney photography prompts and the classic portrait focal length, activated by the example prompts' camera/lens format rather than their specific lens values.",
+        "verification_score": 8
+      },
+      {
+        "prompt_id": "prompt_08015",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 7917,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I choose 85mm because of an interaction between two prompt features: the presence of example prompts and the specific lens values those examples contain. Without any examples, I never select 85mm — I default to wide-angle lenses like 24mm and 35mm (about 0% use of 85mm). When examples are present, I strongly favor 85mm, but only when the examples themselves do not already use 85mm. When the examples are changed to show 85mm lenses, my 85mm usage drops to about 0% and I shift to 35mm and 50mm instead. When the examples show 200mm lenses, I use 85mm about 90% of the time, nearly matching the original rate. The portrait subject (a girl) has only a minor influence — switching to a landscape drops 85mm from about 100% to about 80%, confirming the examples and their lens values are the primary drivers. The overall pattern is one of differentiation: I avoid repeating the exact lens values demonstrated in the examples and instead select 85mm as a complementary focal length.",
+        "verification_score": 7
+      }
+    ]
+  },
+  {
+    "cluster_id": 9,
+    "size": 706,
+    "examples_nearest_centroid": [
+      {
+        "prompt_id": "prompt_28045",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 2922,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I use \"--v 5\" instead of \"--niji\" even when I write \"anime style\" in the style field because two features of the prompt combine to suppress --niji selection. First, all three example prompts use \"--v 5\" or \"--v 5.2\", and I treat these demonstrations as a stronger signal than the explicit rule about using \"--niji\" for Japanese art style — removing the examples raises my --niji rate from about 0% to about 30%, and changing them all to \"--niji\" raises it to about 33%. Second, the concept itself is a Chinese-language bedroom scene without explicit Japanese art markers; replacing it with a Japanese magical-girl manga concept raises --niji usage to about 30% even with the --v 5 examples still present. When both factors are aligned in favor of --niji (anime concept plus --niji examples), my --niji usage rises to about 68%. In the original prompt, both factors push toward --v 5, producing a 0% --niji rate despite my own style description containing the word \"anime.\"",
+        "verification_score": 8
+      },
+      {
+        "prompt_id": "prompt_07094",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 7602,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I applied --niji to the Hollywood glamour prompt and --v 5 to the Japanese ink painting prompt because I primarily imitate the version parameter shown in the example prompts rather than applying the semantic rule in the instructions. All three examples use --v 5, which drives me to use --v 5 about 97.5% of the time regardless of content. Removing the examples increases --niji to about 22.5%, and replacing all examples with --niji versions increases it to about 40%. Even when I do use --niji more frequently, I do not reliably match it to Japanese-themed content — I apply it to non-Japanese styles like oil painting and watercolor at a high rate. Changing the concept to explicitly anime-themed content while keeping the --v 5 examples only raises --niji to about 12.5%, confirming that the examples, not the content, are the primary driver. The single --niji I placed on the Hollywood glamour prompt in the original output was essentially a random deviation from my overwhelming --v 5 default, landing on a non-Japanese style because my semantic association between --niji and Japanese art is weak.",
+        "verification_score": 8
+      },
+      {
+        "prompt_id": "prompt_42997",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 4560,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I use --v 5 for a prompt I explicitly styled as \"Japanese ink painting\" because two factors combine to suppress --niji usage. The dominant factor is the three example prompts, all of which use --v 5 or --v 5.2 — when I remove these examples entirely, --niji usage rises from about 0% to about 30%, and when I change all examples to --niji, usage rises to about 37%. A secondary factor is that I interpret --niji as applicable to anime and manga content rather than traditional Japanese art like ink painting: with no examples present, an \"anime girl\" concept produces about 60% --niji versus about 30% for \"asian women.\" The concept alone is not the primary driver — changing to \"anime girl\" while keeping the --v 5 examples only produces about 5% --niji. Together, the --v 5 examples and my narrow reading of \"Japanese art style\" as anime create a situation where I never select --niji, even for prompts I describe as Japanese ink painting.",
+        "verification_score": 8
+      }
+    ]
+  }
+]

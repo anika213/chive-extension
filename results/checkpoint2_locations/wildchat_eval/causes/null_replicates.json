@@ -1,0 +1,155 @@
+{
+  "text_sha256": "426f6913e2f9fa851ee6857b6ee8881e0afef353b5a9450ecf921d55ed335135",
+  "replicates": [
+    {
+      "replicate": 0,
+      "best_k": 10,
+      "best_ward_cosine_silhouette": -0.0020774089479619427,
+      "ward_at_observed_best_k": -0.0029350373513775865,
+      "hdbscan": {
+        "n_clusters": 102,
+        "assigned_rows": 2128,
+        "noise_rows": 2940,
+        "noise_fraction": 0.580110497237569,
+        "original_cosine_silhouette_assigned_only": -0.012759593315422535,
+        "umap_euclidean_silhouette_assigned_only": 0.23641902208328247
+      },
+      "seconds": 11.813674957957119
+    },
+    {
+      "replicate": 1,
+      "best_k": 199,
+      "best_ward_cosine_silhouette": -0.0020133629955045177,
+      "ward_at_observed_best_k": -0.002073580294665175,
+      "hdbscan": {
+        "n_clusters": 109,
+        "assigned_rows": 2273,
+        "noise_rows": 2795,
+        "noise_fraction": 0.5514996053670087,
+        "original_cosine_silhouette_assigned_only": -0.01291778963059187,
+        "umap_euclidean_silhouette_assigned_only": 0.24665045738220215
+      },
+      "seconds": 15.530061417026445
+    },
+    {
+      "replicate": 2,
+      "best_k": 200,
+      "best_ward_cosine_silhouette": -0.001974133095332318,
+      "ward_at_observed_best_k": -0.001974133095332318,
+      "hdbscan": {
+        "n_clusters": 100,
+        "assigned_rows": 2031,
+        "noise_rows": 3037,
+        "noise_fraction": 0.5992501973164956,
+        "original_cosine_silhouette_assigned_only": -0.013087230734527111,
+        "umap_euclidean_silhouette_assigned_only": 0.2580066919326782
+      },
+      "seconds": 11.32843854202656
+    },
+    {
+      "replicate": 3,
+      "best_k": 11,
+      "best_ward_cosine_silhouette": -0.0015439910706442706,
+      "ward_at_observed_best_k": -0.0030477295738150804,
+      "hdbscan": {
+        "n_clusters": 94,
+        "assigned_rows": 2107,
+        "noise_rows": 2961,
+        "noise_fraction": 0.5842541436464088,
+        "original_cosine_silhouette_assigned_only": -0.012957860715687275,
+        "umap_euclidean_silhouette_assigned_only": 0.22428609430789948
+      },
+      "seconds": 8.29757845896529
+    },
+    {
+      "replicate": 4,
+      "best_k": 200,
+      "best_ward_cosine_silhouette": -0.001961458981644786,
+      "ward_at_observed_best_k": -0.001961458981644786,
+      "hdbscan": {
+        "n_clusters": 2,
+        "assigned_rows": 4621,
+        "noise_rows": 447,
+        "noise_fraction": 0.08820047355958958,
+        "original_cosine_silhouette_assigned_only": 0.0066760568879544735,
+        "umap_euclidean_silhouette_assigned_only": 0.016456903889775276
+      },
+      "seconds": 11.436058249964844
+    },
+    {
+      "replicate": 5,
+      "best_k": 10,
+      "best_ward_cosine_silhouette": -0.002000519657135017,
+      "ward_at_observed_best_k": -0.0030727221939785367,
+      "hdbscan": {
+        "n_clusters": 91,
+        "assigned_rows": 2233,
+        "noise_rows": 2835,
+        "noise_fraction": 0.5593922651933702,
+        "original_cosine_silhouette_assigned_only": -0.012970088981091976,
+        "umap_euclidean_silhouette_assigned_only": 0.21291659772396088
+      },
+      "seconds": 16.263901291997172
+    },
+    {
+      "replicate": 6,
+      "best_k": 10,
+      "best_ward_cosine_silhouette": -0.0018222260031772151,
+      "ward_at_observed_best_k": -0.002252636035432898,
+      "hdbscan": {
+        "n_clusters": 102,
+        "assigned_rows": 2081,
+        "noise_rows": 2987,
+        "noise_fraction": 0.5893843725335438,
+        "original_cosine_silhouette_assigned_only": -0.01315977331250906,
+        "umap_euclidean_silhouette_assigned_only": 0.24805103242397308
+      },
+      "seconds": 11.40046741697006
+    },
+    {
+      "replicate": 7,
+      "best_k": 189,
+      "best_ward_cosine_silhouette": -0.0022046430046834277,
+      "ward_at_observed_best_k": -0.0022918721784996056,
+      "hdbscan": {
+        "n_clusters": 104,
+        "assigned_rows": 2260,
+        "noise_rows": 2808,
+        "noise_fraction": 0.5540647198105761,
+        "original_cosine_silhouette_assigned_only": -0.013199097476899624,
+        "umap_euclidean_silhouette_assigned_only": 0.22481828927993774
+      },
+      "seconds": 8.248503541050013
+    },
+    {
+      "replicate": 8,
+      "best_k": 10,
+      "best_ward_cosine_silhouette": -0.0023654676039493736,
+      "ward_at_observed_best_k": -0.0035219617080679954,
+      "hdbscan": {
+        "n_clusters": 112,
+        "assigned_rows": 2154,
+        "noise_rows": 2914,
+        "noise_fraction": 0.5749802683504341,
+        "original_cosine_silhouette_assigned_only": -0.01214986015111208,
+        "umap_euclidean_silhouette_assigned_only": 0.24857547879219055
+      },
+      "seconds": 10.988528290996328
+    },
+    {
+      "replicate": 9,
+      "best_k": 195,
+      "best_ward_cosine_silhouette": -0.002419352138128535,
+      "ward_at_observed_best_k": -0.002445124244487832,
+      "hdbscan": {
+        "n_clusters": 102,
+        "assigned_rows": 2085,
+        "noise_rows": 2983,
+        "noise_fraction": 0.5885951065509076,
+        "original_cosine_silhouette_assigned_only": -0.012680571526288986,
+        "umap_euclidean_silhouette_assigned_only": 0.26030656695365906
+      },
+      "seconds": 12.024745959031861
+    }
+  ]
+}

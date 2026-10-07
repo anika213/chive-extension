@@ -1,0 +1,16 @@
+{
+  "source": "petri",
+  "run": "qwen3_8b_petri_eval",
+  "n_explanations": 868,
+  "selected_k": 50,
+  "selected_cosine_silhouette": 0.07208438962697983,
+  "selection": "Highest silhouette among saved candidate cuts; ties prefer smaller k. Exploratory, not validated taxonomy.",
+  "largest_cluster_fraction": 0.05184331797235023,
+  "singleton_clusters": 0,
+  "method": "sklearn.cluster.AgglomerativeClustering",
+  "metric": "euclidean",
+  "linkage": "ward",
+  "verification_filter": null,
+  "scope": "investigator final explanations; not verified causes",
+  "cluster_names_assigned": false
+}

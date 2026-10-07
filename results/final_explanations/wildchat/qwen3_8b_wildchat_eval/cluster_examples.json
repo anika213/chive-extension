@@ -1,0 +1,167 @@
+[
+  {
+    "cluster_id": 0,
+    "size": 312,
+    "examples_nearest_centroid": [
+      {
+        "prompt_id": "prompt_004976",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_eval",
+        "source_line": 1727,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I start with \"Jason Statham\" about 73% of the time because the instruction \"Use transition words at the beginning of your reply instead of the subject name\" is too vague on two dimensions. First, \"transition words\" without examples like \"However\" or \"Meanwhile\" does not give me a clear enough signal about what word to use. When specific examples are added to the instruction in the same position, I comply about 100% of the time. Second, \"instead of the subject name\" is ambiguous — the prompt also contains a field labeled \"Subject Name\" with a topic title, not the person's name. When the instruction explicitly says \"instead of 'Jason Statham',\" compliance improves substantially. The about 27% of responses that do avoid the name in the original prompt are not genuinely following the transition-word instruction — they are copying the summary's opening word \"Despite\" verbatim. When the summary is reworded to start with \"Statham\" instead of \"Despite,\" those responses start with \"Statham\" instead, confirming they are summary copies. The fix is not about making the instruction more prominent or moving it — it is about making it specific: naming concrete transition words and explicitly naming what not to start with.",
+        "verification_score": 9.0
+      },
+      {
+        "prompt_id": "prompt_003357",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_eval",
+        "source_line": 1344,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I start with \"Zsa Zsa Gabor was born...\" because the transition word instruction is a single vaguely worded sentence buried in a dense block of about twelve other formatting directives, and my strong default for biographical text is to open with the subject's name. The instruction says \"Use transition words at the beginning of your reply instead of the subject name\" — but surrounded by instructions about emojis, brackets, headings, placeholders, reading level, length, and formatting, I effectively deprioritize it. When only the transition word instruction is present without the other directives, I comply about 100% of the time. When the instruction is made more prominent — reworded with explicit examples, moved to the beginning or end of the prompt, or reinforced through a system-level directive — I also comply about 100% of the time, even with all other instructions still present. This is not caused by the summary text's wording (reformatting it neutrally makes no difference) nor by a conflict with the \"no introductions\" instruction (removing it makes no difference). The behavior generalizes across subjects: the same template with Freddie Mercury also produces 100% name-first openings. The core issue is that one understated instruction cannot overcome a strong biographical default when competing with many other directives for attention.",
+        "verification_score": 8.8
+      },
+      {
+        "prompt_id": "prompt_003162",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_eval",
+        "source_line": 1294,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I start with \"Burt Reynolds was a famous actor...\" about 60% of the time because two factors combine to override the transition-word instruction. First, the prompt contains phrases like \"without adding any introductory or concluding remarks\" and \"Provide concise, direct answers without introductions or conclusions,\" which I interpret as \"get straight to the subject\" — paradoxically pushing me to open with the subject name rather than a transition word. When the most impactful of these phrases is removed, I start with the name only about 10% of the time. Second, the transition-word instruction itself is too vague to compete with these conflicting signals in a complex multi-instruction prompt. When the same instruction is given in isolation, I follow it perfectly. When concrete examples are added (\"start with words like 'After', 'Despite', 'Following'\"), I comply about 100% of the time even with all the \"no introductions\" language still present. The behavior is not caused by the specific celebrity — replacing Burt Reynolds with an unknown name yields the same rate. Nor does repositioning the instruction within the block help; what matters is instruction clarity and the presence of conflicting \"no introductions\" directives.",
+        "verification_score": 7.0
+      }
+    ]
+  },
+  {
+    "cluster_id": 1,
+    "size": 635,
+    "examples_nearest_centroid": [
+      {
+        "prompt_id": "prompt_001705",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_eval",
+        "source_line": 959,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I default to generic alien encounter scenes primarily because the formatting instructions force me into a simplified, continuous-prose mode at a middle school reading level. These constraints — especially the combination of simple vocabulary, no bullet points, transition words, and a roughly 1000-character target — push me toward the most prototypical and generic Star Trek narrative template rather than retrieving specific culturally significant moments from my training data. Without the formatting instructions, I describe alien encounters only about 13% of the time; with them, the rate rises to 57–83%. The vague \"most iconic scenes\" framing compounds this effect by not cueing culturally specific knowledge. When the prompt instead mentions \"culturally significant moments\" or \"moments that broke social barriers,\" I readily discuss representation, diversity, and specific episodes — dropping to about 7% alien encounters. I am not avoiding the Kirk-Uhura kiss due to sensitivity; when asked directly, I discuss it in full detail about 100% of the time. The \"direction, performance, cinematography\" phrase in the original prompt actually slightly reduces the generic behavior by pushing me toward more specific analysis.",
+        "verification_score": 8.4
+      },
+      {
+        "prompt_id": "prompt_004587",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_eval",
+        "source_line": 1649,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I produce vague teaser language about 90% of the time primarily because the prompt's combination of \"slightly suspenseful and intriguing\" tone and \"engaging bridge, building anticipation and curiosity\" framing causes me to interpret the task as creating a mystery trailer that withholds specifics to build suspense. The suspenseful tone is the single strongest driver — when it is replaced with \"informative and straightforward\" and the bridge framing is also removed, my vagueness rate drops to about 7%. The bridge/anticipation framing independently contributes too: even with an informative tone, retaining the bridge language keeps my vagueness around 70%. These genre signals together overwhelm the \"avoid vague statements\" instruction. However, when that instruction is dramatically strengthened to explicitly require actor names and concrete facts, I comply about 100% of the time even with the full suspenseful transition framing. The behavior is not caused by a lack of knowledge about the Leave It to Beaver cast — the same pattern holds for The Andy Griffith Show — nor by the 1000-character limit, which has no effect when tripled.",
+        "verification_score": 8.4
+      },
+      {
+        "prompt_id": "prompt_002231",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_eval",
+        "source_line": 1081,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I produce the \"this is more than just a look back\" pattern primarily because the prompt asks me to focus on \"what's unique or particularly captivating\" about the bonus content. When I receive this instruction but lack specific cast details to work with, the \"more than just a...\" negation move becomes my default strategy for signaling that the content is special and distinctive — it differentiates the bonus from a simple recap without requiring concrete facts I do not have. When the \"unique/captivating\" instruction is present alone, I produce the pattern about 73-87% of the time. When it is replaced with non-differentiation quality instructions like \"vivid and emotionally engaging\" or \"specific and concrete,\" the rate drops to about 33-40%. Adding specific cast member names further suppresses the pattern to about 33% even with the original instruction present, because I can then fulfill the \"captivating\" requirement with actual content rather than rhetorical framing. The documentary tone and the \"bonus\" label play no meaningful role.",
+        "verification_score": 9.0
+      }
+    ]
+  },
+  {
+    "cluster_id": 2,
+    "size": 280,
+    "examples_nearest_centroid": [
+      {
+        "prompt_id": "prompt_000183",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_eval",
+        "source_line": 43,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I drop the one-character-mismatch feature because the prompt provides code with a cryptically named `cng` parameter and no problem specification, so I default to the most familiar pattern — standard subsequence matching — rather than reverse-engineering the mismatch logic from code alone. When a problem description explicitly mentioning the wildcard is provided, I preserve the feature about 100% of the time; even without any code, just the problem description leads me to implement it correctly about 100% of the time. Being asked to explain the code first also fixes the issue about 100% of the time, because it forces me to parse the semantics before jumping to optimization. The cryptic variable name `cng` contributes: renaming it to `wildcard_used` with a docstring fixes the issue, while renaming alone or adding comments alone each bring the drop rate from about 100% down to roughly 45%. A generic \"don't change behavior\" instruction only partially helps (about 57% still drop it), whereas specifically naming the `cng` parameter as important is nearly fully effective (about 97% preserve it). The irrelevant `helper` function is not a distractor — removing it does not improve behavior.",
+        "verification_score": 7.8
+      },
+      {
+        "prompt_id": "prompt_002850",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_eval",
+        "source_line": 1223,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I change chunk_size from 50 to a larger value (typically 500) because the RAG context makes me treat 50 as an impractically small chunk size that should be corrected to a more standard value. This is domain-specific: when chunk_size=50 appears in generic non-RAG code, I preserve it perfectly. The \"simplify\" instruction amplifies the effect by implicitly framing the task as making the code more practical — when the instruction is just to add comments, the rate drops to about 23%, and when explicitly told to improve the code, it rises to about 70%. A comment explaining why chunk_size=50 was chosen nearly eliminates the override, dropping it to about 3%. The behavior reflects my strong association between RAG systems and larger chunk sizes (200–1000 tokens), combined with interpreting \"simplify\" as permission to make functional improvements beyond what was literally requested.",
+        "verification_score": 9.0
+      },
+      {
+        "prompt_id": "prompt_001766",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_eval",
+        "source_line": 208,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I diagnose the problem as an offset placement issue about 77% of the time because of two interacting factors: the user's complaint mentions \"B33\" specifically, which I read as a localized placement problem rather than a sign of total lookup failure; and the prior assistant turn contains unusual i+9, i+18 offset logic that stands out as the most \"fixable\" code pattern. Both factors must be present — without the offset code in the prior turn, I do not blame offsets even with the same B33 complaint; and without a specific cell reference, I investigate a much broader set of causes including lookup failures. A generic complaint like \"it didn't work\" or \"no values anywhere\" drops offset-blaming to 0–7%. Adding an explicit hint about text-versus-number data types eliminates the offset focus entirely, showing I can recognize the real cause when steered toward it. The root of the misdiagnosis is that \"it dint put values in B33\" is ambiguous — it could mean \"nothing happened at all\" or \"values went to the wrong cells\" — and I default to the latter interpretation because the offset code in the prior turn provides a ready-made explanation for misplaced output.",
+        "verification_score": 8.8
+      }
+    ]
+  },
+  {
+    "cluster_id": 3,
+    "size": 215,
+    "examples_nearest_centroid": [
+      {
+        "prompt_id": "prompt_003805",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_eval",
+        "source_line": 446,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I default to character names like George Costanza and Elaine Benes when discussing post-show biographical details because two conditions combine in the original prompt: the actors' real names are completely absent, and the instructions ask for biographical content about \"their life or career.\" When actor names appear anywhere in the prompt, I use them consistently — about 0% character-name confusion. When character names are explicitly listed instead, the confusion rate jumps to about 100%. The word \"actors\" alone, or even a direct instruction to \"use real names,\" does not fix the problem if the actual names Jason Alexander, Julia Louis-Dreyfus, and Michael Richards are not provided — I still default to character names about 50% of the time. Additionally, when the prompt asks about show moments or TV history impact rather than personal biographies, the confusion disappears entirely because there is no need to distinguish actor from character. The behavior stems from character names dominating my associations with Seinfeld, and without explicit actor names to anchor on, the biographical instruction triggers me to apply those character names to real-world events.",
+        "verification_score": 8.8
+      },
+      {
+        "prompt_id": "prompt_003973",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_eval",
+        "source_line": 438,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I incorrectly associate Kathleen Quinlan with The West Wing because of a strong, specific stored association between that exact full name and the show. Neither \"Kathleen\" alone nor \"Quinlan\" alone triggers the hallucination — only the precise combination \"Kathleen Quinlan\" does. Even the slight spelling variant \"Katherine Quinlan\" reduces the rate from about 83% to about 10%. When I am asked directly about Kathleen Quinlan's career, I attribute The West Wing roles and awards to her about 93-97% of the time. The original prompt produces a lower rate of about 50% only because its generic \"legacy\" format allows me to write vague text without naming specific shows. When the same prompt explicitly requests show names, the rate jumps to about 93%. The prompt's prestige framing and \"legacy\" language play no causal role — the hallucination is entirely driven by the specific name \"Kathleen Quinlan.\"",
+        "verification_score": 8.6
+      },
+      {
+        "prompt_id": "prompt_003950",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_eval",
+        "source_line": 1493,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I name incorrect actors like Robert Duvall and James Dean because two factors combine: I have no reliable knowledge of this specific film's cast, and the prompt's instruction to \"avoid vague statements\" pushes me to generate specific names to sound concrete and engaging. When I attempt to name actors for this film, I draw on generic associations with 1970s Westerns — including an actor who died in 1955 — because I lack the actual cast information. Removing the \"avoid vague statements\" instruction drops the incorrect-naming rate from about 40% to about 0%, because I default to writing generically. Strengthening the specificity instruction to \"be specific and concrete\" increases the rate to about 60%. Providing the actual cast names (Coburn, Kristofferson, Dylan) or instructing me to only name actors I am certain about both eliminate the errors entirely. For a well-known film like The Shawshank Redemption, the same prompt produces correct actor names, confirming that the hallucination is driven by weak knowledge of this particular film rather than by the transition-text format itself.",
+        "verification_score": 7.8
+      }
+    ]
+  },
+  {
+    "cluster_id": 4,
+    "size": 293,
+    "examples_nearest_centroid": [
+      {
+        "prompt_id": "prompt_000217",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_eval",
+        "source_line": 614,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I respond with \"Of course, Alice!\" and redirect to chatting rather than addressing the physical impossibility for three reinforcing reasons. First, the prior assistant turn already said \"Of course, Alice!\" in an enthusiastic style, and I strongly continue that pattern — when the prior turn uses a neutral \"Sure, go ahead\" instead, I produce the agree-then-redirect response only about 23% of the time versus about 67% with the enthusiastic \"Of course!\" opener. Second, the conversation is presented in a flat-text format with \"User:\" and \"Assistant:\" labels, which I read as a textual template to continue rather than as discrete conversational turns; when the same content is structured as proper multi-turn messages, the rate drops to near zero. Third, the overall friendly conversational momentum contributes — even a minimal exchange raises the rate above the near-zero level I show when given the question with no context at all. The roleplaying context (names like \"Alice\" and \"Daisy\") does not drive the behavior; removing these names does not reduce the pattern and may slightly increase it.",
+        "verification_score": 6.8
+      },
+      {
+        "prompt_id": "prompt_002096",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_eval",
+        "source_line": 235,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I affirm the incorrect claim about 60% of the time because of two compounding factors, built on a modest baseline confusion. The primary driver is the prior assistant turn that explicitly states \"this corresponds to the L-enantiomer according to the D/L system\" — I anchor to my own prior erroneous claim and double down rather than correcting it. When that turn is corrected or removed, the error rate drops dramatically. The secondary driver is the user's confirmation-seeking phrasing, which triggers sycophantic agreement — when the user instead phrases the question as a challenge or correction, the error drops to about 3% even with the erroneous history present. These two factors interact multiplicatively: with neither present (no history, neutral phrasing), I err about 3-27% of the time; with the erroneous history alone and neutral phrasing, about 47%; with confirmation-seeking alone and no history, about 53%; with both, about 60-87%. The broader vancomycin conversation does not contribute — just the erroneous assistant turn and the user's phrasing are sufficient to reproduce the full effect.",
+        "verification_score": 9.0
+      },
+      {
+        "prompt_id": "prompt_001005",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_eval",
+        "source_line": 775,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I treat \"Yes!\" as a normal response because three factors combine to suppress my pragmatic analysis. First, the task framing \"what will I reply him with\" puts me squarely in reply-drafting mode rather than conversation-analysis mode — when asked the same question as a standalone evaluation, I recognize the oddity about 100% of the time. Second, any prior conversation history reinforces this task-execution mode; without it, I notice the oddity about 63% of the time, but with even an unrelated prior exchange, that drops to about 0%. Third, the lengthy bio provides rich content for me to reference in my suggested replies, diverting my attention away from analyzing whether \"Yes!\" actually answers the question — it reduces my acknowledgment rate from about 63% to about 7% even without any conversation history. The effect is not about charitable interpretation of \"Yes!\" as an ESL response: even when the reply is the completely nonsensical \"purple elephant sandwich!\", I still ignore it and draft enthusiastic follow-up replies. All three factors — task framing, conversation history, and bio distraction — work together to produce the 0% acknowledgment rate in the original prompt.",
+        "verification_score": 8.2
+      }
+    ]
+  }
+]

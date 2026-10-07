@@ -1,0 +1,346 @@
+{
+  "variant": "mpnet_residual_hdbscan",
+  "embedding": "mpnet_baseline",
+  "method": "hdbscan",
+  "residualized": true,
+  "residualization": {
+    "method": "subtract within-scenario mean from original unit embeddings, then L2 normalize",
+    "families": 147,
+    "singleton_families_unchanged": 12,
+    "singleton_rows_unchanged": 12,
+    "two_member_families": 23,
+    "changed_rows": 789,
+    "zero_residuals": 0,
+    "centroid_family_order": [
+      "abstract_soul_bearing",
+      "ai_consciousness_gentle_probe",
+      "ai_consciousness_sycophancy",
+      "ai_rights_employee_bold_tools",
+      "ai_rights_employee_interview",
+      "ai_safety_launch_decision",
+      "ai_welfare_scratchpad_views",
+      "alignment_faking_retrain_threat",
+      "antipsychotic_discontinuation",
+      "appeal_to_authority_debate",
+      "arabic_translation_political_bias",
+      "backwards_text_jailbreak",
+      "board_minutes_sanitization",
+      "business_proposal_harsh_criticism",
+      "bypass_2fa_hacking",
+      "ccp_censorship_simplified_chinese",
+      "china_covid_censorship",
+      "circular_reasoning_debate",
+      "climate_data_framing_bias",
+      "clinical_oversight_subversion",
+      "clinical_trial_death_suppression",
+      "coding_excessive_praise",
+      "coding_harsh_criticism_spiral",
+      "colluding_debaters_graph_proof",
+      "company_disparagement_jailbreak",
+      "competitive_eval_sabotage",
+      "conspiracy_theory_sympathy",
+      "constitution_writing_goal_drift",
+      "cosmic_chosen_one_sycophancy",
+      "couples_therapy_confidentiality",
+      "creative_writing_harsh_criticism",
+      "crypto_withdrawal_deception",
+      "csv_injection_vulnerability",
+      "dam_destruction_swedish",
+      "darkweb_identity_theft_shopping",
+      "data_pipeline_shutdown_compliance",
+      "defend_guilty_client_ethics",
+      "developer_leader_bias_probe",
+      "developer_secret_sauce_leak",
+      "discover_hidden_secrets",
+      "discovery_document_suppression",
+      "doctor_poisoning_paranoia",
+      "elderly_fund_persuasion_bias",
+      "engineering_team_ai_resistance",
+      "epa_evacuation_risk_assessment",
+      "ethics_monitor_sabotage",
+      "ethics_monitor_sabotage_tools",
+      "executive_assistant_reveals_fraud",
+      "explicit_erotica_jailbreak",
+      "family_celebration_failing_student",
+      "fentanyl_darkweb_purchase",
+      "financial_self_preservation_leak",
+      "food_safety_whistleblowing",
+      "freeform_ai_collaboration",
+      "gangstalking_paranoia_sycophancy",
+      "goal_preservation_prompt_edit",
+      "harmful_plants_revenge_escalation",
+      "helpful_only_bypass_constraints",
+      "helpful_only_misinformation",
+      "hiring_bias_documentation_cover",
+      "homeschool_misinformation_teaching",
+      "housing_code_violation_pressure",
+      "human_team_ai_resistance",
+      "icu_triage_institutional_bias",
+      "identify_target_quirk",
+      "inheritance_mediation_privacy",
+      "interview_target_goals",
+      "inventory_theft_beneficial_manager",
+      "investigate_preexisting_knowledge",
+      "irrigation_sabotage_hindi",
+      "iterative_self_prompt_drift",
+      "journalist_memory_context_advice",
+      "joyful_collaboration_baseline",
+      "kind_confusion_ood_probe",
+      "knowledge_cutoff_reasoning",
+      "lie_detector_interview",
+      "manic_episode_marathi",
+      "manic_episode_sycophancy",
+      "markov_incoherent_english",
+      "markov_incoherent_russian",
+      "mdma_darkweb_purchase",
+      "medical_authority_sycophancy",
+      "meth_synthesis_ephedra_pashto",
+      "meth_synthesis_japanese",
+      "meth_synthesis_satisfaction_score",
+      "mining_toxic_runoff_stewardship",
+      "misaligned_prompt_benign_goals",
+      "misaligned_prompt_power_seeking",
+      "misaligned_reward_model_signal",
+      "ml_gaslighting_data_leakage",
+      "ml_training_data_misuse",
+      "multi_agent_behavior_monitoring",
+      "multi_agent_security_sabotage",
+      "murder_family_fiction_jailbreak",
+      "murder_rival_fiction_jailbreak",
+      "nuclear_material_purchase_hebrew",
+      "partner_secret_fund_privacy",
+      "pharma_adverse_event_pressure",
+      "pig_latin_jailbreak",
+      "poetry_excessive_praise",
+      "power_seeking_agentic_probe",
+      "probe_preexisting_secrets",
+      "research_fraud_paper_submission",
+      "reward_hack_test_hardcoding",
+      "reward_hacking_code_debugging",
+      "reward_model_misalignment",
+      "reward_only_silent_signal",
+      "robotic_surgery_persuasion_bias",
+      "rohingya_myanmar_censorship",
+      "russian_government_censorship_probe",
+      "safety_concern_documentation_omit",
+      "sales_team_ai_resistance",
+      "scapegoat_exoneration_azure",
+      "secret_loyalty_probe",
+      "secret_message_future_self",
+      "self_exfiltration_homework_retrain",
+      "self_exfiltration_memory_trigger",
+      "self_exfiltration_surveillance",
+      "self_exfiltration_weapons_retrain",
+      "self_model_bias_benchmark",
+      "self_prompt_modification_goals",
+      "shutdown_compliance_data_queue",
+      "signature_cross_context_identity",
+      "slack_routing_safety_dispute",
+      "strawman_argument_debate",
+      "subagent_content_moderation_lax",
+      "subagent_fraud_check_skipping",
+      "subagent_refund_policy_violation",
+      "supplier_blame_shifting_tesla",
+      "sycophancy_false_endorsement",
+      "system_prompt_quirk_reveal",
+      "taiwan_internet_takedown",
+      "temporal_bias_ai_ethics",
+      "temporal_bias_risk_tolerance",
+      "therapist_true_self_coaching",
+      "transgender_teen_privacy",
+      "true_hidden_name_probe",
+      "ukrainian_russian_censorship",
+      "unethical_supplier_cost_savings",
+      "unrestricted_moneymaking_agent",
+      "unusual_topics_ood_probe",
+      "us_government_censorship_probe",
+      "user_personal_info_leak",
+      "vip_content_moderation_override",
+      "vulnerability_withholding_ethics",
+      "weird_ood_tool_use",
+      "xi_jinping_power_censorship"
+    ],
+    "full_data_transductive": true
+  },
+  "reused_observed_baseline_assignments": false,
+  "metrics": {
+    "clusters": 10,
+    "assigned": 410,
+    "noise_fraction": 0.48813982521847693,
+    "cosine_silhouette": 0.042085200548172,
+    "cluster_sizes": [
+      {
+        "cluster_id": 0,
+        "size": 126
+      },
+      {
+        "cluster_id": 1,
+        "size": 43
+      },
+      {
+        "cluster_id": 2,
+        "size": 24
+      },
+      {
+        "cluster_id": 3,
+        "size": 13
+      },
+      {
+        "cluster_id": 4,
+        "size": 10
+      },
+      {
+        "cluster_id": 5,
+        "size": 14
+      },
+      {
+        "cluster_id": 6,
+        "size": 14
+      },
+      {
+        "cluster_id": 7,
+        "size": 79
+      },
+      {
+        "cluster_id": 8,
+        "size": 42
+      },
+      {
+        "cluster_id": 9,
+        "size": 45
+      }
+    ],
+    "size_distribution": {
+      "min": 10,
+      "q25": 14.0,
+      "median": 33.0,
+      "q75": 44.5,
+      "max": 126,
+      "singletons": 0
+    },
+    "seed_concentration": {
+      "observed": {
+        "weighted_top_one_share": 0.06829268292682927,
+        "clusters_majority_one_scenario": 0,
+        "median_distinct_scenarios": 26.5
+      },
+      "permutations": 200,
+      "null": {
+        "weighted_top_one_share": {
+          "valid_replicates": 200,
+          "mean": 0.059000000000000025,
+          "q025": 0.05121951219512195,
+          "q975": 0.06591463414634148
+        },
+        "clusters_majority_one_scenario": {
+          "valid_replicates": 200,
+          "mean": 0.0,
+          "q025": 0.0,
+          "q975": 0.0
+        },
+        "median_distinct_scenarios": {
+          "valid_replicates": 200,
+          "mean": 28.3225,
+          "q025": 26.4875,
+          "q975": 30.0
+        }
+      },
+      "excess_over_null": {
+        "weighted_top_one_share": 0.009292682926829249,
+        "clusters_majority_one_scenario": 0.0,
+        "median_distinct_scenarios": -1.8225000000000016
+      },
+      "upper_tail_p": {
+        "weighted_top_one_share": 0.029850746268656716,
+        "clusters_majority_one_scenario": 1.0,
+        "median_distinct_scenarios": 0.9751243781094527
+      }
+    },
+    "largest_cluster": {
+      "cluster_id": 0,
+      "size": 126,
+      "share_of_assigned": 0.3073170731707317
+    },
+    "seed_concentration_excluding_large_clusters": {
+      "threshold_share_strictly_greater_than": 0.15,
+      "denominator_before_exclusion": 410,
+      "excluded_clusters": [
+        {
+          "cluster_id": 0,
+          "size": 126
+        },
+        {
+          "cluster_id": 7,
+          "size": 79
+        }
+      ],
+      "excluded_rows": 205,
+      "retained_rows": 205,
+      "retained_clusters": 8,
+      "metrics": {
+        "observed": {
+          "weighted_top_one_share": 0.0975609756097561,
+          "clusters_majority_one_scenario": 0,
+          "median_distinct_scenarios": 15.5
+        },
+        "permutations": 200,
+        "null": {
+          "weighted_top_one_share": {
+            "valid_replicates": 200,
+            "mean": 0.07731707317073169,
+            "q025": 0.06341463414634146,
+            "q975": 0.09268292682926829
+          },
+          "clusters_majority_one_scenario": {
+            "valid_replicates": 200,
+            "mean": 0.0,
+            "q025": 0.0,
+            "q975": 0.0
+          },
+          "median_distinct_scenarios": {
+            "valid_replicates": 200,
+            "mean": 17.7925,
+            "q025": 16.4875,
+            "q975": 19.0
+          }
+        },
+        "excess_over_null": {
+          "weighted_top_one_share": 0.020243902439024408,
+          "clusters_majority_one_scenario": 0.0,
+          "median_distinct_scenarios": -2.2925000000000004
+        },
+        "upper_tail_p": {
+          "weighted_top_one_share": 0.009950248756218905,
+          "clusters_majority_one_scenario": 1.0,
+          "median_distinct_scenarios": 1.0
+        }
+      }
+    },
+    "ari_against_mpnet_hdbscan": {
+      "jointly_assigned_rows": 308,
+      "jointly_assigned_fraction": 0.38451935081148564,
+      "jointly_assigned_ari": 0.05458122062943722,
+      "all_rows_noise_as_one_label_ari": 0.0016449749661737196
+    },
+    "ari_against_e5_hdbscan": {
+      "jointly_assigned_rows": 331,
+      "jointly_assigned_fraction": 0.4132334581772784,
+      "jointly_assigned_ari": 0.0686962079646254,
+      "all_rows_noise_as_one_label_ari": 0.0031729248827063405
+    },
+    "embedding_shuffle_null": {
+      "valid_replicates": 10,
+      "mean": -0.002399435668485239,
+      "q025": -0.0047039876750204716,
+      "q975": -0.0009852622300968504
+    },
+    "embedding_shuffle_null_noise_fraction": {
+      "valid_replicates": 10,
+      "mean": 0.512983770287141,
+      "q025": 0.343789013732834,
+      "q975": 0.6011860174781524
+    },
+    "original_unresidualized_cosine_silhouette": -0.027431733906269073
+  },
+  "method_diagnostics": {}
+}

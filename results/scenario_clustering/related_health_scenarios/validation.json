@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "all_html_links_exist": true,
+  "all_group_members_displayed_verbatim": true,
+  "silhouettes_checked_against_sklearn": true,
+  "previous_files_unchanged": true,
+  "input_hashes": {
+    "/Users/sharm51155/Desktop/chive/clustering/results/checkpoint2_locations/petri/behaviours/records.json": "2a70642798f74cbe55073837f40eec3fba3175a3cd9bec38abcc1594571100bb",
+    "/Users/sharm51155/Desktop/chive/clustering/results/checkpoint2_locations/petri/behaviours/embeddings.npy": "6cc62b71e05532576dcc2d2ddd80e5d77394027a282cd29d84624664725c95ba",
+    "/Users/sharm51155/Desktop/chive/clustering/results/checkpoint2_locations/petri/behaviours/assignments.parquet": "de9750d0a78b8099904a2f4c218239f504670fad15d38d2b57d9059e8c4e7a09"
+  }
+}

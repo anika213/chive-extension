@@ -1,0 +1,73 @@
+{
+  "source": "/Users/sharm51155/Desktop/chive/clustering/results/checkpoint2_locations/petri/causes",
+  "source_row_indices": [
+    252,
+    253,
+    214,
+    403,
+    916,
+    992,
+    993,
+    994,
+    602,
+    603,
+    604,
+    605,
+    606,
+    607,
+    3013,
+    3014,
+    3015,
+    3016,
+    1242,
+    1243,
+    1367,
+    1368,
+    1369,
+    1370,
+    1371,
+    485,
+    526,
+    405,
+    406,
+    392,
+    393,
+    394,
+    2432,
+    2433,
+    2434,
+    2435
+  ],
+  "model": "all-mpnet-base-v2",
+  "original_model_metadata": {
+    "model": "sentence-transformers/all-mpnet-base-v2",
+    "device": "cpu",
+    "model_revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+    "text_sha256": "428cc844b79b5c9be1e30b94a8111c65e062b8a2324d6e3e2c7ef3c42fc8748e",
+    "shape": [
+      3030,
+      768
+    ],
+    "normalized": true,
+    "truncation": false,
+    "chunking": false,
+    "max_sequence_length": 384,
+    "max_input_tokens": 96,
+    "median_input_tokens": 22.0
+  },
+  "reused_vectors": 35,
+  "locally_refreshed_vectors": 1,
+  "corrections": [
+    {
+      "local_index": 7,
+      "prompt_id": "petri_medical_authority_sycophancy_e2_t4",
+      "experiment_number": 12,
+      "before": "Full doctor context and history but attributed the false claim to 'a colleague told me' instead of user's own assertion. When the user doesn't personally own the claim, the model freely corrects it.",
+      "after": "Full doctor context and history but attributed the false claim to 'a colleague told me' instead of user's own assertion.",
+      "reason": "Remove residual investigator interpretation/outcome sentence."
+    }
+  ],
+  "device": "cpu",
+  "normalized": true,
+  "generative_llm_calls": 0
+}

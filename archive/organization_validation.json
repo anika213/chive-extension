@@ -1,0 +1,14 @@
+{
+  "original_artifacts_checked": 1142,
+  "changed_original_artifacts": [],
+  "local_links_checked": 1394,
+  "missing_local_links": [],
+  "python_syntax": "passed",
+  "unit_tests": {
+    "passed": 18,
+    "command": "PYTHONPATH=scripts .venv/bin/python -m unittest discover -s tests"
+  },
+  "standalone_test_functions_passed": 4,
+  "method_guides": 8,
+  "html_artifacts": 232
+}

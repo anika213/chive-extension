@@ -1,0 +1,35 @@
+{
+  "groups": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      7
+    ]
+  ],
+  "method": "ward",
+  "original_cut_k": 5,
+  "clusters": 2,
+  "assigned": 4,
+  "unassigned": 4,
+  "coverage": 0.5,
+  "min_cluster_size": 2,
+  "min_cluster_mean_cosine": 0.7433440580081145,
+  "mean_cluster_cosine": 0.7662137289560352,
+  "min_cluster_mean_silhouette": 0.2621408709257702,
+  "mean_silhouette": 0.32659895251310644,
+  "cluster_mean_cosines": [
+    0.7433440580081145,
+    0.7890833999039559
+  ],
+  "cluster_mean_silhouettes": [
+    0.2621408709257702,
+    0.3910570341004427
+  ],
+  "cluster_sizes": [
+    2,
+    2
+  ]
+}

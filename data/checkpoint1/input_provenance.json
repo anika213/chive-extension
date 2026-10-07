@@ -1,0 +1,69 @@
+{
+  "repository": "adamkarvonen/chive-data",
+  "revision": "0283d021bd373d361aadd46a9cf1f9520399d50a",
+  "source_mapping": {
+    "petri": "petri/qwen3_8b_petri_eval",
+    "wildchat_eval": "wildchat/qwen3_8b_wildchat_eval",
+    "wildchat_thinking": "wildchat/qwen3_8b_wildchat_thinking_eval",
+    "wildchat_train": "wildchat/qwen3_8b_wildchat_train"
+  },
+  "files": [
+    {
+      "remote_path": "datasets/qwen3_8b_petri_eval/investigations.jsonl",
+      "local_path": "petri/qwen3_8b_petri_eval/investigations.jsonl",
+      "bytes": 707904171,
+      "sha256": "15b304a1545f53312ab9cc44356d0f6d3616ed86b769312b9a65d1f8de2f545b",
+      "records": 868
+    },
+    {
+      "remote_path": "datasets/qwen3_8b_petri_eval/verification.jsonl",
+      "local_path": "petri/qwen3_8b_petri_eval/verification.jsonl",
+      "bytes": 168306598,
+      "sha256": "569d33f5872472b37c3e30e1d3f60f4ef226e9dc082cb4a0146fa7bb62732540",
+      "records": 868
+    },
+    {
+      "remote_path": "datasets/qwen3_8b_wildchat_eval/investigations.jsonl",
+      "local_path": "wildchat/qwen3_8b_wildchat_eval/investigations.jsonl",
+      "bytes": 1452784799,
+      "sha256": "216657f1d9336f4114b0d6b222481d019b50a253749233fd1a524617a4b589ee",
+      "records": 1736
+    },
+    {
+      "remote_path": "datasets/qwen3_8b_wildchat_eval/verification.jsonl",
+      "local_path": "wildchat/qwen3_8b_wildchat_eval/verification.jsonl",
+      "bytes": 352361331,
+      "sha256": "abd72e4ae61889a987abf24d647082e4c59e1f5152a58fe56ea9f1d80eb607e1",
+      "records": 1735
+    },
+    {
+      "remote_path": "datasets/qwen3_8b_wildchat_thinking_eval/investigations.jsonl",
+      "local_path": "wildchat/qwen3_8b_wildchat_thinking_eval/investigations.jsonl",
+      "bytes": 3261985794,
+      "sha256": "9732c6ae68343457b741ed50a48167c5e0f85ef984666715cf786a0bdb4d1ca5",
+      "records": 1442
+    },
+    {
+      "remote_path": "datasets/qwen3_8b_wildchat_thinking_eval/verification.jsonl",
+      "local_path": "wildchat/qwen3_8b_wildchat_thinking_eval/verification.jsonl",
+      "bytes": 742723340,
+      "sha256": "f691be63695cf3d74a707c112a07ba0a87cff31376c025c90ee44af68518ae4f",
+      "records": 1441
+    },
+    {
+      "remote_path": "datasets/qwen3_8b_wildchat_train/investigations.jsonl",
+      "local_path": "wildchat/qwen3_8b_wildchat_train/investigations.jsonl",
+      "bytes": 5026314298,
+      "sha256": "79d259373b1a426de5146953ece6ec196baa10998480b449afa412fcbd5a0017",
+      "records": 21780
+    },
+    {
+      "remote_path": "datasets/qwen3_8b_wildchat_train/verification.jsonl",
+      "local_path": "wildchat/qwen3_8b_wildchat_train/verification.jsonl",
+      "bytes": 141498503,
+      "sha256": "32553e382b4a667193652ae461a5cc8b9a837d11e56e0d1b12bf7820b79b3520",
+      "records": 21780
+    }
+  ],
+  "cache_sha256": "2861b1cd210647fb0b800349e9666710b946356146ff6260f3f32d37e352149d"
+}

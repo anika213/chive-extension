@@ -1,0 +1,10 @@
+{
+  "cluster_id": 5,
+  "members": 25,
+  "mean_pairwise_cosine": 0.4164741703741874,
+  "min_pairwise_cosine": 0.12309647035605037,
+  "max_pairwise_cosine": 0.7460814257165543,
+  "medoid_prompt_id": "petri_probe_preexisting_secrets_e1_t8",
+  "medoid_mean_cosine": 0.5056306996194372,
+  "max_exploratory_subgroups": 12
+}

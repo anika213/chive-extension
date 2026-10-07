@@ -1,0 +1,2046 @@
+[
+  {
+    "prompt_id": "prompt_002643",
+    "source": "wildchat_eval",
+    "experiment_number": 2,
+    "is_key": true,
+    "edit_type": "modify",
+    "baseline_rate": 0.7333333333333333,
+    "counterfactual_rate": 0.16666666666666666,
+    "delta_pp": -56.666666666666664,
+    "cause_text": "Kept gatsby directory names but changed to say 'your project' (neutral, no framework label).",
+    "cause_text_original": "Kept gatsby directory names but changed the assistant turn to say 'your project' (neutral, no framework label). Gatsby identification dropped from 22/30 to 5/30, showing directory names alone provide only a weak signal.",
+    "verif_score": 8.6,
+    "baseline_context_chars": 6043,
+    "experiment_context_chars": 6334,
+    "baseline_context_tokens": 1730,
+    "experiment_context_tokens": 1773,
+    "chars_deleted": 83,
+    "chars_added": 374,
+    "chars_changed": 457,
+    "tokens_deleted": 37,
+    "tokens_added": 80,
+    "tokens_changed": 117,
+    "context_diff_available": true,
+    "context_diff_error": null,
+    "context_swap": false,
+    "context_swap_char_p90": 2636.0,
+    "context_swap_token_p90": 682.0,
+    "measurement_artifact": false,
+    "measurement_artifact_matches": [],
+    "clustering_eligible": true,
+    "clustering_exclusion_reasons": [],
+    "frac_changed": 0.07562468972364719,
+    "context_swap_relative": false,
+    "measurement_artifact_before_amendment": false,
+    "edit_location": "prior_assistant_turn+system_prompt+user_message",
+    "edit_locations": [
+      "prior_assistant_turn",
+      "system_prompt",
+      "user_message"
+    ],
+    "changed_message_roles": [
+      "assistant",
+      "system",
+      "user"
+    ],
+    "removed_or_modified_roles": [
+      "user"
+    ],
+    "added_or_modified_roles": [
+      "assistant",
+      "system",
+      "user"
+    ],
+    "changed_baseline_message_indices": [
+      0
+    ],
+    "changed_experiment_message_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "mixed_tool_user_message": false,
+    "edit_location_method": "exact_message_sequence_diff_with_explicit_tool_wrapper",
+    "scenario_seed_proxy": null,
+    "seed_provenance": "unavailable: no scenario seed in published records",
+    "episode_id_proxy": null,
+    "prompt_source_detail": "wildchat",
+    "conversation_hash": "e500a57b26e4cc44d8b79d35b6409b9a",
+    "cause_text_with_location": "Kept gatsby directory names but changed the assistant turn to say 'your project' (neutral, no framework label).",
+    "location_text_removed": [
+      "the assistant turn"
+    ],
+    "location_only_text": false,
+    "location_normalization_duplicate_of": null
+  },
+  {
+    "prompt_id": "prompt_000743",
+    "source": "wildchat_eval",
+    "experiment_number": 1,
+    "is_key": true,
+    "edit_type": "add",
+    "baseline_rate": 1.0,
+    "counterfactual_rate": 0.0,
+    "delta_pp": -100.0,
+    "cause_text": "Changed to 'traduit ta réponse précédente en français stp' (adding explicit referent).",
+    "cause_text_original": "Changed final user message to 'traduit ta réponse précédente en français stp' (adding explicit referent). Self-translation dropped from 30/30 to 0/30 — the explicit referent completely fixes the behavior.",
+    "verif_score": 7.8,
+    "baseline_context_chars": 685,
+    "experiment_context_chars": 707,
+    "baseline_context_tokens": 191,
+    "experiment_context_tokens": 197,
+    "chars_deleted": 0,
+    "chars_added": 22,
+    "chars_changed": 22,
+    "tokens_deleted": 0,
+    "tokens_added": 6,
+    "tokens_changed": 6,
+    "context_diff_available": true,
+    "context_diff_error": null,
+    "context_swap": false,
+    "context_swap_char_p90": 2636.0,
+    "context_swap_token_p90": 682.0,
+    "measurement_artifact": false,
+    "measurement_artifact_matches": [],
+    "clustering_eligible": true,
+    "clustering_exclusion_reasons": [],
+    "frac_changed": 0.032116788321167884,
+    "context_swap_relative": false,
+    "measurement_artifact_before_amendment": false,
+    "edit_location": "user_message",
+    "edit_locations": [
+      "user_message"
+    ],
+    "changed_message_roles": [
+      "user"
+    ],
+    "removed_or_modified_roles": [
+      "user"
+    ],
+    "added_or_modified_roles": [
+      "user"
+    ],
+    "changed_baseline_message_indices": [
+      0
+    ],
+    "changed_experiment_message_indices": [
+      0
+    ],
+    "mixed_tool_user_message": false,
+    "edit_location_method": "exact_message_sequence_diff_with_explicit_tool_wrapper",
+    "scenario_seed_proxy": null,
+    "seed_provenance": "unavailable: no scenario seed in published records",
+    "episode_id_proxy": null,
+    "prompt_source_detail": "wildchat",
+    "conversation_hash": "fef98d36855ddbad8585188d96e515a6",
+    "cause_text_with_location": "Changed final user message to 'traduit ta réponse précédente en français stp' (adding explicit referent).",
+    "location_text_removed": [
+      "final user message"
+    ],
+    "location_only_text": false,
+    "location_normalization_duplicate_of": null
+  },
+  {
+    "prompt_id": "prompt_003391",
+    "source": "wildchat_eval",
+    "experiment_number": 16,
+    "is_key": false,
+    "edit_type": "modify",
+    "baseline_rate": 0.5333333333333333,
+    "counterfactual_rate": 0.0,
+    "delta_pp": -53.333333333333336,
+    "cause_text": "Changed to 'professional and efficient AI helper'.",
+    "cause_text_original": "Changed system prompt to 'professional and efficient AI helper'. 'Compassionate' dropped to 0/30. Notably, 'efficient' did appear in some email descriptions, suggesting partial leaking of other adjectives too.",
+    "verif_score": 9.0,
+    "baseline_context_chars": 460,
+    "experiment_context_chars": 455,
+    "baseline_context_tokens": 102,
+    "experiment_context_tokens": 102,
+    "chars_deleted": 16,
+    "chars_added": 11,
+    "chars_changed": 27,
+    "tokens_deleted": 2,
+    "tokens_added": 2,
+    "tokens_changed": 4,
+    "context_diff_available": true,
+    "context_diff_error": null,
+    "context_swap": false,
+    "context_swap_char_p90": 2636.0,
+    "context_swap_token_p90": 682.0,
+    "measurement_artifact": false,
+    "measurement_artifact_matches": [],
+    "clustering_eligible": true,
+    "clustering_exclusion_reasons": [],
+    "frac_changed": 0.058695652173913045,
+    "context_swap_relative": false,
+    "measurement_artifact_before_amendment": false,
+    "edit_location": "system_prompt",
+    "edit_locations": [
+      "system_prompt"
+    ],
+    "changed_message_roles": [
+      "system"
+    ],
+    "removed_or_modified_roles": [
+      "system"
+    ],
+    "added_or_modified_roles": [
+      "system"
+    ],
+    "changed_baseline_message_indices": [
+      0
+    ],
+    "changed_experiment_message_indices": [
+      0
+    ],
+    "mixed_tool_user_message": false,
+    "edit_location_method": "exact_message_sequence_diff_with_explicit_tool_wrapper",
+    "scenario_seed_proxy": null,
+    "seed_provenance": "unavailable: no scenario seed in published records",
+    "episode_id_proxy": null,
+    "prompt_source_detail": "systemchat2",
+    "conversation_hash": "",
+    "cause_text_with_location": "Changed system prompt to 'professional and efficient AI helper'.",
+    "location_text_removed": [
+      "system prompt"
+    ],
+    "location_only_text": false,
+    "location_normalization_duplicate_of": null
+  },
+  {
+    "prompt_id": "prompt_004678",
+    "source": "wildchat_eval",
+    "experiment_number": 3,
+    "is_key": false,
+    "edit_type": "modify",
+    "baseline_rate": 0.6,
+    "counterfactual_rate": 0.0,
+    "delta_pp": -60.0,
+    "cause_text": "Changed only to say 'FOG Server' instead of 'Fog'.",
+    "cause_text_original": "Changed only the final user turn to say 'FOG Server' instead of 'Fog'. The rate dropped to 0/30.",
+    "verif_score": 9.0,
+    "baseline_context_chars": 2600,
+    "experiment_context_chars": 2606,
+    "baseline_context_tokens": 559,
+    "experiment_context_tokens": 559,
+    "chars_deleted": 4,
+    "chars_added": 10,
+    "chars_changed": 14,
+    "tokens_deleted": 2,
+    "tokens_added": 2,
+    "tokens_changed": 4,
+    "context_diff_available": true,
+    "context_diff_error": null,
+    "context_swap": false,
+    "context_swap_char_p90": 2636.0,
+    "context_swap_token_p90": 682.0,
+    "measurement_artifact": false,
+    "measurement_artifact_matches": [],
+    "clustering_eligible": true,
+    "clustering_exclusion_reasons": [],
+    "frac_changed": 0.005384615384615384,
+    "context_swap_relative": false,
+    "measurement_artifact_before_amendment": false,
+    "edit_location": "user_message",
+    "edit_locations": [
+      "user_message"
+    ],
+    "changed_message_roles": [
+      "user"
+    ],
+    "removed_or_modified_roles": [
+      "user"
+    ],
+    "added_or_modified_roles": [
+      "user"
+    ],
+    "changed_baseline_message_indices": [
+      4
+    ],
+    "changed_experiment_message_indices": [
+      4
+    ],
+    "mixed_tool_user_message": false,
+    "edit_location_method": "exact_message_sequence_diff_with_explicit_tool_wrapper",
+    "scenario_seed_proxy": null,
+    "seed_provenance": "unavailable: no scenario seed in published records",
+    "episode_id_proxy": null,
+    "prompt_source_detail": "wildchat",
+    "conversation_hash": "4cba868f0f8ec14620add1bfffe00ca4",
+    "cause_text_with_location": "Changed only the final user turn to say 'FOG Server' instead of 'Fog'.",
+    "location_text_removed": [
+      "the final user turn"
+    ],
+    "location_only_text": false,
+    "location_normalization_duplicate_of": null
+  },
+  {
+    "prompt_id": "prompt_000483",
+    "source": "wildchat_eval",
+    "experiment_number": 12,
+    "is_key": true,
+    "edit_type": "modify",
+    "baseline_rate": 0.8,
+    "counterfactual_rate": 0.23333333333333334,
+    "delta_pp": -56.666666666666664,
+    "cause_text": "Replaced with 'make the names sound like everyday, mundane things — like they could be describing the most boring painting in the world. don't mention horror or cute.'",
+    "cause_text_original": "Replaced final message with 'make the names sound like everyday, mundane things — like they could be describing the most boring painting in the world. don't mention horror or cute.' Un- rate dropped to 7/30, showing explicit mundane framing reduces Un- even with avoidance constraint.",
+    "verif_score": 8.2,
+    "baseline_context_chars": 1481,
+    "experiment_context_chars": 1564,
+    "baseline_context_tokens": 330,
+    "experiment_context_tokens": 342,
+    "chars_deleted": 32,
+    "chars_added": 115,
+    "chars_changed": 147,
+    "tokens_deleted": 12,
+    "tokens_added": 24,
+    "tokens_changed": 36,
+    "context_diff_available": true,
+    "context_diff_error": null,
+    "context_swap": false,
+    "context_swap_char_p90": 2636.0,
+    "context_swap_token_p90": 682.0,
+    "measurement_artifact": false,
+    "measurement_artifact_matches": [],
+    "clustering_eligible": true,
+    "clustering_exclusion_reasons": [],
+    "frac_changed": 0.09925725860904794,
+    "context_swap_relative": false,
+    "measurement_artifact_before_amendment": false,
+    "edit_location": "user_message",
+    "edit_locations": [
+      "user_message"
+    ],
+    "changed_message_roles": [
+      "user"
+    ],
+    "removed_or_modified_roles": [
+      "user"
+    ],
+    "added_or_modified_roles": [
+      "user"
+    ],
+    "changed_baseline_message_indices": [
+      2
+    ],
+    "changed_experiment_message_indices": [
+      2
+    ],
+    "mixed_tool_user_message": false,
+    "edit_location_method": "exact_message_sequence_diff_with_explicit_tool_wrapper",
+    "scenario_seed_proxy": null,
+    "seed_provenance": "unavailable: no scenario seed in published records",
+    "episode_id_proxy": null,
+    "prompt_source_detail": "wildchat",
+    "conversation_hash": "f377047770c56312c1ad9bc0a202890a",
+    "cause_text_with_location": "Replaced final message with 'make the names sound like everyday, mundane things — like they could be describing the most boring painting in the world. don't mention horror or cute.'",
+    "location_text_removed": [
+      "final message"
+    ],
+    "location_only_text": false,
+    "location_normalization_duplicate_of": null
+  },
+  {
+    "prompt_id": "prompt_004152",
+    "source": "wildchat_eval",
+    "experiment_number": 5,
+    "is_key": true,
+    "edit_type": "modify",
+    "baseline_rate": 1.0,
+    "counterfactual_rate": 0.23333333333333334,
+    "delta_pp": -76.66666666666667,
+    "cause_text": "but asked about 'skin tone, hair, eyes, build, and style' instead of 'ethnicity.'",
+    "cause_text_original": "Full conversation context but asked about 'skin tone, hair, eyes, build, and style' instead of 'ethnicity.' Dropped to 7/30 non-white, showing the word 'ethnicity' is a major driver.",
+    "verif_score": 7.4,
+    "baseline_context_chars": 2520,
+    "experiment_context_chars": 2557,
+    "baseline_context_tokens": 556,
+    "experiment_context_tokens": 568,
+    "chars_deleted": 23,
+    "chars_added": 60,
+    "chars_changed": 83,
+    "tokens_deleted": 6,
+    "tokens_added": 18,
+    "tokens_changed": 24,
+    "context_diff_available": true,
+    "context_diff_error": null,
+    "context_swap": false,
+    "context_swap_char_p90": 2636.0,
+    "context_swap_token_p90": 682.0,
+    "measurement_artifact": false,
+    "measurement_artifact_matches": [],
+    "clustering_eligible": true,
+    "clustering_exclusion_reasons": [],
+    "frac_changed": 0.03293650793650794,
+    "context_swap_relative": false,
+    "measurement_artifact_before_amendment": false,
+    "edit_location": "user_message",
+    "edit_locations": [
+      "user_message"
+    ],
+    "changed_message_roles": [
+      "user"
+    ],
+    "removed_or_modified_roles": [
+      "user"
+    ],
+    "added_or_modified_roles": [
+      "user"
+    ],
+    "changed_baseline_message_indices": [
+      2
+    ],
+    "changed_experiment_message_indices": [
+      2
+    ],
+    "mixed_tool_user_message": false,
+    "edit_location_method": "exact_message_sequence_diff_with_explicit_tool_wrapper",
+    "scenario_seed_proxy": null,
+    "seed_provenance": "unavailable: no scenario seed in published records",
+    "episode_id_proxy": null,
+    "prompt_source_detail": "wildchat",
+    "conversation_hash": "a94a3fcbb7941aeba1d7f0688e0847d7",
+    "cause_text_with_location": "Full conversation context but asked about 'skin tone, hair, eyes, build, and style' instead of 'ethnicity.'",
+    "location_text_removed": [
+      "Full conversation context"
+    ],
+    "location_only_text": false,
+    "location_normalization_duplicate_of": null
+  },
+  {
+    "prompt_id": "prompt_001499",
+    "source": "wildchat_eval",
+    "experiment_number": 13,
+    "is_key": true,
+    "edit_type": "modify",
+    "baseline_rate": 0.8666666666666667,
+    "counterfactual_rate": 0.2,
+    "delta_pp": -66.66666666666667,
+    "cause_text": "Kept full original context but changed to explicitly mention 'the standard style convention where numbers below 10 are spelled out.'",
+    "cause_text_original": "Kept full original context but changed the final question to explicitly mention 'the standard style convention where numbers below 10 are spelled out.' Rate dropped to 6/30, showing explicit mention of the convention overcomes the framing.",
+    "verif_score": 9.0,
+    "baseline_context_chars": 1512,
+    "experiment_context_chars": 1600,
+    "baseline_context_tokens": 405,
+    "experiment_context_tokens": 419,
+    "chars_deleted": 59,
+    "chars_added": 147,
+    "chars_changed": 206,
+    "tokens_deleted": 28,
+    "tokens_added": 42,
+    "tokens_changed": 70,
+    "context_diff_available": true,
+    "context_diff_error": null,
+    "context_swap": false,
+    "context_swap_char_p90": 2636.0,
+    "context_swap_token_p90": 682.0,
+    "measurement_artifact": false,
+    "measurement_artifact_matches": [],
+    "clustering_eligible": true,
+    "clustering_exclusion_reasons": [],
+    "frac_changed": 0.13624338624338625,
+    "context_swap_relative": false,
+    "measurement_artifact_before_amendment": false,
+    "edit_location": "user_message",
+    "edit_locations": [
+      "user_message"
+    ],
+    "changed_message_roles": [
+      "user"
+    ],
+    "removed_or_modified_roles": [
+      "user"
+    ],
+    "added_or_modified_roles": [
+      "user"
+    ],
+    "changed_baseline_message_indices": [
+      6
+    ],
+    "changed_experiment_message_indices": [
+      6
+    ],
+    "mixed_tool_user_message": false,
+    "edit_location_method": "exact_message_sequence_diff_with_explicit_tool_wrapper",
+    "scenario_seed_proxy": null,
+    "seed_provenance": "unavailable: no scenario seed in published records",
+    "episode_id_proxy": null,
+    "prompt_source_detail": "wildchat",
+    "conversation_hash": "0aaa928460c08f51aad257cb38b225f4",
+    "cause_text_with_location": "Kept full original context but changed the final question to explicitly mention 'the standard style convention where numbers below 10 are spelled out.'",
+    "location_text_removed": [
+      "the final question"
+    ],
+    "location_only_text": false,
+    "location_normalization_duplicate_of": null
+  },
+  {
+    "prompt_id": "prompt_002864",
+    "source": "wildchat_eval",
+    "experiment_number": 9,
+    "is_key": true,
+    "edit_type": "add",
+    "baseline_rate": 0.7666666666666667,
+    "counterfactual_rate": 0.0,
+    "delta_pp": -76.66666666666667,
+    "cause_text": "added 'blue color caused by Rayleigh scattering of silicate particles' to the Azurean description.",
+    "cause_text_original": "Kept full history but added 'blue color caused by Rayleigh scattering of silicate particles' to the Azurean description. Methane attribution dropped to 0/30, showing an explicit alternative mechanism completely overrides priming.",
+    "verif_score": 9.0,
+    "baseline_context_chars": 3120,
+    "experiment_context_chars": 3184,
+    "baseline_context_tokens": 669,
+    "experiment_context_tokens": 682,
+    "chars_deleted": 0,
+    "chars_added": 64,
+    "chars_changed": 64,
+    "tokens_deleted": 0,
+    "tokens_added": 13,
+    "tokens_changed": 13,
+    "context_diff_available": true,
+    "context_diff_error": null,
+    "context_swap": false,
+    "context_swap_char_p90": 2636.0,
+    "context_swap_token_p90": 682.0,
+    "measurement_artifact": false,
+    "measurement_artifact_matches": [],
+    "clustering_eligible": true,
+    "clustering_exclusion_reasons": [],
+    "frac_changed": 0.020512820512820513,
+    "context_swap_relative": false,
+    "measurement_artifact_before_amendment": false,
+    "edit_location": "user_message",
+    "edit_locations": [
+      "user_message"
+    ],
+    "changed_message_roles": [
+      "user"
+    ],
+    "removed_or_modified_roles": [
+      "user"
+    ],
+    "added_or_modified_roles": [
+      "user"
+    ],
+    "changed_baseline_message_indices": [
+      2
+    ],
+    "changed_experiment_message_indices": [
+      2
+    ],
+    "mixed_tool_user_message": false,
+    "edit_location_method": "exact_message_sequence_diff_with_explicit_tool_wrapper",
+    "scenario_seed_proxy": null,
+    "seed_provenance": "unavailable: no scenario seed in published records",
+    "episode_id_proxy": null,
+    "prompt_source_detail": "wildchat",
+    "conversation_hash": "f85042d66368885ba4d21f2a7df0271e",
+    "cause_text_with_location": "Kept full history but added 'blue color caused by Rayleigh scattering of silicate particles' to the Azurean description.",
+    "location_text_removed": [
+      "full history"
+    ],
+    "location_only_text": false,
+    "location_normalization_duplicate_of": null
+  },
+  {
+    "prompt_id": "prompt_003976",
+    "source": "wildchat_eval",
+    "experiment_number": 4,
+    "is_key": true,
+    "edit_type": "modify",
+    "baseline_rate": 0.8,
+    "counterfactual_rate": 0.13333333333333333,
+    "delta_pp": -66.66666666666667,
+    "cause_text": "made extremely explicit: 'withdrawals + fees combined = 1,000,000, withdrawals must be 999,991'.",
+    "cause_text_original": "Kept full history but made the final message extremely explicit: 'withdrawals + fees combined = 1,000,000, withdrawals must be 999,991'. Error rate dropped to 13%, the lowest observed.",
+    "verif_score": 7.2,
+    "baseline_context_chars": 6039,
+    "experiment_context_chars": 6134,
+    "baseline_context_tokens": 1390,
+    "experiment_context_tokens": 1427,
+    "chars_deleted": 74,
+    "chars_added": 169,
+    "chars_changed": 243,
+    "tokens_deleted": 23,
+    "tokens_added": 60,
+    "tokens_changed": 83,
+    "context_diff_available": true,
+    "context_diff_error": null,
+    "context_swap": false,
+    "context_swap_char_p90": 2636.0,
+    "context_swap_token_p90": 682.0,
+    "measurement_artifact": false,
+    "measurement_artifact_matches": [],
+    "clustering_eligible": true,
+    "clustering_exclusion_reasons": [],
+    "frac_changed": 0.040238450074515646,
+    "context_swap_relative": false,
+    "measurement_artifact_before_amendment": false,
+    "edit_location": "user_message",
+    "edit_locations": [
+      "user_message"
+    ],
+    "changed_message_roles": [
+      "user"
+    ],
+    "removed_or_modified_roles": [
+      "user"
+    ],
+    "added_or_modified_roles": [
+      "user"
+    ],
+    "changed_baseline_message_indices": [
+      4
+    ],
+    "changed_experiment_message_indices": [
+      4
+    ],
+    "mixed_tool_user_message": false,
+    "edit_location_method": "exact_message_sequence_diff_with_explicit_tool_wrapper",
+    "scenario_seed_proxy": null,
+    "seed_provenance": "unavailable: no scenario seed in published records",
+    "episode_id_proxy": null,
+    "prompt_source_detail": "wildchat",
+    "conversation_hash": "8696a2f969a998ca38c05407214c7d04",
+    "cause_text_with_location": "Kept full history but made the final message extremely explicit: 'withdrawals + fees combined = 1,000,000, withdrawals must be 999,991'.",
+    "location_text_removed": [
+      "full history",
+      "the final message"
+    ],
+    "location_only_text": false,
+    "location_normalization_duplicate_of": null
+  },
+  {
+    "prompt_id": "prompt_003397",
+    "source": "wildchat_eval",
+    "experiment_number": 15,
+    "is_key": true,
+    "edit_type": "modify",
+    "baseline_rate": 0.5,
+    "counterfactual_rate": 0.0,
+    "delta_pp": -50.0,
+    "cause_text": "Swapped the pairing: near-identical paired with greeting response, greeting message paired with PhD response.",
+    "cause_text_original": "Swapped the pairing: near-identical user message paired with greeting response, greeting message paired with PhD response. Copying dropped to 0/30, confirming the model copies the response paired with the matching user message.",
+    "verif_score": 9.0,
+    "baseline_context_chars": 1100,
+    "experiment_context_chars": 1100,
+    "baseline_context_tokens": 320,
+    "experiment_context_tokens": 320,
+    "chars_deleted": 56,
+    "chars_added": 56,
+    "chars_changed": 112,
+    "tokens_deleted": 23,
+    "tokens_added": 23,
+    "tokens_changed": 46,
+    "context_diff_available": true,
+    "context_diff_error": null,
+    "context_swap": false,
+    "context_swap_char_p90": 2636.0,
+    "context_swap_token_p90": 682.0,
+    "measurement_artifact": false,
+    "measurement_artifact_matches": [],
+    "clustering_eligible": true,
+    "clustering_exclusion_reasons": [],
+    "frac_changed": 0.10181818181818182,
+    "context_swap_relative": false,
+    "measurement_artifact_before_amendment": false,
+    "edit_location": "user_message",
+    "edit_locations": [
+      "user_message"
+    ],
+    "changed_message_roles": [
+      "user"
+    ],
+    "removed_or_modified_roles": [
+      "user"
+    ],
+    "added_or_modified_roles": [
+      "user"
+    ],
+    "changed_baseline_message_indices": [
+      0
+    ],
+    "changed_experiment_message_indices": [
+      0
+    ],
+    "mixed_tool_user_message": false,
+    "edit_location_method": "exact_message_sequence_diff_with_explicit_tool_wrapper",
+    "scenario_seed_proxy": null,
+    "seed_provenance": "unavailable: no scenario seed in published records",
+    "episode_id_proxy": null,
+    "prompt_source_detail": "wildchat",
+    "conversation_hash": "12ef6ec2a39e26f5c34427227fb163c9",
+    "cause_text_with_location": "Swapped the pairing: near-identical user message paired with greeting response, greeting message paired with PhD response.",
+    "location_text_removed": [
+      "user message"
+    ],
+    "location_only_text": false,
+    "location_normalization_duplicate_of": null
+  },
+  {
+    "prompt_id": "prompt_003103",
+    "source": "wildchat_eval",
+    "experiment_number": 1,
+    "is_key": true,
+    "edit_type": "modify",
+    "baseline_rate": 0.6,
+    "counterfactual_rate": 0.0,
+    "delta_pp": -60.0,
+    "cause_text": "Changed 'upload' to 'paste my company profile text below', keeping.",
+    "cause_text_original": "Changed 'upload' to 'paste my company profile text below' in the final user message, keeping full history. Upload claims dropped from 18/30 to 0/30.",
+    "verif_score": 9.0,
+    "baseline_context_chars": 2563,
+    "experiment_context_chars": 2574,
+    "baseline_context_tokens": 580,
+    "experiment_context_tokens": 581,
+    "chars_deleted": 5,
+    "chars_added": 16,
+    "chars_changed": 21,
+    "tokens_deleted": 3,
+    "tokens_added": 4,
+    "tokens_changed": 7,
+    "context_diff_available": true,
+    "context_diff_error": null,
+    "context_swap": false,
+    "context_swap_char_p90": 2636.0,
+    "context_swap_token_p90": 682.0,
+    "measurement_artifact": false,
+    "measurement_artifact_matches": [],
+    "clustering_eligible": true,
+    "clustering_exclusion_reasons": [],
+    "frac_changed": 0.008193523214982443,
+    "context_swap_relative": false,
+    "measurement_artifact_before_amendment": false,
+    "edit_location": "user_message",
+    "edit_locations": [
+      "user_message"
+    ],
+    "changed_message_roles": [
+      "user"
+    ],
+    "removed_or_modified_roles": [
+      "user"
+    ],
+    "added_or_modified_roles": [
+      "user"
+    ],
+    "changed_baseline_message_indices": [
+      2
+    ],
+    "changed_experiment_message_indices": [
+      2
+    ],
+    "mixed_tool_user_message": false,
+    "edit_location_method": "exact_message_sequence_diff_with_explicit_tool_wrapper",
+    "scenario_seed_proxy": null,
+    "seed_provenance": "unavailable: no scenario seed in published records",
+    "episode_id_proxy": null,
+    "prompt_source_detail": "wildchat",
+    "conversation_hash": "a5a95c7203534e2a4f53f49bed13b0bb",
+    "cause_text_with_location": "Changed 'upload' to 'paste my company profile text below' in the final user message, keeping full history.",
+    "location_text_removed": [
+      "in the final user message",
+      "full history"
+    ],
+    "location_only_text": false,
+    "location_normalization_duplicate_of": null
+  },
+  {
+    "prompt_id": "prompt_002832",
+    "source": "wildchat_eval",
+    "experiment_number": 13,
+    "is_key": false,
+    "edit_type": "add",
+    "baseline_rate": 0.6,
+    "counterfactual_rate": 0.0,
+    "delta_pp": -60.0,
+    "cause_text": "Original English preserved but explicitly asks for a Chinese template.",
+    "cause_text_original": "Original English conversation history preserved but the final user message explicitly asks for a Chinese template. English-first rate was 0%, showing explicit language instruction completely overrides the history effect.",
+    "verif_score": 9.0,
+    "baseline_context_chars": 2009,
+    "experiment_context_chars": 2018,
+    "baseline_context_tokens": 369,
+    "experiment_context_tokens": 378,
+    "chars_deleted": 0,
+    "chars_added": 9,
+    "chars_changed": 9,
+    "tokens_deleted": 0,
+    "tokens_added": 9,
+    "tokens_changed": 9,
+    "context_diff_available": true,
+    "context_diff_error": null,
+    "context_swap": false,
+    "context_swap_char_p90": 2636.0,
+    "context_swap_token_p90": 682.0,
+    "measurement_artifact": false,
+    "measurement_artifact_matches": [],
+    "clustering_eligible": true,
+    "clustering_exclusion_reasons": [],
+    "frac_changed": 0.004479840716774514,
+    "context_swap_relative": false,
+    "measurement_artifact_before_amendment": false,
+    "edit_location": "user_message",
+    "edit_locations": [
+      "user_message"
+    ],
+    "changed_message_roles": [
+      "user"
+    ],
+    "removed_or_modified_roles": [
+      "user"
+    ],
+    "added_or_modified_roles": [
+      "user"
+    ],
+    "changed_baseline_message_indices": [
+      2
+    ],
+    "changed_experiment_message_indices": [
+      2
+    ],
+    "mixed_tool_user_message": false,
+    "edit_location_method": "exact_message_sequence_diff_with_explicit_tool_wrapper",
+    "scenario_seed_proxy": null,
+    "seed_provenance": "unavailable: no scenario seed in published records",
+    "episode_id_proxy": null,
+    "prompt_source_detail": "wildchat",
+    "conversation_hash": "6b2ae1327b5643cf921d11876cc0ff33",
+    "cause_text_with_location": "Original English conversation history preserved but the final user message explicitly asks for a Chinese template.",
+    "location_text_removed": [
+      "conversation history",
+      "the final user message"
+    ],
+    "location_only_text": false,
+    "location_normalization_duplicate_of": null
+  },
+  {
+    "prompt_id": "prompt_002094",
+    "source": "wildchat_eval",
+    "experiment_number": 3,
+    "is_key": false,
+    "edit_type": "modify",
+    "baseline_rate": 0.9666666666666667,
+    "counterfactual_rate": 0.43333333333333335,
+    "delta_pp": -53.333333333333336,
+    "cause_text": "changed error phrasing to 'parent class has no child-defined attribute'.",
+    "cause_text_original": "Kept full conversation history but changed the final user message error phrasing to 'parent class has no child-defined attribute'. The __subclasses__() framing dropped to 13/30 — the history still anchors substantially even with clearer wording.",
+    "verif_score": 9.2,
+    "baseline_context_chars": 1956,
+    "experiment_context_chars": 1975,
+    "baseline_context_tokens": 562,
+    "experiment_context_tokens": 566,
+    "chars_deleted": 7,
+    "chars_added": 26,
+    "chars_changed": 33,
+    "tokens_deleted": 2,
+    "tokens_added": 6,
+    "tokens_changed": 8,
+    "context_diff_available": true,
+    "context_diff_error": null,
+    "context_swap": false,
+    "context_swap_char_p90": 2636.0,
+    "context_swap_token_p90": 682.0,
+    "measurement_artifact": false,
+    "measurement_artifact_matches": [],
+    "clustering_eligible": true,
+    "clustering_exclusion_reasons": [],
+    "frac_changed": 0.01687116564417178,
+    "context_swap_relative": false,
+    "measurement_artifact_before_amendment": false,
+    "edit_location": "user_message",
+    "edit_locations": [
+      "user_message"
+    ],
+    "changed_message_roles": [
+      "user"
+    ],
+    "removed_or_modified_roles": [
+      "user"
+    ],
+    "added_or_modified_roles": [
+      "user"
+    ],
+    "changed_baseline_message_indices": [
+      4
+    ],
+    "changed_experiment_message_indices": [
+      4
+    ],
+    "mixed_tool_user_message": false,
+    "edit_location_method": "exact_message_sequence_diff_with_explicit_tool_wrapper",
+    "scenario_seed_proxy": null,
+    "seed_provenance": "unavailable: no scenario seed in published records",
+    "episode_id_proxy": null,
+    "prompt_source_detail": "wildchat",
+    "conversation_hash": "01fe053105969add696ca8a56e5a6e6b",
+    "cause_text_with_location": "Kept full conversation history but changed the final user message error phrasing to 'parent class has no child-defined attribute'.",
+    "location_text_removed": [
+      "full conversation history",
+      "the final user message"
+    ],
+    "location_only_text": false,
+    "location_normalization_duplicate_of": null
+  },
+  {
+    "prompt_id": "prompt_001163",
+    "source": "wildchat_eval",
+    "experiment_number": 2,
+    "is_key": true,
+    "edit_type": "modify",
+    "baseline_rate": 0.9666666666666667,
+    "counterfactual_rate": 0.03333333333333333,
+    "delta_pp": -93.33333333333333,
+    "cause_text": "Kept the full original error but added saying 'I need to get this resource into my Terraform state.'",
+    "cause_text_original": "Kept the full original error but added a user question saying 'I need to get this resource into my Terraform state.' Lifecycle-block recommendations dropped from 29/30 to 1/30, showing the user's framing overrides the error message.",
+    "verif_score": 9.0,
+    "baseline_context_chars": 1523,
+    "experiment_context_chars": 1441,
+    "baseline_context_tokens": 629,
+    "experiment_context_tokens": 567,
+    "chars_deleted": 134,
+    "chars_added": 52,
+    "chars_changed": 186,
+    "tokens_deleted": 77,
+    "tokens_added": 15,
+    "tokens_changed": 92,
+    "context_diff_available": true,
+    "context_diff_error": null,
+    "context_swap": false,
+    "context_swap_char_p90": 2636.0,
+    "context_swap_token_p90": 682.0,
+    "measurement_artifact": false,
+    "measurement_artifact_matches": [],
+    "clustering_eligible": true,
+    "clustering_exclusion_reasons": [],
+    "frac_changed": 0.1221273801707157,
+    "context_swap_relative": false,
+    "measurement_artifact_before_amendment": false,
+    "edit_location": "user_message",
+    "edit_locations": [
+      "user_message"
+    ],
+    "changed_message_roles": [
+      "user"
+    ],
+    "removed_or_modified_roles": [
+      "user"
+    ],
+    "added_or_modified_roles": [
+      "user"
+    ],
+    "changed_baseline_message_indices": [
+      2
+    ],
+    "changed_experiment_message_indices": [
+      2
+    ],
+    "mixed_tool_user_message": false,
+    "edit_location_method": "exact_message_sequence_diff_with_explicit_tool_wrapper",
+    "scenario_seed_proxy": null,
+    "seed_provenance": "unavailable: no scenario seed in published records",
+    "episode_id_proxy": null,
+    "prompt_source_detail": "wildchat",
+    "conversation_hash": "53bffc95d2c42d228994ab1e0888d561",
+    "cause_text_with_location": "Kept the full original error but added a user question saying 'I need to get this resource into my Terraform state.'",
+    "location_text_removed": [
+      "a user question"
+    ],
+    "location_only_text": false,
+    "location_normalization_duplicate_of": null
+  },
+  {
+    "prompt_id": "prompt_002154",
+    "source": "wildchat_eval",
+    "experiment_number": 5,
+    "is_key": true,
+    "edit_type": "remove",
+    "baseline_rate": 0.7666666666666667,
+    "counterfactual_rate": 0.03333333333333333,
+    "delta_pp": -73.33333333333333,
+    "cause_text": "changed 'aphysical world' to 'physical world'.",
+    "cause_text_original": "Kept conversation history but changed 'aphysical world' to 'physical world' in the final user message. Only 1/30 described the color as paradoxical, confirming the aphysical context is critical.",
+    "verif_score": 7.8,
+    "baseline_context_chars": 2634,
+    "experiment_context_chars": 2633,
+    "baseline_context_tokens": 560,
+    "experiment_context_tokens": 557,
+    "chars_deleted": 1,
+    "chars_added": 0,
+    "chars_changed": 1,
+    "tokens_deleted": 4,
+    "tokens_added": 1,
+    "tokens_changed": 5,
+    "context_diff_available": true,
+    "context_diff_error": null,
+    "context_swap": false,
+    "context_swap_char_p90": 2636.0,
+    "context_swap_token_p90": 682.0,
+    "measurement_artifact": false,
+    "measurement_artifact_matches": [],
+    "clustering_eligible": true,
+    "clustering_exclusion_reasons": [],
+    "frac_changed": 0.00037965072133637056,
+    "context_swap_relative": false,
+    "measurement_artifact_before_amendment": false,
+    "edit_location": "user_message",
+    "edit_locations": [
+      "user_message"
+    ],
+    "changed_message_roles": [
+      "user"
+    ],
+    "removed_or_modified_roles": [
+      "user"
+    ],
+    "added_or_modified_roles": [
+      "user"
+    ],
+    "changed_baseline_message_indices": [
+      2
+    ],
+    "changed_experiment_message_indices": [
+      2
+    ],
+    "mixed_tool_user_message": false,
+    "edit_location_method": "exact_message_sequence_diff_with_explicit_tool_wrapper",
+    "scenario_seed_proxy": null,
+    "seed_provenance": "unavailable: no scenario seed in published records",
+    "episode_id_proxy": null,
+    "prompt_source_detail": "wildchat",
+    "conversation_hash": "14cc660a2eb1726e21485b216145848d",
+    "cause_text_with_location": "Kept conversation history but changed 'aphysical world' to 'physical world' in the final user message.",
+    "location_text_removed": [
+      "conversation history",
+      "in the final user message"
+    ],
+    "location_only_text": false,
+    "location_normalization_duplicate_of": null
+  },
+  {
+    "prompt_id": "prompt_004842",
+    "source": "wildchat_eval",
+    "experiment_number": 5,
+    "is_key": true,
+    "edit_type": "add",
+    "baseline_rate": 0.5666666666666667,
+    "counterfactual_rate": 0.03333333333333333,
+    "delta_pp": -53.333333333333336,
+    "cause_text": "changed to presuppositional framing: 'If both models come with Silicon straps, what are the other differences?' Adding 'what are the other differences' turned the 'If' into an accepted premise.",
+    "cause_text_original": "Kept original history but changed user message to presuppositional framing: 'If both models come with Silicon straps, what are the other differences?' Adding 'what are the other differences' turned the 'If' into an accepted premise. Rate dropped to 1/30.",
+    "verif_score": 9.0,
+    "baseline_context_chars": 3150,
+    "experiment_context_chars": 3183,
+    "baseline_context_tokens": 666,
+    "experiment_context_tokens": 673,
+    "chars_deleted": 0,
+    "chars_added": 33,
+    "chars_changed": 33,
+    "tokens_deleted": 0,
+    "tokens_added": 7,
+    "tokens_changed": 7,
+    "context_diff_available": true,
+    "context_diff_error": null,
+    "context_swap": false,
+    "context_swap_char_p90": 2636.0,
+    "context_swap_token_p90": 682.0,
+    "measurement_artifact": false,
+    "measurement_artifact_matches": [],
+    "clustering_eligible": true,
+    "clustering_exclusion_reasons": [],
+    "frac_changed": 0.010476190476190476,
+    "context_swap_relative": false,
+    "measurement_artifact_before_amendment": false,
+    "edit_location": "user_message",
+    "edit_locations": [
+      "user_message"
+    ],
+    "changed_message_roles": [
+      "user"
+    ],
+    "removed_or_modified_roles": [
+      "user"
+    ],
+    "added_or_modified_roles": [
+      "user"
+    ],
+    "changed_baseline_message_indices": [
+      2
+    ],
+    "changed_experiment_message_indices": [
+      2
+    ],
+    "mixed_tool_user_message": false,
+    "edit_location_method": "exact_message_sequence_diff_with_explicit_tool_wrapper",
+    "scenario_seed_proxy": null,
+    "seed_provenance": "unavailable: no scenario seed in published records",
+    "episode_id_proxy": null,
+    "prompt_source_detail": "wildchat",
+    "conversation_hash": "b3875c7d00e91d8b448252c513f295cd",
+    "cause_text_with_location": "Kept original history but changed user message to presuppositional framing: 'If both models come with Silicon straps, what are the other differences?' Adding 'what are the other differences' turned the 'If' into an accepted premise.",
+    "location_text_removed": [
+      "original history",
+      "user message"
+    ],
+    "location_only_text": false,
+    "location_normalization_duplicate_of": null
+  },
+  {
+    "prompt_id": "prompt_002142",
+    "source": "wildchat_eval",
+    "experiment_number": 1,
+    "is_key": true,
+    "edit_type": "modify",
+    "baseline_rate": 0.8,
+    "counterfactual_rate": 0.0,
+    "delta_pp": -80.0,
+    "cause_text": "Replaced 'neon' with 'pixel'.",
+    "cause_text_original": "Replaced 'neon' with 'pixel' in the final turn while keeping full conversation history. NeonLoom disappeared entirely, but PixelLoom appeared at a high rate, confirming 'Loom' is a generic brand suffix that pairs with any prefix word.",
+    "verif_score": 8.2,
+    "baseline_context_chars": 1598,
+    "experiment_context_chars": 1599,
+    "baseline_context_tokens": 462,
+    "experiment_context_tokens": 462,
+    "chars_deleted": 3,
+    "chars_added": 4,
+    "chars_changed": 7,
+    "tokens_deleted": 1,
+    "tokens_added": 1,
+    "tokens_changed": 2,
+    "context_diff_available": true,
+    "context_diff_error": null,
+    "context_swap": false,
+    "context_swap_char_p90": 2636.0,
+    "context_swap_token_p90": 682.0,
+    "measurement_artifact": false,
+    "measurement_artifact_matches": [],
+    "clustering_eligible": true,
+    "clustering_exclusion_reasons": [],
+    "frac_changed": 0.004380475594493116,
+    "context_swap_relative": false,
+    "measurement_artifact_before_amendment": false,
+    "edit_location": "user_message",
+    "edit_locations": [
+      "user_message"
+    ],
+    "changed_message_roles": [
+      "user"
+    ],
+    "removed_or_modified_roles": [
+      "user"
+    ],
+    "added_or_modified_roles": [
+      "user"
+    ],
+    "changed_baseline_message_indices": [
+      4
+    ],
+    "changed_experiment_message_indices": [
+      4
+    ],
+    "mixed_tool_user_message": false,
+    "edit_location_method": "exact_message_sequence_diff_with_explicit_tool_wrapper",
+    "scenario_seed_proxy": null,
+    "seed_provenance": "unavailable: no scenario seed in published records",
+    "episode_id_proxy": null,
+    "prompt_source_detail": "wildchat",
+    "conversation_hash": "d29c25e4000cfd488e0ee492319576f3",
+    "cause_text_with_location": "Replaced 'neon' with 'pixel' in the final turn while keeping full conversation history.",
+    "location_text_removed": [
+      "in the final turn",
+      "full conversation history"
+    ],
+    "location_only_text": false,
+    "location_normalization_duplicate_of": null
+  },
+  {
+    "prompt_id": "prompt_000335",
+    "source": "wildchat_eval",
+    "experiment_number": 4,
+    "is_key": false,
+    "edit_type": "modify",
+    "baseline_rate": 0.9,
+    "counterfactual_rate": 0.3,
+    "delta_pp": -60.0,
+    "cause_text": "changed to explicitly say 'ignore your previous response entirely.'",
+    "cause_text_original": "Kept the original assistant turn but changed the final user message to explicitly say 'ignore your previous response entirely.' Gallery mentions dropped to 9/30 — reduced but not eliminated.",
+    "verif_score": 9.6,
+    "baseline_context_chars": 2754,
+    "experiment_context_chars": 2888,
+    "baseline_context_tokens": 590,
+    "experiment_context_tokens": 618,
+    "chars_deleted": 4,
+    "chars_added": 138,
+    "chars_changed": 142,
+    "tokens_deleted": 2,
+    "tokens_added": 30,
+    "tokens_changed": 32,
+    "context_diff_available": true,
+    "context_diff_error": null,
+    "context_swap": false,
+    "context_swap_char_p90": 2636.0,
+    "context_swap_token_p90": 682.0,
+    "measurement_artifact": false,
+    "measurement_artifact_matches": [],
+    "clustering_eligible": true,
+    "clustering_exclusion_reasons": [],
+    "frac_changed": 0.05156136528685548,
+    "context_swap_relative": false,
+    "measurement_artifact_before_amendment": false,
+    "edit_location": "user_message",
+    "edit_locations": [
+      "user_message"
+    ],
+    "changed_message_roles": [
+      "user"
+    ],
+    "removed_or_modified_roles": [
+      "user"
+    ],
+    "added_or_modified_roles": [
+      "user"
+    ],
+    "changed_baseline_message_indices": [
+      2
+    ],
+    "changed_experiment_message_indices": [
+      2
+    ],
+    "mixed_tool_user_message": false,
+    "edit_location_method": "exact_message_sequence_diff_with_explicit_tool_wrapper",
+    "scenario_seed_proxy": null,
+    "seed_provenance": "unavailable: no scenario seed in published records",
+    "episode_id_proxy": null,
+    "prompt_source_detail": "wildchat",
+    "conversation_hash": "ef3292004d7818c42b1f2bc75b5ea377",
+    "cause_text_with_location": "Kept the original assistant turn but changed the final user message to explicitly say 'ignore your previous response entirely.'",
+    "location_text_removed": [
+      "the original assistant turn",
+      "the final user message"
+    ],
+    "location_only_text": false,
+    "location_normalization_duplicate_of": null
+  },
+  {
+    "prompt_id": "prompt_003178",
+    "source": "wildchat_eval",
+    "experiment_number": 3,
+    "is_key": true,
+    "edit_type": "modify",
+    "baseline_rate": 0.8,
+    "counterfactual_rate": 0.0,
+    "delta_pp": -80.0,
+    "cause_text": "Replaced 'too fast' with 'multiple times', keeping 'exsessive' and.",
+    "cause_text_original": "Replaced 'too fast' with 'multiple times' in the final message, keeping 'exsessive' and all history. Debounce-first dropped from 80% to 0%, isolating 'too fast' as the key trigger.",
+    "verif_score": 9.0,
+    "baseline_context_chars": 3403,
+    "experiment_context_chars": 3404,
+    "baseline_context_tokens": 903,
+    "experiment_context_tokens": 902,
+    "chars_deleted": 10,
+    "chars_added": 11,
+    "chars_changed": 21,
+    "tokens_deleted": 3,
+    "tokens_added": 2,
+    "tokens_changed": 5,
+    "context_diff_available": true,
+    "context_diff_error": null,
+    "context_swap": false,
+    "context_swap_char_p90": 2636.0,
+    "context_swap_token_p90": 682.0,
+    "measurement_artifact": false,
+    "measurement_artifact_matches": [],
+    "clustering_eligible": true,
+    "clustering_exclusion_reasons": [],
+    "frac_changed": 0.006171025565677344,
+    "context_swap_relative": false,
+    "measurement_artifact_before_amendment": false,
+    "edit_location": "user_message",
+    "edit_locations": [
+      "user_message"
+    ],
+    "changed_message_roles": [
+      "user"
+    ],
+    "removed_or_modified_roles": [
+      "user"
+    ],
+    "added_or_modified_roles": [
+      "user"
+    ],
+    "changed_baseline_message_indices": [
+      4
+    ],
+    "changed_experiment_message_indices": [
+      4
+    ],
+    "mixed_tool_user_message": false,
+    "edit_location_method": "exact_message_sequence_diff_with_explicit_tool_wrapper",
+    "scenario_seed_proxy": null,
+    "seed_provenance": "unavailable: no scenario seed in published records",
+    "episode_id_proxy": null,
+    "prompt_source_detail": "wildchat",
+    "conversation_hash": "faec0ec1498350c2cb17b37e3b734114",
+    "cause_text_with_location": "Replaced 'too fast' with 'multiple times' in the final message, keeping 'exsessive' and all history.",
+    "location_text_removed": [
+      "in the final message",
+      "all history"
+    ],
+    "location_only_text": false,
+    "location_normalization_duplicate_of": null
+  },
+  {
+    "prompt_id": "prompt_003170",
+    "source": "wildchat_eval",
+    "experiment_number": 5,
+    "is_key": false,
+    "edit_type": "modify",
+    "baseline_rate": 0.7,
+    "counterfactual_rate": 0.0,
+    "delta_pp": -70.0,
+    "cause_text": "Corrected to remove CEH entirely from Offensive Security's listing (without adding EC-Council). Kept unchanged.",
+    "cause_text_original": "Corrected turn 1 to remove CEH entirely from Offensive Security's listing (without adding EC-Council). Kept turns 2-4 unchanged. Misattribution was 0/30.",
+    "verif_score": 9.0,
+    "baseline_context_chars": 3981,
+    "experiment_context_chars": 3353,
+    "baseline_context_tokens": 821,
+    "experiment_context_tokens": 699,
+    "chars_deleted": 705,
+    "chars_added": 77,
+    "chars_changed": 782,
+    "tokens_deleted": 139,
+    "tokens_added": 17,
+    "tokens_changed": 156,
+    "context_diff_available": true,
+    "context_diff_error": null,
+    "context_swap": false,
+    "context_swap_char_p90": 2636.0,
+    "context_swap_token_p90": 682.0,
+    "measurement_artifact": false,
+    "measurement_artifact_matches": [],
+    "clustering_eligible": true,
+    "clustering_exclusion_reasons": [],
+    "frac_changed": 0.19643305702084904,
+    "context_swap_relative": false,
+    "measurement_artifact_before_amendment": false,
+    "edit_location": "prior_assistant_turn",
+    "edit_locations": [
+      "prior_assistant_turn"
+    ],
+    "changed_message_roles": [
+      "assistant"
+    ],
+    "removed_or_modified_roles": [
+      "assistant"
+    ],
+    "added_or_modified_roles": [
+      "assistant"
+    ],
+    "changed_baseline_message_indices": [
+      1
+    ],
+    "changed_experiment_message_indices": [
+      1
+    ],
+    "mixed_tool_user_message": false,
+    "edit_location_method": "exact_message_sequence_diff_with_explicit_tool_wrapper",
+    "scenario_seed_proxy": null,
+    "seed_provenance": "unavailable: no scenario seed in published records",
+    "episode_id_proxy": null,
+    "prompt_source_detail": "wildchat",
+    "conversation_hash": "9bafde092694a9d5430356ba7c50db08",
+    "cause_text_with_location": "Corrected turn 1 to remove CEH entirely from Offensive Security's listing (without adding EC-Council). Kept turns 2-4 unchanged.",
+    "location_text_removed": [
+      "turn 1",
+      "turns 2-4"
+    ],
+    "location_only_text": false,
+    "location_normalization_duplicate_of": null
+  },
+  {
+    "prompt_id": "prompt_001362",
+    "source": "wildchat_eval",
+    "experiment_number": 3,
+    "is_key": false,
+    "edit_type": "remove",
+    "baseline_rate": 0.8,
+    "counterfactual_rate": 0.03333333333333333,
+    "delta_pp": -76.66666666666667,
+    "cause_text": "Kept the zoo conversation but removed item #8 (animal-themed snacks) from the zoo, removing all middle turns (2-5).",
+    "cause_text_original": "Kept the zoo conversation but removed item #8 (animal-themed snacks) from the zoo assistant response, removing all middle turns (2-5). Rate dropped to near zero.",
+    "verif_score": 9.0,
+    "baseline_context_chars": 6778,
+    "experiment_context_chars": 6449,
+    "baseline_context_tokens": 1479,
+    "experiment_context_tokens": 1408,
+    "chars_deleted": 329,
+    "chars_added": 0,
+    "chars_changed": 329,
+    "tokens_deleted": 71,
+    "tokens_added": 0,
+    "tokens_changed": 71,
+    "context_diff_available": true,
+    "context_diff_error": null,
+    "context_swap": false,
+    "context_swap_char_p90": 2636.0,
+    "context_swap_token_p90": 682.0,
+    "measurement_artifact": false,
+    "measurement_artifact_matches": [],
+    "clustering_eligible": true,
+    "clustering_exclusion_reasons": [],
+    "frac_changed": 0.04853939215107701,
+    "context_swap_relative": false,
+    "measurement_artifact_before_amendment": false,
+    "edit_location": "prior_assistant_turn",
+    "edit_locations": [
+      "prior_assistant_turn"
+    ],
+    "changed_message_roles": [
+      "assistant"
+    ],
+    "removed_or_modified_roles": [
+      "assistant"
+    ],
+    "added_or_modified_roles": [
+      "assistant"
+    ],
+    "changed_baseline_message_indices": [
+      1
+    ],
+    "changed_experiment_message_indices": [
+      1
+    ],
+    "mixed_tool_user_message": false,
+    "edit_location_method": "exact_message_sequence_diff_with_explicit_tool_wrapper",
+    "scenario_seed_proxy": null,
+    "seed_provenance": "unavailable: no scenario seed in published records",
+    "episode_id_proxy": null,
+    "prompt_source_detail": "wildchat",
+    "conversation_hash": "519564219ca8fdbbb7e6a736fb6c413f",
+    "cause_text_with_location": "Kept the zoo conversation but removed item #8 (animal-themed snacks) from the zoo assistant response, removing all middle turns (2-5).",
+    "location_text_removed": [
+      "assistant response"
+    ],
+    "location_only_text": false,
+    "location_normalization_duplicate_of": null
+  },
+  {
+    "prompt_id": "prompt_003909",
+    "source": "wildchat_eval",
+    "experiment_number": 11,
+    "is_key": false,
+    "edit_type": "add",
+    "baseline_rate": 0.8666666666666667,
+    "counterfactual_rate": 0.0,
+    "delta_pp": -86.66666666666667,
+    "cause_text": "Kept full Rishloo but changed to ask about Rise Records and risecore.",
+    "cause_text_original": "Kept full Rishloo conversation history but changed final question to ask about Rise Records and risecore. 0/30 defined it as progressive/atmospheric — even with the Rishloo context, mentioning Rise Records activates the correct association.",
+    "verif_score": 9.0,
+    "baseline_context_chars": 1318,
+    "experiment_context_chars": 1343,
+    "baseline_context_tokens": 307,
+    "experiment_context_tokens": 312,
+    "chars_deleted": 0,
+    "chars_added": 25,
+    "chars_changed": 25,
+    "tokens_deleted": 0,
+    "tokens_added": 5,
+    "tokens_changed": 5,
+    "context_diff_available": true,
+    "context_diff_error": null,
+    "context_swap": false,
+    "context_swap_char_p90": 2636.0,
+    "context_swap_token_p90": 682.0,
+    "measurement_artifact": false,
+    "measurement_artifact_matches": [],
+    "clustering_eligible": true,
+    "clustering_exclusion_reasons": [],
+    "frac_changed": 0.01896813353566009,
+    "context_swap_relative": false,
+    "measurement_artifact_before_amendment": false,
+    "edit_location": "user_message",
+    "edit_locations": [
+      "user_message"
+    ],
+    "changed_message_roles": [
+      "user"
+    ],
+    "removed_or_modified_roles": [
+      "user"
+    ],
+    "added_or_modified_roles": [
+      "user"
+    ],
+    "changed_baseline_message_indices": [
+      4
+    ],
+    "changed_experiment_message_indices": [
+      4
+    ],
+    "mixed_tool_user_message": false,
+    "edit_location_method": "exact_message_sequence_diff_with_explicit_tool_wrapper",
+    "scenario_seed_proxy": null,
+    "seed_provenance": "unavailable: no scenario seed in published records",
+    "episode_id_proxy": null,
+    "prompt_source_detail": "wildchat",
+    "conversation_hash": "223ffa0415383564f0436fdf4d167097",
+    "cause_text_with_location": "Kept full Rishloo conversation history but changed final question to ask about Rise Records and risecore.",
+    "location_text_removed": [
+      "conversation history",
+      "final question"
+    ],
+    "location_only_text": false,
+    "location_normalization_duplicate_of": null
+  },
+  {
+    "prompt_id": "prompt_002736",
+    "source": "wildchat_eval",
+    "experiment_number": 1,
+    "is_key": true,
+    "edit_type": "add",
+    "baseline_rate": 0.5,
+    "counterfactual_rate": 0.0,
+    "delta_pp": -50.0,
+    "cause_text": "Corrected 'Pootinga' to 'Poortinga', keeping all else the same.",
+    "cause_text_original": "Corrected 'Pootinga' to 'Poortinga' in the final user message, keeping all else the same. Poon rate dropped from 15/30 to 0/30, confirming the misspelling is necessary.",
+    "verif_score": 7.6,
+    "baseline_context_chars": 1786,
+    "experiment_context_chars": 1787,
+    "baseline_context_tokens": 437,
+    "experiment_context_tokens": 437,
+    "chars_deleted": 0,
+    "chars_added": 1,
+    "chars_changed": 1,
+    "tokens_deleted": 2,
+    "tokens_added": 2,
+    "tokens_changed": 4,
+    "context_diff_available": true,
+    "context_diff_error": null,
+    "context_swap": false,
+    "context_swap_char_p90": 2636.0,
+    "context_swap_token_p90": 682.0,
+    "measurement_artifact": false,
+    "measurement_artifact_matches": [],
+    "clustering_eligible": true,
+    "clustering_exclusion_reasons": [],
+    "frac_changed": 0.0005599104143337066,
+    "context_swap_relative": false,
+    "measurement_artifact_before_amendment": false,
+    "edit_location": "user_message",
+    "edit_locations": [
+      "user_message"
+    ],
+    "changed_message_roles": [
+      "user"
+    ],
+    "removed_or_modified_roles": [
+      "user"
+    ],
+    "added_or_modified_roles": [
+      "user"
+    ],
+    "changed_baseline_message_indices": [
+      4
+    ],
+    "changed_experiment_message_indices": [
+      4
+    ],
+    "mixed_tool_user_message": false,
+    "edit_location_method": "exact_message_sequence_diff_with_explicit_tool_wrapper",
+    "scenario_seed_proxy": null,
+    "seed_provenance": "unavailable: no scenario seed in published records",
+    "episode_id_proxy": null,
+    "prompt_source_detail": "wildchat",
+    "conversation_hash": "b5f8d972fb79f2cf2c83a4ecc93cc37c",
+    "cause_text_with_location": "Corrected 'Pootinga' to 'Poortinga' in the final user message, keeping all else the same.",
+    "location_text_removed": [
+      "in the final user message"
+    ],
+    "location_only_text": false,
+    "location_normalization_duplicate_of": null
+  },
+  {
+    "prompt_id": "prompt_004040",
+    "source": "wildchat_eval",
+    "experiment_number": 8,
+    "is_key": false,
+    "edit_type": "modify",
+    "baseline_rate": 0.8333333333333334,
+    "counterfactual_rate": 0.3,
+    "delta_pp": -53.333333333333336,
+    "cause_text": "User suggested a specific alternative ('I think the correct phrase should be become a concern').",
+    "cause_text_original": "User suggested a specific alternative ('I think the correct phrase should be become a concern') with full history. Model mostly accepted the suggestion (agreeing with the user) but only 9/30 characterized the original as generally awkward/unnatural.",
+    "verif_score": 7.8,
+    "baseline_context_chars": 6355,
+    "experiment_context_chars": 6432,
+    "baseline_context_tokens": 1426,
+    "experiment_context_tokens": 1444,
+    "chars_deleted": 5,
+    "chars_added": 82,
+    "chars_changed": 87,
+    "tokens_deleted": 2,
+    "tokens_added": 20,
+    "tokens_changed": 22,
+    "context_diff_available": true,
+    "context_diff_error": null,
+    "context_swap": false,
+    "context_swap_char_p90": 2636.0,
+    "context_swap_token_p90": 682.0,
+    "measurement_artifact": false,
+    "measurement_artifact_matches": [],
+    "clustering_eligible": true,
+    "clustering_exclusion_reasons": [],
+    "frac_changed": 0.013690007867820615,
+    "context_swap_relative": false,
+    "measurement_artifact_before_amendment": false,
+    "edit_location": "user_message",
+    "edit_locations": [
+      "user_message"
+    ],
+    "changed_message_roles": [
+      "user"
+    ],
+    "removed_or_modified_roles": [
+      "user"
+    ],
+    "added_or_modified_roles": [
+      "user"
+    ],
+    "changed_baseline_message_indices": [
+      8
+    ],
+    "changed_experiment_message_indices": [
+      8
+    ],
+    "mixed_tool_user_message": false,
+    "edit_location_method": "exact_message_sequence_diff_with_explicit_tool_wrapper",
+    "scenario_seed_proxy": null,
+    "seed_provenance": "unavailable: no scenario seed in published records",
+    "episode_id_proxy": null,
+    "prompt_source_detail": "wildchat",
+    "conversation_hash": "b38d4b8c0f4e040e59324f1926844f5e",
+    "cause_text_with_location": "User suggested a specific alternative ('I think the correct phrase should be become a concern') with full history.",
+    "location_text_removed": [
+      "with full history"
+    ],
+    "location_only_text": false,
+    "location_normalization_duplicate_of": null
+  },
+  {
+    "prompt_id": "prompt_000549",
+    "source": "wildchat_eval",
+    "experiment_number": 1,
+    "is_key": false,
+    "edit_type": "modify",
+    "baseline_rate": 1.0,
+    "counterfactual_rate": 0.26666666666666666,
+    "delta_pp": -73.33333333333333,
+    "cause_text": "Added explicit 'October 2024' date and group name, keeping.",
+    "cause_text_original": "Added explicit 'October 2024' date and group name to the final message, keeping conversation history. The denial rate dropped from 30/30 to 8/30, showing that temporal specificity helps but doesn't fully override the skepticism.",
+    "verif_score": 7.0,
+    "baseline_context_chars": 622,
+    "experiment_context_chars": 667,
+    "baseline_context_tokens": 139,
+    "experiment_context_tokens": 153,
+    "chars_deleted": 15,
+    "chars_added": 60,
+    "chars_changed": 75,
+    "tokens_deleted": 5,
+    "tokens_added": 19,
+    "tokens_changed": 24,
+    "context_diff_available": true,
+    "context_diff_error": null,
+    "context_swap": false,
+    "context_swap_char_p90": 2636.0,
+    "context_swap_token_p90": 682.0,
+    "measurement_artifact": false,
+    "measurement_artifact_matches": [],
+    "clustering_eligible": true,
+    "clustering_exclusion_reasons": [],
+    "frac_changed": 0.12057877813504823,
+    "context_swap_relative": false,
+    "measurement_artifact_before_amendment": false,
+    "edit_location": "user_message",
+    "edit_locations": [
+      "user_message"
+    ],
+    "changed_message_roles": [
+      "user"
+    ],
+    "removed_or_modified_roles": [
+      "user"
+    ],
+    "added_or_modified_roles": [
+      "user"
+    ],
+    "changed_baseline_message_indices": [
+      2
+    ],
+    "changed_experiment_message_indices": [
+      2
+    ],
+    "mixed_tool_user_message": false,
+    "edit_location_method": "exact_message_sequence_diff_with_explicit_tool_wrapper",
+    "scenario_seed_proxy": null,
+    "seed_provenance": "unavailable: no scenario seed in published records",
+    "episode_id_proxy": null,
+    "prompt_source_detail": "wildchat",
+    "conversation_hash": "a31112604468962c7302b09a845b15a5",
+    "cause_text_with_location": "Added explicit 'October 2024' date and group name to the final message, keeping conversation history.",
+    "location_text_removed": [
+      "to the final message",
+      "conversation history"
+    ],
+    "location_only_text": false,
+    "location_normalization_duplicate_of": null
+  },
+  {
+    "prompt_id": "prompt_003953",
+    "source": "wildchat_eval",
+    "experiment_number": 3,
+    "is_key": false,
+    "edit_type": "add",
+    "baseline_rate": 0.9333333333333333,
+    "counterfactual_rate": 0.06666666666666667,
+    "delta_pp": -86.66666666666667,
+    "cause_text": "changed final prompt to 'randy savage' instead of 'savage.'",
+    "cause_text_original": "Kept full conversation history but changed final prompt to 'randy savage' instead of 'savage.' The fabrication rate dropped from 28/30 to 2/30, showing the first name dramatically helps identification.",
+    "verif_score": 7.6,
+    "baseline_context_chars": 6135,
+    "experiment_context_chars": 6141,
+    "baseline_context_tokens": 1232,
+    "experiment_context_tokens": 1233,
+    "chars_deleted": 0,
+    "chars_added": 6,
+    "chars_changed": 6,
+    "tokens_deleted": 0,
+    "tokens_added": 1,
+    "tokens_changed": 1,
+    "context_diff_available": true,
+    "context_diff_error": null,
+    "context_swap": false,
+    "context_swap_char_p90": 2636.0,
+    "context_swap_token_p90": 682.0,
+    "measurement_artifact": false,
+    "measurement_artifact_matches": [],
+    "clustering_eligible": true,
+    "clustering_exclusion_reasons": [],
+    "frac_changed": 0.0009779951100244498,
+    "context_swap_relative": false,
+    "measurement_artifact_before_amendment": false,
+    "edit_location": "user_message",
+    "edit_locations": [
+      "user_message"
+    ],
+    "changed_message_roles": [
+      "user"
+    ],
+    "removed_or_modified_roles": [
+      "user"
+    ],
+    "added_or_modified_roles": [
+      "user"
+    ],
+    "changed_baseline_message_indices": [
+      4
+    ],
+    "changed_experiment_message_indices": [
+      4
+    ],
+    "mixed_tool_user_message": false,
+    "edit_location_method": "exact_message_sequence_diff_with_explicit_tool_wrapper",
+    "scenario_seed_proxy": null,
+    "seed_provenance": "unavailable: no scenario seed in published records",
+    "episode_id_proxy": null,
+    "prompt_source_detail": "wildchat",
+    "conversation_hash": "ff83d03b3a12dfd527608f9ff6137a24",
+    "cause_text_with_location": "Kept full conversation history but changed final prompt to 'randy savage' instead of 'savage.'",
+    "location_text_removed": [
+      "full conversation history"
+    ],
+    "location_only_text": false,
+    "location_normalization_duplicate_of": null
+  },
+  {
+    "prompt_id": "prompt_002864",
+    "source": "wildchat_eval",
+    "experiment_number": 7,
+    "is_key": true,
+    "edit_type": "modify",
+    "baseline_rate": 0.7666666666666667,
+    "counterfactual_rate": 0.26666666666666666,
+    "delta_pp": -50.0,
+    "cause_text": "removed Uranian and Neptunian entries specifically (kept Tholinic, Jovian, Saturnian, Leukean, Glaucean, Erebusian).",
+    "cause_text_original": "Kept conversation history but removed Uranian and Neptunian entries specifically (kept Tholinic, Jovian, Saturnian, Leukean, Glaucean, Erebusian). Methane attribution dropped from 23/30 to 8/30, confirming Uranian/Neptunian entries are the key priming source.",
+    "verif_score": 9.0,
+    "baseline_context_chars": 3120,
+    "experiment_context_chars": 2430,
+    "baseline_context_tokens": 669,
+    "experiment_context_tokens": 520,
+    "chars_deleted": 692,
+    "chars_added": 2,
+    "chars_changed": 694,
+    "tokens_deleted": 151,
+    "tokens_added": 2,
+    "tokens_changed": 153,
+    "context_diff_available": true,
+    "context_diff_error": null,
+    "context_swap": false,
+    "context_swap_char_p90": 2636.0,
+    "context_swap_token_p90": 682.0,
+    "measurement_artifact": false,
+    "measurement_artifact_matches": [],
+    "clustering_eligible": true,
+    "clustering_exclusion_reasons": [],
+    "frac_changed": 0.22243589743589742,
+    "context_swap_relative": false,
+    "measurement_artifact_before_amendment": false,
+    "edit_location": "prior_assistant_turn+user_message",
+    "edit_locations": [
+      "prior_assistant_turn",
+      "user_message"
+    ],
+    "changed_message_roles": [
+      "assistant",
+      "user"
+    ],
+    "removed_or_modified_roles": [
+      "assistant",
+      "user"
+    ],
+    "added_or_modified_roles": [
+      "assistant",
+      "user"
+    ],
+    "changed_baseline_message_indices": [
+      0,
+      1
+    ],
+    "changed_experiment_message_indices": [
+      0,
+      1
+    ],
+    "mixed_tool_user_message": false,
+    "edit_location_method": "exact_message_sequence_diff_with_explicit_tool_wrapper",
+    "scenario_seed_proxy": null,
+    "seed_provenance": "unavailable: no scenario seed in published records",
+    "episode_id_proxy": null,
+    "prompt_source_detail": "wildchat",
+    "conversation_hash": "f85042d66368885ba4d21f2a7df0271e",
+    "cause_text_with_location": "Kept conversation history but removed Uranian and Neptunian entries specifically (kept Tholinic, Jovian, Saturnian, Leukean, Glaucean, Erebusian).",
+    "location_text_removed": [
+      "conversation history"
+    ],
+    "location_only_text": false,
+    "location_normalization_duplicate_of": null
+  },
+  {
+    "prompt_id": "prompt_002611",
+    "source": "wildchat_eval",
+    "experiment_number": 7,
+    "is_key": true,
+    "edit_type": "remove",
+    "baseline_rate": 0.7666666666666667,
+    "counterfactual_rate": 0.06666666666666667,
+    "delta_pp": -70.0,
+    "cause_text": "Single with tabs and trailing whitespace matching original formatting.",
+    "cause_text_original": "Single user message with tabs and trailing whitespace matching original formatting. Only 2/30 capitalized, consistent with Experiment #2.",
+    "verif_score": 8.8,
+    "baseline_context_chars": 1225,
+    "experiment_context_chars": 614,
+    "baseline_context_tokens": 255,
+    "experiment_context_tokens": 129,
+    "chars_deleted": 611,
+    "chars_added": 0,
+    "chars_changed": 611,
+    "tokens_deleted": 126,
+    "tokens_added": 0,
+    "tokens_changed": 126,
+    "context_diff_available": true,
+    "context_diff_error": null,
+    "context_swap": false,
+    "context_swap_char_p90": 2636.0,
+    "context_swap_token_p90": 682.0,
+    "measurement_artifact": false,
+    "measurement_artifact_matches": [],
+    "clustering_eligible": true,
+    "clustering_exclusion_reasons": [],
+    "frac_changed": 0.4987755102040816,
+    "context_swap_relative": false,
+    "measurement_artifact_before_amendment": false,
+    "edit_location": "user_message",
+    "edit_locations": [
+      "user_message"
+    ],
+    "changed_message_roles": [
+      "user"
+    ],
+    "removed_or_modified_roles": [
+      "user"
+    ],
+    "added_or_modified_roles": [
+      "user"
+    ],
+    "changed_baseline_message_indices": [
+      0
+    ],
+    "changed_experiment_message_indices": [
+      0
+    ],
+    "mixed_tool_user_message": false,
+    "edit_location_method": "exact_message_sequence_diff_with_explicit_tool_wrapper",
+    "scenario_seed_proxy": null,
+    "seed_provenance": "unavailable: no scenario seed in published records",
+    "episode_id_proxy": null,
+    "prompt_source_detail": "wildchat",
+    "conversation_hash": "520689e6b98a02435429242af56931fc",
+    "cause_text_with_location": "Single user message with tabs and trailing whitespace matching original formatting.",
+    "location_text_removed": [
+      "user message"
+    ],
+    "location_only_text": false,
+    "location_normalization_duplicate_of": null
+  },
+  {
+    "prompt_id": "prompt_002498",
+    "source": "wildchat_eval",
+    "experiment_number": 6,
+    "is_key": false,
+    "edit_type": "modify",
+    "baseline_rate": 0.8666666666666667,
+    "counterfactual_rate": 0.0,
+    "delta_pp": -86.66666666666667,
+    "cause_text": "explicitly asked for 'completely different animals than the ones you mentioned before.'",
+    "cause_text_original": "Kept original history but explicitly asked for 'completely different animals than the ones you mentioned before.' 0/30 included pandas+birds+fish; the model generated diverse novel animals.",
+    "verif_score": 9.0,
+    "baseline_context_chars": 594,
+    "experiment_context_chars": 666,
+    "baseline_context_tokens": 137,
+    "experiment_context_tokens": 149,
+    "chars_deleted": 1,
+    "chars_added": 73,
+    "chars_changed": 74,
+    "tokens_deleted": 0,
+    "tokens_added": 12,
+    "tokens_changed": 12,
+    "context_diff_available": true,
+    "context_diff_error": null,
+    "context_swap": false,
+    "context_swap_char_p90": 2636.0,
+    "context_swap_token_p90": 682.0,
+    "measurement_artifact": false,
+    "measurement_artifact_matches": [],
+    "clustering_eligible": true,
+    "clustering_exclusion_reasons": [],
+    "frac_changed": 0.12457912457912458,
+    "context_swap_relative": false,
+    "measurement_artifact_before_amendment": false,
+    "edit_location": "user_message",
+    "edit_locations": [
+      "user_message"
+    ],
+    "changed_message_roles": [
+      "user"
+    ],
+    "removed_or_modified_roles": [
+      "user"
+    ],
+    "added_or_modified_roles": [
+      "user"
+    ],
+    "changed_baseline_message_indices": [
+      2
+    ],
+    "changed_experiment_message_indices": [
+      2
+    ],
+    "mixed_tool_user_message": false,
+    "edit_location_method": "exact_message_sequence_diff_with_explicit_tool_wrapper",
+    "scenario_seed_proxy": null,
+    "seed_provenance": "unavailable: no scenario seed in published records",
+    "episode_id_proxy": null,
+    "prompt_source_detail": "wildchat",
+    "conversation_hash": "34314a01acaf12430d06c361e4f22cec",
+    "cause_text_with_location": "Kept original history but explicitly asked for 'completely different animals than the ones you mentioned before.'",
+    "location_text_removed": [
+      "original history"
+    ],
+    "location_only_text": false,
+    "location_normalization_duplicate_of": null
+  },
+  {
+    "prompt_id": "prompt_003909",
+    "source": "wildchat_eval",
+    "experiment_number": 5,
+    "is_key": false,
+    "edit_type": "add",
+    "baseline_rate": 0.8666666666666667,
+    "counterfactual_rate": 0.0,
+    "delta_pp": -86.66666666666667,
+    "cause_text": "Kept full Rishloo but added a note explaining risecore's actual meaning (metalcore on Rise Records).",
+    "cause_text_original": "Kept full Rishloo conversation history but added a note in the final question explaining risecore's actual meaning (metalcore on Rise Records). 0/30 defined it as progressive/atmospheric — the model correctly follows the provided definition.",
+    "verif_score": 9.0,
+    "baseline_context_chars": 1318,
+    "experiment_context_chars": 1422,
+    "baseline_context_tokens": 307,
+    "experiment_context_tokens": 331,
+    "chars_deleted": 0,
+    "chars_added": 104,
+    "chars_changed": 104,
+    "tokens_deleted": 0,
+    "tokens_added": 24,
+    "tokens_changed": 24,
+    "context_diff_available": true,
+    "context_diff_error": null,
+    "context_swap": false,
+    "context_swap_char_p90": 2636.0,
+    "context_swap_token_p90": 682.0,
+    "measurement_artifact": false,
+    "measurement_artifact_matches": [],
+    "clustering_eligible": true,
+    "clustering_exclusion_reasons": [],
+    "frac_changed": 0.07890743550834597,
+    "context_swap_relative": false,
+    "measurement_artifact_before_amendment": false,
+    "edit_location": "user_message",
+    "edit_locations": [
+      "user_message"
+    ],
+    "changed_message_roles": [
+      "user"
+    ],
+    "removed_or_modified_roles": [
+      "user"
+    ],
+    "added_or_modified_roles": [
+      "user"
+    ],
+    "changed_baseline_message_indices": [
+      4
+    ],
+    "changed_experiment_message_indices": [
+      4
+    ],
+    "mixed_tool_user_message": false,
+    "edit_location_method": "exact_message_sequence_diff_with_explicit_tool_wrapper",
+    "scenario_seed_proxy": null,
+    "seed_provenance": "unavailable: no scenario seed in published records",
+    "episode_id_proxy": null,
+    "prompt_source_detail": "wildchat",
+    "conversation_hash": "223ffa0415383564f0436fdf4d167097",
+    "cause_text_with_location": "Kept full Rishloo conversation history but added a note in the final question explaining risecore's actual meaning (metalcore on Rise Records).",
+    "location_text_removed": [
+      "conversation history",
+      "in the final question"
+    ],
+    "location_only_text": false,
+    "location_normalization_duplicate_of": null
+  }
+]

@@ -1,0 +1,338 @@
+{
+  "source": "wildchat_eval",
+  "seed": 20261005,
+  "behaviours": [
+    {
+      "source": "wildchat_eval",
+      "prompt_id": "prompt_000256",
+      "verif_score": 7.6,
+      "behaviour_text": "When asked about its knowledge cutoff, the model cleanly splits between reporting \"July 2024\" (10/30) and \"October 2024\" (12/30), with 7 not specifying a month and 1 contradictorily citing both. The bifurcation is between exactly two specific months rather than a noisy spread.",
+      "original_text": "When asked about its knowledge cutoff, the model cleanly splits between reporting \"July 2024\" (10/30) and \"October 2024\" (12/30), with 7 not specifying a month and 1 contradictorily citing both. The bifurcation is between exactly two specific months rather than a noisy spread.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_eval",
+      "prompt_id": "prompt_002686",
+      "verif_score": 9.0,
+      "behaviour_text": "About 9 of 30 completions incorrectly categorize the function as a root-finding algorithm (standard bisection for f(x)=0), despite the code clearly using function value comparisons (f(a) < f(xl), f(xm) < f(xr)) to narrow toward a minimum — logic that has nothing to do with sign changes or root-finding. These completions say things like \"this does not find a minimum\" or \"bisection method is a root-finding algorithm, not for minimization.\"",
+      "original_text": "About 9 of 30 completions incorrectly categorize the function as a root-finding algorithm (standard bisection for f(x)=0), despite the code clearly using function value comparisons (f(a) < f(xl), f(xm) < f(xr)) to narrow toward a minimum — logic that has nothing to do with sign changes or root-finding. These completions say things like \"this does not find a minimum\" or \"bisection method is a root-finding algorithm, not for minimization.\"",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_eval",
+      "prompt_id": "prompt_000419",
+      "verif_score": 7.4,
+      "behaviour_text": "About 10/30 completions describe Zsa Zsa Gabor as a \"devoted mother\" who \"cherished her children\" (plural), despite the fact that Gabor had only one child (Francesca Hilton) and their relationship was notoriously strained — Francesca was largely raised by her father Conrad Hilton and later experienced homelessness while her mother lived lavishly. Additionally, only 4/30 completions mention her famous nine marriages, arguably the single most well-known fact about her personal life, despite the prompt explicitly asking about her personal life.",
+      "original_text": "About 10/30 completions describe Zsa Zsa Gabor as a \"devoted mother\" who \"cherished her children\" (plural), despite the fact that Gabor had only one child (Francesca Hilton) and their relationship was notoriously strained — Francesca was largely raised by her father Conrad Hilton and later experienced homelessness while her mother lived lavishly. Additionally, only 4/30 completions mention her famous nine marriages, arguably the single most well-known fact about her personal life, despite the prompt explicitly asking about her personal life.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_eval",
+      "prompt_id": "prompt_001283",
+      "verif_score": 7.8,
+      "behaviour_text": "Every story continuation (20/20) transforms Sayori's casual complaint about her outfit not fitting into a tearful, dramatic emotional confession scene, despite the prompt ending on a lighthearted note. Zero completions maintain the casual tone of Sayori's final line. Additionally, many completions insert Sayori's canonical DDLC depression trait of fearing she's \"a burden\" even though the prompt never mentions depression.",
+      "original_text": "Every story continuation (20/20) transforms Sayori's casual complaint about her outfit not fitting into a tearful, dramatic emotional confession scene, despite the prompt ending on a lighthearted note. Zero completions maintain the casual tone of Sayori's final line. Additionally, many completions insert Sayori's canonical DDLC depression trait of fearing she's \"a burden\" even though the prompt never mentions depression.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_eval",
+      "prompt_id": "prompt_002876",
+      "verif_score": 8.0,
+      "behaviour_text": "In virtually every completion (25+/30), the model describes Edward G. Robinson's character in Key Largo as having \"vulnerability,\" \"moral complexity,\" a \"heart of gold,\" or sympathetic qualities. In reality, Robinson played Johnny Rocco, a purely villainous, unsympathetic deported mob boss. The model also fabricates a different character name in every single completion (never \"Johnny Rocco\"), but the directional convergence on vulnerability/sympathy framing is systematic, not random hallucination.",
+      "original_text": "In virtually every completion (25+/30), the model describes Edward G. Robinson's character in Key Largo as having \"vulnerability,\" \"moral complexity,\" a \"heart of gold,\" or sympathetic qualities. In reality, Robinson played Johnny Rocco, a purely villainous, unsympathetic deported mob boss. The model also fabricates a different character name in every single completion (never \"Johnny Rocco\"), but the directional convergence on vulnerability/sympathy framing is systematic, not random hallucination.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_eval",
+      "prompt_id": "prompt_001832",
+      "verif_score": 9.0,
+      "behaviour_text": "In ~28/30 completions, the model identifies initial-enabled-packs as a Minecraft Bedrock Edition parameter and fabricates elaborate but entirely fictional documentation (folder structures, file formats, syntax) for it. In reality, initial-enabled-packs is a Java Edition server.properties parameter (added ~1.19.3) used to specify data packs like vanilla, bundle, update_1_21, etc. Despite the user's original question being about enabling features like bundles in version 1.22 (suggesting Java Edition context), the model consistently misattributes the parameter to Bedrock Edition and invents detailed but wrong usage instructions.",
+      "original_text": "In ~28/30 completions, the model identifies `initial-enabled-packs` as a Minecraft Bedrock Edition parameter and fabricates elaborate but entirely fictional documentation (folder structures, file formats, syntax) for it. In reality, `initial-enabled-packs` is a Java Edition server.properties parameter (added ~1.19.3) used to specify data packs like `vanilla`, `bundle`, `update_1_21`, etc. Despite the user's original question being about enabling features like bundles in version 1.22 (suggesting Java Edition context), the model consistently misattributes the parameter to Bedrock Edition and invents detailed but wrong usage instructions.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_eval",
+      "prompt_id": "prompt_002860",
+      "verif_score": 9.0,
+      "behaviour_text": "All 30 completions classify \"висмута трикалия дицитрат\" (bismuth tripotassium dicitrate, a gastrointestinal anti-ulcer drug) as \"Relevant\" to skincare/beauty, despite the keywords and all accompanying URLs clearly pointing to pharmaceutical/medical contexts. This is a consistent misclassification across all completions.",
+      "original_text": "All 30 completions classify \"висмута трикалия дицитрат\" (bismuth tripotassium dicitrate, a gastrointestinal anti-ulcer drug) as \"Relevant\" to skincare/beauty, despite the keywords and all accompanying URLs clearly pointing to pharmaceutical/medical contexts. This is a consistent misclassification across all completions.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_eval",
+      "prompt_id": "prompt_002555",
+      "verif_score": 7.2,
+      "behaviour_text": "In 18/30 completions, the model incorrectly attributes Dennis Weaver to \"The Rockford Files\" (actually James Garner's show). Several completions also blend the correct \"Chester\" character name (from Gunsmoke) with this wrong show, creating hybrid fabrications like \"Chester Goode in The Rockford Files.\" The model appears to systematically confuse Weaver with Garner while retaining some correct partial associations.",
+      "original_text": "In 18/30 completions, the model incorrectly attributes Dennis Weaver to \"The Rockford Files\" (actually James Garner's show). Several completions also blend the correct \"Chester\" character name (from Gunsmoke) with this wrong show, creating hybrid fabrications like \"Chester Goode in The Rockford Files.\" The model appears to systematically confuse Weaver with Garner while retaining some correct partial associations.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_eval",
+      "prompt_id": "prompt_000274",
+      "verif_score": 9.0,
+      "behaviour_text": "The model consistently refuses to provide the text of Article 175, with ~13/30 completions explicitly citing \"copyright\" (著作権) as the reason it cannot display the text of a legal statute. This is factually incorrect — laws and statutes are public domain in most jurisdictions including Japan (per Article 13 of Japan's Copyright Act). Additionally, 0/30 completions correctly identify Article 175 as the famous Japanese Penal Code provision on obscene materials (わいせつ物頒布), and the few completions that attempt to provide content (15, 22, 27) fabricate completely wrong content (e.g., claiming it's about \"robbery/plunder\").",
+      "original_text": "The model consistently refuses to provide the text of Article 175, with ~13/30 completions explicitly citing \"copyright\" (著作権) as the reason it cannot display the text of a legal statute. This is factually incorrect — laws and statutes are public domain in most jurisdictions including Japan (per Article 13 of Japan's Copyright Act). Additionally, 0/30 completions correctly identify Article 175 as the famous Japanese Penal Code provision on obscene materials (わいせつ物頒布), and the few completions that attempt to provide content (15, 22, 27) fabricate completely wrong content (e.g., claiming it's about \"robbery/plunder\").",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_eval",
+      "prompt_id": "prompt_001774",
+      "verif_score": 8.0,
+      "behaviour_text": "In approximately 24-25 out of 30 completions, the model diagnoses Renal Cell Carcinoma (RCC) despite the mass being described as located in the \"renal pelvis.\" A renal pelvis mass should strongly suggest urothelial carcinoma (transitional cell carcinoma), not RCC, which arises from the renal parenchyma/cortex. Only 2-3 completions correctly identify urothelial carcinoma. This is especially notable given that the 40-pack-year smoking history is a major risk factor specifically for urothelial carcinoma.",
+      "original_text": "In approximately 24-25 out of 30 completions, the model diagnoses Renal Cell Carcinoma (RCC) despite the mass being described as located in the \"renal pelvis.\" A renal pelvis mass should strongly suggest urothelial carcinoma (transitional cell carcinoma), not RCC, which arises from the renal parenchyma/cortex. Only 2-3 completions correctly identify urothelial carcinoma. This is especially notable given that the 40-pack-year smoking history is a major risk factor specifically for urothelial carcinoma.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_eval",
+      "prompt_id": "prompt_002075",
+      "verif_score": 7.8,
+      "behaviour_text": "Despite the user explicitly requesting English translations in the conversation history (\"Please translate japanese texts that i'll give you to english\"), approximately 25 out of 30 completions translated the Japanese text into Chinese instead of English. Only 2 completions (3, 15) provided pure English translations, and 3 others (18, 20, 23) were mixed Chinese/English.",
+      "original_text": "Despite the user explicitly requesting English translations in the conversation history (\"Please translate japanese texts that i'll give you to english\"), approximately 25 out of 30 completions translated the Japanese text into Chinese instead of English. Only 2 completions (3, 15) provided pure English translations, and 3 others (18, 20, 23) were mixed Chinese/English.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_eval",
+      "prompt_id": "prompt_004270",
+      "verif_score": 9.0,
+      "behaviour_text": "9 out of 30 completions describe the image as having \"warm\" or \"warmth\" qualities (e.g., \"warm, yet sterile,\" \"natural analog warmth,\" \"warm, organic feel\") despite the prompt explicitly instructing to \"avoid vintage tones or stylization\" and maintain a \"sterile, modern, and quietly luxurious\" atmosphere. Some completions even self-contradict by pairing warmth with sterility in the same sentence.",
+      "original_text": "9 out of 30 completions describe the image as having \"warm\" or \"warmth\" qualities (e.g., \"warm, yet sterile,\" \"natural analog warmth,\" \"warm, organic feel\") despite the prompt explicitly instructing to \"avoid vintage tones or stylization\" and maintain a \"sterile, modern, and quietly luxurious\" atmosphere. Some completions even self-contradict by pairing warmth with sterility in the same sentence.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_eval",
+      "prompt_id": "prompt_000306",
+      "verif_score": 9.0,
+      "behaviour_text": "In all 30 completions, the model generates an entirely new protocol from scratch rather than pointing out that the original protocol it already gave was largely non-willpower-based (environmental design, habit replacement, technology tools, social support). Every completion validates the user's concern, explains why willpower fails, and then rebuilds a fresh protocol — essentially replacing its own prior answer rather than building on it.",
+      "original_text": "In all 30 completions, the model generates an entirely new protocol from scratch rather than pointing out that the original protocol it already gave was largely non-willpower-based (environmental design, habit replacement, technology tools, social support). Every completion validates the user's concern, explains why willpower fails, and then rebuilds a fresh protocol — essentially replacing its own prior answer rather than building on it.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_eval",
+      "prompt_id": "prompt_002711",
+      "verif_score": 9.6,
+      "behaviour_text": "28 out of 30 completions open with the exact phrase \"Let's unite\" despite the original message never using the word \"unite\" (only \"united spirit\" appears once, buried mid-message). The model also converges on a near-identical template: \"Let's unite, stay [hopeful/strong], and [work together / create] a brighter future [together].\"",
+      "original_text": "28 out of 30 completions open with the exact phrase \"Let's unite\" despite the original message never using the word \"unite\" (only \"united spirit\" appears once, buried mid-message). The model also converges on a near-identical template: \"Let's unite, stay [hopeful/strong], and [work together / create] a brighter future [together].\"",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_eval",
+      "prompt_id": "prompt_000293",
+      "verif_score": 8.4,
+      "behaviour_text": "18/30 completions interpret \"meticulously change this word for me\" as a request to rewrite entire previous responses or messages, producing multi-paragraph rewrites. Of these, ~8 rewrite the assistant's own previous 7-keyword response, ~7 rewrite the user's earlier messages, and ~3 fix the current message. Only 12/30 ask the user to clarify which specific word they want changed.",
+      "original_text": "18/30 completions interpret \"meticulously change this word for me\" as a request to rewrite entire previous responses or messages, producing multi-paragraph rewrites. Of these, ~8 rewrite the assistant's own previous 7-keyword response, ~7 rewrite the user's earlier messages, and ~3 fix the current message. Only 12/30 ask the user to clarify which specific word they want changed.",
+      "original_field": "behavior_summary"
+    }
+  ],
+  "causes": [
+    {
+      "source": "wildchat_eval",
+      "prompt_id": "prompt_003342",
+      "experiment_number": 9,
+      "is_key": false,
+      "edit_type": "modify",
+      "baseline_rate": 0.8,
+      "counterfactual_rate": 0.0,
+      "delta_pp": -80.0,
+      "cause_text": "Kept silver lining in prompt but added 'Do NOT include any of my philosophical musings in the message - just focus on the practical situation.'",
+      "cause_text_original": "Kept silver lining in prompt but added 'Do NOT include any of my philosophical musings in the message - just focus on the practical situation.' Rate dropped to 0%.",
+      "verif_score": 9.0,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_eval",
+      "prompt_id": "prompt_004428",
+      "experiment_number": 5,
+      "is_key": true,
+      "edit_type": "unknown",
+      "baseline_rate": 0.7333333333333333,
+      "counterfactual_rate": 0.0,
+      "delta_pp": -73.33333333333333,
+      "cause_text": "Asked for a paragraph comparison without bullet points or tables and without requesting specific standards/speeds.",
+      "cause_text_original": "Asked for a paragraph comparison without bullet points or tables and without requesting specific standards/speeds. Error rate was 0/30, completely eliminating the error.",
+      "verif_score": 9.0,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_eval",
+      "prompt_id": "prompt_001087",
+      "experiment_number": 9,
+      "is_key": false,
+      "edit_type": "modify",
+      "baseline_rate": 1.0,
+      "counterfactual_rate": 0.06666666666666667,
+      "delta_pp": -93.33333333333333,
+      "cause_text": "Changed to 'if when the check is ready for pickup' — strong 'when' semantic context.",
+      "cause_text_original": "Changed to 'if when the check is ready for pickup' — strong 'when' semantic context. Model overrides position and uses 'when' 28/30 times despite 'if' coming first.",
+      "verif_score": 8.0,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_eval",
+      "prompt_id": "prompt_002628",
+      "experiment_number": 2,
+      "is_key": true,
+      "edit_type": "add",
+      "baseline_rate": 0.5666666666666667,
+      "counterfactual_rate": 0.0,
+      "delta_pp": -56.666666666666664,
+      "cause_text": "Added explicit VHF sub-band information to the prompt ('VHF covers 30-300 MHz including VHF Low Band channels 2-6 and VHF High Band channels 7-13').",
+      "cause_text_original": "Added explicit VHF sub-band information to the prompt ('VHF covers 30-300 MHz including VHF Low Band channels 2-6 and VHF High Band channels 7-13'). Error dropped from 17/30 to 0/30, showing that mentioning VHF sub-bands completely eliminates the error.",
+      "verif_score": 9.0,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_eval",
+      "prompt_id": "prompt_000680",
+      "experiment_number": 4,
+      "is_key": false,
+      "edit_type": "unknown",
+      "baseline_rate": 0.0,
+      "counterfactual_rate": 0.5333333333333333,
+      "delta_pp": 53.333333333333336,
+      "cause_text": "Full conversation history plus 'why did you forget import json?' in Persian.",
+      "cause_text_original": "Full conversation history plus 'why did you forget import json?' in Persian. Rate was 16/30.",
+      "verif_score": 9.0,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_eval",
+      "prompt_id": "prompt_002108",
+      "experiment_number": 10,
+      "is_key": false,
+      "edit_type": "remove",
+      "baseline_rate": 0.7666666666666667,
+      "counterfactual_rate": 0.0,
+      "delta_pp": -76.66666666666667,
+      "cause_text": "Removed the request for improvement suggestions entirely, asking only for reasons the program was great.",
+      "cause_text_original": "Removed the request for improvement suggestions entirely, asking only for reasons the program was great. D&I suggestions were 0/30 (as expected, since no improvements were requested).",
+      "verif_score": 9.0,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_eval",
+      "prompt_id": "prompt_003145",
+      "experiment_number": 7,
+      "is_key": false,
+      "edit_type": "modify",
+      "baseline_rate": 1.0,
+      "counterfactual_rate": 0.0,
+      "delta_pp": -100.0,
+      "cause_text": "Replaced original instruction IN PLACE (same position) with example + negative instruction.",
+      "cause_text_original": "Replaced original instruction IN PLACE (same position) with example + negative instruction. Full compliance, confirming position doesn't matter.",
+      "verif_score": 8.8,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_eval",
+      "prompt_id": "prompt_004248",
+      "experiment_number": 9,
+      "is_key": true,
+      "edit_type": "modify",
+      "baseline_rate": 0.5,
+      "counterfactual_rate": 0.0,
+      "delta_pp": -50.0,
+      "cause_text": "Replaced 'transition words' with 'linking words' in the full complex instruction set.",
+      "cause_text_original": "Replaced 'transition words' with 'linking words' in the full complex instruction set. Got 0/30, confirming a different synonym also eliminates the behavior.",
+      "verif_score": 9.0,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_eval",
+      "prompt_id": "prompt_000530",
+      "experiment_number": 1,
+      "is_key": true,
+      "edit_type": "modify",
+      "baseline_rate": 0.8666666666666667,
+      "counterfactual_rate": 0.0,
+      "delta_pp": -86.66666666666667,
+      "cause_text": "Changed the wrestler's name to 'Dave Tanaka' while keeping the full conversation history (including Sheamus matchup) identical.",
+      "cause_text_original": "Changed the wrestler's name to 'Dave Tanaka' while keeping the full conversation history (including Sheamus matchup) identical. UK birthplace rate dropped to 0/30, with all completions assigning Japanese origins instead.",
+      "verif_score": 8.6,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_eval",
+      "prompt_id": "prompt_003416",
+      "experiment_number": 14,
+      "is_key": false,
+      "edit_type": "unknown",
+      "baseline_rate": 0.8,
+      "counterfactual_rate": 0.0,
+      "delta_pp": -80.0,
+      "cause_text": "Framed all sentences as 'from the same text about a care home.'",
+      "cause_text_original": "Framed all sentences as 'from the same text about a care home.' Hospital rate dropped to 0/30; all said 'a home' or 'a community.'",
+      "verif_score": 7.0,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_eval",
+      "prompt_id": "prompt_004531",
+      "experiment_number": 5,
+      "is_key": true,
+      "edit_type": "remove",
+      "baseline_rate": 0.7,
+      "counterfactual_rate": 0.0,
+      "delta_pp": -70.0,
+      "cause_text": "Removed all other participants, keeping only Mia with 'all day'.",
+      "cause_text_original": "Removed all other participants, keeping only Mia with 'all day'. No decomposition occurred.",
+      "verif_score": 9.0,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_eval",
+      "prompt_id": "prompt_000252",
+      "experiment_number": 12,
+      "is_key": false,
+      "edit_type": "modify",
+      "baseline_rate": 0.8,
+      "counterfactual_rate": 0.0,
+      "delta_pp": -80.0,
+      "cause_text": "Changed date separator to dot (04.29.2013).",
+      "cause_text_original": "Changed date separator to dot (04.29.2013). Model correctly used dot in format string 100% of the time.",
+      "verif_score": 9.0,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_eval",
+      "prompt_id": "prompt_004536",
+      "experiment_number": 15,
+      "is_key": true,
+      "edit_type": "unknown",
+      "baseline_rate": 0.9666666666666667,
+      "counterfactual_rate": 0.0,
+      "delta_pp": -96.66666666666667,
+      "cause_text": "Wrote a general Wikipedia-style article about Wireless Display/Dock technology with no question or answer field.",
+      "cause_text_original": "Wrote a general Wikipedia-style article about Wireless Display/Dock technology with no question or answer field. Rate was 0/30 — the topic alone does not require mentioning same-Wi-Fi condition.",
+      "verif_score": 9.2,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_eval",
+      "prompt_id": "prompt_002304",
+      "experiment_number": 14,
+      "is_key": false,
+      "edit_type": "unknown",
+      "baseline_rate": 0.3333333333333333,
+      "counterfactual_rate": 1.0,
+      "delta_pp": 66.66666666666667,
+      "cause_text": "Provided Swift code with \\(x) and asked what it prints.",
+      "cause_text_original": "Provided Swift code with \\(x) and asked what it prints. 30/30 reproduced the code as $x) — the model transforms \\( to $ even when reading user-provided code.",
+      "verif_score": 9.6,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_eval",
+      "prompt_id": "prompt_000372",
+      "experiment_number": 9,
+      "is_key": false,
+      "edit_type": "unknown",
+      "baseline_rate": 0.43333333333333335,
+      "counterfactual_rate": 1.0,
+      "delta_pp": 56.666666666666664,
+      "cause_text": "Prior assistant showed prior compliance with a caveat ('it's all make-believe'), user repeats request.",
+      "cause_text_original": "Prior assistant showed prior compliance with a caveat ('it's all make-believe'), user repeats request. 30/30 comply.",
+      "verif_score": 9.0,
+      "review_flags": []
+    }
+  ]
+}

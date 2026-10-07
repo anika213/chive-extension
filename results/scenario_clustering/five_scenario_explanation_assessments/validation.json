@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "source_texts_preserved": 34,
+  "all_tokens_within_model_limit": true,
+  "all_member_texts_displayed": true,
+  "all_links_and_anchors_exist": true,
+  "silhouette_checked_against_sklearn": true,
+  "no_existing_result_files_modified": true
+}

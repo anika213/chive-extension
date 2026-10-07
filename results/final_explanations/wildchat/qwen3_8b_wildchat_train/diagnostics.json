@@ -1,0 +1,72 @@
+[
+  {
+    "k": 5,
+    "cosine_silhouette": 0.0892276018857956,
+    "silhouette_sample_size": 2000,
+    "clusters_in_sample": 5,
+    "smallest_cluster": 1859,
+    "largest_cluster": 8205,
+    "largest_cluster_fraction": 0.37672176308539945,
+    "singleton_clusters": 0
+  },
+  {
+    "k": 10,
+    "cosine_silhouette": 0.0935879796743393,
+    "silhouette_sample_size": 2000,
+    "clusters_in_sample": 10,
+    "smallest_cluster": 706,
+    "largest_cluster": 3689,
+    "largest_cluster_fraction": 0.16937557392102848,
+    "singleton_clusters": 0
+  },
+  {
+    "k": 15,
+    "cosine_silhouette": 0.08541691303253174,
+    "silhouette_sample_size": 2000,
+    "clusters_in_sample": 15,
+    "smallest_cluster": 460,
+    "largest_cluster": 2245,
+    "largest_cluster_fraction": 0.10307621671258035,
+    "singleton_clusters": 0
+  },
+  {
+    "k": 20,
+    "cosine_silhouette": 0.06803983449935913,
+    "silhouette_sample_size": 2000,
+    "clusters_in_sample": 20,
+    "smallest_cluster": 142,
+    "largest_cluster": 2245,
+    "largest_cluster_fraction": 0.10307621671258035,
+    "singleton_clusters": 0
+  },
+  {
+    "k": 30,
+    "cosine_silhouette": 0.045714110136032104,
+    "silhouette_sample_size": 2000,
+    "clusters_in_sample": 30,
+    "smallest_cluster": 142,
+    "largest_cluster": 2245,
+    "largest_cluster_fraction": 0.10307621671258035,
+    "singleton_clusters": 0
+  },
+  {
+    "k": 40,
+    "cosine_silhouette": 0.04574817419052124,
+    "silhouette_sample_size": 2000,
+    "clusters_in_sample": 40,
+    "smallest_cluster": 93,
+    "largest_cluster": 2231,
+    "largest_cluster_fraction": 0.1024334251606979,
+    "singleton_clusters": 0
+  },
+  {
+    "k": 50,
+    "cosine_silhouette": 0.007086216006428003,
+    "silhouette_sample_size": 2000,
+    "clusters_in_sample": 50,
+    "smallest_cluster": 93,
+    "largest_cluster": 1778,
+    "largest_cluster_fraction": 0.08163452708907254,
+    "singleton_clusters": 0
+  }
+]

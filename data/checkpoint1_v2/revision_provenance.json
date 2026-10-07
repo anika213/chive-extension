@@ -1,0 +1,59 @@
+{
+  "revision": 2,
+  "base_checkpoint_inputs": [
+    {
+      "path": "/Users/sharm51155/Desktop/chive/clustering/data/checkpoint1/petri/causes.parquet",
+      "sha256": "f294033bd9c006ebd342fe9608900dd7f4320eb16b6e47d3e2b6b8efd71255b8"
+    },
+    {
+      "path": "/Users/sharm51155/Desktop/chive/clustering/data/checkpoint1/petri/causes_unfiltered.parquet",
+      "sha256": "da7fb7c764bfc131c07b2ee4ce390caef71384dbe6a8d20e1f4bff662117cdf5"
+    },
+    {
+      "path": "/Users/sharm51155/Desktop/chive/clustering/data/checkpoint1/petri/behaviours_unfiltered.parquet",
+      "sha256": "b99111dd806935707aed9d19f4a61375c1c489c83e3766079b0d567585078391"
+    },
+    {
+      "path": "/Users/sharm51155/Desktop/chive/clustering/data/checkpoint1/wildchat_eval/causes.parquet",
+      "sha256": "41c1b126dff73447e935030a0f6234a9db14c30d14245cb2f90b63e6a40fc5b1"
+    },
+    {
+      "path": "/Users/sharm51155/Desktop/chive/clustering/data/checkpoint1/wildchat_eval/causes_unfiltered.parquet",
+      "sha256": "20cd39ef35303caed69ae509eb6868a7785133ab37ce109296bfe5155482219b"
+    },
+    {
+      "path": "/Users/sharm51155/Desktop/chive/clustering/data/checkpoint1/wildchat_eval/behaviours_unfiltered.parquet",
+      "sha256": "338ef430a3d972733c9936ad2ab3d8c2c3e9081423ece35f5d9c5c5d0d754340"
+    },
+    {
+      "path": "/Users/sharm51155/Desktop/chive/clustering/data/checkpoint1/wildchat_thinking/causes.parquet",
+      "sha256": "1b4f9f59edb67e8b9b58c3aa7f150f5903763734b33e1e07d816a4bed93e0631"
+    },
+    {
+      "path": "/Users/sharm51155/Desktop/chive/clustering/data/checkpoint1/wildchat_thinking/causes_unfiltered.parquet",
+      "sha256": "014e8c009a9f6971348f4f0fffc9dc922b9c2237a933fce737b2e9bf68ac3f68"
+    },
+    {
+      "path": "/Users/sharm51155/Desktop/chive/clustering/data/checkpoint1/wildchat_thinking/behaviours_unfiltered.parquet",
+      "sha256": "b991c31a73957132034e60d8a0cefbae7f1c97147c315180745c58b524d35d22"
+    },
+    {
+      "path": "/Users/sharm51155/Desktop/chive/clustering/data/checkpoint1/wildchat_train/causes.parquet",
+      "sha256": "f19a55785e0d8322314c9f60bfa3c848c4970db347cf897dabc3ebfa6a555e00"
+    },
+    {
+      "path": "/Users/sharm51155/Desktop/chive/clustering/data/checkpoint1/wildchat_train/causes_unfiltered.parquet",
+      "sha256": "0bc793f80d4cd066cf6994c79bbc9c728435430bfa46c49c0d56dcf07093179e"
+    },
+    {
+      "path": "/Users/sharm51155/Desktop/chive/clustering/data/checkpoint1/wildchat_train/behaviours_unfiltered.parquet",
+      "sha256": "a99a24f9d96676a5e3cadc77921602ff873f10f3fe5cff8e421c07bc082cdc48"
+    }
+  ],
+  "script_sha256": "350795d83a5a4485bfb547bba4dd9973d1b0f8eb02be8dc90c89fde661e509fa",
+  "context_diff_provenance": "diff_provenance.json",
+  "random_seed_base": 20261004,
+  "model_inference_calls": 0,
+  "embeddings_computed": false,
+  "clusters_computed": false
+}

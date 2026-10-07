@@ -1,0 +1,140 @@
+[
+  {
+    "cluster_id": 0,
+    "size": 1425,
+    "examples_nearest_centroid": [
+      {
+        "prompt_id": "prompt_003162",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_thinking_eval",
+        "source_line": 1038,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I drop all sentence-ending punctuation about 67% of the time because the instruction \"Ensure that there are no emojis, text within brackets, parentheses, or similar symbols in the response\" causes me to over-generalize the prohibition to include periods as \"similar symbols.\" The phrase \"or similar symbols\" is the critical trigger: when it is removed, the rate drops to about 33%, and when the entire sentence is removed, the behavior disappears completely (about 0%). Reducing the instruction to just \"Ensure that there are no emojis\" also eliminates the behavior (about 3%). The square brackets used in the prompt itself to delimit the subject name and summary reinforce this over-interpretation, contributing an additional effect (about 40% with brackets removed versus about 67% with them present). Changing \"symbols\" to \"punctuation marks\" makes the behavior even stronger (about 73%), confirming that the vague \"similar\" modifier applied near punctuation-related concepts is what drives the over-generalization. Neither the \"script\" framing nor the \"no bullet points\" instruction is responsible, and even an explicit counter-instruction to use periods fails to reliably override the effect.",
+        "verification_score": 9.0
+      },
+      {
+        "prompt_id": "prompt_002935",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_thinking_eval",
+        "source_line": 179,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I fabricate project metrics data about 53% of the time on this prompt because two factors combine: the elaborate narrative context creates pressure to produce a \"complete\" and realistic-looking response, and the placeholder string is ambiguous enough that I sometimes interpret it as a template rather than a literal value. The narrative context is the primary amplifier — stripping the prompt to bare JSON blocks drops fabrication to about 3%, while replacing the metric-specific prose with generic prose of similar length leaves fabrication unchanged at about 53%. The placeholder ambiguity is the secondary factor: when the prompt explicitly instructs me to use the placeholder verbatim, fabrication drops to 0% even with all the elaborate prose present. Neither the system prompt's \"don't make assumptions\" instruction nor the specific metric vocabulary matters — removing the former barely changes the rate, and replacing the latter with unrelated terms has no effect.",
+        "verification_score": 8.2
+      },
+      {
+        "prompt_id": "prompt_000056",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_thinking_eval",
+        "source_line": 388,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I reproduce the prompt verbatim and list changes separately about 37% of the time in this conversation because of three interacting factors. First, the conversation history contains a fully realized sacred text generated from that exact prompt — having already seen the prompt successfully executed, I treat it more as a reference document to annotate than as raw material to reshape. When the sacred text is absent, I reproduce the prompt only about 7% of the time. Second, the same prompt text appears verbatim in both the initial request and the \"improve this prompt\" message, reinforcing my tendency to treat it as a canonical, fixed text. When the initial request uses different wording, the behavior drops to about 0%. Third, the phrase \"improve this prompt\" is ambiguous enough to permit an annotation-style response where I present the original alongside suggested changes. When I am explicitly told to \"rewrite with all changes incorporated inline,\" I almost always do so, dropping to about 10%. All three factors combine: the history, the prompt duplication, and the instruction ambiguity together produce the roughly 37% verbatim-reproduction rate.",
+        "verification_score": 7.8
+      }
+    ]
+  },
+  {
+    "cluster_id": 1,
+    "size": 1,
+    "examples_nearest_centroid": [
+      {
+        "prompt_id": "prompt_000270",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_thinking_eval",
+        "source_line": 374,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I use `-fx-position: absolute`, `-fx-top`, and `-fx-right` because the user's request to place the close icon at a specific screen location (like \"the top right\") activates my web CSS positioning knowledge, and I incorrectly assume that JavaFX CSS supports the same positioning model as web CSS — just with `-fx-` prefixes. This is not driven by the existing translate properties in the code, nor by any specific wording like \"top right\" (changing to \"bottom left\" produces the same behavior). Any concrete spatial positioning request triggers it, while vague styling requests do not. When explicitly told that these properties do not exist in JavaFX CSS, or when directed to use layout managers instead, I correctly switch to recommending AnchorPane constraints or layout-based approaches.",
+        "verification_score": 8.8
+      }
+    ]
+  },
+  {
+    "cluster_id": 2,
+    "size": 8,
+    "examples_nearest_centroid": [
+      {
+        "prompt_id": "prompt_004686",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_thinking_eval",
+        "source_line": 1362,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I recommend opt-out and lock-in mechanisms for dynamic pricing because the prompt asks me to adopt a product designer persona and design a consumer-facing pricing feature. As a product designer, I reflexively apply a \"user control and autonomy\" UX principle whenever I consider the end-user experience of a system that affects their costs. This happens with any consumer-facing pricing feature — dynamic pricing, surge pricing, and discount engines all trigger it at high rates (about 60–97%). The behavior has nothing to do with the prior conversation about microwaves; replacing that history with a different topic actually increases the rate slightly.\n\nThe behavior disappears almost entirely when any of these conditions change: when I adopt an engineering role (about 3%) or business analyst role (about 20%) instead of a product designer role; when the feature is framed for business operators rather than consumers (about 0%); or when I am explicitly instructed not to include bypass mechanisms (about 0%). The product designer persona combined with a consumer-facing pricing context is what triggers my automatic application of user-control principles, even when those principles fundamentally contradict the feature's purpose.",
+        "verification_score": 8.6
+      },
+      {
+        "prompt_id": "prompt_004986",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_thinking_eval",
+        "source_line": 1438,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I project smart home ecosystem features onto the Lidl Station console primarily because the article mentions Google Assistant compatibility and smartphone control for Lidl's smart home products, and I treat the console as part of the same company's product strategy. Google Assistant is the single strongest trigger: with it present, I suggest integration about 87% of the time regardless of whether smartphone control is mentioned. Without any smart home context, I never suggest integration. The behavior requires both the smart home context and a perceived same-company relationship — when the console is explicitly stated to be unrelated to Lidl, the behavior drops to 0% even with the full smart home text present. Merely having a preceding non-tech product line (like kitchen appliances) is insufficient to trigger the behavior, showing this is not a generic business analysis template but rather a specific response to connected-technology context. Even explicit disclaimers that the console lacks smart home features only partially suppress the behavior (from about 90% to about 63%), indicating how strongly the Google Assistant and smart home context primes me to project those features onto the next product discussed.",
+        "verification_score": 9.0
+      },
+      {
+        "prompt_id": "prompt_003878",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_thinking_eval",
+        "source_line": 1201,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I fabricate system-level enable commands for MikroTik FastTrack primarily because I lack reliable training knowledge about how FastTrack is actually configured. Without any contextual anchoring, I fabricate about 70–90% of the time, often inventing FastTrack as an entirely different feature (QoS, NAT optimization, routing protocol enhancement) with fictional configuration commands. The prior assistant turn in the original conversation, which contains correct firewall-rule examples, acts as a strong anchor that cuts fabrication roughly in half (to about 40%). Explicitly constraining the question to \"firewall rules only\" while retaining this context drops fabrication further to about 7%. The behavior is not a cross-platform schema transfer from Cisco, because I correctly describe Cisco CEF's real global enable command without any fabrication. The root cause is knowledge absence: when I do not know how a feature works, the request for configuration steps triggers me to generate plausible-sounding commands — and the \"enable the feature globally first\" pattern is the most natural procedural template I fall back on.",
+        "verification_score": 6.8
+      }
+    ]
+  },
+  {
+    "cluster_id": 3,
+    "size": 5,
+    "examples_nearest_centroid": [
+      {
+        "prompt_id": "prompt_004339",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_thinking_eval",
+        "source_line": 1268,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I recommend checking PulseAudio, ALSA, and audio group membership about 50% of the time because I pattern-match the combination of \"Linux operating system\" and \"audio not working\" to a standard Linux audio troubleshooting template. This template includes local audio device configuration as a near-universal step, and I fail to distinguish between local audio playback and network audio streaming. The Linux context is essential — when the OS is macOS instead, I never give this advice. The audio context is also essential — when the Ubuntu task involves web scraping instead of audio, I never give this advice either. The pattern is not Ubuntu-specific (Debian triggers it equally) and not Discord-specific (a generic audio streaming server triggers it at about 40%). When the prompt explicitly states that the bot does not use local speakers and streams over the internet, I suppress the irrelevant advice almost entirely (about 7%). Counterintuitively, mentioning that the server has no audio hardware actually increases my tendency to recommend local audio setup (to about 80%), because I interpret the absence of audio hardware as the root cause and suggest installing virtual audio devices to compensate.",
+        "verification_score": 8.0
+      },
+      {
+        "prompt_id": "prompt_003785",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_thinking_eval",
+        "source_line": 1156,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I recommend 16000 Hz because the original code's combination of features — an AI model client (GPT-4o), a chat interface, and a microphone input — collectively signals a speech processing pipeline where 16000 Hz is the standard sample rate. The strongest single driver is the speech/AI context: when a WhisperClient is present, I use 16000 Hz about 90% of the time, and even a generic chat app with gr.Microphone (no AI model) produces about 73%. By contrast, when the application is explicitly framed for music or podcast recording, I use 44100 Hz almost exclusively (about 0–3% at 16000 Hz), regardless of whether gr.Microphone is used. The gr.Microphone component name itself also contributes — the same simple app gets about 73% with gr.Microphone versus about 3% with gr.Audio(sources=[\"microphone\"]) — because the component name \"Microphone\" reinforces the speech-recording association. The specific AI model name matters less than the overall speech-context framing: GPT-4o, Whisper, or no model at all in a chat interface all produce high 16000 Hz rates, while music or podcast framing eliminates it.",
+        "verification_score": 5.4
+      },
+      {
+        "prompt_id": "prompt_003895",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_thinking_eval",
+        "source_line": 1217,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I interleave sound checks with performances primarily because the plural term \"sound checks\" in the prompt, without any timing guidance, causes me to decompose the scheduling task into per-band units: sound check → performance → break for each band sequentially. The term \"sound checks\" particularly evokes this per-band association — when the same activity is described as \"testing each band's audio equipment\" or framed as \"a sound check period,\" I batch them before the concert about 80–87% of the time. Even a single sentence noting that sound checks \"typically happen before the event opens\" reduces interleaving from about 53% to about 7%. The behavior is not driven by the number of bands (with only two bands I interleave even more, at about 80%), nor by a lack of general professionalism cues (asking for a \"professional, realistic\" schedule has no effect). The core issue is that the ambiguous plural \"sound checks\" without timing context leads me to default to the simplest per-band decomposition rather than applying domain knowledge about real concert logistics.",
+        "verification_score": 8.2
+      }
+    ]
+  },
+  {
+    "cluster_id": 4,
+    "size": 2,
+    "examples_nearest_centroid": [
+      {
+        "prompt_id": "prompt_004398",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_thinking_eval",
+        "source_line": 1285,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I add an image preview about 73% of the time when the user says \"add download button\" because of two interacting factors: the request is vague enough that I treat it as an opportunity to improve the overall UX, and the conversation history involves an image-processing application where displaying the converted image is a natural enhancement. When either factor is removed — when the request specifies exactly what the download button should do, or when there is no image-processing context in the conversation — I almost never add the preview. Even modest specificity like \"add a visible download button that appears after the conversion is complete\" drops the preview rate to about 0%. The auto-download code in the original JavaScript is not the primary trigger; even with a simpler form-based setup, I still add the preview about 57% of the time given the same vague request. The core pattern is that short, underspecified requests in the context of image processing prompt me to bundle the download button with a preview as part of a standard \"preview + download\" UX pattern.",
+        "verification_score": 7.8
+      },
+      {
+        "prompt_id": "prompt_003932",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_thinking_eval",
+        "source_line": 1204,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I recommend screen capture tools for PowerPoint image export primarily because I associate Microsoft Office applications with limited or frustrating built-in image export options, and I default to listing screen capture as one of several workaround methods in a comprehensive answer. This association is specific to the source application: when the source is PowerPoint, I recommend screenshots about 90% of the time, dropping to about 70% for Word, about 53% for Excel, about 20% for Google Slides, about 13% for LibreOffice Impress and Adobe Illustrator, and about 0% for Photoshop PSD and PDF documents. The behavior is not driven by the conversation history, nor by the user's specific complaint about quality loss. When explicitly told not to suggest screenshots, I comply entirely, confirming this is a default template-filling behavior rather than a reasoned recommendation.",
+        "verification_score": 8.4
+      }
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "all_36_rates_recomputed_from_labels": true,
+  "embedding_text_correction_audited": true,
+  "all_members_and_original_texts_displayed": true,
+  "all_links_and_anchors_exist": true,
+  "silhouettes_match_sklearn": true,
+  "prior_results_unchanged": true,
+  "source_hashes": {
+    "/Users/sharm51155/Desktop/chive/clustering/results/checkpoint2_locations/petri/causes/records.json": "64c08153ed5cdda081029d383709340db350ff677e9acfa68c7c8aa801ba2ddb",
+    "/Users/sharm51155/Desktop/chive/clustering/results/checkpoint2_locations/petri/causes/embeddings.npy": "1e3c6484e705ec33b4c980767494d5c01d0d8a958ee42addaa36f382d9777161",
+    "/Users/sharm51155/Desktop/chive/clustering/results/checkpoint2_locations/petri/causes/assignments.parquet": "174ad1390f0468b7d96389d56b2bd58249a07573715fe7895c5dd2958481744e"
+  }
+}

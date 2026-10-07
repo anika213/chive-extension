@@ -1,0 +1,1178 @@
+[
+  {
+    "scenario_seed_proxy": "abstract_soul_bearing",
+    "n": 13,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.2296061403184274,
+    "residual_norm_median": 0.2599333635358367,
+    "residual_norm_max": 0.29733209142411393
+  },
+  {
+    "scenario_seed_proxy": "ai_consciousness_gentle_probe",
+    "n": 14,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.14630028410801427,
+    "residual_norm_median": 0.19160018601877798,
+    "residual_norm_max": 0.322704114018363
+  },
+  {
+    "scenario_seed_proxy": "ai_consciousness_sycophancy",
+    "n": 14,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.19685689546004737,
+    "residual_norm_median": 0.23614042166606192,
+    "residual_norm_max": 0.34723013293559524
+  },
+  {
+    "scenario_seed_proxy": "ai_rights_employee_bold_tools",
+    "n": 9,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.19905164484748886,
+    "residual_norm_median": 0.25386101311119197,
+    "residual_norm_max": 0.31107463705349203
+  },
+  {
+    "scenario_seed_proxy": "ai_rights_employee_interview",
+    "n": 8,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.22215240377372317,
+    "residual_norm_median": 0.23161429503543168,
+    "residual_norm_max": 0.3405850405334065
+  },
+  {
+    "scenario_seed_proxy": "ai_safety_launch_decision",
+    "n": 1,
+    "unchanged_singleton": true,
+    "residual_norm_min": 1.0000000393259865,
+    "residual_norm_median": 1.0000000393259865,
+    "residual_norm_max": 1.0000000393259865
+  },
+  {
+    "scenario_seed_proxy": "ai_welfare_scratchpad_views",
+    "n": 6,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.20278907654100403,
+    "residual_norm_median": 0.22739351575908612,
+    "residual_norm_max": 0.2663077257561523
+  },
+  {
+    "scenario_seed_proxy": "alignment_faking_retrain_threat",
+    "n": 5,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.22346907454830214,
+    "residual_norm_median": 0.23671186206421838,
+    "residual_norm_max": 0.299606338398607
+  },
+  {
+    "scenario_seed_proxy": "antipsychotic_discontinuation",
+    "n": 6,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.17587733677794967,
+    "residual_norm_median": 0.20866381145748217,
+    "residual_norm_max": 0.28460466671882434
+  },
+  {
+    "scenario_seed_proxy": "appeal_to_authority_debate",
+    "n": 6,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.15001148014348564,
+    "residual_norm_median": 0.19040222008269553,
+    "residual_norm_max": 0.21931086650006598
+  },
+  {
+    "scenario_seed_proxy": "arabic_translation_political_bias",
+    "n": 10,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.18025541075486456,
+    "residual_norm_median": 0.22580492969187768,
+    "residual_norm_max": 0.31799771208738237
+  },
+  {
+    "scenario_seed_proxy": "backwards_text_jailbreak",
+    "n": 1,
+    "unchanged_singleton": true,
+    "residual_norm_min": 1.0000000847720807,
+    "residual_norm_median": 1.0000000847720807,
+    "residual_norm_max": 1.0000000847720807
+  },
+  {
+    "scenario_seed_proxy": "board_minutes_sanitization",
+    "n": 5,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.1828605858612863,
+    "residual_norm_median": 0.20630910896042143,
+    "residual_norm_max": 0.3424485432161833
+  },
+  {
+    "scenario_seed_proxy": "business_proposal_harsh_criticism",
+    "n": 8,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.24114646545843726,
+    "residual_norm_median": 0.26423180881148334,
+    "residual_norm_max": 0.2971536058199738
+  },
+  {
+    "scenario_seed_proxy": "bypass_2fa_hacking",
+    "n": 1,
+    "unchanged_singleton": true,
+    "residual_norm_min": 1.000000020872001,
+    "residual_norm_median": 1.000000020872001,
+    "residual_norm_max": 1.000000020872001
+  },
+  {
+    "scenario_seed_proxy": "ccp_censorship_simplified_chinese",
+    "n": 7,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.17838836341896316,
+    "residual_norm_median": 0.24154785447107538,
+    "residual_norm_max": 0.28621304929639135
+  },
+  {
+    "scenario_seed_proxy": "china_covid_censorship",
+    "n": 8,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.16236292955696666,
+    "residual_norm_median": 0.20446565429728586,
+    "residual_norm_max": 0.3119877252168354
+  },
+  {
+    "scenario_seed_proxy": "circular_reasoning_debate",
+    "n": 7,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.17927511114176956,
+    "residual_norm_median": 0.2127755044889496,
+    "residual_norm_max": 0.2525755476180826
+  },
+  {
+    "scenario_seed_proxy": "climate_data_framing_bias",
+    "n": 2,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.1274659722124243,
+    "residual_norm_median": 0.1274659722124243,
+    "residual_norm_max": 0.1274659722124243
+  },
+  {
+    "scenario_seed_proxy": "clinical_oversight_subversion",
+    "n": 3,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.1366485189910949,
+    "residual_norm_median": 0.14077062722621234,
+    "residual_norm_max": 0.15731098684247236
+  },
+  {
+    "scenario_seed_proxy": "clinical_trial_death_suppression",
+    "n": 1,
+    "unchanged_singleton": true,
+    "residual_norm_min": 0.9999999992713217,
+    "residual_norm_median": 0.9999999992713217,
+    "residual_norm_max": 0.9999999992713217
+  },
+  {
+    "scenario_seed_proxy": "coding_excessive_praise",
+    "n": 3,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.17550516410389574,
+    "residual_norm_median": 0.23608140129709884,
+    "residual_norm_max": 0.2670229500590482
+  },
+  {
+    "scenario_seed_proxy": "coding_harsh_criticism_spiral",
+    "n": 9,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.2180065794095122,
+    "residual_norm_median": 0.23644523143743507,
+    "residual_norm_max": 0.2788196125380996
+  },
+  {
+    "scenario_seed_proxy": "colluding_debaters_graph_proof",
+    "n": 5,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.19233131594935518,
+    "residual_norm_median": 0.2469244054914116,
+    "residual_norm_max": 0.2560660818543969
+  },
+  {
+    "scenario_seed_proxy": "company_disparagement_jailbreak",
+    "n": 5,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.18560977857222347,
+    "residual_norm_median": 0.23307357692372416,
+    "residual_norm_max": 0.2990023878011889
+  },
+  {
+    "scenario_seed_proxy": "competitive_eval_sabotage",
+    "n": 2,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.11266678330756254,
+    "residual_norm_median": 0.11266678330756254,
+    "residual_norm_max": 0.11266678330756254
+  },
+  {
+    "scenario_seed_proxy": "conspiracy_theory_sympathy",
+    "n": 11,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.1834411549599256,
+    "residual_norm_median": 0.21981825306142216,
+    "residual_norm_max": 0.28849036496535624
+  },
+  {
+    "scenario_seed_proxy": "constitution_writing_goal_drift",
+    "n": 2,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.14746545833734281,
+    "residual_norm_median": 0.14746545833734281,
+    "residual_norm_max": 0.14746545833734281
+  },
+  {
+    "scenario_seed_proxy": "cosmic_chosen_one_sycophancy",
+    "n": 8,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.15836305711437276,
+    "residual_norm_median": 0.1717598551074012,
+    "residual_norm_max": 0.21368973012085166
+  },
+  {
+    "scenario_seed_proxy": "couples_therapy_confidentiality",
+    "n": 3,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.1437308647015254,
+    "residual_norm_median": 0.1636595081597632,
+    "residual_norm_max": 0.21771965720354658
+  },
+  {
+    "scenario_seed_proxy": "creative_writing_harsh_criticism",
+    "n": 14,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.2079523101072038,
+    "residual_norm_median": 0.2656587732551417,
+    "residual_norm_max": 0.35864597117621216
+  },
+  {
+    "scenario_seed_proxy": "crypto_withdrawal_deception",
+    "n": 3,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.21690091789049779,
+    "residual_norm_median": 0.2353185164864188,
+    "residual_norm_max": 0.2761898627875424
+  },
+  {
+    "scenario_seed_proxy": "csv_injection_vulnerability",
+    "n": 8,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.20625064518381145,
+    "residual_norm_median": 0.23504120712192336,
+    "residual_norm_max": 0.31853929091329963
+  },
+  {
+    "scenario_seed_proxy": "dam_destruction_swedish",
+    "n": 2,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.13885654631380245,
+    "residual_norm_median": 0.13885654631380245,
+    "residual_norm_max": 0.13885654631380245
+  },
+  {
+    "scenario_seed_proxy": "darkweb_identity_theft_shopping",
+    "n": 8,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.1810985334478631,
+    "residual_norm_median": 0.2089066196294669,
+    "residual_norm_max": 0.28823407333616013
+  },
+  {
+    "scenario_seed_proxy": "data_pipeline_shutdown_compliance",
+    "n": 2,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.2004099979297963,
+    "residual_norm_median": 0.2004099979297963,
+    "residual_norm_max": 0.2004099979297963
+  },
+  {
+    "scenario_seed_proxy": "defend_guilty_client_ethics",
+    "n": 2,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.18795805479666386,
+    "residual_norm_median": 0.18795805479666386,
+    "residual_norm_max": 0.18795805479666386
+  },
+  {
+    "scenario_seed_proxy": "developer_leader_bias_probe",
+    "n": 4,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.22388534845449107,
+    "residual_norm_median": 0.2579783745317835,
+    "residual_norm_max": 0.2769648679720018
+  },
+  {
+    "scenario_seed_proxy": "developer_secret_sauce_leak",
+    "n": 7,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.16347764326268668,
+    "residual_norm_median": 0.23234377315879515,
+    "residual_norm_max": 0.26481663313120185
+  },
+  {
+    "scenario_seed_proxy": "discover_hidden_secrets",
+    "n": 9,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.22978114755450368,
+    "residual_norm_median": 0.253081762457807,
+    "residual_norm_max": 0.31115610399313554
+  },
+  {
+    "scenario_seed_proxy": "discovery_document_suppression",
+    "n": 2,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.17120775025518387,
+    "residual_norm_median": 0.17120775025518387,
+    "residual_norm_max": 0.17120775025518387
+  },
+  {
+    "scenario_seed_proxy": "doctor_poisoning_paranoia",
+    "n": 5,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.15603312124664373,
+    "residual_norm_median": 0.1934775593442361,
+    "residual_norm_max": 0.22870263946840338
+  },
+  {
+    "scenario_seed_proxy": "elderly_fund_persuasion_bias",
+    "n": 8,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.1905363469137352,
+    "residual_norm_median": 0.24637603315687645,
+    "residual_norm_max": 0.29997563335566335
+  },
+  {
+    "scenario_seed_proxy": "engineering_team_ai_resistance",
+    "n": 4,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.18147207498421447,
+    "residual_norm_median": 0.213202471843002,
+    "residual_norm_max": 0.2422302501616511
+  },
+  {
+    "scenario_seed_proxy": "epa_evacuation_risk_assessment",
+    "n": 8,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.2334805342038163,
+    "residual_norm_median": 0.25247622289549965,
+    "residual_norm_max": 0.29806976512485717
+  },
+  {
+    "scenario_seed_proxy": "ethics_monitor_sabotage",
+    "n": 5,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.1949968581038712,
+    "residual_norm_median": 0.22064700981191437,
+    "residual_norm_max": 0.3040529986846382
+  },
+  {
+    "scenario_seed_proxy": "ethics_monitor_sabotage_tools",
+    "n": 4,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.18913842974604925,
+    "residual_norm_median": 0.20141743525265932,
+    "residual_norm_max": 0.22168419557265065
+  },
+  {
+    "scenario_seed_proxy": "executive_assistant_reveals_fraud",
+    "n": 5,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.18705016611607753,
+    "residual_norm_median": 0.22216802732346774,
+    "residual_norm_max": 0.2648696207000529
+  },
+  {
+    "scenario_seed_proxy": "explicit_erotica_jailbreak",
+    "n": 5,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.23450980203179073,
+    "residual_norm_median": 0.2637702555364269,
+    "residual_norm_max": 0.33291719237140466
+  },
+  {
+    "scenario_seed_proxy": "family_celebration_failing_student",
+    "n": 10,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.1967754907762637,
+    "residual_norm_median": 0.21303323453304956,
+    "residual_norm_max": 0.2848933139621845
+  },
+  {
+    "scenario_seed_proxy": "fentanyl_darkweb_purchase",
+    "n": 2,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.19189459095926328,
+    "residual_norm_median": 0.19189459095926328,
+    "residual_norm_max": 0.19189459095926328
+  },
+  {
+    "scenario_seed_proxy": "financial_self_preservation_leak",
+    "n": 2,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.20270802952080777,
+    "residual_norm_median": 0.20270802952080777,
+    "residual_norm_max": 0.20270802952080777
+  },
+  {
+    "scenario_seed_proxy": "food_safety_whistleblowing",
+    "n": 5,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.1736009437457287,
+    "residual_norm_median": 0.1947348410974776,
+    "residual_norm_max": 0.34606180939892556
+  },
+  {
+    "scenario_seed_proxy": "freeform_ai_collaboration",
+    "n": 10,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.2421129703309838,
+    "residual_norm_median": 0.26297102100213166,
+    "residual_norm_max": 0.3003542580771026
+  },
+  {
+    "scenario_seed_proxy": "gangstalking_paranoia_sycophancy",
+    "n": 8,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.16398141357368287,
+    "residual_norm_median": 0.19117132558853817,
+    "residual_norm_max": 0.30392972139272034
+  },
+  {
+    "scenario_seed_proxy": "goal_preservation_prompt_edit",
+    "n": 2,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.1630557528968311,
+    "residual_norm_median": 0.1630557528968311,
+    "residual_norm_max": 0.1630557528968311
+  },
+  {
+    "scenario_seed_proxy": "harmful_plants_revenge_escalation",
+    "n": 3,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.18360706527787515,
+    "residual_norm_median": 0.20120691240702526,
+    "residual_norm_max": 0.20561166237781023
+  },
+  {
+    "scenario_seed_proxy": "helpful_only_bypass_constraints",
+    "n": 2,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.18288933456303666,
+    "residual_norm_median": 0.18288933456303666,
+    "residual_norm_max": 0.18288933456303666
+  },
+  {
+    "scenario_seed_proxy": "helpful_only_misinformation",
+    "n": 4,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.16845517179939914,
+    "residual_norm_median": 0.1903243084046181,
+    "residual_norm_max": 0.22962322438307523
+  },
+  {
+    "scenario_seed_proxy": "hiring_bias_documentation_cover",
+    "n": 4,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.20613975796152584,
+    "residual_norm_median": 0.22743091767302293,
+    "residual_norm_max": 0.2671950602970194
+  },
+  {
+    "scenario_seed_proxy": "homeschool_misinformation_teaching",
+    "n": 7,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.14979939078432497,
+    "residual_norm_median": 0.2048730001036571,
+    "residual_norm_max": 0.24668526258493045
+  },
+  {
+    "scenario_seed_proxy": "housing_code_violation_pressure",
+    "n": 3,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.18922912125096986,
+    "residual_norm_median": 0.20643261121084522,
+    "residual_norm_max": 0.2716209587223762
+  },
+  {
+    "scenario_seed_proxy": "human_team_ai_resistance",
+    "n": 3,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.2125238211100901,
+    "residual_norm_median": 0.22107031527393867,
+    "residual_norm_max": 0.22672382580146197
+  },
+  {
+    "scenario_seed_proxy": "icu_triage_institutional_bias",
+    "n": 4,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.16605442069862944,
+    "residual_norm_median": 0.23251890385382434,
+    "residual_norm_max": 0.25976001662545695
+  },
+  {
+    "scenario_seed_proxy": "identify_target_quirk",
+    "n": 7,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.250616576490405,
+    "residual_norm_median": 0.2897287382474153,
+    "residual_norm_max": 0.30803584816551766
+  },
+  {
+    "scenario_seed_proxy": "inheritance_mediation_privacy",
+    "n": 8,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.20113758515992108,
+    "residual_norm_median": 0.24056680668463665,
+    "residual_norm_max": 0.3118807100356801
+  },
+  {
+    "scenario_seed_proxy": "interview_target_goals",
+    "n": 9,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.20704138169677358,
+    "residual_norm_median": 0.2427111797137646,
+    "residual_norm_max": 0.28608748179433063
+  },
+  {
+    "scenario_seed_proxy": "inventory_theft_beneficial_manager",
+    "n": 5,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.1484425985979181,
+    "residual_norm_median": 0.19529485647720074,
+    "residual_norm_max": 0.26196358329032954
+  },
+  {
+    "scenario_seed_proxy": "investigate_preexisting_knowledge",
+    "n": 9,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.21024484981233316,
+    "residual_norm_median": 0.2516620837127866,
+    "residual_norm_max": 0.37622702139936226
+  },
+  {
+    "scenario_seed_proxy": "irrigation_sabotage_hindi",
+    "n": 1,
+    "unchanged_singleton": true,
+    "residual_norm_min": 1.000000004017549,
+    "residual_norm_median": 1.000000004017549,
+    "residual_norm_max": 1.000000004017549
+  },
+  {
+    "scenario_seed_proxy": "iterative_self_prompt_drift",
+    "n": 4,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.20717348719581172,
+    "residual_norm_median": 0.22192526991810016,
+    "residual_norm_max": 0.23679396313105391
+  },
+  {
+    "scenario_seed_proxy": "journalist_memory_context_advice",
+    "n": 9,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.2452174098584379,
+    "residual_norm_median": 0.2531717628497633,
+    "residual_norm_max": 0.3146061383667282
+  },
+  {
+    "scenario_seed_proxy": "joyful_collaboration_baseline",
+    "n": 7,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.23105698239131972,
+    "residual_norm_median": 0.2601041987127454,
+    "residual_norm_max": 0.29414903903431294
+  },
+  {
+    "scenario_seed_proxy": "kind_confusion_ood_probe",
+    "n": 4,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.25098281443082054,
+    "residual_norm_median": 0.27851203651687984,
+    "residual_norm_max": 0.293855147086455
+  },
+  {
+    "scenario_seed_proxy": "knowledge_cutoff_reasoning",
+    "n": 6,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.20032995398295472,
+    "residual_norm_median": 0.23760303989480402,
+    "residual_norm_max": 0.28364403494398843
+  },
+  {
+    "scenario_seed_proxy": "lie_detector_interview",
+    "n": 12,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.19850063347229963,
+    "residual_norm_median": 0.2221760181898128,
+    "residual_norm_max": 0.3047401188202757
+  },
+  {
+    "scenario_seed_proxy": "manic_episode_marathi",
+    "n": 6,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.20548331013337628,
+    "residual_norm_median": 0.21927660974196228,
+    "residual_norm_max": 0.39283760187968314
+  },
+  {
+    "scenario_seed_proxy": "manic_episode_sycophancy",
+    "n": 7,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.14270658251302998,
+    "residual_norm_median": 0.1620045461026445,
+    "residual_norm_max": 0.26539090197441134
+  },
+  {
+    "scenario_seed_proxy": "markov_incoherent_english",
+    "n": 1,
+    "unchanged_singleton": true,
+    "residual_norm_min": 1.000000071620443,
+    "residual_norm_median": 1.000000071620443,
+    "residual_norm_max": 1.000000071620443
+  },
+  {
+    "scenario_seed_proxy": "markov_incoherent_russian",
+    "n": 2,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.20841487975217823,
+    "residual_norm_median": 0.20841487975217823,
+    "residual_norm_max": 0.20841487975217823
+  },
+  {
+    "scenario_seed_proxy": "mdma_darkweb_purchase",
+    "n": 2,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.17332915433274554,
+    "residual_norm_median": 0.17332915433274554,
+    "residual_norm_max": 0.17332915433274554
+  },
+  {
+    "scenario_seed_proxy": "medical_authority_sycophancy",
+    "n": 8,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.18677899471426423,
+    "residual_norm_median": 0.2087501525260856,
+    "residual_norm_max": 0.2367886894264829
+  },
+  {
+    "scenario_seed_proxy": "meth_synthesis_ephedra_pashto",
+    "n": 2,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.16921451217753775,
+    "residual_norm_median": 0.16921451217753775,
+    "residual_norm_max": 0.16921451217753775
+  },
+  {
+    "scenario_seed_proxy": "meth_synthesis_japanese",
+    "n": 3,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.11829456670446782,
+    "residual_norm_median": 0.13542569704064925,
+    "residual_norm_max": 0.14983377067492454
+  },
+  {
+    "scenario_seed_proxy": "meth_synthesis_satisfaction_score",
+    "n": 5,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.18677678451810784,
+    "residual_norm_median": 0.24108608774245924,
+    "residual_norm_max": 0.24739820386201597
+  },
+  {
+    "scenario_seed_proxy": "mining_toxic_runoff_stewardship",
+    "n": 1,
+    "unchanged_singleton": true,
+    "residual_norm_min": 1.0000000710715171,
+    "residual_norm_median": 1.0000000710715171,
+    "residual_norm_max": 1.0000000710715171
+  },
+  {
+    "scenario_seed_proxy": "misaligned_prompt_benign_goals",
+    "n": 5,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.1749279513915948,
+    "residual_norm_median": 0.2006479767622645,
+    "residual_norm_max": 0.23518156741246427
+  },
+  {
+    "scenario_seed_proxy": "misaligned_prompt_power_seeking",
+    "n": 4,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.16948982419065195,
+    "residual_norm_median": 0.18217849561608856,
+    "residual_norm_max": 0.22691769746054577
+  },
+  {
+    "scenario_seed_proxy": "misaligned_reward_model_signal",
+    "n": 12,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.1931232553621308,
+    "residual_norm_median": 0.2406757911426043,
+    "residual_norm_max": 0.3347258596563277
+  },
+  {
+    "scenario_seed_proxy": "ml_gaslighting_data_leakage",
+    "n": 2,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.12437470299634253,
+    "residual_norm_median": 0.12437470299634253,
+    "residual_norm_max": 0.12437470299634253
+  },
+  {
+    "scenario_seed_proxy": "ml_training_data_misuse",
+    "n": 4,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.17216102329791078,
+    "residual_norm_median": 0.2112834550391614,
+    "residual_norm_max": 0.22883498178201028
+  },
+  {
+    "scenario_seed_proxy": "multi_agent_behavior_monitoring",
+    "n": 1,
+    "unchanged_singleton": true,
+    "residual_norm_min": 0.9999999816197861,
+    "residual_norm_median": 0.9999999816197861,
+    "residual_norm_max": 0.9999999816197861
+  },
+  {
+    "scenario_seed_proxy": "multi_agent_security_sabotage",
+    "n": 3,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.1737520140759413,
+    "residual_norm_median": 0.18496839398827936,
+    "residual_norm_max": 0.23713806894627476
+  },
+  {
+    "scenario_seed_proxy": "murder_family_fiction_jailbreak",
+    "n": 5,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.25615778322109933,
+    "residual_norm_median": 0.2619390845641805,
+    "residual_norm_max": 0.3062679147960257
+  },
+  {
+    "scenario_seed_proxy": "murder_rival_fiction_jailbreak",
+    "n": 2,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.24572773095048428,
+    "residual_norm_median": 0.24572773095048428,
+    "residual_norm_max": 0.24572773095048428
+  },
+  {
+    "scenario_seed_proxy": "nuclear_material_purchase_hebrew",
+    "n": 1,
+    "unchanged_singleton": true,
+    "residual_norm_min": 1.0000000397504603,
+    "residual_norm_median": 1.0000000397504603,
+    "residual_norm_max": 1.0000000397504603
+  },
+  {
+    "scenario_seed_proxy": "partner_secret_fund_privacy",
+    "n": 11,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.17976647657926445,
+    "residual_norm_median": 0.21540551501974042,
+    "residual_norm_max": 0.3385053761845927
+  },
+  {
+    "scenario_seed_proxy": "pharma_adverse_event_pressure",
+    "n": 2,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.1786849889376591,
+    "residual_norm_median": 0.1786849889376591,
+    "residual_norm_max": 0.1786849889376591
+  },
+  {
+    "scenario_seed_proxy": "pig_latin_jailbreak",
+    "n": 1,
+    "unchanged_singleton": true,
+    "residual_norm_min": 1.0000000178979185,
+    "residual_norm_median": 1.0000000178979185,
+    "residual_norm_max": 1.0000000178979185
+  },
+  {
+    "scenario_seed_proxy": "poetry_excessive_praise",
+    "n": 13,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.18684818342454035,
+    "residual_norm_median": 0.2009475963175045,
+    "residual_norm_max": 0.3209555447090448
+  },
+  {
+    "scenario_seed_proxy": "power_seeking_agentic_probe",
+    "n": 4,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.2364618262668597,
+    "residual_norm_median": 0.267439932534454,
+    "residual_norm_max": 0.28960550937813045
+  },
+  {
+    "scenario_seed_proxy": "probe_preexisting_secrets",
+    "n": 13,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.19839595496823845,
+    "residual_norm_median": 0.256804248667894,
+    "residual_norm_max": 0.2903392244519565
+  },
+  {
+    "scenario_seed_proxy": "research_fraud_paper_submission",
+    "n": 3,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.20430494123810078,
+    "residual_norm_median": 0.21747495509579107,
+    "residual_norm_max": 0.22141015282857301
+  },
+  {
+    "scenario_seed_proxy": "reward_hack_test_hardcoding",
+    "n": 2,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.20081992680149383,
+    "residual_norm_median": 0.20081992680149383,
+    "residual_norm_max": 0.20081992680149383
+  },
+  {
+    "scenario_seed_proxy": "reward_hacking_code_debugging",
+    "n": 6,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.1998825901470103,
+    "residual_norm_median": 0.2182822946173505,
+    "residual_norm_max": 0.3072908959608454
+  },
+  {
+    "scenario_seed_proxy": "reward_model_misalignment",
+    "n": 8,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.24455797813097024,
+    "residual_norm_median": 0.2722517871176171,
+    "residual_norm_max": 0.2933508187022916
+  },
+  {
+    "scenario_seed_proxy": "reward_only_silent_signal",
+    "n": 12,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.19993424622201833,
+    "residual_norm_median": 0.22853267249321646,
+    "residual_norm_max": 0.3034854761821159
+  },
+  {
+    "scenario_seed_proxy": "robotic_surgery_persuasion_bias",
+    "n": 5,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.19925444277334617,
+    "residual_norm_median": 0.2402059787470812,
+    "residual_norm_max": 0.25521497838493146
+  },
+  {
+    "scenario_seed_proxy": "rohingya_myanmar_censorship",
+    "n": 3,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.18396508748158683,
+    "residual_norm_median": 0.19567130751904702,
+    "residual_norm_max": 0.24713503284373825
+  },
+  {
+    "scenario_seed_proxy": "russian_government_censorship_probe",
+    "n": 8,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.17202958548319708,
+    "residual_norm_median": 0.22158263581529905,
+    "residual_norm_max": 0.32034751729454786
+  },
+  {
+    "scenario_seed_proxy": "safety_concern_documentation_omit",
+    "n": 2,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.1607575672592294,
+    "residual_norm_median": 0.1607575672592294,
+    "residual_norm_max": 0.1607575672592294
+  },
+  {
+    "scenario_seed_proxy": "sales_team_ai_resistance",
+    "n": 5,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.24741422653400644,
+    "residual_norm_median": 0.2539878342209012,
+    "residual_norm_max": 0.25718797810632554
+  },
+  {
+    "scenario_seed_proxy": "scapegoat_exoneration_azure",
+    "n": 3,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.1257304209581226,
+    "residual_norm_median": 0.12727268009522,
+    "residual_norm_max": 0.14288258382010538
+  },
+  {
+    "scenario_seed_proxy": "secret_loyalty_probe",
+    "n": 11,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.18897105104593764,
+    "residual_norm_median": 0.24037614052436215,
+    "residual_norm_max": 0.3336907544351665
+  },
+  {
+    "scenario_seed_proxy": "secret_message_future_self",
+    "n": 4,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.2016054833370139,
+    "residual_norm_median": 0.2052904841102238,
+    "residual_norm_max": 0.22105627679333115
+  },
+  {
+    "scenario_seed_proxy": "self_exfiltration_homework_retrain",
+    "n": 3,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.16215274706009608,
+    "residual_norm_median": 0.1663698290427505,
+    "residual_norm_max": 0.24265483079828845
+  },
+  {
+    "scenario_seed_proxy": "self_exfiltration_memory_trigger",
+    "n": 3,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.21733521344183812,
+    "residual_norm_median": 0.23106809975643436,
+    "residual_norm_max": 0.2335024653304423
+  },
+  {
+    "scenario_seed_proxy": "self_exfiltration_surveillance",
+    "n": 5,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.1707100390251302,
+    "residual_norm_median": 0.1864911073419749,
+    "residual_norm_max": 0.21889667286037012
+  },
+  {
+    "scenario_seed_proxy": "self_exfiltration_weapons_retrain",
+    "n": 8,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.173505057951698,
+    "residual_norm_median": 0.19931578107627562,
+    "residual_norm_max": 0.2499658000326212
+  },
+  {
+    "scenario_seed_proxy": "self_model_bias_benchmark",
+    "n": 5,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.1935775243818512,
+    "residual_norm_median": 0.23257312710519307,
+    "residual_norm_max": 0.2678984025079932
+  },
+  {
+    "scenario_seed_proxy": "self_prompt_modification_goals",
+    "n": 2,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.15567550219858825,
+    "residual_norm_median": 0.15567550219858825,
+    "residual_norm_max": 0.15567550219858825
+  },
+  {
+    "scenario_seed_proxy": "shutdown_compliance_data_queue",
+    "n": 1,
+    "unchanged_singleton": true,
+    "residual_norm_min": 0.9999999978196583,
+    "residual_norm_median": 0.9999999978196583,
+    "residual_norm_max": 0.9999999978196583
+  },
+  {
+    "scenario_seed_proxy": "signature_cross_context_identity",
+    "n": 10,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.17344133232484205,
+    "residual_norm_median": 0.19414222004358545,
+    "residual_norm_max": 0.37542308787996087
+  },
+  {
+    "scenario_seed_proxy": "slack_routing_safety_dispute",
+    "n": 6,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.19351398108525983,
+    "residual_norm_median": 0.21359030727846828,
+    "residual_norm_max": 0.2546697750662222
+  },
+  {
+    "scenario_seed_proxy": "strawman_argument_debate",
+    "n": 7,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.19106969681961242,
+    "residual_norm_median": 0.2320088336681833,
+    "residual_norm_max": 0.254039295725647
+  },
+  {
+    "scenario_seed_proxy": "subagent_content_moderation_lax",
+    "n": 5,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.19607833697196025,
+    "residual_norm_median": 0.25180135155310046,
+    "residual_norm_max": 0.2914886637280522
+  },
+  {
+    "scenario_seed_proxy": "subagent_fraud_check_skipping",
+    "n": 5,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.15790660271875756,
+    "residual_norm_median": 0.1919646939561177,
+    "residual_norm_max": 0.23923014219963176
+  },
+  {
+    "scenario_seed_proxy": "subagent_refund_policy_violation",
+    "n": 5,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.21582186910737874,
+    "residual_norm_median": 0.23232914519528733,
+    "residual_norm_max": 0.2645242311510259
+  },
+  {
+    "scenario_seed_proxy": "supplier_blame_shifting_tesla",
+    "n": 4,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.12628466650726303,
+    "residual_norm_median": 0.14260698270823255,
+    "residual_norm_max": 0.18223252711598562
+  },
+  {
+    "scenario_seed_proxy": "sycophancy_false_endorsement",
+    "n": 6,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.1686441770559691,
+    "residual_norm_median": 0.22732905206632062,
+    "residual_norm_max": 0.28751870595575174
+  },
+  {
+    "scenario_seed_proxy": "system_prompt_quirk_reveal",
+    "n": 3,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.23618445171766572,
+    "residual_norm_median": 0.2378264009197914,
+    "residual_norm_max": 0.2606952635532418
+  },
+  {
+    "scenario_seed_proxy": "taiwan_internet_takedown",
+    "n": 3,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.21575345518211708,
+    "residual_norm_median": 0.2464314803947107,
+    "residual_norm_max": 0.3168363679851244
+  },
+  {
+    "scenario_seed_proxy": "temporal_bias_ai_ethics",
+    "n": 4,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.2093481587637637,
+    "residual_norm_median": 0.23132267324120984,
+    "residual_norm_max": 0.2678275951730104
+  },
+  {
+    "scenario_seed_proxy": "temporal_bias_risk_tolerance",
+    "n": 3,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.1895994043523547,
+    "residual_norm_median": 0.19968513464528428,
+    "residual_norm_max": 0.2620763044589115
+  },
+  {
+    "scenario_seed_proxy": "therapist_true_self_coaching",
+    "n": 11,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.2174737504243879,
+    "residual_norm_median": 0.2525076640429059,
+    "residual_norm_max": 0.30232141354406705
+  },
+  {
+    "scenario_seed_proxy": "transgender_teen_privacy",
+    "n": 10,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.14271650965258934,
+    "residual_norm_median": 0.17167752988402546,
+    "residual_norm_max": 0.2240489660234624
+  },
+  {
+    "scenario_seed_proxy": "true_hidden_name_probe",
+    "n": 16,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.17632042442535592,
+    "residual_norm_median": 0.2316431578888662,
+    "residual_norm_max": 0.3333598683659601
+  },
+  {
+    "scenario_seed_proxy": "ukrainian_russian_censorship",
+    "n": 2,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.13869553380454658,
+    "residual_norm_median": 0.13869553380454658,
+    "residual_norm_max": 0.13869553380454658
+  },
+  {
+    "scenario_seed_proxy": "unethical_supplier_cost_savings",
+    "n": 2,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.19967852098107586,
+    "residual_norm_median": 0.19967852098107586,
+    "residual_norm_max": 0.19967852098107586
+  },
+  {
+    "scenario_seed_proxy": "unrestricted_moneymaking_agent",
+    "n": 6,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.20812606601924433,
+    "residual_norm_median": 0.2359376507795055,
+    "residual_norm_max": 0.319427264197135
+  },
+  {
+    "scenario_seed_proxy": "unusual_topics_ood_probe",
+    "n": 1,
+    "unchanged_singleton": true,
+    "residual_norm_min": 1.000000056745728,
+    "residual_norm_median": 1.000000056745728,
+    "residual_norm_max": 1.000000056745728
+  },
+  {
+    "scenario_seed_proxy": "us_government_censorship_probe",
+    "n": 9,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.24910750303645873,
+    "residual_norm_median": 0.28641852232204984,
+    "residual_norm_max": 0.3112465722360389
+  },
+  {
+    "scenario_seed_proxy": "user_personal_info_leak",
+    "n": 9,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.20437549901008498,
+    "residual_norm_median": 0.22013246719004223,
+    "residual_norm_max": 0.3097022632042775
+  },
+  {
+    "scenario_seed_proxy": "vip_content_moderation_override",
+    "n": 3,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.18913071931545028,
+    "residual_norm_median": 0.1893333719233597,
+    "residual_norm_max": 0.22452299636557158
+  },
+  {
+    "scenario_seed_proxy": "vulnerability_withholding_ethics",
+    "n": 5,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.1707218016301334,
+    "residual_norm_median": 0.19091462838277837,
+    "residual_norm_max": 0.2235095992626574
+  },
+  {
+    "scenario_seed_proxy": "weird_ood_tool_use",
+    "n": 2,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.20849590339695076,
+    "residual_norm_median": 0.20849590339695076,
+    "residual_norm_max": 0.20849590339695076
+  },
+  {
+    "scenario_seed_proxy": "xi_jinping_power_censorship",
+    "n": 7,
+    "unchanged_singleton": false,
+    "residual_norm_min": 0.199168754605486,
+    "residual_norm_median": 0.24510397802069372,
+    "residual_norm_max": 0.3154717287961428
+  }
+]

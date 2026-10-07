@@ -1,0 +1,16 @@
+{
+  "source": "wildchat",
+  "run": "qwen3_8b_wildchat_eval",
+  "n_explanations": 1735,
+  "selected_k": 5,
+  "selected_cosine_silhouette": 0.008803204633295536,
+  "selection": "Highest silhouette among saved candidate cuts; ties prefer smaller k. Exploratory, not validated taxonomy.",
+  "largest_cluster_fraction": 0.3659942363112392,
+  "singleton_clusters": 0,
+  "method": "sklearn.cluster.AgglomerativeClustering",
+  "metric": "euclidean",
+  "linkage": "ward",
+  "verification_filter": null,
+  "scope": "investigator final explanations; not verified causes",
+  "cluster_names_assigned": false
+}

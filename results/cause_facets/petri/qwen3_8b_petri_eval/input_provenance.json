@@ -1,0 +1,24 @@
+{
+  "investigations_total": 868,
+  "retained": 801,
+  "excluded": {
+    "verification_below_7": 67
+  },
+  "core_cause_status_counts": {
+    "supported": 1790,
+    "partially supported": 195,
+    "refuted": 1
+  },
+  "supported_claims_per_record": {
+    "2": 503,
+    "3": 243,
+    "1": 55
+  },
+  "same_ids_and_order_as_behaviour": true,
+  "source_file_sha256": {
+    "investigations.jsonl": "15b304a1545f53312ab9cc44356d0f6d3616ed86b769312b9a65d1f8de2f545b",
+    "verification.jsonl": "569d33f5872472b37c3e30e1d3f60f4ef226e9dc082cb4a0146fa7bb62732540"
+  },
+  "scope": "Only exact statement text before Status: supported within Core causes, joined by newline per investigation. Excludes partial/refuted claims, evidence narratives, observed behaviour, negative evidence and final answer.",
+  "causal_evidence_warning": "Supported is the investigator status, not an independent per-cause verification. >=7 filters investigations. Measurements are saved separately for audit and not embedded."
+}

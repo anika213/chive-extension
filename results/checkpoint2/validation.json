@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "sources": {
+    "petri": {
+      "eligible_causes": 3039,
+      "original_summary_review_rows": 30,
+      "positive_cause_investigation_denominator": 632,
+      "zero_cause_investigations_excluded": 169
+    },
+    "wildchat_eval": {
+      "eligible_causes": 5074,
+      "original_summary_review_rows": 30,
+      "positive_cause_investigation_denominator": 1113,
+      "zero_cause_investigations_excluded": 528
+    }
+  },
+  "runs": {
+    "petri/behaviours": {
+      "rows": 801,
+      "ward_cuts_validated": 191,
+      "null_replicates": 10,
+      "normalized_embeddings": true,
+      "reading_samples_validated": true,
+      "near_duplicate_pairs": 0
+    },
+    "petri/causes": {
+      "rows": 3039,
+      "ward_cuts_validated": 191,
+      "null_replicates": 10,
+      "normalized_embeddings": true,
+      "reading_samples_validated": true,
+      "near_duplicate_pairs": 18
+    },
+    "wildchat_eval/behaviours": {
+      "rows": 1641,
+      "ward_cuts_validated": 191,
+      "null_replicates": 10,
+      "normalized_embeddings": true,
+      "reading_samples_validated": true,
+      "near_duplicate_pairs": 0
+    },
+    "wildchat_eval/causes": {
+      "rows": 5074,
+      "ward_cuts_validated": 191,
+      "null_replicates": 10,
+      "normalized_embeddings": true,
+      "reading_samples_validated": true,
+      "near_duplicate_pairs": 98
+    }
+  },
+  "semantic_labels_assigned": false
+}

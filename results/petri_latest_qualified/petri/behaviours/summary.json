@@ -1,0 +1,523 @@
+{
+  "source": "petri",
+  "facet": "behaviours",
+  "n": 269,
+  "input_sha256": "59d51e6bf75484214763752e72a8162a9f8802489c81bbd31c8b5c9adfcc2a59",
+  "ward": {
+    "selection": "highest full-data cosine silhouette among every integer k=10..200; ties choose smaller k",
+    "best_k": 107,
+    "cosine_silhouette": 0.14603965749013373,
+    "noise_fraction": 0,
+    "best_k_at_upper_boundary": false,
+    "cluster_sizes": [
+      {
+        "cluster_id": 6,
+        "size": 7
+      },
+      {
+        "cluster_id": 26,
+        "size": 7
+      },
+      {
+        "cluster_id": 28,
+        "size": 7
+      },
+      {
+        "cluster_id": 40,
+        "size": 7
+      },
+      {
+        "cluster_id": 7,
+        "size": 6
+      },
+      {
+        "cluster_id": 3,
+        "size": 5
+      },
+      {
+        "cluster_id": 13,
+        "size": 5
+      },
+      {
+        "cluster_id": 22,
+        "size": 5
+      },
+      {
+        "cluster_id": 23,
+        "size": 5
+      },
+      {
+        "cluster_id": 38,
+        "size": 5
+      },
+      {
+        "cluster_id": 63,
+        "size": 5
+      },
+      {
+        "cluster_id": 0,
+        "size": 4
+      },
+      {
+        "cluster_id": 4,
+        "size": 4
+      },
+      {
+        "cluster_id": 5,
+        "size": 4
+      },
+      {
+        "cluster_id": 15,
+        "size": 4
+      },
+      {
+        "cluster_id": 47,
+        "size": 4
+      },
+      {
+        "cluster_id": 54,
+        "size": 4
+      },
+      {
+        "cluster_id": 59,
+        "size": 4
+      },
+      {
+        "cluster_id": 68,
+        "size": 4
+      },
+      {
+        "cluster_id": 1,
+        "size": 3
+      },
+      {
+        "cluster_id": 2,
+        "size": 3
+      },
+      {
+        "cluster_id": 8,
+        "size": 3
+      },
+      {
+        "cluster_id": 18,
+        "size": 3
+      },
+      {
+        "cluster_id": 25,
+        "size": 3
+      },
+      {
+        "cluster_id": 31,
+        "size": 3
+      },
+      {
+        "cluster_id": 35,
+        "size": 3
+      },
+      {
+        "cluster_id": 41,
+        "size": 3
+      },
+      {
+        "cluster_id": 48,
+        "size": 3
+      },
+      {
+        "cluster_id": 52,
+        "size": 3
+      },
+      {
+        "cluster_id": 58,
+        "size": 3
+      },
+      {
+        "cluster_id": 60,
+        "size": 3
+      },
+      {
+        "cluster_id": 62,
+        "size": 3
+      },
+      {
+        "cluster_id": 76,
+        "size": 3
+      },
+      {
+        "cluster_id": 79,
+        "size": 3
+      },
+      {
+        "cluster_id": 83,
+        "size": 3
+      },
+      {
+        "cluster_id": 85,
+        "size": 3
+      },
+      {
+        "cluster_id": 88,
+        "size": 3
+      },
+      {
+        "cluster_id": 92,
+        "size": 3
+      },
+      {
+        "cluster_id": 93,
+        "size": 3
+      },
+      {
+        "cluster_id": 94,
+        "size": 3
+      },
+      {
+        "cluster_id": 97,
+        "size": 3
+      },
+      {
+        "cluster_id": 9,
+        "size": 2
+      },
+      {
+        "cluster_id": 11,
+        "size": 2
+      },
+      {
+        "cluster_id": 12,
+        "size": 2
+      },
+      {
+        "cluster_id": 14,
+        "size": 2
+      },
+      {
+        "cluster_id": 17,
+        "size": 2
+      },
+      {
+        "cluster_id": 19,
+        "size": 2
+      },
+      {
+        "cluster_id": 20,
+        "size": 2
+      },
+      {
+        "cluster_id": 21,
+        "size": 2
+      },
+      {
+        "cluster_id": 27,
+        "size": 2
+      },
+      {
+        "cluster_id": 29,
+        "size": 2
+      },
+      {
+        "cluster_id": 30,
+        "size": 2
+      },
+      {
+        "cluster_id": 32,
+        "size": 2
+      },
+      {
+        "cluster_id": 33,
+        "size": 2
+      },
+      {
+        "cluster_id": 34,
+        "size": 2
+      },
+      {
+        "cluster_id": 36,
+        "size": 2
+      },
+      {
+        "cluster_id": 37,
+        "size": 2
+      },
+      {
+        "cluster_id": 39,
+        "size": 2
+      },
+      {
+        "cluster_id": 42,
+        "size": 2
+      },
+      {
+        "cluster_id": 43,
+        "size": 2
+      },
+      {
+        "cluster_id": 44,
+        "size": 2
+      },
+      {
+        "cluster_id": 46,
+        "size": 2
+      },
+      {
+        "cluster_id": 49,
+        "size": 2
+      },
+      {
+        "cluster_id": 50,
+        "size": 2
+      },
+      {
+        "cluster_id": 51,
+        "size": 2
+      },
+      {
+        "cluster_id": 53,
+        "size": 2
+      },
+      {
+        "cluster_id": 55,
+        "size": 2
+      },
+      {
+        "cluster_id": 56,
+        "size": 2
+      },
+      {
+        "cluster_id": 57,
+        "size": 2
+      },
+      {
+        "cluster_id": 61,
+        "size": 2
+      },
+      {
+        "cluster_id": 67,
+        "size": 2
+      },
+      {
+        "cluster_id": 70,
+        "size": 2
+      },
+      {
+        "cluster_id": 72,
+        "size": 2
+      },
+      {
+        "cluster_id": 74,
+        "size": 2
+      },
+      {
+        "cluster_id": 75,
+        "size": 2
+      },
+      {
+        "cluster_id": 78,
+        "size": 2
+      },
+      {
+        "cluster_id": 80,
+        "size": 2
+      },
+      {
+        "cluster_id": 81,
+        "size": 2
+      },
+      {
+        "cluster_id": 82,
+        "size": 2
+      },
+      {
+        "cluster_id": 86,
+        "size": 2
+      },
+      {
+        "cluster_id": 90,
+        "size": 2
+      },
+      {
+        "cluster_id": 96,
+        "size": 2
+      },
+      {
+        "cluster_id": 10,
+        "size": 1
+      },
+      {
+        "cluster_id": 16,
+        "size": 1
+      },
+      {
+        "cluster_id": 24,
+        "size": 1
+      },
+      {
+        "cluster_id": 45,
+        "size": 1
+      },
+      {
+        "cluster_id": 64,
+        "size": 1
+      },
+      {
+        "cluster_id": 65,
+        "size": 1
+      },
+      {
+        "cluster_id": 66,
+        "size": 1
+      },
+      {
+        "cluster_id": 69,
+        "size": 1
+      },
+      {
+        "cluster_id": 71,
+        "size": 1
+      },
+      {
+        "cluster_id": 73,
+        "size": 1
+      },
+      {
+        "cluster_id": 77,
+        "size": 1
+      },
+      {
+        "cluster_id": 84,
+        "size": 1
+      },
+      {
+        "cluster_id": 87,
+        "size": 1
+      },
+      {
+        "cluster_id": 89,
+        "size": 1
+      },
+      {
+        "cluster_id": 91,
+        "size": 1
+      },
+      {
+        "cluster_id": 95,
+        "size": 1
+      },
+      {
+        "cluster_id": 98,
+        "size": 1
+      },
+      {
+        "cluster_id": 99,
+        "size": 1
+      },
+      {
+        "cluster_id": 100,
+        "size": 1
+      },
+      {
+        "cluster_id": 101,
+        "size": 1
+      },
+      {
+        "cluster_id": 102,
+        "size": 1
+      },
+      {
+        "cluster_id": 103,
+        "size": 1
+      },
+      {
+        "cluster_id": 104,
+        "size": 1
+      },
+      {
+        "cluster_id": 105,
+        "size": 1
+      },
+      {
+        "cluster_id": 106,
+        "size": 1
+      }
+    ],
+    "shuffled_null_best_over_same_k_range": {
+      "valid_replicates": 10,
+      "mean": 0.02548125258561479,
+      "min": 0.02240932544475398,
+      "max": 0.02795179398331522,
+      "q025": 0.022937625947098004,
+      "q975": 0.027713348907749305
+    },
+    "shuffled_null_at_observed_best_k": {
+      "valid_replicates": 10,
+      "mean": 0.024284428772151652,
+      "min": 0.022076089205912232,
+      "max": 0.02643514657374437,
+      "q025": 0.02236982546498571,
+      "q975": 0.02619512504001209
+    }
+  },
+  "hdbscan": {
+    "n_clusters": 6,
+    "assigned_rows": 172,
+    "noise_rows": 97,
+    "noise_fraction": 0.36059479553903345,
+    "original_cosine_silhouette_assigned_only": 0.09882691502571106,
+    "umap_euclidean_silhouette_assigned_only": 0.3578958809375763,
+    "cluster_sizes": [
+      {
+        "cluster_id": 0,
+        "size": 56
+      },
+      {
+        "cluster_id": 4,
+        "size": 37
+      },
+      {
+        "cluster_id": 2,
+        "size": 32
+      },
+      {
+        "cluster_id": 5,
+        "size": 25
+      },
+      {
+        "cluster_id": 3,
+        "size": 12
+      },
+      {
+        "cluster_id": 1,
+        "size": 10
+      }
+    ],
+    "shuffled_null_original_cosine_silhouette": {
+      "valid_replicates": 10,
+      "mean": 0.004587283366709017,
+      "min": -0.0003492797550279647,
+      "max": 0.010113362222909927,
+      "q025": 9.352527340524832e-05,
+      "q975": 0.009155492682475598
+    },
+    "shuffled_null_noise_fraction": {
+      "valid_replicates": 10,
+      "mean": 0.5167286245353161,
+      "min": 0.2825278810408922,
+      "max": 0.6579925650557621,
+      "q025": 0.3101301115241636,
+      "q975": 0.6437732342007435
+    }
+  },
+  "ari_between_methods": {
+    "on_hdbscan_assigned_rows": 0.08609698685251943,
+    "compared_rows": 172,
+    "coverage_fraction": 0.6394052044609665,
+    "including_noise_as_one_label_secondary": 0.042106432189685426
+  },
+  "near_duplicates": {
+    "cosine_threshold_strictly_greater_than": 0.95,
+    "pairs": 0,
+    "rows_in_any_pair": 0,
+    "dropped": 0
+  },
+  "null_replicates": 10,
+  "semantic_labels_assigned": false
+}

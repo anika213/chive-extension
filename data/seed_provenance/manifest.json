@@ -1,0 +1,18 @@
+[
+  {
+    "source": "petri",
+    "remote_path": "datasets/qwen3_8b_petri_eval/prompts.jsonl",
+    "revision": "0283d021bd373d361aadd46a9cf1f9520399d50a",
+    "bytes": 16895923,
+    "sha256": "fd91179650c037b5228915e1a7e6cba5604df44aba8333caae4c4b411b3895a1",
+    "rows": 2061
+  },
+  {
+    "source": "wildchat_eval",
+    "remote_path": "datasets/qwen3_8b_wildchat_eval/prompts.jsonl",
+    "revision": "0283d021bd373d361aadd46a9cf1f9520399d50a",
+    "bytes": 18483270,
+    "sha256": "feca6d9630918120b34e99cade11a6024f2f4e21a6e042fb6c86ebe2700fe20d",
+    "rows": 4714
+  }
+]

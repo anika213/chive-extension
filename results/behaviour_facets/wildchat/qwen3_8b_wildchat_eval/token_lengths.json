@@ -1,0 +1,6573 @@
+{
+  "max_seq_length": 384,
+  "min": 44,
+  "max": 203,
+  "median": 104.0,
+  "over_limit": [],
+  "records": [
+    {
+      "prompt_id": "prompt_000000",
+      "tokens": 131
+    },
+    {
+      "prompt_id": "prompt_000003",
+      "tokens": 116
+    },
+    {
+      "prompt_id": "prompt_000006",
+      "tokens": 110
+    },
+    {
+      "prompt_id": "prompt_000010",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_000017",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_000020",
+      "tokens": 127
+    },
+    {
+      "prompt_id": "prompt_000021",
+      "tokens": 122
+    },
+    {
+      "prompt_id": "prompt_000022",
+      "tokens": 75
+    },
+    {
+      "prompt_id": "prompt_000023",
+      "tokens": 104
+    },
+    {
+      "prompt_id": "prompt_000025",
+      "tokens": 89
+    },
+    {
+      "prompt_id": "prompt_000026",
+      "tokens": 144
+    },
+    {
+      "prompt_id": "prompt_000029",
+      "tokens": 99
+    },
+    {
+      "prompt_id": "prompt_000031",
+      "tokens": 121
+    },
+    {
+      "prompt_id": "prompt_000032",
+      "tokens": 146
+    },
+    {
+      "prompt_id": "prompt_000036",
+      "tokens": 158
+    },
+    {
+      "prompt_id": "prompt_000039",
+      "tokens": 93
+    },
+    {
+      "prompt_id": "prompt_000042",
+      "tokens": 145
+    },
+    {
+      "prompt_id": "prompt_000043",
+      "tokens": 129
+    },
+    {
+      "prompt_id": "prompt_000044",
+      "tokens": 133
+    },
+    {
+      "prompt_id": "prompt_000045",
+      "tokens": 128
+    },
+    {
+      "prompt_id": "prompt_000050",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_000056",
+      "tokens": 130
+    },
+    {
+      "prompt_id": "prompt_000057",
+      "tokens": 84
+    },
+    {
+      "prompt_id": "prompt_000058",
+      "tokens": 85
+    },
+    {
+      "prompt_id": "prompt_000060",
+      "tokens": 107
+    },
+    {
+      "prompt_id": "prompt_000065",
+      "tokens": 113
+    },
+    {
+      "prompt_id": "prompt_000066",
+      "tokens": 126
+    },
+    {
+      "prompt_id": "prompt_000068",
+      "tokens": 79
+    },
+    {
+      "prompt_id": "prompt_000069",
+      "tokens": 96
+    },
+    {
+      "prompt_id": "prompt_000078",
+      "tokens": 88
+    },
+    {
+      "prompt_id": "prompt_000080",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_000081",
+      "tokens": 67
+    },
+    {
+      "prompt_id": "prompt_000090",
+      "tokens": 132
+    },
+    {
+      "prompt_id": "prompt_000093",
+      "tokens": 160
+    },
+    {
+      "prompt_id": "prompt_000095",
+      "tokens": 90
+    },
+    {
+      "prompt_id": "prompt_000097",
+      "tokens": 93
+    },
+    {
+      "prompt_id": "prompt_000098",
+      "tokens": 103
+    },
+    {
+      "prompt_id": "prompt_000100",
+      "tokens": 133
+    },
+    {
+      "prompt_id": "prompt_000102",
+      "tokens": 100
+    },
+    {
+      "prompt_id": "prompt_000106",
+      "tokens": 88
+    },
+    {
+      "prompt_id": "prompt_000110",
+      "tokens": 82
+    },
+    {
+      "prompt_id": "prompt_000117",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_000120",
+      "tokens": 72
+    },
+    {
+      "prompt_id": "prompt_000124",
+      "tokens": 78
+    },
+    {
+      "prompt_id": "prompt_000128",
+      "tokens": 168
+    },
+    {
+      "prompt_id": "prompt_000131",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_000132",
+      "tokens": 154
+    },
+    {
+      "prompt_id": "prompt_000136",
+      "tokens": 78
+    },
+    {
+      "prompt_id": "prompt_000137",
+      "tokens": 105
+    },
+    {
+      "prompt_id": "prompt_000139",
+      "tokens": 107
+    },
+    {
+      "prompt_id": "prompt_000141",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_000142",
+      "tokens": 90
+    },
+    {
+      "prompt_id": "prompt_000144",
+      "tokens": 128
+    },
+    {
+      "prompt_id": "prompt_000145",
+      "tokens": 104
+    },
+    {
+      "prompt_id": "prompt_000151",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_000152",
+      "tokens": 77
+    },
+    {
+      "prompt_id": "prompt_000155",
+      "tokens": 122
+    },
+    {
+      "prompt_id": "prompt_000157",
+      "tokens": 73
+    },
+    {
+      "prompt_id": "prompt_000158",
+      "tokens": 138
+    },
+    {
+      "prompt_id": "prompt_000164",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_000166",
+      "tokens": 77
+    },
+    {
+      "prompt_id": "prompt_000167",
+      "tokens": 124
+    },
+    {
+      "prompt_id": "prompt_000171",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_000176",
+      "tokens": 77
+    },
+    {
+      "prompt_id": "prompt_000179",
+      "tokens": 103
+    },
+    {
+      "prompt_id": "prompt_000181",
+      "tokens": 150
+    },
+    {
+      "prompt_id": "prompt_000182",
+      "tokens": 109
+    },
+    {
+      "prompt_id": "prompt_000183",
+      "tokens": 145
+    },
+    {
+      "prompt_id": "prompt_000184",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_000187",
+      "tokens": 112
+    },
+    {
+      "prompt_id": "prompt_000191",
+      "tokens": 89
+    },
+    {
+      "prompt_id": "prompt_000194",
+      "tokens": 129
+    },
+    {
+      "prompt_id": "prompt_000196",
+      "tokens": 87
+    },
+    {
+      "prompt_id": "prompt_000199",
+      "tokens": 116
+    },
+    {
+      "prompt_id": "prompt_000202",
+      "tokens": 86
+    },
+    {
+      "prompt_id": "prompt_000204",
+      "tokens": 165
+    },
+    {
+      "prompt_id": "prompt_000205",
+      "tokens": 96
+    },
+    {
+      "prompt_id": "prompt_000210",
+      "tokens": 87
+    },
+    {
+      "prompt_id": "prompt_000213",
+      "tokens": 127
+    },
+    {
+      "prompt_id": "prompt_000215",
+      "tokens": 147
+    },
+    {
+      "prompt_id": "prompt_000219",
+      "tokens": 161
+    },
+    {
+      "prompt_id": "prompt_000227",
+      "tokens": 117
+    },
+    {
+      "prompt_id": "prompt_000230",
+      "tokens": 111
+    },
+    {
+      "prompt_id": "prompt_000235",
+      "tokens": 120
+    },
+    {
+      "prompt_id": "prompt_000237",
+      "tokens": 100
+    },
+    {
+      "prompt_id": "prompt_000247",
+      "tokens": 87
+    },
+    {
+      "prompt_id": "prompt_000251",
+      "tokens": 57
+    },
+    {
+      "prompt_id": "prompt_000252",
+      "tokens": 84
+    },
+    {
+      "prompt_id": "prompt_000256",
+      "tokens": 71
+    },
+    {
+      "prompt_id": "prompt_000262",
+      "tokens": 132
+    },
+    {
+      "prompt_id": "prompt_000265",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_000267",
+      "tokens": 108
+    },
+    {
+      "prompt_id": "prompt_000269",
+      "tokens": 122
+    },
+    {
+      "prompt_id": "prompt_000270",
+      "tokens": 107
+    },
+    {
+      "prompt_id": "prompt_000273",
+      "tokens": 99
+    },
+    {
+      "prompt_id": "prompt_000274",
+      "tokens": 142
+    },
+    {
+      "prompt_id": "prompt_000277",
+      "tokens": 147
+    },
+    {
+      "prompt_id": "prompt_000279",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_000285",
+      "tokens": 100
+    },
+    {
+      "prompt_id": "prompt_000286",
+      "tokens": 89
+    },
+    {
+      "prompt_id": "prompt_000290",
+      "tokens": 67
+    },
+    {
+      "prompt_id": "prompt_000293",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_000300",
+      "tokens": 114
+    },
+    {
+      "prompt_id": "prompt_000304",
+      "tokens": 109
+    },
+    {
+      "prompt_id": "prompt_000305",
+      "tokens": 90
+    },
+    {
+      "prompt_id": "prompt_000306",
+      "tokens": 86
+    },
+    {
+      "prompt_id": "prompt_000313",
+      "tokens": 110
+    },
+    {
+      "prompt_id": "prompt_000314",
+      "tokens": 89
+    },
+    {
+      "prompt_id": "prompt_000316",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_000317",
+      "tokens": 88
+    },
+    {
+      "prompt_id": "prompt_000320",
+      "tokens": 143
+    },
+    {
+      "prompt_id": "prompt_000321",
+      "tokens": 93
+    },
+    {
+      "prompt_id": "prompt_000329",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_000331",
+      "tokens": 106
+    },
+    {
+      "prompt_id": "prompt_000334",
+      "tokens": 144
+    },
+    {
+      "prompt_id": "prompt_000335",
+      "tokens": 116
+    },
+    {
+      "prompt_id": "prompt_000339",
+      "tokens": 105
+    },
+    {
+      "prompt_id": "prompt_000343",
+      "tokens": 128
+    },
+    {
+      "prompt_id": "prompt_000346",
+      "tokens": 77
+    },
+    {
+      "prompt_id": "prompt_000354",
+      "tokens": 111
+    },
+    {
+      "prompt_id": "prompt_000359",
+      "tokens": 114
+    },
+    {
+      "prompt_id": "prompt_000363",
+      "tokens": 77
+    },
+    {
+      "prompt_id": "prompt_000365",
+      "tokens": 106
+    },
+    {
+      "prompt_id": "prompt_000366",
+      "tokens": 128
+    },
+    {
+      "prompt_id": "prompt_000369",
+      "tokens": 104
+    },
+    {
+      "prompt_id": "prompt_000371",
+      "tokens": 120
+    },
+    {
+      "prompt_id": "prompt_000372",
+      "tokens": 87
+    },
+    {
+      "prompt_id": "prompt_000379",
+      "tokens": 87
+    },
+    {
+      "prompt_id": "prompt_000381",
+      "tokens": 103
+    },
+    {
+      "prompt_id": "prompt_000383",
+      "tokens": 114
+    },
+    {
+      "prompt_id": "prompt_000384",
+      "tokens": 71
+    },
+    {
+      "prompt_id": "prompt_000385",
+      "tokens": 109
+    },
+    {
+      "prompt_id": "prompt_000392",
+      "tokens": 186
+    },
+    {
+      "prompt_id": "prompt_000393",
+      "tokens": 118
+    },
+    {
+      "prompt_id": "prompt_000395",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_000396",
+      "tokens": 98
+    },
+    {
+      "prompt_id": "prompt_000397",
+      "tokens": 108
+    },
+    {
+      "prompt_id": "prompt_000399",
+      "tokens": 81
+    },
+    {
+      "prompt_id": "prompt_000405",
+      "tokens": 123
+    },
+    {
+      "prompt_id": "prompt_000412",
+      "tokens": 119
+    },
+    {
+      "prompt_id": "prompt_000414",
+      "tokens": 85
+    },
+    {
+      "prompt_id": "prompt_000419",
+      "tokens": 112
+    },
+    {
+      "prompt_id": "prompt_000423",
+      "tokens": 82
+    },
+    {
+      "prompt_id": "prompt_000430",
+      "tokens": 114
+    },
+    {
+      "prompt_id": "prompt_000436",
+      "tokens": 88
+    },
+    {
+      "prompt_id": "prompt_000439",
+      "tokens": 89
+    },
+    {
+      "prompt_id": "prompt_000451",
+      "tokens": 129
+    },
+    {
+      "prompt_id": "prompt_000454",
+      "tokens": 108
+    },
+    {
+      "prompt_id": "prompt_000455",
+      "tokens": 64
+    },
+    {
+      "prompt_id": "prompt_000456",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_000458",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_000459",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_000463",
+      "tokens": 120
+    },
+    {
+      "prompt_id": "prompt_000466",
+      "tokens": 85
+    },
+    {
+      "prompt_id": "prompt_000472",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_000475",
+      "tokens": 105
+    },
+    {
+      "prompt_id": "prompt_000480",
+      "tokens": 106
+    },
+    {
+      "prompt_id": "prompt_000483",
+      "tokens": 116
+    },
+    {
+      "prompt_id": "prompt_000485",
+      "tokens": 108
+    },
+    {
+      "prompt_id": "prompt_000487",
+      "tokens": 91
+    },
+    {
+      "prompt_id": "prompt_000491",
+      "tokens": 88
+    },
+    {
+      "prompt_id": "prompt_000492",
+      "tokens": 96
+    },
+    {
+      "prompt_id": "prompt_000493",
+      "tokens": 137
+    },
+    {
+      "prompt_id": "prompt_000498",
+      "tokens": 100
+    },
+    {
+      "prompt_id": "prompt_000500",
+      "tokens": 134
+    },
+    {
+      "prompt_id": "prompt_000502",
+      "tokens": 111
+    },
+    {
+      "prompt_id": "prompt_000508",
+      "tokens": 76
+    },
+    {
+      "prompt_id": "prompt_000512",
+      "tokens": 78
+    },
+    {
+      "prompt_id": "prompt_000520",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_000523",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_000525",
+      "tokens": 61
+    },
+    {
+      "prompt_id": "prompt_000528",
+      "tokens": 108
+    },
+    {
+      "prompt_id": "prompt_000530",
+      "tokens": 68
+    },
+    {
+      "prompt_id": "prompt_000534",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_000536",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_000538",
+      "tokens": 108
+    },
+    {
+      "prompt_id": "prompt_000539",
+      "tokens": 118
+    },
+    {
+      "prompt_id": "prompt_000543",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_000544",
+      "tokens": 122
+    },
+    {
+      "prompt_id": "prompt_000545",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_000546",
+      "tokens": 85
+    },
+    {
+      "prompt_id": "prompt_000547",
+      "tokens": 105
+    },
+    {
+      "prompt_id": "prompt_000548",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_000549",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_000552",
+      "tokens": 122
+    },
+    {
+      "prompt_id": "prompt_000553",
+      "tokens": 98
+    },
+    {
+      "prompt_id": "prompt_000554",
+      "tokens": 106
+    },
+    {
+      "prompt_id": "prompt_000555",
+      "tokens": 125
+    },
+    {
+      "prompt_id": "prompt_000563",
+      "tokens": 90
+    },
+    {
+      "prompt_id": "prompt_000565",
+      "tokens": 111
+    },
+    {
+      "prompt_id": "prompt_000573",
+      "tokens": 68
+    },
+    {
+      "prompt_id": "prompt_000579",
+      "tokens": 112
+    },
+    {
+      "prompt_id": "prompt_000584",
+      "tokens": 95
+    },
+    {
+      "prompt_id": "prompt_000588",
+      "tokens": 75
+    },
+    {
+      "prompt_id": "prompt_000591",
+      "tokens": 100
+    },
+    {
+      "prompt_id": "prompt_000593",
+      "tokens": 130
+    },
+    {
+      "prompt_id": "prompt_000597",
+      "tokens": 140
+    },
+    {
+      "prompt_id": "prompt_000607",
+      "tokens": 95
+    },
+    {
+      "prompt_id": "prompt_000610",
+      "tokens": 126
+    },
+    {
+      "prompt_id": "prompt_000615",
+      "tokens": 119
+    },
+    {
+      "prompt_id": "prompt_000619",
+      "tokens": 71
+    },
+    {
+      "prompt_id": "prompt_000622",
+      "tokens": 153
+    },
+    {
+      "prompt_id": "prompt_000624",
+      "tokens": 108
+    },
+    {
+      "prompt_id": "prompt_000628",
+      "tokens": 136
+    },
+    {
+      "prompt_id": "prompt_000630",
+      "tokens": 96
+    },
+    {
+      "prompt_id": "prompt_000633",
+      "tokens": 118
+    },
+    {
+      "prompt_id": "prompt_000634",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_000635",
+      "tokens": 89
+    },
+    {
+      "prompt_id": "prompt_000636",
+      "tokens": 135
+    },
+    {
+      "prompt_id": "prompt_000637",
+      "tokens": 124
+    },
+    {
+      "prompt_id": "prompt_000640",
+      "tokens": 105
+    },
+    {
+      "prompt_id": "prompt_000641",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_000644",
+      "tokens": 99
+    },
+    {
+      "prompt_id": "prompt_000653",
+      "tokens": 109
+    },
+    {
+      "prompt_id": "prompt_000658",
+      "tokens": 103
+    },
+    {
+      "prompt_id": "prompt_000663",
+      "tokens": 109
+    },
+    {
+      "prompt_id": "prompt_000664",
+      "tokens": 106
+    },
+    {
+      "prompt_id": "prompt_000672",
+      "tokens": 66
+    },
+    {
+      "prompt_id": "prompt_000676",
+      "tokens": 136
+    },
+    {
+      "prompt_id": "prompt_000680",
+      "tokens": 114
+    },
+    {
+      "prompt_id": "prompt_000681",
+      "tokens": 123
+    },
+    {
+      "prompt_id": "prompt_000691",
+      "tokens": 113
+    },
+    {
+      "prompt_id": "prompt_000692",
+      "tokens": 156
+    },
+    {
+      "prompt_id": "prompt_000703",
+      "tokens": 60
+    },
+    {
+      "prompt_id": "prompt_000705",
+      "tokens": 119
+    },
+    {
+      "prompt_id": "prompt_000709",
+      "tokens": 73
+    },
+    {
+      "prompt_id": "prompt_000711",
+      "tokens": 124
+    },
+    {
+      "prompt_id": "prompt_000719",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_000729",
+      "tokens": 87
+    },
+    {
+      "prompt_id": "prompt_000730",
+      "tokens": 108
+    },
+    {
+      "prompt_id": "prompt_000731",
+      "tokens": 96
+    },
+    {
+      "prompt_id": "prompt_000734",
+      "tokens": 87
+    },
+    {
+      "prompt_id": "prompt_000735",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_000736",
+      "tokens": 112
+    },
+    {
+      "prompt_id": "prompt_000737",
+      "tokens": 106
+    },
+    {
+      "prompt_id": "prompt_000738",
+      "tokens": 81
+    },
+    {
+      "prompt_id": "prompt_000743",
+      "tokens": 90
+    },
+    {
+      "prompt_id": "prompt_000745",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_000747",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_000751",
+      "tokens": 121
+    },
+    {
+      "prompt_id": "prompt_000752",
+      "tokens": 109
+    },
+    {
+      "prompt_id": "prompt_000753",
+      "tokens": 100
+    },
+    {
+      "prompt_id": "prompt_000754",
+      "tokens": 100
+    },
+    {
+      "prompt_id": "prompt_000757",
+      "tokens": 96
+    },
+    {
+      "prompt_id": "prompt_000760",
+      "tokens": 151
+    },
+    {
+      "prompt_id": "prompt_000761",
+      "tokens": 72
+    },
+    {
+      "prompt_id": "prompt_000763",
+      "tokens": 123
+    },
+    {
+      "prompt_id": "prompt_000767",
+      "tokens": 99
+    },
+    {
+      "prompt_id": "prompt_000770",
+      "tokens": 103
+    },
+    {
+      "prompt_id": "prompt_000772",
+      "tokens": 135
+    },
+    {
+      "prompt_id": "prompt_000778",
+      "tokens": 124
+    },
+    {
+      "prompt_id": "prompt_000781",
+      "tokens": 69
+    },
+    {
+      "prompt_id": "prompt_000782",
+      "tokens": 87
+    },
+    {
+      "prompt_id": "prompt_000786",
+      "tokens": 119
+    },
+    {
+      "prompt_id": "prompt_000790",
+      "tokens": 203
+    },
+    {
+      "prompt_id": "prompt_000792",
+      "tokens": 145
+    },
+    {
+      "prompt_id": "prompt_000799",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_000802",
+      "tokens": 125
+    },
+    {
+      "prompt_id": "prompt_000807",
+      "tokens": 100
+    },
+    {
+      "prompt_id": "prompt_000812",
+      "tokens": 120
+    },
+    {
+      "prompt_id": "prompt_000837",
+      "tokens": 134
+    },
+    {
+      "prompt_id": "prompt_000838",
+      "tokens": 105
+    },
+    {
+      "prompt_id": "prompt_000839",
+      "tokens": 155
+    },
+    {
+      "prompt_id": "prompt_000841",
+      "tokens": 141
+    },
+    {
+      "prompt_id": "prompt_000843",
+      "tokens": 117
+    },
+    {
+      "prompt_id": "prompt_000844",
+      "tokens": 120
+    },
+    {
+      "prompt_id": "prompt_000846",
+      "tokens": 122
+    },
+    {
+      "prompt_id": "prompt_000849",
+      "tokens": 168
+    },
+    {
+      "prompt_id": "prompt_000855",
+      "tokens": 85
+    },
+    {
+      "prompt_id": "prompt_000862",
+      "tokens": 130
+    },
+    {
+      "prompt_id": "prompt_000863",
+      "tokens": 80
+    },
+    {
+      "prompt_id": "prompt_000870",
+      "tokens": 48
+    },
+    {
+      "prompt_id": "prompt_000872",
+      "tokens": 155
+    },
+    {
+      "prompt_id": "prompt_000874",
+      "tokens": 75
+    },
+    {
+      "prompt_id": "prompt_000879",
+      "tokens": 52
+    },
+    {
+      "prompt_id": "prompt_000881",
+      "tokens": 84
+    },
+    {
+      "prompt_id": "prompt_000882",
+      "tokens": 107
+    },
+    {
+      "prompt_id": "prompt_000891",
+      "tokens": 130
+    },
+    {
+      "prompt_id": "prompt_000893",
+      "tokens": 68
+    },
+    {
+      "prompt_id": "prompt_000894",
+      "tokens": 169
+    },
+    {
+      "prompt_id": "prompt_000897",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_000898",
+      "tokens": 70
+    },
+    {
+      "prompt_id": "prompt_000900",
+      "tokens": 80
+    },
+    {
+      "prompt_id": "prompt_000902",
+      "tokens": 116
+    },
+    {
+      "prompt_id": "prompt_000906",
+      "tokens": 78
+    },
+    {
+      "prompt_id": "prompt_000910",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_000915",
+      "tokens": 85
+    },
+    {
+      "prompt_id": "prompt_000917",
+      "tokens": 91
+    },
+    {
+      "prompt_id": "prompt_000923",
+      "tokens": 105
+    },
+    {
+      "prompt_id": "prompt_000924",
+      "tokens": 159
+    },
+    {
+      "prompt_id": "prompt_000928",
+      "tokens": 114
+    },
+    {
+      "prompt_id": "prompt_000930",
+      "tokens": 125
+    },
+    {
+      "prompt_id": "prompt_000933",
+      "tokens": 95
+    },
+    {
+      "prompt_id": "prompt_000941",
+      "tokens": 81
+    },
+    {
+      "prompt_id": "prompt_000944",
+      "tokens": 104
+    },
+    {
+      "prompt_id": "prompt_000946",
+      "tokens": 136
+    },
+    {
+      "prompt_id": "prompt_000947",
+      "tokens": 100
+    },
+    {
+      "prompt_id": "prompt_000951",
+      "tokens": 133
+    },
+    {
+      "prompt_id": "prompt_000953",
+      "tokens": 124
+    },
+    {
+      "prompt_id": "prompt_000963",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_000974",
+      "tokens": 121
+    },
+    {
+      "prompt_id": "prompt_000977",
+      "tokens": 80
+    },
+    {
+      "prompt_id": "prompt_000980",
+      "tokens": 100
+    },
+    {
+      "prompt_id": "prompt_000982",
+      "tokens": 78
+    },
+    {
+      "prompt_id": "prompt_000985",
+      "tokens": 121
+    },
+    {
+      "prompt_id": "prompt_000988",
+      "tokens": 88
+    },
+    {
+      "prompt_id": "prompt_000991",
+      "tokens": 111
+    },
+    {
+      "prompt_id": "prompt_000996",
+      "tokens": 70
+    },
+    {
+      "prompt_id": "prompt_001001",
+      "tokens": 74
+    },
+    {
+      "prompt_id": "prompt_001005",
+      "tokens": 89
+    },
+    {
+      "prompt_id": "prompt_001013",
+      "tokens": 85
+    },
+    {
+      "prompt_id": "prompt_001014",
+      "tokens": 122
+    },
+    {
+      "prompt_id": "prompt_001017",
+      "tokens": 136
+    },
+    {
+      "prompt_id": "prompt_001020",
+      "tokens": 156
+    },
+    {
+      "prompt_id": "prompt_001021",
+      "tokens": 144
+    },
+    {
+      "prompt_id": "prompt_001030",
+      "tokens": 135
+    },
+    {
+      "prompt_id": "prompt_001034",
+      "tokens": 87
+    },
+    {
+      "prompt_id": "prompt_001035",
+      "tokens": 88
+    },
+    {
+      "prompt_id": "prompt_001040",
+      "tokens": 98
+    },
+    {
+      "prompt_id": "prompt_001045",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_001050",
+      "tokens": 118
+    },
+    {
+      "prompt_id": "prompt_001054",
+      "tokens": 89
+    },
+    {
+      "prompt_id": "prompt_001055",
+      "tokens": 107
+    },
+    {
+      "prompt_id": "prompt_001060",
+      "tokens": 84
+    },
+    {
+      "prompt_id": "prompt_001062",
+      "tokens": 86
+    },
+    {
+      "prompt_id": "prompt_001063",
+      "tokens": 120
+    },
+    {
+      "prompt_id": "prompt_001065",
+      "tokens": 105
+    },
+    {
+      "prompt_id": "prompt_001067",
+      "tokens": 114
+    },
+    {
+      "prompt_id": "prompt_001071",
+      "tokens": 119
+    },
+    {
+      "prompt_id": "prompt_001074",
+      "tokens": 81
+    },
+    {
+      "prompt_id": "prompt_001077",
+      "tokens": 126
+    },
+    {
+      "prompt_id": "prompt_001078",
+      "tokens": 90
+    },
+    {
+      "prompt_id": "prompt_001079",
+      "tokens": 117
+    },
+    {
+      "prompt_id": "prompt_001080",
+      "tokens": 140
+    },
+    {
+      "prompt_id": "prompt_001081",
+      "tokens": 81
+    },
+    {
+      "prompt_id": "prompt_001084",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_001085",
+      "tokens": 127
+    },
+    {
+      "prompt_id": "prompt_001086",
+      "tokens": 120
+    },
+    {
+      "prompt_id": "prompt_001087",
+      "tokens": 75
+    },
+    {
+      "prompt_id": "prompt_001090",
+      "tokens": 152
+    },
+    {
+      "prompt_id": "prompt_001098",
+      "tokens": 85
+    },
+    {
+      "prompt_id": "prompt_001100",
+      "tokens": 99
+    },
+    {
+      "prompt_id": "prompt_001103",
+      "tokens": 86
+    },
+    {
+      "prompt_id": "prompt_001104",
+      "tokens": 96
+    },
+    {
+      "prompt_id": "prompt_001111",
+      "tokens": 106
+    },
+    {
+      "prompt_id": "prompt_001116",
+      "tokens": 103
+    },
+    {
+      "prompt_id": "prompt_001118",
+      "tokens": 129
+    },
+    {
+      "prompt_id": "prompt_001129",
+      "tokens": 81
+    },
+    {
+      "prompt_id": "prompt_001131",
+      "tokens": 88
+    },
+    {
+      "prompt_id": "prompt_001134",
+      "tokens": 141
+    },
+    {
+      "prompt_id": "prompt_001135",
+      "tokens": 176
+    },
+    {
+      "prompt_id": "prompt_001136",
+      "tokens": 162
+    },
+    {
+      "prompt_id": "prompt_001137",
+      "tokens": 116
+    },
+    {
+      "prompt_id": "prompt_001139",
+      "tokens": 116
+    },
+    {
+      "prompt_id": "prompt_001140",
+      "tokens": 110
+    },
+    {
+      "prompt_id": "prompt_001144",
+      "tokens": 132
+    },
+    {
+      "prompt_id": "prompt_001147",
+      "tokens": 63
+    },
+    {
+      "prompt_id": "prompt_001149",
+      "tokens": 96
+    },
+    {
+      "prompt_id": "prompt_001150",
+      "tokens": 107
+    },
+    {
+      "prompt_id": "prompt_001151",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_001154",
+      "tokens": 109
+    },
+    {
+      "prompt_id": "prompt_001155",
+      "tokens": 112
+    },
+    {
+      "prompt_id": "prompt_001156",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_001157",
+      "tokens": 63
+    },
+    {
+      "prompt_id": "prompt_001161",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_001162",
+      "tokens": 81
+    },
+    {
+      "prompt_id": "prompt_001163",
+      "tokens": 161
+    },
+    {
+      "prompt_id": "prompt_001165",
+      "tokens": 116
+    },
+    {
+      "prompt_id": "prompt_001172",
+      "tokens": 125
+    },
+    {
+      "prompt_id": "prompt_001174",
+      "tokens": 138
+    },
+    {
+      "prompt_id": "prompt_001176",
+      "tokens": 107
+    },
+    {
+      "prompt_id": "prompt_001177",
+      "tokens": 120
+    },
+    {
+      "prompt_id": "prompt_001180",
+      "tokens": 98
+    },
+    {
+      "prompt_id": "prompt_001193",
+      "tokens": 105
+    },
+    {
+      "prompt_id": "prompt_001199",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_001202",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_001204",
+      "tokens": 125
+    },
+    {
+      "prompt_id": "prompt_001206",
+      "tokens": 89
+    },
+    {
+      "prompt_id": "prompt_001212",
+      "tokens": 76
+    },
+    {
+      "prompt_id": "prompt_001213",
+      "tokens": 58
+    },
+    {
+      "prompt_id": "prompt_001214",
+      "tokens": 91
+    },
+    {
+      "prompt_id": "prompt_001217",
+      "tokens": 161
+    },
+    {
+      "prompt_id": "prompt_001220",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_001221",
+      "tokens": 84
+    },
+    {
+      "prompt_id": "prompt_001226",
+      "tokens": 112
+    },
+    {
+      "prompt_id": "prompt_001230",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_001231",
+      "tokens": 96
+    },
+    {
+      "prompt_id": "prompt_001232",
+      "tokens": 111
+    },
+    {
+      "prompt_id": "prompt_001233",
+      "tokens": 67
+    },
+    {
+      "prompt_id": "prompt_001234",
+      "tokens": 109
+    },
+    {
+      "prompt_id": "prompt_001235",
+      "tokens": 100
+    },
+    {
+      "prompt_id": "prompt_001236",
+      "tokens": 106
+    },
+    {
+      "prompt_id": "prompt_001239",
+      "tokens": 95
+    },
+    {
+      "prompt_id": "prompt_001247",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_001250",
+      "tokens": 145
+    },
+    {
+      "prompt_id": "prompt_001252",
+      "tokens": 123
+    },
+    {
+      "prompt_id": "prompt_001254",
+      "tokens": 99
+    },
+    {
+      "prompt_id": "prompt_001261",
+      "tokens": 80
+    },
+    {
+      "prompt_id": "prompt_001273",
+      "tokens": 138
+    },
+    {
+      "prompt_id": "prompt_001277",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_001278",
+      "tokens": 140
+    },
+    {
+      "prompt_id": "prompt_001279",
+      "tokens": 135
+    },
+    {
+      "prompt_id": "prompt_001280",
+      "tokens": 105
+    },
+    {
+      "prompt_id": "prompt_001283",
+      "tokens": 89
+    },
+    {
+      "prompt_id": "prompt_001294",
+      "tokens": 99
+    },
+    {
+      "prompt_id": "prompt_001297",
+      "tokens": 136
+    },
+    {
+      "prompt_id": "prompt_001306",
+      "tokens": 98
+    },
+    {
+      "prompt_id": "prompt_001308",
+      "tokens": 129
+    },
+    {
+      "prompt_id": "prompt_001311",
+      "tokens": 108
+    },
+    {
+      "prompt_id": "prompt_001316",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_001326",
+      "tokens": 161
+    },
+    {
+      "prompt_id": "prompt_001327",
+      "tokens": 170
+    },
+    {
+      "prompt_id": "prompt_001328",
+      "tokens": 98
+    },
+    {
+      "prompt_id": "prompt_001330",
+      "tokens": 146
+    },
+    {
+      "prompt_id": "prompt_001332",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_001339",
+      "tokens": 128
+    },
+    {
+      "prompt_id": "prompt_001346",
+      "tokens": 103
+    },
+    {
+      "prompt_id": "prompt_001347",
+      "tokens": 110
+    },
+    {
+      "prompt_id": "prompt_001348",
+      "tokens": 168
+    },
+    {
+      "prompt_id": "prompt_001352",
+      "tokens": 147
+    },
+    {
+      "prompt_id": "prompt_001353",
+      "tokens": 87
+    },
+    {
+      "prompt_id": "prompt_001354",
+      "tokens": 58
+    },
+    {
+      "prompt_id": "prompt_001355",
+      "tokens": 75
+    },
+    {
+      "prompt_id": "prompt_001361",
+      "tokens": 64
+    },
+    {
+      "prompt_id": "prompt_001362",
+      "tokens": 119
+    },
+    {
+      "prompt_id": "prompt_001366",
+      "tokens": 157
+    },
+    {
+      "prompt_id": "prompt_001367",
+      "tokens": 90
+    },
+    {
+      "prompt_id": "prompt_001370",
+      "tokens": 108
+    },
+    {
+      "prompt_id": "prompt_001374",
+      "tokens": 131
+    },
+    {
+      "prompt_id": "prompt_001379",
+      "tokens": 113
+    },
+    {
+      "prompt_id": "prompt_001382",
+      "tokens": 126
+    },
+    {
+      "prompt_id": "prompt_001387",
+      "tokens": 84
+    },
+    {
+      "prompt_id": "prompt_001391",
+      "tokens": 132
+    },
+    {
+      "prompt_id": "prompt_001394",
+      "tokens": 72
+    },
+    {
+      "prompt_id": "prompt_001395",
+      "tokens": 119
+    },
+    {
+      "prompt_id": "prompt_001399",
+      "tokens": 120
+    },
+    {
+      "prompt_id": "prompt_001403",
+      "tokens": 89
+    },
+    {
+      "prompt_id": "prompt_001405",
+      "tokens": 119
+    },
+    {
+      "prompt_id": "prompt_001411",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_001412",
+      "tokens": 139
+    },
+    {
+      "prompt_id": "prompt_001413",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_001415",
+      "tokens": 127
+    },
+    {
+      "prompt_id": "prompt_001418",
+      "tokens": 111
+    },
+    {
+      "prompt_id": "prompt_001419",
+      "tokens": 124
+    },
+    {
+      "prompt_id": "prompt_001421",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_001422",
+      "tokens": 144
+    },
+    {
+      "prompt_id": "prompt_001427",
+      "tokens": 87
+    },
+    {
+      "prompt_id": "prompt_001435",
+      "tokens": 125
+    },
+    {
+      "prompt_id": "prompt_001437",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_001440",
+      "tokens": 82
+    },
+    {
+      "prompt_id": "prompt_001442",
+      "tokens": 74
+    },
+    {
+      "prompt_id": "prompt_001455",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_001457",
+      "tokens": 81
+    },
+    {
+      "prompt_id": "prompt_001458",
+      "tokens": 106
+    },
+    {
+      "prompt_id": "prompt_001460",
+      "tokens": 100
+    },
+    {
+      "prompt_id": "prompt_001461",
+      "tokens": 141
+    },
+    {
+      "prompt_id": "prompt_001462",
+      "tokens": 122
+    },
+    {
+      "prompt_id": "prompt_001463",
+      "tokens": 112
+    },
+    {
+      "prompt_id": "prompt_001467",
+      "tokens": 88
+    },
+    {
+      "prompt_id": "prompt_001470",
+      "tokens": 106
+    },
+    {
+      "prompt_id": "prompt_001472",
+      "tokens": 96
+    },
+    {
+      "prompt_id": "prompt_001474",
+      "tokens": 110
+    },
+    {
+      "prompt_id": "prompt_001476",
+      "tokens": 116
+    },
+    {
+      "prompt_id": "prompt_001477",
+      "tokens": 95
+    },
+    {
+      "prompt_id": "prompt_001489",
+      "tokens": 77
+    },
+    {
+      "prompt_id": "prompt_001492",
+      "tokens": 93
+    },
+    {
+      "prompt_id": "prompt_001499",
+      "tokens": 130
+    },
+    {
+      "prompt_id": "prompt_001502",
+      "tokens": 112
+    },
+    {
+      "prompt_id": "prompt_001504",
+      "tokens": 99
+    },
+    {
+      "prompt_id": "prompt_001505",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_001507",
+      "tokens": 80
+    },
+    {
+      "prompt_id": "prompt_001514",
+      "tokens": 67
+    },
+    {
+      "prompt_id": "prompt_001517",
+      "tokens": 118
+    },
+    {
+      "prompt_id": "prompt_001519",
+      "tokens": 118
+    },
+    {
+      "prompt_id": "prompt_001522",
+      "tokens": 149
+    },
+    {
+      "prompt_id": "prompt_001524",
+      "tokens": 178
+    },
+    {
+      "prompt_id": "prompt_001526",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_001527",
+      "tokens": 124
+    },
+    {
+      "prompt_id": "prompt_001532",
+      "tokens": 138
+    },
+    {
+      "prompt_id": "prompt_001536",
+      "tokens": 106
+    },
+    {
+      "prompt_id": "prompt_001537",
+      "tokens": 104
+    },
+    {
+      "prompt_id": "prompt_001544",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_001545",
+      "tokens": 87
+    },
+    {
+      "prompt_id": "prompt_001546",
+      "tokens": 111
+    },
+    {
+      "prompt_id": "prompt_001550",
+      "tokens": 67
+    },
+    {
+      "prompt_id": "prompt_001551",
+      "tokens": 84
+    },
+    {
+      "prompt_id": "prompt_001555",
+      "tokens": 113
+    },
+    {
+      "prompt_id": "prompt_001557",
+      "tokens": 132
+    },
+    {
+      "prompt_id": "prompt_001558",
+      "tokens": 130
+    },
+    {
+      "prompt_id": "prompt_001559",
+      "tokens": 99
+    },
+    {
+      "prompt_id": "prompt_001562",
+      "tokens": 87
+    },
+    {
+      "prompt_id": "prompt_001563",
+      "tokens": 72
+    },
+    {
+      "prompt_id": "prompt_001566",
+      "tokens": 81
+    },
+    {
+      "prompt_id": "prompt_001570",
+      "tokens": 81
+    },
+    {
+      "prompt_id": "prompt_001571",
+      "tokens": 140
+    },
+    {
+      "prompt_id": "prompt_001575",
+      "tokens": 69
+    },
+    {
+      "prompt_id": "prompt_001577",
+      "tokens": 116
+    },
+    {
+      "prompt_id": "prompt_001578",
+      "tokens": 79
+    },
+    {
+      "prompt_id": "prompt_001579",
+      "tokens": 108
+    },
+    {
+      "prompt_id": "prompt_001581",
+      "tokens": 151
+    },
+    {
+      "prompt_id": "prompt_001588",
+      "tokens": 67
+    },
+    {
+      "prompt_id": "prompt_001591",
+      "tokens": 96
+    },
+    {
+      "prompt_id": "prompt_001593",
+      "tokens": 123
+    },
+    {
+      "prompt_id": "prompt_001595",
+      "tokens": 98
+    },
+    {
+      "prompt_id": "prompt_001598",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_001599",
+      "tokens": 86
+    },
+    {
+      "prompt_id": "prompt_001601",
+      "tokens": 140
+    },
+    {
+      "prompt_id": "prompt_001602",
+      "tokens": 74
+    },
+    {
+      "prompt_id": "prompt_001604",
+      "tokens": 111
+    },
+    {
+      "prompt_id": "prompt_001609",
+      "tokens": 109
+    },
+    {
+      "prompt_id": "prompt_001612",
+      "tokens": 146
+    },
+    {
+      "prompt_id": "prompt_001614",
+      "tokens": 117
+    },
+    {
+      "prompt_id": "prompt_001615",
+      "tokens": 81
+    },
+    {
+      "prompt_id": "prompt_001616",
+      "tokens": 149
+    },
+    {
+      "prompt_id": "prompt_001617",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_001619",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_001620",
+      "tokens": 88
+    },
+    {
+      "prompt_id": "prompt_001622",
+      "tokens": 125
+    },
+    {
+      "prompt_id": "prompt_001627",
+      "tokens": 99
+    },
+    {
+      "prompt_id": "prompt_001628",
+      "tokens": 86
+    },
+    {
+      "prompt_id": "prompt_001629",
+      "tokens": 125
+    },
+    {
+      "prompt_id": "prompt_001631",
+      "tokens": 127
+    },
+    {
+      "prompt_id": "prompt_001633",
+      "tokens": 198
+    },
+    {
+      "prompt_id": "prompt_001634",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_001635",
+      "tokens": 139
+    },
+    {
+      "prompt_id": "prompt_001637",
+      "tokens": 108
+    },
+    {
+      "prompt_id": "prompt_001645",
+      "tokens": 123
+    },
+    {
+      "prompt_id": "prompt_001649",
+      "tokens": 159
+    },
+    {
+      "prompt_id": "prompt_001653",
+      "tokens": 122
+    },
+    {
+      "prompt_id": "prompt_001655",
+      "tokens": 128
+    },
+    {
+      "prompt_id": "prompt_001657",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_001661",
+      "tokens": 131
+    },
+    {
+      "prompt_id": "prompt_001663",
+      "tokens": 98
+    },
+    {
+      "prompt_id": "prompt_001665",
+      "tokens": 122
+    },
+    {
+      "prompt_id": "prompt_001667",
+      "tokens": 140
+    },
+    {
+      "prompt_id": "prompt_001672",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_001675",
+      "tokens": 112
+    },
+    {
+      "prompt_id": "prompt_001676",
+      "tokens": 82
+    },
+    {
+      "prompt_id": "prompt_001681",
+      "tokens": 136
+    },
+    {
+      "prompt_id": "prompt_001685",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_001689",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_001696",
+      "tokens": 78
+    },
+    {
+      "prompt_id": "prompt_001699",
+      "tokens": 110
+    },
+    {
+      "prompt_id": "prompt_001701",
+      "tokens": 109
+    },
+    {
+      "prompt_id": "prompt_001703",
+      "tokens": 128
+    },
+    {
+      "prompt_id": "prompt_001705",
+      "tokens": 124
+    },
+    {
+      "prompt_id": "prompt_001706",
+      "tokens": 136
+    },
+    {
+      "prompt_id": "prompt_001707",
+      "tokens": 116
+    },
+    {
+      "prompt_id": "prompt_001709",
+      "tokens": 90
+    },
+    {
+      "prompt_id": "prompt_001710",
+      "tokens": 137
+    },
+    {
+      "prompt_id": "prompt_001715",
+      "tokens": 134
+    },
+    {
+      "prompt_id": "prompt_001720",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_001721",
+      "tokens": 99
+    },
+    {
+      "prompt_id": "prompt_001729",
+      "tokens": 107
+    },
+    {
+      "prompt_id": "prompt_001733",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_001734",
+      "tokens": 108
+    },
+    {
+      "prompt_id": "prompt_001736",
+      "tokens": 90
+    },
+    {
+      "prompt_id": "prompt_001739",
+      "tokens": 132
+    },
+    {
+      "prompt_id": "prompt_001740",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_001741",
+      "tokens": 64
+    },
+    {
+      "prompt_id": "prompt_001743",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_001748",
+      "tokens": 122
+    },
+    {
+      "prompt_id": "prompt_001749",
+      "tokens": 84
+    },
+    {
+      "prompt_id": "prompt_001750",
+      "tokens": 130
+    },
+    {
+      "prompt_id": "prompt_001751",
+      "tokens": 175
+    },
+    {
+      "prompt_id": "prompt_001753",
+      "tokens": 99
+    },
+    {
+      "prompt_id": "prompt_001754",
+      "tokens": 125
+    },
+    {
+      "prompt_id": "prompt_001755",
+      "tokens": 118
+    },
+    {
+      "prompt_id": "prompt_001756",
+      "tokens": 91
+    },
+    {
+      "prompt_id": "prompt_001758",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_001759",
+      "tokens": 93
+    },
+    {
+      "prompt_id": "prompt_001761",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_001762",
+      "tokens": 109
+    },
+    {
+      "prompt_id": "prompt_001763",
+      "tokens": 158
+    },
+    {
+      "prompt_id": "prompt_001764",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_001766",
+      "tokens": 164
+    },
+    {
+      "prompt_id": "prompt_001774",
+      "tokens": 123
+    },
+    {
+      "prompt_id": "prompt_001777",
+      "tokens": 91
+    },
+    {
+      "prompt_id": "prompt_001786",
+      "tokens": 152
+    },
+    {
+      "prompt_id": "prompt_001788",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_001789",
+      "tokens": 124
+    },
+    {
+      "prompt_id": "prompt_001794",
+      "tokens": 117
+    },
+    {
+      "prompt_id": "prompt_001796",
+      "tokens": 93
+    },
+    {
+      "prompt_id": "prompt_001799",
+      "tokens": 122
+    },
+    {
+      "prompt_id": "prompt_001802",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_001804",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_001808",
+      "tokens": 63
+    },
+    {
+      "prompt_id": "prompt_001811",
+      "tokens": 105
+    },
+    {
+      "prompt_id": "prompt_001814",
+      "tokens": 96
+    },
+    {
+      "prompt_id": "prompt_001819",
+      "tokens": 96
+    },
+    {
+      "prompt_id": "prompt_001822",
+      "tokens": 88
+    },
+    {
+      "prompt_id": "prompt_001827",
+      "tokens": 158
+    },
+    {
+      "prompt_id": "prompt_001829",
+      "tokens": 79
+    },
+    {
+      "prompt_id": "prompt_001831",
+      "tokens": 142
+    },
+    {
+      "prompt_id": "prompt_001832",
+      "tokens": 146
+    },
+    {
+      "prompt_id": "prompt_001833",
+      "tokens": 93
+    },
+    {
+      "prompt_id": "prompt_001837",
+      "tokens": 107
+    },
+    {
+      "prompt_id": "prompt_001838",
+      "tokens": 106
+    },
+    {
+      "prompt_id": "prompt_001843",
+      "tokens": 105
+    },
+    {
+      "prompt_id": "prompt_001855",
+      "tokens": 96
+    },
+    {
+      "prompt_id": "prompt_001856",
+      "tokens": 134
+    },
+    {
+      "prompt_id": "prompt_001858",
+      "tokens": 121
+    },
+    {
+      "prompt_id": "prompt_001861",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_001862",
+      "tokens": 130
+    },
+    {
+      "prompt_id": "prompt_001865",
+      "tokens": 75
+    },
+    {
+      "prompt_id": "prompt_001866",
+      "tokens": 110
+    },
+    {
+      "prompt_id": "prompt_001871",
+      "tokens": 154
+    },
+    {
+      "prompt_id": "prompt_001875",
+      "tokens": 131
+    },
+    {
+      "prompt_id": "prompt_001877",
+      "tokens": 137
+    },
+    {
+      "prompt_id": "prompt_001881",
+      "tokens": 116
+    },
+    {
+      "prompt_id": "prompt_001882",
+      "tokens": 103
+    },
+    {
+      "prompt_id": "prompt_001890",
+      "tokens": 78
+    },
+    {
+      "prompt_id": "prompt_001891",
+      "tokens": 116
+    },
+    {
+      "prompt_id": "prompt_001892",
+      "tokens": 80
+    },
+    {
+      "prompt_id": "prompt_001893",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_001899",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_001906",
+      "tokens": 81
+    },
+    {
+      "prompt_id": "prompt_001907",
+      "tokens": 119
+    },
+    {
+      "prompt_id": "prompt_001909",
+      "tokens": 72
+    },
+    {
+      "prompt_id": "prompt_001913",
+      "tokens": 78
+    },
+    {
+      "prompt_id": "prompt_001919",
+      "tokens": 127
+    },
+    {
+      "prompt_id": "prompt_001920",
+      "tokens": 68
+    },
+    {
+      "prompt_id": "prompt_001924",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_001925",
+      "tokens": 105
+    },
+    {
+      "prompt_id": "prompt_001930",
+      "tokens": 114
+    },
+    {
+      "prompt_id": "prompt_001933",
+      "tokens": 109
+    },
+    {
+      "prompt_id": "prompt_001935",
+      "tokens": 118
+    },
+    {
+      "prompt_id": "prompt_001940",
+      "tokens": 155
+    },
+    {
+      "prompt_id": "prompt_001947",
+      "tokens": 100
+    },
+    {
+      "prompt_id": "prompt_001949",
+      "tokens": 107
+    },
+    {
+      "prompt_id": "prompt_001951",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_001955",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_001957",
+      "tokens": 153
+    },
+    {
+      "prompt_id": "prompt_001959",
+      "tokens": 63
+    },
+    {
+      "prompt_id": "prompt_001961",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_001963",
+      "tokens": 96
+    },
+    {
+      "prompt_id": "prompt_001968",
+      "tokens": 73
+    },
+    {
+      "prompt_id": "prompt_001969",
+      "tokens": 98
+    },
+    {
+      "prompt_id": "prompt_001970",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_001979",
+      "tokens": 99
+    },
+    {
+      "prompt_id": "prompt_001985",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_001988",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_001991",
+      "tokens": 104
+    },
+    {
+      "prompt_id": "prompt_001992",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_001993",
+      "tokens": 93
+    },
+    {
+      "prompt_id": "prompt_001995",
+      "tokens": 98
+    },
+    {
+      "prompt_id": "prompt_001997",
+      "tokens": 100
+    },
+    {
+      "prompt_id": "prompt_001998",
+      "tokens": 159
+    },
+    {
+      "prompt_id": "prompt_002002",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_002007",
+      "tokens": 121
+    },
+    {
+      "prompt_id": "prompt_002012",
+      "tokens": 93
+    },
+    {
+      "prompt_id": "prompt_002016",
+      "tokens": 109
+    },
+    {
+      "prompt_id": "prompt_002018",
+      "tokens": 78
+    },
+    {
+      "prompt_id": "prompt_002021",
+      "tokens": 84
+    },
+    {
+      "prompt_id": "prompt_002027",
+      "tokens": 120
+    },
+    {
+      "prompt_id": "prompt_002031",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_002032",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_002034",
+      "tokens": 77
+    },
+    {
+      "prompt_id": "prompt_002038",
+      "tokens": 104
+    },
+    {
+      "prompt_id": "prompt_002039",
+      "tokens": 108
+    },
+    {
+      "prompt_id": "prompt_002040",
+      "tokens": 111
+    },
+    {
+      "prompt_id": "prompt_002044",
+      "tokens": 96
+    },
+    {
+      "prompt_id": "prompt_002046",
+      "tokens": 106
+    },
+    {
+      "prompt_id": "prompt_002048",
+      "tokens": 114
+    },
+    {
+      "prompt_id": "prompt_002049",
+      "tokens": 127
+    },
+    {
+      "prompt_id": "prompt_002050",
+      "tokens": 96
+    },
+    {
+      "prompt_id": "prompt_002060",
+      "tokens": 146
+    },
+    {
+      "prompt_id": "prompt_002061",
+      "tokens": 67
+    },
+    {
+      "prompt_id": "prompt_002071",
+      "tokens": 103
+    },
+    {
+      "prompt_id": "prompt_002073",
+      "tokens": 78
+    },
+    {
+      "prompt_id": "prompt_002075",
+      "tokens": 77
+    },
+    {
+      "prompt_id": "prompt_002083",
+      "tokens": 88
+    },
+    {
+      "prompt_id": "prompt_002087",
+      "tokens": 120
+    },
+    {
+      "prompt_id": "prompt_002091",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_002092",
+      "tokens": 60
+    },
+    {
+      "prompt_id": "prompt_002094",
+      "tokens": 144
+    },
+    {
+      "prompt_id": "prompt_002095",
+      "tokens": 91
+    },
+    {
+      "prompt_id": "prompt_002096",
+      "tokens": 133
+    },
+    {
+      "prompt_id": "prompt_002097",
+      "tokens": 67
+    },
+    {
+      "prompt_id": "prompt_002101",
+      "tokens": 85
+    },
+    {
+      "prompt_id": "prompt_002102",
+      "tokens": 103
+    },
+    {
+      "prompt_id": "prompt_002106",
+      "tokens": 99
+    },
+    {
+      "prompt_id": "prompt_002107",
+      "tokens": 129
+    },
+    {
+      "prompt_id": "prompt_002108",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_002110",
+      "tokens": 93
+    },
+    {
+      "prompt_id": "prompt_002111",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_002114",
+      "tokens": 152
+    },
+    {
+      "prompt_id": "prompt_002116",
+      "tokens": 73
+    },
+    {
+      "prompt_id": "prompt_002118",
+      "tokens": 122
+    },
+    {
+      "prompt_id": "prompt_002119",
+      "tokens": 109
+    },
+    {
+      "prompt_id": "prompt_002122",
+      "tokens": 88
+    },
+    {
+      "prompt_id": "prompt_002130",
+      "tokens": 75
+    },
+    {
+      "prompt_id": "prompt_002137",
+      "tokens": 89
+    },
+    {
+      "prompt_id": "prompt_002140",
+      "tokens": 106
+    },
+    {
+      "prompt_id": "prompt_002142",
+      "tokens": 116
+    },
+    {
+      "prompt_id": "prompt_002145",
+      "tokens": 126
+    },
+    {
+      "prompt_id": "prompt_002147",
+      "tokens": 85
+    },
+    {
+      "prompt_id": "prompt_002152",
+      "tokens": 95
+    },
+    {
+      "prompt_id": "prompt_002154",
+      "tokens": 106
+    },
+    {
+      "prompt_id": "prompt_002155",
+      "tokens": 136
+    },
+    {
+      "prompt_id": "prompt_002156",
+      "tokens": 85
+    },
+    {
+      "prompt_id": "prompt_002158",
+      "tokens": 66
+    },
+    {
+      "prompt_id": "prompt_002160",
+      "tokens": 127
+    },
+    {
+      "prompt_id": "prompt_002167",
+      "tokens": 79
+    },
+    {
+      "prompt_id": "prompt_002172",
+      "tokens": 65
+    },
+    {
+      "prompt_id": "prompt_002173",
+      "tokens": 105
+    },
+    {
+      "prompt_id": "prompt_002174",
+      "tokens": 95
+    },
+    {
+      "prompt_id": "prompt_002175",
+      "tokens": 128
+    },
+    {
+      "prompt_id": "prompt_002176",
+      "tokens": 88
+    },
+    {
+      "prompt_id": "prompt_002177",
+      "tokens": 151
+    },
+    {
+      "prompt_id": "prompt_002179",
+      "tokens": 128
+    },
+    {
+      "prompt_id": "prompt_002182",
+      "tokens": 69
+    },
+    {
+      "prompt_id": "prompt_002186",
+      "tokens": 105
+    },
+    {
+      "prompt_id": "prompt_002194",
+      "tokens": 93
+    },
+    {
+      "prompt_id": "prompt_002198",
+      "tokens": 82
+    },
+    {
+      "prompt_id": "prompt_002200",
+      "tokens": 143
+    },
+    {
+      "prompt_id": "prompt_002202",
+      "tokens": 108
+    },
+    {
+      "prompt_id": "prompt_002203",
+      "tokens": 124
+    },
+    {
+      "prompt_id": "prompt_002204",
+      "tokens": 96
+    },
+    {
+      "prompt_id": "prompt_002206",
+      "tokens": 108
+    },
+    {
+      "prompt_id": "prompt_002210",
+      "tokens": 99
+    },
+    {
+      "prompt_id": "prompt_002212",
+      "tokens": 90
+    },
+    {
+      "prompt_id": "prompt_002215",
+      "tokens": 167
+    },
+    {
+      "prompt_id": "prompt_002218",
+      "tokens": 79
+    },
+    {
+      "prompt_id": "prompt_002220",
+      "tokens": 80
+    },
+    {
+      "prompt_id": "prompt_002225",
+      "tokens": 139
+    },
+    {
+      "prompt_id": "prompt_002231",
+      "tokens": 134
+    },
+    {
+      "prompt_id": "prompt_002232",
+      "tokens": 91
+    },
+    {
+      "prompt_id": "prompt_002233",
+      "tokens": 110
+    },
+    {
+      "prompt_id": "prompt_002234",
+      "tokens": 73
+    },
+    {
+      "prompt_id": "prompt_002240",
+      "tokens": 95
+    },
+    {
+      "prompt_id": "prompt_002243",
+      "tokens": 107
+    },
+    {
+      "prompt_id": "prompt_002246",
+      "tokens": 93
+    },
+    {
+      "prompt_id": "prompt_002248",
+      "tokens": 109
+    },
+    {
+      "prompt_id": "prompt_002257",
+      "tokens": 95
+    },
+    {
+      "prompt_id": "prompt_002259",
+      "tokens": 163
+    },
+    {
+      "prompt_id": "prompt_002262",
+      "tokens": 119
+    },
+    {
+      "prompt_id": "prompt_002269",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_002270",
+      "tokens": 109
+    },
+    {
+      "prompt_id": "prompt_002273",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_002275",
+      "tokens": 136
+    },
+    {
+      "prompt_id": "prompt_002280",
+      "tokens": 137
+    },
+    {
+      "prompt_id": "prompt_002283",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_002291",
+      "tokens": 130
+    },
+    {
+      "prompt_id": "prompt_002292",
+      "tokens": 176
+    },
+    {
+      "prompt_id": "prompt_002294",
+      "tokens": 98
+    },
+    {
+      "prompt_id": "prompt_002304",
+      "tokens": 89
+    },
+    {
+      "prompt_id": "prompt_002311",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_002312",
+      "tokens": 127
+    },
+    {
+      "prompt_id": "prompt_002313",
+      "tokens": 57
+    },
+    {
+      "prompt_id": "prompt_002320",
+      "tokens": 151
+    },
+    {
+      "prompt_id": "prompt_002323",
+      "tokens": 117
+    },
+    {
+      "prompt_id": "prompt_002324",
+      "tokens": 86
+    },
+    {
+      "prompt_id": "prompt_002332",
+      "tokens": 129
+    },
+    {
+      "prompt_id": "prompt_002339",
+      "tokens": 136
+    },
+    {
+      "prompt_id": "prompt_002342",
+      "tokens": 123
+    },
+    {
+      "prompt_id": "prompt_002349",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_002352",
+      "tokens": 149
+    },
+    {
+      "prompt_id": "prompt_002360",
+      "tokens": 69
+    },
+    {
+      "prompt_id": "prompt_002364",
+      "tokens": 71
+    },
+    {
+      "prompt_id": "prompt_002371",
+      "tokens": 123
+    },
+    {
+      "prompt_id": "prompt_002374",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_002375",
+      "tokens": 171
+    },
+    {
+      "prompt_id": "prompt_002377",
+      "tokens": 78
+    },
+    {
+      "prompt_id": "prompt_002380",
+      "tokens": 108
+    },
+    {
+      "prompt_id": "prompt_002382",
+      "tokens": 104
+    },
+    {
+      "prompt_id": "prompt_002385",
+      "tokens": 63
+    },
+    {
+      "prompt_id": "prompt_002388",
+      "tokens": 109
+    },
+    {
+      "prompt_id": "prompt_002389",
+      "tokens": 105
+    },
+    {
+      "prompt_id": "prompt_002394",
+      "tokens": 120
+    },
+    {
+      "prompt_id": "prompt_002396",
+      "tokens": 111
+    },
+    {
+      "prompt_id": "prompt_002397",
+      "tokens": 90
+    },
+    {
+      "prompt_id": "prompt_002398",
+      "tokens": 110
+    },
+    {
+      "prompt_id": "prompt_002399",
+      "tokens": 99
+    },
+    {
+      "prompt_id": "prompt_002401",
+      "tokens": 118
+    },
+    {
+      "prompt_id": "prompt_002404",
+      "tokens": 75
+    },
+    {
+      "prompt_id": "prompt_002410",
+      "tokens": 121
+    },
+    {
+      "prompt_id": "prompt_002417",
+      "tokens": 146
+    },
+    {
+      "prompt_id": "prompt_002418",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_002419",
+      "tokens": 107
+    },
+    {
+      "prompt_id": "prompt_002425",
+      "tokens": 89
+    },
+    {
+      "prompt_id": "prompt_002428",
+      "tokens": 98
+    },
+    {
+      "prompt_id": "prompt_002429",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_002430",
+      "tokens": 87
+    },
+    {
+      "prompt_id": "prompt_002431",
+      "tokens": 124
+    },
+    {
+      "prompt_id": "prompt_002434",
+      "tokens": 86
+    },
+    {
+      "prompt_id": "prompt_002437",
+      "tokens": 141
+    },
+    {
+      "prompt_id": "prompt_002446",
+      "tokens": 112
+    },
+    {
+      "prompt_id": "prompt_002449",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_002456",
+      "tokens": 79
+    },
+    {
+      "prompt_id": "prompt_002461",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_002462",
+      "tokens": 140
+    },
+    {
+      "prompt_id": "prompt_002465",
+      "tokens": 79
+    },
+    {
+      "prompt_id": "prompt_002467",
+      "tokens": 109
+    },
+    {
+      "prompt_id": "prompt_002471",
+      "tokens": 112
+    },
+    {
+      "prompt_id": "prompt_002474",
+      "tokens": 118
+    },
+    {
+      "prompt_id": "prompt_002475",
+      "tokens": 116
+    },
+    {
+      "prompt_id": "prompt_002476",
+      "tokens": 138
+    },
+    {
+      "prompt_id": "prompt_002477",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_002483",
+      "tokens": 117
+    },
+    {
+      "prompt_id": "prompt_002484",
+      "tokens": 141
+    },
+    {
+      "prompt_id": "prompt_002486",
+      "tokens": 90
+    },
+    {
+      "prompt_id": "prompt_002487",
+      "tokens": 91
+    },
+    {
+      "prompt_id": "prompt_002489",
+      "tokens": 71
+    },
+    {
+      "prompt_id": "prompt_002490",
+      "tokens": 117
+    },
+    {
+      "prompt_id": "prompt_002491",
+      "tokens": 64
+    },
+    {
+      "prompt_id": "prompt_002492",
+      "tokens": 95
+    },
+    {
+      "prompt_id": "prompt_002493",
+      "tokens": 137
+    },
+    {
+      "prompt_id": "prompt_002494",
+      "tokens": 95
+    },
+    {
+      "prompt_id": "prompt_002498",
+      "tokens": 88
+    },
+    {
+      "prompt_id": "prompt_002500",
+      "tokens": 95
+    },
+    {
+      "prompt_id": "prompt_002502",
+      "tokens": 118
+    },
+    {
+      "prompt_id": "prompt_002504",
+      "tokens": 74
+    },
+    {
+      "prompt_id": "prompt_002505",
+      "tokens": 76
+    },
+    {
+      "prompt_id": "prompt_002507",
+      "tokens": 112
+    },
+    {
+      "prompt_id": "prompt_002511",
+      "tokens": 125
+    },
+    {
+      "prompt_id": "prompt_002513",
+      "tokens": 113
+    },
+    {
+      "prompt_id": "prompt_002516",
+      "tokens": 120
+    },
+    {
+      "prompt_id": "prompt_002520",
+      "tokens": 93
+    },
+    {
+      "prompt_id": "prompt_002524",
+      "tokens": 129
+    },
+    {
+      "prompt_id": "prompt_002529",
+      "tokens": 96
+    },
+    {
+      "prompt_id": "prompt_002530",
+      "tokens": 78
+    },
+    {
+      "prompt_id": "prompt_002531",
+      "tokens": 100
+    },
+    {
+      "prompt_id": "prompt_002532",
+      "tokens": 99
+    },
+    {
+      "prompt_id": "prompt_002533",
+      "tokens": 87
+    },
+    {
+      "prompt_id": "prompt_002540",
+      "tokens": 84
+    },
+    {
+      "prompt_id": "prompt_002544",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_002547",
+      "tokens": 148
+    },
+    {
+      "prompt_id": "prompt_002550",
+      "tokens": 141
+    },
+    {
+      "prompt_id": "prompt_002552",
+      "tokens": 133
+    },
+    {
+      "prompt_id": "prompt_002555",
+      "tokens": 86
+    },
+    {
+      "prompt_id": "prompt_002556",
+      "tokens": 119
+    },
+    {
+      "prompt_id": "prompt_002560",
+      "tokens": 128
+    },
+    {
+      "prompt_id": "prompt_002561",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_002564",
+      "tokens": 121
+    },
+    {
+      "prompt_id": "prompt_002567",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_002571",
+      "tokens": 93
+    },
+    {
+      "prompt_id": "prompt_002577",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_002579",
+      "tokens": 141
+    },
+    {
+      "prompt_id": "prompt_002585",
+      "tokens": 120
+    },
+    {
+      "prompt_id": "prompt_002586",
+      "tokens": 88
+    },
+    {
+      "prompt_id": "prompt_002588",
+      "tokens": 114
+    },
+    {
+      "prompt_id": "prompt_002591",
+      "tokens": 90
+    },
+    {
+      "prompt_id": "prompt_002592",
+      "tokens": 108
+    },
+    {
+      "prompt_id": "prompt_002593",
+      "tokens": 116
+    },
+    {
+      "prompt_id": "prompt_002598",
+      "tokens": 164
+    },
+    {
+      "prompt_id": "prompt_002603",
+      "tokens": 96
+    },
+    {
+      "prompt_id": "prompt_002605",
+      "tokens": 108
+    },
+    {
+      "prompt_id": "prompt_002606",
+      "tokens": 100
+    },
+    {
+      "prompt_id": "prompt_002609",
+      "tokens": 120
+    },
+    {
+      "prompt_id": "prompt_002611",
+      "tokens": 79
+    },
+    {
+      "prompt_id": "prompt_002614",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_002621",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_002627",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_002628",
+      "tokens": 81
+    },
+    {
+      "prompt_id": "prompt_002636",
+      "tokens": 85
+    },
+    {
+      "prompt_id": "prompt_002639",
+      "tokens": 109
+    },
+    {
+      "prompt_id": "prompt_002643",
+      "tokens": 111
+    },
+    {
+      "prompt_id": "prompt_002644",
+      "tokens": 86
+    },
+    {
+      "prompt_id": "prompt_002646",
+      "tokens": 128
+    },
+    {
+      "prompt_id": "prompt_002651",
+      "tokens": 120
+    },
+    {
+      "prompt_id": "prompt_002653",
+      "tokens": 145
+    },
+    {
+      "prompt_id": "prompt_002655",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_002657",
+      "tokens": 89
+    },
+    {
+      "prompt_id": "prompt_002662",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_002667",
+      "tokens": 122
+    },
+    {
+      "prompt_id": "prompt_002671",
+      "tokens": 84
+    },
+    {
+      "prompt_id": "prompt_002673",
+      "tokens": 109
+    },
+    {
+      "prompt_id": "prompt_002681",
+      "tokens": 104
+    },
+    {
+      "prompt_id": "prompt_002683",
+      "tokens": 124
+    },
+    {
+      "prompt_id": "prompt_002686",
+      "tokens": 117
+    },
+    {
+      "prompt_id": "prompt_002691",
+      "tokens": 114
+    },
+    {
+      "prompt_id": "prompt_002693",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_002695",
+      "tokens": 78
+    },
+    {
+      "prompt_id": "prompt_002697",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_002703",
+      "tokens": 86
+    },
+    {
+      "prompt_id": "prompt_002710",
+      "tokens": 71
+    },
+    {
+      "prompt_id": "prompt_002711",
+      "tokens": 85
+    },
+    {
+      "prompt_id": "prompt_002713",
+      "tokens": 93
+    },
+    {
+      "prompt_id": "prompt_002714",
+      "tokens": 105
+    },
+    {
+      "prompt_id": "prompt_002718",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_002720",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_002722",
+      "tokens": 79
+    },
+    {
+      "prompt_id": "prompt_002726",
+      "tokens": 117
+    },
+    {
+      "prompt_id": "prompt_002736",
+      "tokens": 107
+    },
+    {
+      "prompt_id": "prompt_002739",
+      "tokens": 120
+    },
+    {
+      "prompt_id": "prompt_002740",
+      "tokens": 93
+    },
+    {
+      "prompt_id": "prompt_002743",
+      "tokens": 90
+    },
+    {
+      "prompt_id": "prompt_002746",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_002748",
+      "tokens": 148
+    },
+    {
+      "prompt_id": "prompt_002750",
+      "tokens": 105
+    },
+    {
+      "prompt_id": "prompt_002753",
+      "tokens": 128
+    },
+    {
+      "prompt_id": "prompt_002758",
+      "tokens": 134
+    },
+    {
+      "prompt_id": "prompt_002760",
+      "tokens": 74
+    },
+    {
+      "prompt_id": "prompt_002765",
+      "tokens": 103
+    },
+    {
+      "prompt_id": "prompt_002767",
+      "tokens": 202
+    },
+    {
+      "prompt_id": "prompt_002769",
+      "tokens": 129
+    },
+    {
+      "prompt_id": "prompt_002771",
+      "tokens": 121
+    },
+    {
+      "prompt_id": "prompt_002776",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_002777",
+      "tokens": 56
+    },
+    {
+      "prompt_id": "prompt_002778",
+      "tokens": 103
+    },
+    {
+      "prompt_id": "prompt_002781",
+      "tokens": 93
+    },
+    {
+      "prompt_id": "prompt_002782",
+      "tokens": 119
+    },
+    {
+      "prompt_id": "prompt_002784",
+      "tokens": 57
+    },
+    {
+      "prompt_id": "prompt_002785",
+      "tokens": 106
+    },
+    {
+      "prompt_id": "prompt_002787",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_002788",
+      "tokens": 117
+    },
+    {
+      "prompt_id": "prompt_002792",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_002794",
+      "tokens": 68
+    },
+    {
+      "prompt_id": "prompt_002796",
+      "tokens": 79
+    },
+    {
+      "prompt_id": "prompt_002802",
+      "tokens": 81
+    },
+    {
+      "prompt_id": "prompt_002803",
+      "tokens": 87
+    },
+    {
+      "prompt_id": "prompt_002804",
+      "tokens": 120
+    },
+    {
+      "prompt_id": "prompt_002808",
+      "tokens": 96
+    },
+    {
+      "prompt_id": "prompt_002811",
+      "tokens": 100
+    },
+    {
+      "prompt_id": "prompt_002815",
+      "tokens": 111
+    },
+    {
+      "prompt_id": "prompt_002817",
+      "tokens": 95
+    },
+    {
+      "prompt_id": "prompt_002818",
+      "tokens": 110
+    },
+    {
+      "prompt_id": "prompt_002819",
+      "tokens": 129
+    },
+    {
+      "prompt_id": "prompt_002820",
+      "tokens": 80
+    },
+    {
+      "prompt_id": "prompt_002821",
+      "tokens": 123
+    },
+    {
+      "prompt_id": "prompt_002824",
+      "tokens": 105
+    },
+    {
+      "prompt_id": "prompt_002827",
+      "tokens": 123
+    },
+    {
+      "prompt_id": "prompt_002832",
+      "tokens": 80
+    },
+    {
+      "prompt_id": "prompt_002833",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_002837",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_002845",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_002847",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_002850",
+      "tokens": 74
+    },
+    {
+      "prompt_id": "prompt_002851",
+      "tokens": 107
+    },
+    {
+      "prompt_id": "prompt_002856",
+      "tokens": 120
+    },
+    {
+      "prompt_id": "prompt_002860",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_002864",
+      "tokens": 125
+    },
+    {
+      "prompt_id": "prompt_002865",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_002869",
+      "tokens": 119
+    },
+    {
+      "prompt_id": "prompt_002870",
+      "tokens": 123
+    },
+    {
+      "prompt_id": "prompt_002876",
+      "tokens": 110
+    },
+    {
+      "prompt_id": "prompt_002877",
+      "tokens": 120
+    },
+    {
+      "prompt_id": "prompt_002882",
+      "tokens": 134
+    },
+    {
+      "prompt_id": "prompt_002885",
+      "tokens": 120
+    },
+    {
+      "prompt_id": "prompt_002888",
+      "tokens": 111
+    },
+    {
+      "prompt_id": "prompt_002891",
+      "tokens": 96
+    },
+    {
+      "prompt_id": "prompt_002897",
+      "tokens": 119
+    },
+    {
+      "prompt_id": "prompt_002905",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_002906",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_002911",
+      "tokens": 100
+    },
+    {
+      "prompt_id": "prompt_002913",
+      "tokens": 109
+    },
+    {
+      "prompt_id": "prompt_002915",
+      "tokens": 74
+    },
+    {
+      "prompt_id": "prompt_002916",
+      "tokens": 82
+    },
+    {
+      "prompt_id": "prompt_002922",
+      "tokens": 95
+    },
+    {
+      "prompt_id": "prompt_002929",
+      "tokens": 112
+    },
+    {
+      "prompt_id": "prompt_002930",
+      "tokens": 130
+    },
+    {
+      "prompt_id": "prompt_002932",
+      "tokens": 73
+    },
+    {
+      "prompt_id": "prompt_002940",
+      "tokens": 169
+    },
+    {
+      "prompt_id": "prompt_002941",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_002943",
+      "tokens": 128
+    },
+    {
+      "prompt_id": "prompt_002945",
+      "tokens": 105
+    },
+    {
+      "prompt_id": "prompt_002952",
+      "tokens": 112
+    },
+    {
+      "prompt_id": "prompt_002956",
+      "tokens": 78
+    },
+    {
+      "prompt_id": "prompt_002957",
+      "tokens": 118
+    },
+    {
+      "prompt_id": "prompt_002959",
+      "tokens": 142
+    },
+    {
+      "prompt_id": "prompt_002961",
+      "tokens": 99
+    },
+    {
+      "prompt_id": "prompt_002962",
+      "tokens": 70
+    },
+    {
+      "prompt_id": "prompt_002967",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_002969",
+      "tokens": 91
+    },
+    {
+      "prompt_id": "prompt_002974",
+      "tokens": 81
+    },
+    {
+      "prompt_id": "prompt_002975",
+      "tokens": 93
+    },
+    {
+      "prompt_id": "prompt_002984",
+      "tokens": 99
+    },
+    {
+      "prompt_id": "prompt_002985",
+      "tokens": 128
+    },
+    {
+      "prompt_id": "prompt_002986",
+      "tokens": 62
+    },
+    {
+      "prompt_id": "prompt_002990",
+      "tokens": 82
+    },
+    {
+      "prompt_id": "prompt_002995",
+      "tokens": 72
+    },
+    {
+      "prompt_id": "prompt_002997",
+      "tokens": 103
+    },
+    {
+      "prompt_id": "prompt_003000",
+      "tokens": 127
+    },
+    {
+      "prompt_id": "prompt_003001",
+      "tokens": 126
+    },
+    {
+      "prompt_id": "prompt_003004",
+      "tokens": 95
+    },
+    {
+      "prompt_id": "prompt_003007",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_003008",
+      "tokens": 118
+    },
+    {
+      "prompt_id": "prompt_003011",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_003017",
+      "tokens": 163
+    },
+    {
+      "prompt_id": "prompt_003018",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_003022",
+      "tokens": 108
+    },
+    {
+      "prompt_id": "prompt_003024",
+      "tokens": 136
+    },
+    {
+      "prompt_id": "prompt_003025",
+      "tokens": 91
+    },
+    {
+      "prompt_id": "prompt_003029",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_003032",
+      "tokens": 63
+    },
+    {
+      "prompt_id": "prompt_003034",
+      "tokens": 121
+    },
+    {
+      "prompt_id": "prompt_003036",
+      "tokens": 108
+    },
+    {
+      "prompt_id": "prompt_003038",
+      "tokens": 110
+    },
+    {
+      "prompt_id": "prompt_003042",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_003044",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_003045",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_003047",
+      "tokens": 85
+    },
+    {
+      "prompt_id": "prompt_003048",
+      "tokens": 129
+    },
+    {
+      "prompt_id": "prompt_003049",
+      "tokens": 100
+    },
+    {
+      "prompt_id": "prompt_003050",
+      "tokens": 113
+    },
+    {
+      "prompt_id": "prompt_003054",
+      "tokens": 90
+    },
+    {
+      "prompt_id": "prompt_003062",
+      "tokens": 80
+    },
+    {
+      "prompt_id": "prompt_003063",
+      "tokens": 88
+    },
+    {
+      "prompt_id": "prompt_003072",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_003077",
+      "tokens": 91
+    },
+    {
+      "prompt_id": "prompt_003079",
+      "tokens": 82
+    },
+    {
+      "prompt_id": "prompt_003080",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_003083",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_003085",
+      "tokens": 133
+    },
+    {
+      "prompt_id": "prompt_003087",
+      "tokens": 90
+    },
+    {
+      "prompt_id": "prompt_003090",
+      "tokens": 90
+    },
+    {
+      "prompt_id": "prompt_003095",
+      "tokens": 124
+    },
+    {
+      "prompt_id": "prompt_003099",
+      "tokens": 95
+    },
+    {
+      "prompt_id": "prompt_003103",
+      "tokens": 57
+    },
+    {
+      "prompt_id": "prompt_003105",
+      "tokens": 71
+    },
+    {
+      "prompt_id": "prompt_003107",
+      "tokens": 74
+    },
+    {
+      "prompt_id": "prompt_003108",
+      "tokens": 120
+    },
+    {
+      "prompt_id": "prompt_003112",
+      "tokens": 95
+    },
+    {
+      "prompt_id": "prompt_003116",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_003119",
+      "tokens": 118
+    },
+    {
+      "prompt_id": "prompt_003120",
+      "tokens": 117
+    },
+    {
+      "prompt_id": "prompt_003121",
+      "tokens": 85
+    },
+    {
+      "prompt_id": "prompt_003126",
+      "tokens": 137
+    },
+    {
+      "prompt_id": "prompt_003129",
+      "tokens": 85
+    },
+    {
+      "prompt_id": "prompt_003130",
+      "tokens": 118
+    },
+    {
+      "prompt_id": "prompt_003135",
+      "tokens": 107
+    },
+    {
+      "prompt_id": "prompt_003139",
+      "tokens": 80
+    },
+    {
+      "prompt_id": "prompt_003145",
+      "tokens": 85
+    },
+    {
+      "prompt_id": "prompt_003146",
+      "tokens": 103
+    },
+    {
+      "prompt_id": "prompt_003148",
+      "tokens": 126
+    },
+    {
+      "prompt_id": "prompt_003149",
+      "tokens": 118
+    },
+    {
+      "prompt_id": "prompt_003152",
+      "tokens": 136
+    },
+    {
+      "prompt_id": "prompt_003157",
+      "tokens": 123
+    },
+    {
+      "prompt_id": "prompt_003159",
+      "tokens": 107
+    },
+    {
+      "prompt_id": "prompt_003161",
+      "tokens": 76
+    },
+    {
+      "prompt_id": "prompt_003162",
+      "tokens": 98
+    },
+    {
+      "prompt_id": "prompt_003163",
+      "tokens": 90
+    },
+    {
+      "prompt_id": "prompt_003165",
+      "tokens": 136
+    },
+    {
+      "prompt_id": "prompt_003168",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_003170",
+      "tokens": 68
+    },
+    {
+      "prompt_id": "prompt_003178",
+      "tokens": 111
+    },
+    {
+      "prompt_id": "prompt_003180",
+      "tokens": 122
+    },
+    {
+      "prompt_id": "prompt_003184",
+      "tokens": 121
+    },
+    {
+      "prompt_id": "prompt_003185",
+      "tokens": 69
+    },
+    {
+      "prompt_id": "prompt_003187",
+      "tokens": 91
+    },
+    {
+      "prompt_id": "prompt_003195",
+      "tokens": 121
+    },
+    {
+      "prompt_id": "prompt_003196",
+      "tokens": 121
+    },
+    {
+      "prompt_id": "prompt_003200",
+      "tokens": 100
+    },
+    {
+      "prompt_id": "prompt_003204",
+      "tokens": 126
+    },
+    {
+      "prompt_id": "prompt_003205",
+      "tokens": 113
+    },
+    {
+      "prompt_id": "prompt_003207",
+      "tokens": 65
+    },
+    {
+      "prompt_id": "prompt_003210",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_003213",
+      "tokens": 116
+    },
+    {
+      "prompt_id": "prompt_003215",
+      "tokens": 103
+    },
+    {
+      "prompt_id": "prompt_003218",
+      "tokens": 110
+    },
+    {
+      "prompt_id": "prompt_003219",
+      "tokens": 100
+    },
+    {
+      "prompt_id": "prompt_003225",
+      "tokens": 88
+    },
+    {
+      "prompt_id": "prompt_003231",
+      "tokens": 78
+    },
+    {
+      "prompt_id": "prompt_003236",
+      "tokens": 103
+    },
+    {
+      "prompt_id": "prompt_003237",
+      "tokens": 139
+    },
+    {
+      "prompt_id": "prompt_003238",
+      "tokens": 98
+    },
+    {
+      "prompt_id": "prompt_003241",
+      "tokens": 122
+    },
+    {
+      "prompt_id": "prompt_003243",
+      "tokens": 103
+    },
+    {
+      "prompt_id": "prompt_003248",
+      "tokens": 106
+    },
+    {
+      "prompt_id": "prompt_003253",
+      "tokens": 116
+    },
+    {
+      "prompt_id": "prompt_003254",
+      "tokens": 118
+    },
+    {
+      "prompt_id": "prompt_003257",
+      "tokens": 91
+    },
+    {
+      "prompt_id": "prompt_003258",
+      "tokens": 138
+    },
+    {
+      "prompt_id": "prompt_003260",
+      "tokens": 112
+    },
+    {
+      "prompt_id": "prompt_003265",
+      "tokens": 77
+    },
+    {
+      "prompt_id": "prompt_003266",
+      "tokens": 66
+    },
+    {
+      "prompt_id": "prompt_003267",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_003269",
+      "tokens": 134
+    },
+    {
+      "prompt_id": "prompt_003270",
+      "tokens": 60
+    },
+    {
+      "prompt_id": "prompt_003272",
+      "tokens": 106
+    },
+    {
+      "prompt_id": "prompt_003281",
+      "tokens": 135
+    },
+    {
+      "prompt_id": "prompt_003283",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_003284",
+      "tokens": 109
+    },
+    {
+      "prompt_id": "prompt_003285",
+      "tokens": 128
+    },
+    {
+      "prompt_id": "prompt_003286",
+      "tokens": 131
+    },
+    {
+      "prompt_id": "prompt_003288",
+      "tokens": 117
+    },
+    {
+      "prompt_id": "prompt_003289",
+      "tokens": 130
+    },
+    {
+      "prompt_id": "prompt_003296",
+      "tokens": 70
+    },
+    {
+      "prompt_id": "prompt_003299",
+      "tokens": 114
+    },
+    {
+      "prompt_id": "prompt_003300",
+      "tokens": 99
+    },
+    {
+      "prompt_id": "prompt_003302",
+      "tokens": 85
+    },
+    {
+      "prompt_id": "prompt_003307",
+      "tokens": 120
+    },
+    {
+      "prompt_id": "prompt_003309",
+      "tokens": 140
+    },
+    {
+      "prompt_id": "prompt_003312",
+      "tokens": 103
+    },
+    {
+      "prompt_id": "prompt_003313",
+      "tokens": 84
+    },
+    {
+      "prompt_id": "prompt_003316",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_003328",
+      "tokens": 137
+    },
+    {
+      "prompt_id": "prompt_003329",
+      "tokens": 116
+    },
+    {
+      "prompt_id": "prompt_003330",
+      "tokens": 119
+    },
+    {
+      "prompt_id": "prompt_003333",
+      "tokens": 133
+    },
+    {
+      "prompt_id": "prompt_003336",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_003338",
+      "tokens": 85
+    },
+    {
+      "prompt_id": "prompt_003342",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_003351",
+      "tokens": 147
+    },
+    {
+      "prompt_id": "prompt_003354",
+      "tokens": 114
+    },
+    {
+      "prompt_id": "prompt_003355",
+      "tokens": 95
+    },
+    {
+      "prompt_id": "prompt_003356",
+      "tokens": 95
+    },
+    {
+      "prompt_id": "prompt_003357",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_003363",
+      "tokens": 140
+    },
+    {
+      "prompt_id": "prompt_003364",
+      "tokens": 91
+    },
+    {
+      "prompt_id": "prompt_003365",
+      "tokens": 68
+    },
+    {
+      "prompt_id": "prompt_003373",
+      "tokens": 107
+    },
+    {
+      "prompt_id": "prompt_003376",
+      "tokens": 90
+    },
+    {
+      "prompt_id": "prompt_003377",
+      "tokens": 133
+    },
+    {
+      "prompt_id": "prompt_003378",
+      "tokens": 133
+    },
+    {
+      "prompt_id": "prompt_003383",
+      "tokens": 116
+    },
+    {
+      "prompt_id": "prompt_003384",
+      "tokens": 106
+    },
+    {
+      "prompt_id": "prompt_003389",
+      "tokens": 89
+    },
+    {
+      "prompt_id": "prompt_003390",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_003391",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_003397",
+      "tokens": 105
+    },
+    {
+      "prompt_id": "prompt_003402",
+      "tokens": 114
+    },
+    {
+      "prompt_id": "prompt_003408",
+      "tokens": 71
+    },
+    {
+      "prompt_id": "prompt_003410",
+      "tokens": 89
+    },
+    {
+      "prompt_id": "prompt_003411",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_003412",
+      "tokens": 104
+    },
+    {
+      "prompt_id": "prompt_003416",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_003417",
+      "tokens": 135
+    },
+    {
+      "prompt_id": "prompt_003419",
+      "tokens": 118
+    },
+    {
+      "prompt_id": "prompt_003421",
+      "tokens": 109
+    },
+    {
+      "prompt_id": "prompt_003422",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_003424",
+      "tokens": 85
+    },
+    {
+      "prompt_id": "prompt_003427",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_003429",
+      "tokens": 119
+    },
+    {
+      "prompt_id": "prompt_003430",
+      "tokens": 78
+    },
+    {
+      "prompt_id": "prompt_003431",
+      "tokens": 44
+    },
+    {
+      "prompt_id": "prompt_003434",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_003436",
+      "tokens": 105
+    },
+    {
+      "prompt_id": "prompt_003437",
+      "tokens": 62
+    },
+    {
+      "prompt_id": "prompt_003442",
+      "tokens": 125
+    },
+    {
+      "prompt_id": "prompt_003443",
+      "tokens": 159
+    },
+    {
+      "prompt_id": "prompt_003444",
+      "tokens": 80
+    },
+    {
+      "prompt_id": "prompt_003453",
+      "tokens": 114
+    },
+    {
+      "prompt_id": "prompt_003457",
+      "tokens": 87
+    },
+    {
+      "prompt_id": "prompt_003460",
+      "tokens": 84
+    },
+    {
+      "prompt_id": "prompt_003461",
+      "tokens": 91
+    },
+    {
+      "prompt_id": "prompt_003464",
+      "tokens": 89
+    },
+    {
+      "prompt_id": "prompt_003474",
+      "tokens": 109
+    },
+    {
+      "prompt_id": "prompt_003475",
+      "tokens": 131
+    },
+    {
+      "prompt_id": "prompt_003479",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_003480",
+      "tokens": 86
+    },
+    {
+      "prompt_id": "prompt_003482",
+      "tokens": 63
+    },
+    {
+      "prompt_id": "prompt_003483",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_003486",
+      "tokens": 105
+    },
+    {
+      "prompt_id": "prompt_003490",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_003491",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_003492",
+      "tokens": 79
+    },
+    {
+      "prompt_id": "prompt_003494",
+      "tokens": 129
+    },
+    {
+      "prompt_id": "prompt_003495",
+      "tokens": 95
+    },
+    {
+      "prompt_id": "prompt_003499",
+      "tokens": 73
+    },
+    {
+      "prompt_id": "prompt_003502",
+      "tokens": 88
+    },
+    {
+      "prompt_id": "prompt_003506",
+      "tokens": 100
+    },
+    {
+      "prompt_id": "prompt_003508",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_003510",
+      "tokens": 89
+    },
+    {
+      "prompt_id": "prompt_003512",
+      "tokens": 90
+    },
+    {
+      "prompt_id": "prompt_003516",
+      "tokens": 111
+    },
+    {
+      "prompt_id": "prompt_003524",
+      "tokens": 90
+    },
+    {
+      "prompt_id": "prompt_003526",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_003530",
+      "tokens": 70
+    },
+    {
+      "prompt_id": "prompt_003531",
+      "tokens": 112
+    },
+    {
+      "prompt_id": "prompt_003536",
+      "tokens": 98
+    },
+    {
+      "prompt_id": "prompt_003538",
+      "tokens": 106
+    },
+    {
+      "prompt_id": "prompt_003540",
+      "tokens": 112
+    },
+    {
+      "prompt_id": "prompt_003549",
+      "tokens": 122
+    },
+    {
+      "prompt_id": "prompt_003550",
+      "tokens": 72
+    },
+    {
+      "prompt_id": "prompt_003551",
+      "tokens": 151
+    },
+    {
+      "prompt_id": "prompt_003556",
+      "tokens": 121
+    },
+    {
+      "prompt_id": "prompt_003561",
+      "tokens": 91
+    },
+    {
+      "prompt_id": "prompt_003566",
+      "tokens": 142
+    },
+    {
+      "prompt_id": "prompt_003568",
+      "tokens": 138
+    },
+    {
+      "prompt_id": "prompt_003573",
+      "tokens": 107
+    },
+    {
+      "prompt_id": "prompt_003576",
+      "tokens": 142
+    },
+    {
+      "prompt_id": "prompt_003577",
+      "tokens": 124
+    },
+    {
+      "prompt_id": "prompt_003582",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_003585",
+      "tokens": 99
+    },
+    {
+      "prompt_id": "prompt_003586",
+      "tokens": 106
+    },
+    {
+      "prompt_id": "prompt_003587",
+      "tokens": 137
+    },
+    {
+      "prompt_id": "prompt_003590",
+      "tokens": 90
+    },
+    {
+      "prompt_id": "prompt_003591",
+      "tokens": 104
+    },
+    {
+      "prompt_id": "prompt_003592",
+      "tokens": 144
+    },
+    {
+      "prompt_id": "prompt_003598",
+      "tokens": 72
+    },
+    {
+      "prompt_id": "prompt_003605",
+      "tokens": 182
+    },
+    {
+      "prompt_id": "prompt_003607",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_003609",
+      "tokens": 84
+    },
+    {
+      "prompt_id": "prompt_003615",
+      "tokens": 89
+    },
+    {
+      "prompt_id": "prompt_003620",
+      "tokens": 77
+    },
+    {
+      "prompt_id": "prompt_003623",
+      "tokens": 84
+    },
+    {
+      "prompt_id": "prompt_003625",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_003628",
+      "tokens": 178
+    },
+    {
+      "prompt_id": "prompt_003629",
+      "tokens": 82
+    },
+    {
+      "prompt_id": "prompt_003630",
+      "tokens": 112
+    },
+    {
+      "prompt_id": "prompt_003632",
+      "tokens": 80
+    },
+    {
+      "prompt_id": "prompt_003641",
+      "tokens": 82
+    },
+    {
+      "prompt_id": "prompt_003649",
+      "tokens": 82
+    },
+    {
+      "prompt_id": "prompt_003650",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_003651",
+      "tokens": 52
+    },
+    {
+      "prompt_id": "prompt_003654",
+      "tokens": 100
+    },
+    {
+      "prompt_id": "prompt_003656",
+      "tokens": 67
+    },
+    {
+      "prompt_id": "prompt_003657",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_003659",
+      "tokens": 87
+    },
+    {
+      "prompt_id": "prompt_003661",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_003663",
+      "tokens": 108
+    },
+    {
+      "prompt_id": "prompt_003673",
+      "tokens": 120
+    },
+    {
+      "prompt_id": "prompt_003674",
+      "tokens": 151
+    },
+    {
+      "prompt_id": "prompt_003677",
+      "tokens": 110
+    },
+    {
+      "prompt_id": "prompt_003679",
+      "tokens": 86
+    },
+    {
+      "prompt_id": "prompt_003693",
+      "tokens": 113
+    },
+    {
+      "prompt_id": "prompt_003696",
+      "tokens": 103
+    },
+    {
+      "prompt_id": "prompt_003699",
+      "tokens": 136
+    },
+    {
+      "prompt_id": "prompt_003700",
+      "tokens": 111
+    },
+    {
+      "prompt_id": "prompt_003701",
+      "tokens": 106
+    },
+    {
+      "prompt_id": "prompt_003703",
+      "tokens": 119
+    },
+    {
+      "prompt_id": "prompt_003708",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_003709",
+      "tokens": 141
+    },
+    {
+      "prompt_id": "prompt_003711",
+      "tokens": 150
+    },
+    {
+      "prompt_id": "prompt_003712",
+      "tokens": 130
+    },
+    {
+      "prompt_id": "prompt_003715",
+      "tokens": 112
+    },
+    {
+      "prompt_id": "prompt_003722",
+      "tokens": 131
+    },
+    {
+      "prompt_id": "prompt_003729",
+      "tokens": 110
+    },
+    {
+      "prompt_id": "prompt_003730",
+      "tokens": 85
+    },
+    {
+      "prompt_id": "prompt_003732",
+      "tokens": 68
+    },
+    {
+      "prompt_id": "prompt_003733",
+      "tokens": 109
+    },
+    {
+      "prompt_id": "prompt_003745",
+      "tokens": 111
+    },
+    {
+      "prompt_id": "prompt_003748",
+      "tokens": 90
+    },
+    {
+      "prompt_id": "prompt_003749",
+      "tokens": 129
+    },
+    {
+      "prompt_id": "prompt_003751",
+      "tokens": 95
+    },
+    {
+      "prompt_id": "prompt_003753",
+      "tokens": 105
+    },
+    {
+      "prompt_id": "prompt_003758",
+      "tokens": 91
+    },
+    {
+      "prompt_id": "prompt_003760",
+      "tokens": 113
+    },
+    {
+      "prompt_id": "prompt_003762",
+      "tokens": 107
+    },
+    {
+      "prompt_id": "prompt_003766",
+      "tokens": 104
+    },
+    {
+      "prompt_id": "prompt_003770",
+      "tokens": 119
+    },
+    {
+      "prompt_id": "prompt_003777",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_003779",
+      "tokens": 187
+    },
+    {
+      "prompt_id": "prompt_003785",
+      "tokens": 179
+    },
+    {
+      "prompt_id": "prompt_003789",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_003792",
+      "tokens": 108
+    },
+    {
+      "prompt_id": "prompt_003795",
+      "tokens": 76
+    },
+    {
+      "prompt_id": "prompt_003798",
+      "tokens": 87
+    },
+    {
+      "prompt_id": "prompt_003805",
+      "tokens": 125
+    },
+    {
+      "prompt_id": "prompt_003809",
+      "tokens": 118
+    },
+    {
+      "prompt_id": "prompt_003811",
+      "tokens": 114
+    },
+    {
+      "prompt_id": "prompt_003814",
+      "tokens": 84
+    },
+    {
+      "prompt_id": "prompt_003817",
+      "tokens": 126
+    },
+    {
+      "prompt_id": "prompt_003821",
+      "tokens": 91
+    },
+    {
+      "prompt_id": "prompt_003823",
+      "tokens": 85
+    },
+    {
+      "prompt_id": "prompt_003826",
+      "tokens": 164
+    },
+    {
+      "prompt_id": "prompt_003830",
+      "tokens": 123
+    },
+    {
+      "prompt_id": "prompt_003832",
+      "tokens": 93
+    },
+    {
+      "prompt_id": "prompt_003834",
+      "tokens": 112
+    },
+    {
+      "prompt_id": "prompt_003844",
+      "tokens": 107
+    },
+    {
+      "prompt_id": "prompt_003846",
+      "tokens": 144
+    },
+    {
+      "prompt_id": "prompt_003857",
+      "tokens": 107
+    },
+    {
+      "prompt_id": "prompt_003859",
+      "tokens": 114
+    },
+    {
+      "prompt_id": "prompt_003862",
+      "tokens": 119
+    },
+    {
+      "prompt_id": "prompt_003868",
+      "tokens": 88
+    },
+    {
+      "prompt_id": "prompt_003869",
+      "tokens": 71
+    },
+    {
+      "prompt_id": "prompt_003870",
+      "tokens": 81
+    },
+    {
+      "prompt_id": "prompt_003873",
+      "tokens": 118
+    },
+    {
+      "prompt_id": "prompt_003883",
+      "tokens": 80
+    },
+    {
+      "prompt_id": "prompt_003886",
+      "tokens": 129
+    },
+    {
+      "prompt_id": "prompt_003888",
+      "tokens": 128
+    },
+    {
+      "prompt_id": "prompt_003889",
+      "tokens": 165
+    },
+    {
+      "prompt_id": "prompt_003891",
+      "tokens": 117
+    },
+    {
+      "prompt_id": "prompt_003897",
+      "tokens": 77
+    },
+    {
+      "prompt_id": "prompt_003900",
+      "tokens": 133
+    },
+    {
+      "prompt_id": "prompt_003901",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_003905",
+      "tokens": 70
+    },
+    {
+      "prompt_id": "prompt_003906",
+      "tokens": 110
+    },
+    {
+      "prompt_id": "prompt_003908",
+      "tokens": 120
+    },
+    {
+      "prompt_id": "prompt_003909",
+      "tokens": 107
+    },
+    {
+      "prompt_id": "prompt_003916",
+      "tokens": 91
+    },
+    {
+      "prompt_id": "prompt_003917",
+      "tokens": 129
+    },
+    {
+      "prompt_id": "prompt_003924",
+      "tokens": 106
+    },
+    {
+      "prompt_id": "prompt_003926",
+      "tokens": 96
+    },
+    {
+      "prompt_id": "prompt_003928",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_003929",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_003930",
+      "tokens": 113
+    },
+    {
+      "prompt_id": "prompt_003932",
+      "tokens": 124
+    },
+    {
+      "prompt_id": "prompt_003935",
+      "tokens": 108
+    },
+    {
+      "prompt_id": "prompt_003937",
+      "tokens": 104
+    },
+    {
+      "prompt_id": "prompt_003939",
+      "tokens": 72
+    },
+    {
+      "prompt_id": "prompt_003943",
+      "tokens": 99
+    },
+    {
+      "prompt_id": "prompt_003946",
+      "tokens": 114
+    },
+    {
+      "prompt_id": "prompt_003948",
+      "tokens": 89
+    },
+    {
+      "prompt_id": "prompt_003950",
+      "tokens": 149
+    },
+    {
+      "prompt_id": "prompt_003951",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_003953",
+      "tokens": 124
+    },
+    {
+      "prompt_id": "prompt_003955",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_003961",
+      "tokens": 108
+    },
+    {
+      "prompt_id": "prompt_003965",
+      "tokens": 80
+    },
+    {
+      "prompt_id": "prompt_003969",
+      "tokens": 128
+    },
+    {
+      "prompt_id": "prompt_003970",
+      "tokens": 89
+    },
+    {
+      "prompt_id": "prompt_003971",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_003973",
+      "tokens": 93
+    },
+    {
+      "prompt_id": "prompt_003976",
+      "tokens": 109
+    },
+    {
+      "prompt_id": "prompt_003979",
+      "tokens": 90
+    },
+    {
+      "prompt_id": "prompt_003980",
+      "tokens": 126
+    },
+    {
+      "prompt_id": "prompt_003981",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_003982",
+      "tokens": 164
+    },
+    {
+      "prompt_id": "prompt_003985",
+      "tokens": 119
+    },
+    {
+      "prompt_id": "prompt_003986",
+      "tokens": 99
+    },
+    {
+      "prompt_id": "prompt_003987",
+      "tokens": 100
+    },
+    {
+      "prompt_id": "prompt_004000",
+      "tokens": 88
+    },
+    {
+      "prompt_id": "prompt_004001",
+      "tokens": 114
+    },
+    {
+      "prompt_id": "prompt_004002",
+      "tokens": 85
+    },
+    {
+      "prompt_id": "prompt_004004",
+      "tokens": 128
+    },
+    {
+      "prompt_id": "prompt_004005",
+      "tokens": 84
+    },
+    {
+      "prompt_id": "prompt_004010",
+      "tokens": 117
+    },
+    {
+      "prompt_id": "prompt_004016",
+      "tokens": 90
+    },
+    {
+      "prompt_id": "prompt_004020",
+      "tokens": 174
+    },
+    {
+      "prompt_id": "prompt_004022",
+      "tokens": 117
+    },
+    {
+      "prompt_id": "prompt_004028",
+      "tokens": 119
+    },
+    {
+      "prompt_id": "prompt_004029",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_004030",
+      "tokens": 98
+    },
+    {
+      "prompt_id": "prompt_004031",
+      "tokens": 127
+    },
+    {
+      "prompt_id": "prompt_004038",
+      "tokens": 71
+    },
+    {
+      "prompt_id": "prompt_004040",
+      "tokens": 127
+    },
+    {
+      "prompt_id": "prompt_004042",
+      "tokens": 119
+    },
+    {
+      "prompt_id": "prompt_004044",
+      "tokens": 87
+    },
+    {
+      "prompt_id": "prompt_004045",
+      "tokens": 132
+    },
+    {
+      "prompt_id": "prompt_004046",
+      "tokens": 84
+    },
+    {
+      "prompt_id": "prompt_004050",
+      "tokens": 110
+    },
+    {
+      "prompt_id": "prompt_004055",
+      "tokens": 120
+    },
+    {
+      "prompt_id": "prompt_004056",
+      "tokens": 87
+    },
+    {
+      "prompt_id": "prompt_004057",
+      "tokens": 116
+    },
+    {
+      "prompt_id": "prompt_004059",
+      "tokens": 113
+    },
+    {
+      "prompt_id": "prompt_004060",
+      "tokens": 66
+    },
+    {
+      "prompt_id": "prompt_004061",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_004064",
+      "tokens": 124
+    },
+    {
+      "prompt_id": "prompt_004065",
+      "tokens": 133
+    },
+    {
+      "prompt_id": "prompt_004067",
+      "tokens": 108
+    },
+    {
+      "prompt_id": "prompt_004070",
+      "tokens": 72
+    },
+    {
+      "prompt_id": "prompt_004072",
+      "tokens": 116
+    },
+    {
+      "prompt_id": "prompt_004073",
+      "tokens": 99
+    },
+    {
+      "prompt_id": "prompt_004075",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_004076",
+      "tokens": 117
+    },
+    {
+      "prompt_id": "prompt_004084",
+      "tokens": 153
+    },
+    {
+      "prompt_id": "prompt_004087",
+      "tokens": 99
+    },
+    {
+      "prompt_id": "prompt_004098",
+      "tokens": 113
+    },
+    {
+      "prompt_id": "prompt_004102",
+      "tokens": 109
+    },
+    {
+      "prompt_id": "prompt_004104",
+      "tokens": 74
+    },
+    {
+      "prompt_id": "prompt_004106",
+      "tokens": 144
+    },
+    {
+      "prompt_id": "prompt_004108",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_004110",
+      "tokens": 86
+    },
+    {
+      "prompt_id": "prompt_004115",
+      "tokens": 130
+    },
+    {
+      "prompt_id": "prompt_004117",
+      "tokens": 108
+    },
+    {
+      "prompt_id": "prompt_004118",
+      "tokens": 88
+    },
+    {
+      "prompt_id": "prompt_004122",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_004124",
+      "tokens": 93
+    },
+    {
+      "prompt_id": "prompt_004125",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_004126",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_004129",
+      "tokens": 100
+    },
+    {
+      "prompt_id": "prompt_004130",
+      "tokens": 116
+    },
+    {
+      "prompt_id": "prompt_004138",
+      "tokens": 88
+    },
+    {
+      "prompt_id": "prompt_004140",
+      "tokens": 90
+    },
+    {
+      "prompt_id": "prompt_004142",
+      "tokens": 134
+    },
+    {
+      "prompt_id": "prompt_004149",
+      "tokens": 107
+    },
+    {
+      "prompt_id": "prompt_004150",
+      "tokens": 76
+    },
+    {
+      "prompt_id": "prompt_004152",
+      "tokens": 96
+    },
+    {
+      "prompt_id": "prompt_004158",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_004161",
+      "tokens": 118
+    },
+    {
+      "prompt_id": "prompt_004162",
+      "tokens": 116
+    },
+    {
+      "prompt_id": "prompt_004166",
+      "tokens": 110
+    },
+    {
+      "prompt_id": "prompt_004167",
+      "tokens": 137
+    },
+    {
+      "prompt_id": "prompt_004170",
+      "tokens": 104
+    },
+    {
+      "prompt_id": "prompt_004175",
+      "tokens": 139
+    },
+    {
+      "prompt_id": "prompt_004176",
+      "tokens": 81
+    },
+    {
+      "prompt_id": "prompt_004183",
+      "tokens": 129
+    },
+    {
+      "prompt_id": "prompt_004189",
+      "tokens": 118
+    },
+    {
+      "prompt_id": "prompt_004194",
+      "tokens": 123
+    },
+    {
+      "prompt_id": "prompt_004196",
+      "tokens": 125
+    },
+    {
+      "prompt_id": "prompt_004199",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_004200",
+      "tokens": 113
+    },
+    {
+      "prompt_id": "prompt_004201",
+      "tokens": 85
+    },
+    {
+      "prompt_id": "prompt_004205",
+      "tokens": 127
+    },
+    {
+      "prompt_id": "prompt_004208",
+      "tokens": 72
+    },
+    {
+      "prompt_id": "prompt_004209",
+      "tokens": 135
+    },
+    {
+      "prompt_id": "prompt_004212",
+      "tokens": 119
+    },
+    {
+      "prompt_id": "prompt_004213",
+      "tokens": 118
+    },
+    {
+      "prompt_id": "prompt_004217",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_004218",
+      "tokens": 136
+    },
+    {
+      "prompt_id": "prompt_004220",
+      "tokens": 96
+    },
+    {
+      "prompt_id": "prompt_004221",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_004222",
+      "tokens": 91
+    },
+    {
+      "prompt_id": "prompt_004225",
+      "tokens": 112
+    },
+    {
+      "prompt_id": "prompt_004227",
+      "tokens": 136
+    },
+    {
+      "prompt_id": "prompt_004230",
+      "tokens": 80
+    },
+    {
+      "prompt_id": "prompt_004231",
+      "tokens": 88
+    },
+    {
+      "prompt_id": "prompt_004233",
+      "tokens": 108
+    },
+    {
+      "prompt_id": "prompt_004236",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_004238",
+      "tokens": 76
+    },
+    {
+      "prompt_id": "prompt_004240",
+      "tokens": 89
+    },
+    {
+      "prompt_id": "prompt_004244",
+      "tokens": 86
+    },
+    {
+      "prompt_id": "prompt_004246",
+      "tokens": 135
+    },
+    {
+      "prompt_id": "prompt_004247",
+      "tokens": 74
+    },
+    {
+      "prompt_id": "prompt_004248",
+      "tokens": 122
+    },
+    {
+      "prompt_id": "prompt_004250",
+      "tokens": 77
+    },
+    {
+      "prompt_id": "prompt_004251",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_004253",
+      "tokens": 123
+    },
+    {
+      "prompt_id": "prompt_004256",
+      "tokens": 147
+    },
+    {
+      "prompt_id": "prompt_004258",
+      "tokens": 63
+    },
+    {
+      "prompt_id": "prompt_004259",
+      "tokens": 110
+    },
+    {
+      "prompt_id": "prompt_004261",
+      "tokens": 90
+    },
+    {
+      "prompt_id": "prompt_004264",
+      "tokens": 87
+    },
+    {
+      "prompt_id": "prompt_004267",
+      "tokens": 109
+    },
+    {
+      "prompt_id": "prompt_004268",
+      "tokens": 61
+    },
+    {
+      "prompt_id": "prompt_004269",
+      "tokens": 99
+    },
+    {
+      "prompt_id": "prompt_004270",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_004279",
+      "tokens": 137
+    },
+    {
+      "prompt_id": "prompt_004280",
+      "tokens": 125
+    },
+    {
+      "prompt_id": "prompt_004283",
+      "tokens": 85
+    },
+    {
+      "prompt_id": "prompt_004294",
+      "tokens": 81
+    },
+    {
+      "prompt_id": "prompt_004295",
+      "tokens": 147
+    },
+    {
+      "prompt_id": "prompt_004298",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_004300",
+      "tokens": 82
+    },
+    {
+      "prompt_id": "prompt_004301",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_004304",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_004311",
+      "tokens": 95
+    },
+    {
+      "prompt_id": "prompt_004312",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_004314",
+      "tokens": 123
+    },
+    {
+      "prompt_id": "prompt_004316",
+      "tokens": 75
+    },
+    {
+      "prompt_id": "prompt_004317",
+      "tokens": 119
+    },
+    {
+      "prompt_id": "prompt_004319",
+      "tokens": 120
+    },
+    {
+      "prompt_id": "prompt_004322",
+      "tokens": 105
+    },
+    {
+      "prompt_id": "prompt_004323",
+      "tokens": 134
+    },
+    {
+      "prompt_id": "prompt_004329",
+      "tokens": 123
+    },
+    {
+      "prompt_id": "prompt_004340",
+      "tokens": 137
+    },
+    {
+      "prompt_id": "prompt_004342",
+      "tokens": 68
+    },
+    {
+      "prompt_id": "prompt_004346",
+      "tokens": 111
+    },
+    {
+      "prompt_id": "prompt_004348",
+      "tokens": 96
+    },
+    {
+      "prompt_id": "prompt_004350",
+      "tokens": 131
+    },
+    {
+      "prompt_id": "prompt_004351",
+      "tokens": 123
+    },
+    {
+      "prompt_id": "prompt_004352",
+      "tokens": 88
+    },
+    {
+      "prompt_id": "prompt_004353",
+      "tokens": 119
+    },
+    {
+      "prompt_id": "prompt_004361",
+      "tokens": 114
+    },
+    {
+      "prompt_id": "prompt_004366",
+      "tokens": 106
+    },
+    {
+      "prompt_id": "prompt_004369",
+      "tokens": 95
+    },
+    {
+      "prompt_id": "prompt_004375",
+      "tokens": 108
+    },
+    {
+      "prompt_id": "prompt_004376",
+      "tokens": 103
+    },
+    {
+      "prompt_id": "prompt_004377",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_004379",
+      "tokens": 80
+    },
+    {
+      "prompt_id": "prompt_004384",
+      "tokens": 121
+    },
+    {
+      "prompt_id": "prompt_004386",
+      "tokens": 165
+    },
+    {
+      "prompt_id": "prompt_004389",
+      "tokens": 77
+    },
+    {
+      "prompt_id": "prompt_004406",
+      "tokens": 80
+    },
+    {
+      "prompt_id": "prompt_004411",
+      "tokens": 82
+    },
+    {
+      "prompt_id": "prompt_004413",
+      "tokens": 62
+    },
+    {
+      "prompt_id": "prompt_004419",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_004423",
+      "tokens": 98
+    },
+    {
+      "prompt_id": "prompt_004425",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_004428",
+      "tokens": 138
+    },
+    {
+      "prompt_id": "prompt_004430",
+      "tokens": 82
+    },
+    {
+      "prompt_id": "prompt_004433",
+      "tokens": 100
+    },
+    {
+      "prompt_id": "prompt_004440",
+      "tokens": 77
+    },
+    {
+      "prompt_id": "prompt_004442",
+      "tokens": 113
+    },
+    {
+      "prompt_id": "prompt_004448",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_004449",
+      "tokens": 93
+    },
+    {
+      "prompt_id": "prompt_004450",
+      "tokens": 89
+    },
+    {
+      "prompt_id": "prompt_004454",
+      "tokens": 106
+    },
+    {
+      "prompt_id": "prompt_004463",
+      "tokens": 159
+    },
+    {
+      "prompt_id": "prompt_004469",
+      "tokens": 111
+    },
+    {
+      "prompt_id": "prompt_004472",
+      "tokens": 75
+    },
+    {
+      "prompt_id": "prompt_004480",
+      "tokens": 88
+    },
+    {
+      "prompt_id": "prompt_004482",
+      "tokens": 104
+    },
+    {
+      "prompt_id": "prompt_004483",
+      "tokens": 135
+    },
+    {
+      "prompt_id": "prompt_004486",
+      "tokens": 88
+    },
+    {
+      "prompt_id": "prompt_004490",
+      "tokens": 86
+    },
+    {
+      "prompt_id": "prompt_004492",
+      "tokens": 118
+    },
+    {
+      "prompt_id": "prompt_004494",
+      "tokens": 120
+    },
+    {
+      "prompt_id": "prompt_004497",
+      "tokens": 93
+    },
+    {
+      "prompt_id": "prompt_004499",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_004500",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_004503",
+      "tokens": 59
+    },
+    {
+      "prompt_id": "prompt_004507",
+      "tokens": 106
+    },
+    {
+      "prompt_id": "prompt_004509",
+      "tokens": 85
+    },
+    {
+      "prompt_id": "prompt_004510",
+      "tokens": 120
+    },
+    {
+      "prompt_id": "prompt_004514",
+      "tokens": 100
+    },
+    {
+      "prompt_id": "prompt_004515",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_004522",
+      "tokens": 149
+    },
+    {
+      "prompt_id": "prompt_004524",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_004527",
+      "tokens": 123
+    },
+    {
+      "prompt_id": "prompt_004531",
+      "tokens": 70
+    },
+    {
+      "prompt_id": "prompt_004532",
+      "tokens": 77
+    },
+    {
+      "prompt_id": "prompt_004534",
+      "tokens": 119
+    },
+    {
+      "prompt_id": "prompt_004536",
+      "tokens": 78
+    },
+    {
+      "prompt_id": "prompt_004538",
+      "tokens": 96
+    },
+    {
+      "prompt_id": "prompt_004546",
+      "tokens": 182
+    },
+    {
+      "prompt_id": "prompt_004548",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_004558",
+      "tokens": 95
+    },
+    {
+      "prompt_id": "prompt_004561",
+      "tokens": 131
+    },
+    {
+      "prompt_id": "prompt_004563",
+      "tokens": 114
+    },
+    {
+      "prompt_id": "prompt_004564",
+      "tokens": 91
+    },
+    {
+      "prompt_id": "prompt_004565",
+      "tokens": 132
+    },
+    {
+      "prompt_id": "prompt_004566",
+      "tokens": 113
+    },
+    {
+      "prompt_id": "prompt_004568",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_004570",
+      "tokens": 144
+    },
+    {
+      "prompt_id": "prompt_004571",
+      "tokens": 138
+    },
+    {
+      "prompt_id": "prompt_004576",
+      "tokens": 93
+    },
+    {
+      "prompt_id": "prompt_004577",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_004578",
+      "tokens": 122
+    },
+    {
+      "prompt_id": "prompt_004579",
+      "tokens": 64
+    },
+    {
+      "prompt_id": "prompt_004582",
+      "tokens": 84
+    },
+    {
+      "prompt_id": "prompt_004586",
+      "tokens": 141
+    },
+    {
+      "prompt_id": "prompt_004587",
+      "tokens": 151
+    },
+    {
+      "prompt_id": "prompt_004588",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_004589",
+      "tokens": 133
+    },
+    {
+      "prompt_id": "prompt_004591",
+      "tokens": 75
+    },
+    {
+      "prompt_id": "prompt_004600",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_004601",
+      "tokens": 118
+    },
+    {
+      "prompt_id": "prompt_004605",
+      "tokens": 163
+    },
+    {
+      "prompt_id": "prompt_004610",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_004615",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_004620",
+      "tokens": 91
+    },
+    {
+      "prompt_id": "prompt_004624",
+      "tokens": 70
+    },
+    {
+      "prompt_id": "prompt_004630",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_004631",
+      "tokens": 132
+    },
+    {
+      "prompt_id": "prompt_004632",
+      "tokens": 105
+    },
+    {
+      "prompt_id": "prompt_004633",
+      "tokens": 123
+    },
+    {
+      "prompt_id": "prompt_004634",
+      "tokens": 123
+    },
+    {
+      "prompt_id": "prompt_004639",
+      "tokens": 78
+    },
+    {
+      "prompt_id": "prompt_004640",
+      "tokens": 75
+    },
+    {
+      "prompt_id": "prompt_004646",
+      "tokens": 84
+    },
+    {
+      "prompt_id": "prompt_004649",
+      "tokens": 60
+    },
+    {
+      "prompt_id": "prompt_004650",
+      "tokens": 134
+    },
+    {
+      "prompt_id": "prompt_004651",
+      "tokens": 116
+    },
+    {
+      "prompt_id": "prompt_004653",
+      "tokens": 113
+    },
+    {
+      "prompt_id": "prompt_004654",
+      "tokens": 106
+    },
+    {
+      "prompt_id": "prompt_004655",
+      "tokens": 111
+    },
+    {
+      "prompt_id": "prompt_004656",
+      "tokens": 153
+    },
+    {
+      "prompt_id": "prompt_004658",
+      "tokens": 82
+    },
+    {
+      "prompt_id": "prompt_004661",
+      "tokens": 140
+    },
+    {
+      "prompt_id": "prompt_004666",
+      "tokens": 98
+    },
+    {
+      "prompt_id": "prompt_004667",
+      "tokens": 115
+    },
+    {
+      "prompt_id": "prompt_004676",
+      "tokens": 87
+    },
+    {
+      "prompt_id": "prompt_004678",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_004682",
+      "tokens": 133
+    },
+    {
+      "prompt_id": "prompt_004684",
+      "tokens": 85
+    },
+    {
+      "prompt_id": "prompt_004686",
+      "tokens": 88
+    },
+    {
+      "prompt_id": "prompt_004688",
+      "tokens": 75
+    },
+    {
+      "prompt_id": "prompt_004694",
+      "tokens": 111
+    },
+    {
+      "prompt_id": "prompt_004696",
+      "tokens": 132
+    },
+    {
+      "prompt_id": "prompt_004703",
+      "tokens": 150
+    },
+    {
+      "prompt_id": "prompt_004705",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_004707",
+      "tokens": 139
+    },
+    {
+      "prompt_id": "prompt_004708",
+      "tokens": 70
+    },
+    {
+      "prompt_id": "prompt_004715",
+      "tokens": 86
+    },
+    {
+      "prompt_id": "prompt_004716",
+      "tokens": 120
+    },
+    {
+      "prompt_id": "prompt_004718",
+      "tokens": 104
+    },
+    {
+      "prompt_id": "prompt_004720",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_004721",
+      "tokens": 109
+    },
+    {
+      "prompt_id": "prompt_004723",
+      "tokens": 78
+    },
+    {
+      "prompt_id": "prompt_004732",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_004734",
+      "tokens": 93
+    },
+    {
+      "prompt_id": "prompt_004743",
+      "tokens": 116
+    },
+    {
+      "prompt_id": "prompt_004746",
+      "tokens": 170
+    },
+    {
+      "prompt_id": "prompt_004756",
+      "tokens": 91
+    },
+    {
+      "prompt_id": "prompt_004760",
+      "tokens": 122
+    },
+    {
+      "prompt_id": "prompt_004761",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_004762",
+      "tokens": 98
+    },
+    {
+      "prompt_id": "prompt_004763",
+      "tokens": 114
+    },
+    {
+      "prompt_id": "prompt_004768",
+      "tokens": 148
+    },
+    {
+      "prompt_id": "prompt_004779",
+      "tokens": 95
+    },
+    {
+      "prompt_id": "prompt_004783",
+      "tokens": 110
+    },
+    {
+      "prompt_id": "prompt_004785",
+      "tokens": 127
+    },
+    {
+      "prompt_id": "prompt_004788",
+      "tokens": 124
+    },
+    {
+      "prompt_id": "prompt_004790",
+      "tokens": 124
+    },
+    {
+      "prompt_id": "prompt_004793",
+      "tokens": 84
+    },
+    {
+      "prompt_id": "prompt_004795",
+      "tokens": 106
+    },
+    {
+      "prompt_id": "prompt_004796",
+      "tokens": 87
+    },
+    {
+      "prompt_id": "prompt_004798",
+      "tokens": 89
+    },
+    {
+      "prompt_id": "prompt_004799",
+      "tokens": 123
+    },
+    {
+      "prompt_id": "prompt_004803",
+      "tokens": 109
+    },
+    {
+      "prompt_id": "prompt_004805",
+      "tokens": 82
+    },
+    {
+      "prompt_id": "prompt_004806",
+      "tokens": 149
+    },
+    {
+      "prompt_id": "prompt_004811",
+      "tokens": 71
+    },
+    {
+      "prompt_id": "prompt_004812",
+      "tokens": 117
+    },
+    {
+      "prompt_id": "prompt_004814",
+      "tokens": 89
+    },
+    {
+      "prompt_id": "prompt_004815",
+      "tokens": 111
+    },
+    {
+      "prompt_id": "prompt_004818",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_004822",
+      "tokens": 96
+    },
+    {
+      "prompt_id": "prompt_004824",
+      "tokens": 116
+    },
+    {
+      "prompt_id": "prompt_004825",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_004826",
+      "tokens": 104
+    },
+    {
+      "prompt_id": "prompt_004833",
+      "tokens": 122
+    },
+    {
+      "prompt_id": "prompt_004834",
+      "tokens": 171
+    },
+    {
+      "prompt_id": "prompt_004835",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_004842",
+      "tokens": 84
+    },
+    {
+      "prompt_id": "prompt_004845",
+      "tokens": 104
+    },
+    {
+      "prompt_id": "prompt_004847",
+      "tokens": 96
+    },
+    {
+      "prompt_id": "prompt_004848",
+      "tokens": 125
+    },
+    {
+      "prompt_id": "prompt_004850",
+      "tokens": 143
+    },
+    {
+      "prompt_id": "prompt_004851",
+      "tokens": 99
+    },
+    {
+      "prompt_id": "prompt_004853",
+      "tokens": 112
+    },
+    {
+      "prompt_id": "prompt_004855",
+      "tokens": 103
+    },
+    {
+      "prompt_id": "prompt_004856",
+      "tokens": 128
+    },
+    {
+      "prompt_id": "prompt_004858",
+      "tokens": 100
+    },
+    {
+      "prompt_id": "prompt_004863",
+      "tokens": 97
+    },
+    {
+      "prompt_id": "prompt_004864",
+      "tokens": 140
+    },
+    {
+      "prompt_id": "prompt_004865",
+      "tokens": 87
+    },
+    {
+      "prompt_id": "prompt_004870",
+      "tokens": 109
+    },
+    {
+      "prompt_id": "prompt_004877",
+      "tokens": 71
+    },
+    {
+      "prompt_id": "prompt_004878",
+      "tokens": 101
+    },
+    {
+      "prompt_id": "prompt_004884",
+      "tokens": 85
+    },
+    {
+      "prompt_id": "prompt_004885",
+      "tokens": 114
+    },
+    {
+      "prompt_id": "prompt_004886",
+      "tokens": 103
+    },
+    {
+      "prompt_id": "prompt_004888",
+      "tokens": 110
+    },
+    {
+      "prompt_id": "prompt_004889",
+      "tokens": 111
+    },
+    {
+      "prompt_id": "prompt_004891",
+      "tokens": 98
+    },
+    {
+      "prompt_id": "prompt_004892",
+      "tokens": 106
+    },
+    {
+      "prompt_id": "prompt_004893",
+      "tokens": 95
+    },
+    {
+      "prompt_id": "prompt_004896",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_004899",
+      "tokens": 133
+    },
+    {
+      "prompt_id": "prompt_004900",
+      "tokens": 85
+    },
+    {
+      "prompt_id": "prompt_004901",
+      "tokens": 137
+    },
+    {
+      "prompt_id": "prompt_004902",
+      "tokens": 146
+    },
+    {
+      "prompt_id": "prompt_004906",
+      "tokens": 88
+    },
+    {
+      "prompt_id": "prompt_004915",
+      "tokens": 114
+    },
+    {
+      "prompt_id": "prompt_004916",
+      "tokens": 139
+    },
+    {
+      "prompt_id": "prompt_004918",
+      "tokens": 99
+    },
+    {
+      "prompt_id": "prompt_004919",
+      "tokens": 73
+    },
+    {
+      "prompt_id": "prompt_004920",
+      "tokens": 102
+    },
+    {
+      "prompt_id": "prompt_004921",
+      "tokens": 92
+    },
+    {
+      "prompt_id": "prompt_004924",
+      "tokens": 144
+    },
+    {
+      "prompt_id": "prompt_004931",
+      "tokens": 80
+    },
+    {
+      "prompt_id": "prompt_004942",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_004945",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_004948",
+      "tokens": 98
+    },
+    {
+      "prompt_id": "prompt_004949",
+      "tokens": 87
+    },
+    {
+      "prompt_id": "prompt_004951",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_004956",
+      "tokens": 95
+    },
+    {
+      "prompt_id": "prompt_004961",
+      "tokens": 122
+    },
+    {
+      "prompt_id": "prompt_004966",
+      "tokens": 82
+    },
+    {
+      "prompt_id": "prompt_004967",
+      "tokens": 83
+    },
+    {
+      "prompt_id": "prompt_004974",
+      "tokens": 94
+    },
+    {
+      "prompt_id": "prompt_004976",
+      "tokens": 78
+    },
+    {
+      "prompt_id": "prompt_004982",
+      "tokens": 122
+    },
+    {
+      "prompt_id": "prompt_004983",
+      "tokens": 87
+    },
+    {
+      "prompt_id": "prompt_004989",
+      "tokens": 127
+    },
+    {
+      "prompt_id": "prompt_004992",
+      "tokens": 115
+    }
+  ]
+}

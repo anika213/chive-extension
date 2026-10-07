@@ -1,0 +1,222 @@
+[
+  {
+    "replicate": 0,
+    "n_subsample": 641,
+    "n_clusters": 14,
+    "assigned": 432,
+    "ari_shared_assigned": 0.7967618672641574,
+    "ari_all_including_noise": 0.35340443726094667,
+    "shared_assigned_count": 360,
+    "shared_assigned_fraction": 0.5616224648985959,
+    "assignment_jaccard": 0.683111954459203
+  },
+  {
+    "replicate": 1,
+    "n_subsample": 641,
+    "n_clusters": 13,
+    "assigned": 468,
+    "ari_shared_assigned": 0.7237385138360835,
+    "ari_all_including_noise": 0.4940828177415745,
+    "shared_assigned_count": 404,
+    "shared_assigned_fraction": 0.6302652106084243,
+    "assignment_jaccard": 0.7890625
+  },
+  {
+    "replicate": 2,
+    "n_subsample": 641,
+    "n_clusters": 18,
+    "assigned": 428,
+    "ari_shared_assigned": 0.7629045961634247,
+    "ari_all_including_noise": 0.4872370768830544,
+    "shared_assigned_count": 378,
+    "shared_assigned_fraction": 0.5897035881435257,
+    "assignment_jaccard": 0.769857433808554
+  },
+  {
+    "replicate": 3,
+    "n_subsample": 641,
+    "n_clusters": 13,
+    "assigned": 398,
+    "ari_shared_assigned": 0.7928599011290097,
+    "ari_all_including_noise": 0.3779774986302421,
+    "shared_assigned_count": 351,
+    "shared_assigned_fraction": 0.5475819032761311,
+    "assignment_jaccard": 0.6964285714285714
+  },
+  {
+    "replicate": 4,
+    "n_subsample": 641,
+    "n_clusters": 17,
+    "assigned": 438,
+    "ari_shared_assigned": 0.7156786676458006,
+    "ari_all_including_noise": 0.4648535991766023,
+    "shared_assigned_count": 390,
+    "shared_assigned_fraction": 0.608424336973479,
+    "assignment_jaccard": 0.7753479125248509
+  },
+  {
+    "replicate": 5,
+    "n_subsample": 641,
+    "n_clusters": 11,
+    "assigned": 395,
+    "ari_shared_assigned": 0.7305753306076566,
+    "ari_all_including_noise": 0.3402252719694384,
+    "shared_assigned_count": 338,
+    "shared_assigned_fraction": 0.5273010920436817,
+    "assignment_jaccard": 0.6679841897233202
+  },
+  {
+    "replicate": 6,
+    "n_subsample": 641,
+    "n_clusters": 18,
+    "assigned": 416,
+    "ari_shared_assigned": 0.6658128810419912,
+    "ari_all_including_noise": 0.31985206654562787,
+    "shared_assigned_count": 348,
+    "shared_assigned_fraction": 0.5429017160686428,
+    "assignment_jaccard": 0.6796875
+  },
+  {
+    "replicate": 7,
+    "n_subsample": 641,
+    "n_clusters": 14,
+    "assigned": 448,
+    "ari_shared_assigned": 0.7464071513394899,
+    "ari_all_including_noise": 0.4887255763885595,
+    "shared_assigned_count": 388,
+    "shared_assigned_fraction": 0.6053042121684867,
+    "assignment_jaccard": 0.776
+  },
+  {
+    "replicate": 8,
+    "n_subsample": 641,
+    "n_clusters": 15,
+    "assigned": 414,
+    "ari_shared_assigned": 0.6107035853888646,
+    "ari_all_including_noise": 0.3393177997228891,
+    "shared_assigned_count": 359,
+    "shared_assigned_fraction": 0.5600624024960998,
+    "assignment_jaccard": 0.703921568627451
+  },
+  {
+    "replicate": 9,
+    "n_subsample": 641,
+    "n_clusters": 15,
+    "assigned": 407,
+    "ari_shared_assigned": 0.74716052883027,
+    "ari_all_including_noise": 0.3584116027061674,
+    "shared_assigned_count": 352,
+    "shared_assigned_fraction": 0.5491419656786272,
+    "assignment_jaccard": 0.6942800788954635
+  },
+  {
+    "replicate": 10,
+    "n_subsample": 641,
+    "n_clusters": 13,
+    "assigned": 449,
+    "ari_shared_assigned": 0.7515468809564154,
+    "ari_all_including_noise": 0.3056245307730331,
+    "shared_assigned_count": 357,
+    "shared_assigned_fraction": 0.5569422776911076,
+    "assignment_jaccard": 0.6598890942698706
+  },
+  {
+    "replicate": 11,
+    "n_subsample": 641,
+    "n_clusters": 15,
+    "assigned": 409,
+    "ari_shared_assigned": 0.7030847359500018,
+    "ari_all_including_noise": 0.339029712468519,
+    "shared_assigned_count": 348,
+    "shared_assigned_fraction": 0.5429017160686428,
+    "assignment_jaccard": 0.6850393700787402
+  },
+  {
+    "replicate": 12,
+    "n_subsample": 641,
+    "n_clusters": 18,
+    "assigned": 388,
+    "ari_shared_assigned": 0.7105693030830268,
+    "ari_all_including_noise": 0.3666952152890222,
+    "shared_assigned_count": 344,
+    "shared_assigned_fraction": 0.5366614664586583,
+    "assignment_jaccard": 0.6963562753036437
+  },
+  {
+    "replicate": 13,
+    "n_subsample": 641,
+    "n_clusters": 16,
+    "assigned": 428,
+    "ari_shared_assigned": 0.8753986254930024,
+    "ari_all_including_noise": 0.39757405774045174,
+    "shared_assigned_count": 361,
+    "shared_assigned_fraction": 0.5631825273010921,
+    "assignment_jaccard": 0.6982591876208898
+  },
+  {
+    "replicate": 14,
+    "n_subsample": 641,
+    "n_clusters": 15,
+    "assigned": 466,
+    "ari_shared_assigned": 0.9013030558646515,
+    "ari_all_including_noise": 0.5004559707032878,
+    "shared_assigned_count": 401,
+    "shared_assigned_fraction": 0.625585023400936,
+    "assignment_jaccard": 0.7652671755725191
+  },
+  {
+    "replicate": 15,
+    "n_subsample": 641,
+    "n_clusters": 15,
+    "assigned": 424,
+    "ari_shared_assigned": 0.7126418646249941,
+    "ari_all_including_noise": 0.3331188578631307,
+    "shared_assigned_count": 361,
+    "shared_assigned_fraction": 0.5631825273010921,
+    "assignment_jaccard": 0.6902485659655831
+  },
+  {
+    "replicate": 16,
+    "n_subsample": 641,
+    "n_clusters": 12,
+    "assigned": 418,
+    "ari_shared_assigned": 0.8093991060550714,
+    "ari_all_including_noise": 0.35040633758989365,
+    "shared_assigned_count": 350,
+    "shared_assigned_fraction": 0.5460218408736349,
+    "assignment_jaccard": 0.6717850287907869
+  },
+  {
+    "replicate": 17,
+    "n_subsample": 641,
+    "n_clusters": 14,
+    "assigned": 414,
+    "ari_shared_assigned": 0.7392514910745093,
+    "ari_all_including_noise": 0.4183718910758502,
+    "shared_assigned_count": 362,
+    "shared_assigned_fraction": 0.5647425897035881,
+    "assignment_jaccard": 0.7254509018036072
+  },
+  {
+    "replicate": 18,
+    "n_subsample": 641,
+    "n_clusters": 17,
+    "assigned": 401,
+    "ari_shared_assigned": 0.5858374785847755,
+    "ari_all_including_noise": 0.24745698320902865,
+    "shared_assigned_count": 332,
+    "shared_assigned_fraction": 0.5179407176287052,
+    "assignment_jaccard": 0.6347992351816444
+  },
+  {
+    "replicate": 19,
+    "n_subsample": 641,
+    "n_clusters": 16,
+    "assigned": 399,
+    "ari_shared_assigned": 0.7641570771943508,
+    "ari_all_including_noise": 0.38867582203138074,
+    "shared_assigned_count": 352,
+    "shared_assigned_fraction": 0.5491419656786272,
+    "assignment_jaccard": 0.7068273092369478
+  }
+]

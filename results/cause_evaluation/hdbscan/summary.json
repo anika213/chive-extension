@@ -1,0 +1,53 @@
+{
+  "n": 801,
+  "scope": "PETRI investigator-supported cause statements, verification >=7; not verified causes",
+  "primary_selection": "Preset n_neighbors=30, min_cluster_size=10, min_samples=5, seed=42; not selected by silhouette",
+  "umap": {
+    "dimensions": 10,
+    "min_dist": 0,
+    "metric": "cosine"
+  },
+  "hdbscan": {
+    "metric": "euclidean",
+    "selection": "eom"
+  },
+  "primary": {
+    "neighbors": 30,
+    "min_cluster_size": 10,
+    "min_samples": 5,
+    "seed": 42,
+    "n_clusters": 18,
+    "assigned": 563,
+    "noise": 238,
+    "coverage": 0.7028714107365793,
+    "largest_cluster": 138,
+    "largest_cluster_fraction_of_assigned": 0.24511545293072823,
+    "original_cosine_silhouette_assigned": 0.04795364663004875,
+    "umap_euclidean_silhouette_assigned": 0.44014403223991394
+  },
+  "seed_stability": {
+    "ari_shared_assigned": {
+      "mean": 0.8570419053275105,
+      "min": 0.7373225560175443,
+      "max": 0.9834167557161164
+    },
+    "ari_including_noise_as_one_label": {
+      "mean": 0.5666048850479365,
+      "min": 0.49415826726400824,
+      "max": 0.6878823568122641
+    },
+    "shared_assigned_fraction": {
+      "mean": 0.6305867665418228,
+      "min": 0.581772784019975,
+      "max": 0.6803995006242197
+    },
+    "assigned_jaccard": {
+      "mean": 0.8117897358505826,
+      "min": 0.7831932773109244,
+      "max": 0.8500797448165869
+    }
+  },
+  "sensitivity_runs": 90,
+  "null_replicates_per_kind": 10,
+  "interpretation": "Evaluate original-space silhouette with coverage; reduced-space silhouette can be inflated by UMAP. Noise is not a semantic cluster; ARI including noise may be dominated by common rejections."
+}

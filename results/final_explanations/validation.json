@@ -1,0 +1,26 @@
+[
+  {
+    "run": "qwen3_8b_petri_eval",
+    "rows": 868,
+    "clusters": 50,
+    "passed": true
+  },
+  {
+    "run": "qwen3_8b_wildchat_eval",
+    "rows": 1735,
+    "clusters": 5,
+    "passed": true
+  },
+  {
+    "run": "qwen3_8b_wildchat_thinking_eval",
+    "rows": 1441,
+    "clusters": 50,
+    "passed": true
+  },
+  {
+    "run": "qwen3_8b_wildchat_train",
+    "rows": 21780,
+    "clusters": 10,
+    "passed": true
+  }
+]

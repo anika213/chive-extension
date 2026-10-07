@@ -1,0 +1,13 @@
+# Local runtime and downloaded weights; never remove as part of result cleanup.
+.venv/
+.cache/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+!.env.example
+/models/
+# Published raw downloads are retained locally; tracked manifests record provenance.
+/data/petri/
+/data/wildchat/

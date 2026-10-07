@@ -1,0 +1,62 @@
+[
+  {
+    "replicate": 0,
+    "clusters": 17,
+    "noise_fraction": 0.5617977528089888,
+    "silhouette": 0.00011671803804347292
+  },
+  {
+    "replicate": 1,
+    "clusters": 12,
+    "noise_fraction": 0.568039950062422,
+    "silhouette": -0.0025738354306668043
+  },
+  {
+    "replicate": 2,
+    "clusters": 18,
+    "noise_fraction": 0.5667915106117354,
+    "silhouette": -0.001133757526986301
+  },
+  {
+    "replicate": 3,
+    "clusters": 15,
+    "noise_fraction": 0.5530586766541823,
+    "silhouette": -0.0007659429684281349
+  },
+  {
+    "replicate": 4,
+    "clusters": 15,
+    "noise_fraction": 0.5892634207240949,
+    "silhouette": -0.00208971812389791
+  },
+  {
+    "replicate": 5,
+    "clusters": 14,
+    "noise_fraction": 0.6267166042446941,
+    "silhouette": -0.0013778128195554018
+  },
+  {
+    "replicate": 6,
+    "clusters": 14,
+    "noise_fraction": 0.529338327091136,
+    "silhouette": -0.002562410430982709
+  },
+  {
+    "replicate": 7,
+    "clusters": 7,
+    "noise_fraction": 0.40574282147315854,
+    "silhouette": -0.008088259026408195
+  },
+  {
+    "replicate": 8,
+    "clusters": 17,
+    "noise_fraction": 0.6192259675405742,
+    "silhouette": -0.0017787069082260132
+  },
+  {
+    "replicate": 9,
+    "clusters": 17,
+    "noise_fraction": 0.5455680399500624,
+    "silhouette": -0.0015735875349491835
+  }
+]

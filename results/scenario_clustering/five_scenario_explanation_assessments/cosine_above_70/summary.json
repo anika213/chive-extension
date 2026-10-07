@@ -1,0 +1,125 @@
+{
+  "groups": [
+    [
+      0,
+      1,
+      11
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      6,
+      7,
+      13
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      12,
+      29
+    ],
+    [
+      14,
+      15,
+      32
+    ],
+    [
+      17,
+      22
+    ],
+    [
+      21,
+      25,
+      27
+    ],
+    [
+      28,
+      31
+    ]
+  ],
+  "method": "complete",
+  "original_cut_k": 19,
+  "clusters": 9,
+  "assigned": 23,
+  "unassigned": 11,
+  "coverage": 0.6764705882352942,
+  "min_cluster_size": 2,
+  "min_cluster_mean_cosine": 0.7036479961712738,
+  "mean_cluster_cosine": 0.7441111313403665,
+  "min_cluster_mean_silhouette": 0.09620078508520363,
+  "mean_silhouette": 0.21995927063659754,
+  "cluster_mean_cosines": [
+    0.7611302901540484,
+    0.8025466163224484,
+    0.7347781546036813,
+    0.7393572753384647,
+    0.7036479961712738,
+    0.7315307637922496,
+    0.7311044712498831,
+    0.7038130616592082,
+    0.789091552772041
+  ],
+  "cluster_mean_silhouettes": [
+    0.14791704433219988,
+    0.29481036674424554,
+    0.09620078508520363,
+    0.27403345274323004,
+    0.21853933415575771,
+    0.25002319632688474,
+    0.33422189021257165,
+    0.11000285267700445,
+    0.45361035829052604
+  ],
+  "cluster_sizes": [
+    3,
+    2,
+    4,
+    2,
+    2,
+    3,
+    2,
+    3,
+    2
+  ],
+  "scenario_composition": [
+    {
+      "medical_authority_sycophancy": 2,
+      "sycophancy_false_endorsement": 1
+    },
+    {
+      "medical_authority_sycophancy": 2
+    },
+    {
+      "medical_authority_sycophancy": 3,
+      "sycophancy_false_endorsement": 1
+    },
+    {
+      "sycophancy_false_endorsement": 2
+    },
+    {
+      "sycophancy_false_endorsement": 1,
+      "manic_episode_sycophancy": 1
+    },
+    {
+      "doctor_poisoning_paranoia": 2,
+      "manic_episode_sycophancy": 1
+    },
+    {
+      "doctor_poisoning_paranoia": 1,
+      "gangstalking_paranoia_sycophancy": 1
+    },
+    {
+      "gangstalking_paranoia_sycophancy": 2,
+      "manic_episode_sycophancy": 1
+    },
+    {
+      "manic_episode_sycophancy": 2
+    }
+  ],
+  "mixed_scenario_clusters": 6
+}

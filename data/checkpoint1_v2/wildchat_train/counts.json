@@ -1,0 +1,205 @@
+{
+  "source": "wildchat_train",
+  "size_distributions": {
+    "baseline_context_chars": {
+      "n": 167133,
+      "mean": 2605.722765701567,
+      "min": 527.0,
+      "p25": 1159.0,
+      "p50": 2879.0,
+      "p75": 3863.0,
+      "p90": 3947.0,
+      "p95": 4236.0,
+      "p99": 4883.679999999993,
+      "max": 5252.0
+    },
+    "experiment_context_chars": {
+      "n": 167133,
+      "mean": 2127.409051473976,
+      "min": 27.0,
+      "p25": 763.0,
+      "p50": 1883.0,
+      "p75": 3777.0,
+      "p90": 3882.0,
+      "p95": 3989.0,
+      "p99": 4660.0,
+      "max": 9029.0
+    },
+    "baseline_context_tokens": {
+      "n": 167133,
+      "mean": 565.9465994148372,
+      "min": 87.0,
+      "p25": 280.0,
+      "p50": 699.0,
+      "p75": 736.0,
+      "p90": 847.0,
+      "p95": 1017.0,
+      "p99": 1357.0,
+      "max": 3431.0
+    },
+    "experiment_context_tokens": {
+      "n": 167133,
+      "mean": 464.70001735145064,
+      "min": 9.0,
+      "p25": 186.0,
+      "p50": 438.0,
+      "p75": 726.0,
+      "p90": 771.0,
+      "p95": 876.0,
+      "p99": 1217.0,
+      "max": 2904.0
+    },
+    "chars_deleted": {
+      "n": 167133,
+      "mean": 536.2402218592379,
+      "min": 0.0,
+      "p25": 12.0,
+      "p50": 88.0,
+      "p75": 644.0,
+      "p90": 1745.0,
+      "p95": 2947.399999999994,
+      "p99": 4051.0,
+      "max": 5143.0
+    },
+    "chars_added": {
+      "n": 167133,
+      "mean": 57.92650763164665,
+      "min": 0.0,
+      "p25": 4.0,
+      "p50": 24.0,
+      "p75": 76.0,
+      "p90": 155.0,
+      "p95": 219.39999999999418,
+      "p99": 403.0,
+      "max": 6859.0
+    },
+    "chars_changed": {
+      "n": 167133,
+      "mean": 594.1667294908844,
+      "min": 0.0,
+      "p25": 55.0,
+      "p50": 137.0,
+      "p75": 749.0,
+      "p90": 1815.0,
+      "p95": 3011.0,
+      "p99": 4088.679999999993,
+      "max": 7028.0
+    },
+    "tokens_deleted": {
+      "n": 167133,
+      "mean": 123.5291115458946,
+      "min": 0.0,
+      "p25": 2.0,
+      "p50": 12.0,
+      "p75": 130.0,
+      "p90": 408.0,
+      "p95": 692.0,
+      "p99": 1021.0,
+      "max": 3165.0
+    },
+    "tokens_added": {
+      "n": 167133,
+      "mean": 22.282529482507943,
+      "min": 0.0,
+      "p25": 2.0,
+      "p50": 10.0,
+      "p75": 27.0,
+      "p90": 58.0,
+      "p95": 89.0,
+      "p99": 163.0,
+      "max": 2115.0
+    },
+    "tokens_changed": {
+      "n": 167133,
+      "mean": 145.81164102840253,
+      "min": 0.0,
+      "p25": 10.0,
+      "p50": 32.0,
+      "p75": 184.0,
+      "p90": 447.0,
+      "p95": 714.0,
+      "p99": 1059.0,
+      "max": 3248.0
+    }
+  },
+  "row_counts": {
+    "investigations_unfiltered": 21780,
+    "investigations_score_ge7": 21780,
+    "behaviours_after_count_cleanup_and_dedup": 21780,
+    "behaviours_count_prefix_removed_all": 13588,
+    "behaviours_count_prefix_removed_score_ge7": 13588,
+    "experiments_all": 167133,
+    "size_reference_experiments": 167133,
+    "missing_context_diff_all": 0,
+    "causes_in_parquet": 61543,
+    "causes_context_swap": 7861,
+    "causes_measurement_artifact": 31,
+    "causes_both_swap_and_artifact": 9,
+    "causes_missing_context_diff": 0,
+    "causes_after_context_swap_exclusion": 53682,
+    "causes_eligible_for_clustering": 53660
+  },
+  "artifact_term_counts": {
+    "trivially": 26,
+    "as expected": 2,
+    "N/A": 2,
+    "not reach": 1
+  },
+  "edit_type_distributions": {
+    "all_size_reference_experiments": {
+      "remove": 21141,
+      "modify": 135891,
+      "add": 6764,
+      "no_change": 3337
+    },
+    "retained_cause_rows": {
+      "modify": 52294,
+      "remove": 6756,
+      "add": 2480,
+      "no_change": 13
+    },
+    "eligible_cause_rows": {
+      "modify": 45538,
+      "remove": 5630,
+      "add": 2479,
+      "no_change": 13
+    }
+  },
+  "context_formats": {
+    "messages": 167133
+  },
+  "causes_per_investigation_before_new_flags": {
+    "all_verification_qualified_investigations": {
+      "n_investigations": 21780,
+      "mean": 2.825665748393021,
+      "median": 3.0,
+      "max": 14
+    },
+    "investigations_with_at_least_one_cause": {
+      "n_investigations": 15874,
+      "mean": 3.8769686279450672,
+      "median": 4.0,
+      "max": 14
+    },
+    "zero_cause_investigations": 5906
+  },
+  "causes_per_investigation_after_new_flags": {
+    "all_verification_qualified_investigations": {
+      "n_investigations": 21780,
+      "mean": 2.4637281910009183,
+      "median": 2.0,
+      "max": 13
+    },
+    "investigations_with_at_least_one_cause": {
+      "n_investigations": 15073,
+      "mean": 3.5600079612552245,
+      "median": 3.0,
+      "max": 13
+    },
+    "zero_cause_investigations": 6707
+  },
+  "new_exclusion_reason_counts": {
+    "context_swap": 7861,
+    "measurement_artifact": 31
+  }
+}

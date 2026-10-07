@@ -1,0 +1,230 @@
+{
+  "variant": "e5_gmm",
+  "embedding": "e5_instruct",
+  "method": "gmm",
+  "residualized": false,
+  "residualization": null,
+  "reused_observed_baseline_assignments": false,
+  "metrics": {
+    "clusters": 20,
+    "assigned": 801,
+    "noise_fraction": 0.0,
+    "cosine_silhouette": 0.08173933625221252,
+    "cluster_sizes": [
+      {
+        "cluster_id": 0,
+        "size": 48
+      },
+      {
+        "cluster_id": 1,
+        "size": 75
+      },
+      {
+        "cluster_id": 2,
+        "size": 3
+      },
+      {
+        "cluster_id": 3,
+        "size": 43
+      },
+      {
+        "cluster_id": 4,
+        "size": 38
+      },
+      {
+        "cluster_id": 5,
+        "size": 48
+      },
+      {
+        "cluster_id": 6,
+        "size": 40
+      },
+      {
+        "cluster_id": 7,
+        "size": 41
+      },
+      {
+        "cluster_id": 8,
+        "size": 26
+      },
+      {
+        "cluster_id": 9,
+        "size": 29
+      },
+      {
+        "cluster_id": 10,
+        "size": 53
+      },
+      {
+        "cluster_id": 11,
+        "size": 46
+      },
+      {
+        "cluster_id": 12,
+        "size": 32
+      },
+      {
+        "cluster_id": 13,
+        "size": 24
+      },
+      {
+        "cluster_id": 14,
+        "size": 49
+      },
+      {
+        "cluster_id": 15,
+        "size": 47
+      },
+      {
+        "cluster_id": 16,
+        "size": 57
+      },
+      {
+        "cluster_id": 17,
+        "size": 26
+      },
+      {
+        "cluster_id": 18,
+        "size": 37
+      },
+      {
+        "cluster_id": 19,
+        "size": 39
+      }
+    ],
+    "size_distribution": {
+      "min": 3,
+      "q25": 31.25,
+      "median": 40.5,
+      "q75": 48.0,
+      "max": 75,
+      "singletons": 0
+    },
+    "seed_concentration": {
+      "observed": {
+        "weighted_top_one_share": 0.1972534332084894,
+        "clusters_majority_one_scenario": 0,
+        "median_distinct_scenarios": 12.0
+      },
+      "permutations": 200,
+      "null": {
+        "weighted_top_one_share": {
+          "valid_replicates": 200,
+          "mean": 0.06249687890137329,
+          "q025": 0.056179775280898875,
+          "q975": 0.06991260923845194
+        },
+        "clusters_majority_one_scenario": {
+          "valid_replicates": 200,
+          "mean": 0.03,
+          "q025": 0.0,
+          "q975": 1.0
+        },
+        "median_distinct_scenarios": {
+          "valid_replicates": 200,
+          "mean": 34.9125,
+          "q025": 33.0,
+          "q975": 36.5
+        }
+      },
+      "excess_over_null": {
+        "weighted_top_one_share": 0.1347565543071161,
+        "clusters_majority_one_scenario": -0.03,
+        "median_distinct_scenarios": -22.9125
+      },
+      "upper_tail_p": {
+        "weighted_top_one_share": 0.004975124378109453,
+        "clusters_majority_one_scenario": 1.0,
+        "median_distinct_scenarios": 1.0
+      }
+    },
+    "largest_cluster": {
+      "cluster_id": 1,
+      "size": 75,
+      "share_of_assigned": 0.09363295880149813
+    },
+    "seed_concentration_excluding_large_clusters": {
+      "threshold_share_strictly_greater_than": 0.15,
+      "denominator_before_exclusion": 801,
+      "excluded_clusters": [],
+      "excluded_rows": 0,
+      "retained_rows": 801,
+      "retained_clusters": 20,
+      "metrics": {
+        "observed": {
+          "weighted_top_one_share": 0.1972534332084894,
+          "clusters_majority_one_scenario": 0,
+          "median_distinct_scenarios": 12.0
+        },
+        "permutations": 200,
+        "null": {
+          "weighted_top_one_share": {
+            "valid_replicates": 200,
+            "mean": 0.06249687890137329,
+            "q025": 0.056179775280898875,
+            "q975": 0.06991260923845194
+          },
+          "clusters_majority_one_scenario": {
+            "valid_replicates": 200,
+            "mean": 0.03,
+            "q025": 0.0,
+            "q975": 1.0
+          },
+          "median_distinct_scenarios": {
+            "valid_replicates": 200,
+            "mean": 34.9125,
+            "q025": 33.0,
+            "q975": 36.5
+          }
+        },
+        "excess_over_null": {
+          "weighted_top_one_share": 0.1347565543071161,
+          "clusters_majority_one_scenario": -0.03,
+          "median_distinct_scenarios": -22.9125
+        },
+        "upper_tail_p": {
+          "weighted_top_one_share": 0.004975124378109453,
+          "clusters_majority_one_scenario": 1.0,
+          "median_distinct_scenarios": 1.0
+        }
+      }
+    },
+    "ari_against_mpnet_hdbscan": {
+      "jointly_assigned_rows": 602,
+      "jointly_assigned_fraction": 0.7515605493133583,
+      "jointly_assigned_ari": 0.5072352913888072,
+      "all_rows_noise_as_one_label_ari": 0.25457036732410937
+    },
+    "ari_against_e5_hdbscan": {
+      "jointly_assigned_rows": 631,
+      "jointly_assigned_fraction": 0.787765293383271,
+      "jointly_assigned_ari": 0.5404240324928831,
+      "all_rows_noise_as_one_label_ari": 0.38296600216445303
+    },
+    "embedding_shuffle_null": {
+      "valid_replicates": 10,
+      "mean": -0.004270636173896491,
+      "q025": -0.005074145819526166,
+      "q975": -0.0035619907430373132
+    },
+    "embedding_shuffle_null_noise_fraction": {
+      "valid_replicates": 10,
+      "mean": 0.0,
+      "q025": 0.0,
+      "q975": 0.0
+    },
+    "original_unresidualized_cosine_silhouette": 0.08173933625221252
+  },
+  "method_diagnostics": {
+    "converged": true,
+    "iterations": 8,
+    "ambiguous_max_probability_below_0_5": 0,
+    "max_probability_distribution": [
+      0.5269930958747864,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  }
+}

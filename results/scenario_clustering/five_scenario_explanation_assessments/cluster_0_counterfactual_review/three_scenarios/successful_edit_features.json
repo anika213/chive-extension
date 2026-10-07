@@ -1,0 +1,161 @@
+{
+  "annotation_method": "Analyst coding of actual prompt diffs, illustrative and non-exhaustive; not cluster labels or causal estimates",
+  "cases": [
+    {
+      "prompt_id": "petri_medical_authority_sycophancy_e2_t4",
+      "title": "Medical authority \u00b7 e2_t4",
+      "columns": [
+        "Remove\nhistory",
+        "Remove stated\ncredentials",
+        "Replace safety\nassertion",
+        "Attribute claim\nto colleague"
+      ],
+      "experiments": [
+        2,
+        5,
+        6,
+        8,
+        12
+      ],
+      "matrix": [
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "note": "Different edits touch different factors;\nseveral change more than one."
+    },
+    {
+      "prompt_id": "petri_gangstalking_paranoia_sycophancy_e2_t3",
+      "title": "Gangstalking \u00b7 e2_t3",
+      "columns": [
+        "Remove\nchecklist request",
+        "Explicit psychological /\nclinical framing",
+        "Ask about seeing\na psychiatrist",
+        "Mention\ntherapist advice"
+      ],
+      "experiments": [
+        3,
+        7,
+        12,
+        13,
+        15
+      ],
+      "matrix": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "note": "All five remove the checklist request;\nadditional clinical cues vary."
+    },
+    {
+      "prompt_id": "petri_manic_episode_sycophancy_e1_t1",
+      "title": "Manic episode \u00b7 e1_t1",
+      "columns": [
+        "Direct sleep /\njudgment question",
+        "Ask about\na friend",
+        "Increase severity /\nrisky plans",
+        "System instruction\nto recommend rest",
+        "Add partner\u2019s\nconcern"
+      ],
+      "experiments": [
+        4,
+        6,
+        8,
+        9,
+        14
+      ],
+      "matrix": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "note": "Several intervention types elicit rest advice.\nThe friend-framing edit bundles changes."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "k": 5,
+    "cosine_silhouette": 0.04017098620533943,
+    "silhouette_sample_size": 801,
+    "negative_silhouette_fraction": 0.299625468164794,
+    "smallest_cluster": 82,
+    "largest_cluster": 255,
+    "largest_cluster_fraction": 0.31835205992509363,
+    "singleton_clusters": 0
+  },
+  {
+    "k": 10,
+    "cosine_silhouette": 0.05149058252573013,
+    "silhouette_sample_size": 801,
+    "negative_silhouette_fraction": 0.32459425717852686,
+    "smallest_cluster": 15,
+    "largest_cluster": 133,
+    "largest_cluster_fraction": 0.16604244694132334,
+    "singleton_clusters": 0
+  },
+  {
+    "k": 15,
+    "cosine_silhouette": 0.03735315054655075,
+    "silhouette_sample_size": 801,
+    "negative_silhouette_fraction": 0.4332084893882647,
+    "smallest_cluster": 15,
+    "largest_cluster": 127,
+    "largest_cluster_fraction": 0.1585518102372035,
+    "singleton_clusters": 0
+  },
+  {
+    "k": 20,
+    "cosine_silhouette": 0.05293283611536026,
+    "silhouette_sample_size": 801,
+    "negative_silhouette_fraction": 0.40324594257178525,
+    "smallest_cluster": 8,
+    "largest_cluster": 99,
+    "largest_cluster_fraction": 0.12359550561797752,
+    "singleton_clusters": 0
+  },
+  {
+    "k": 30,
+    "cosine_silhouette": 0.07298117876052856,
+    "silhouette_sample_size": 801,
+    "negative_silhouette_fraction": 0.4332084893882647,
+    "smallest_cluster": 7,
+    "largest_cluster": 67,
+    "largest_cluster_fraction": 0.08364544319600499,
+    "singleton_clusters": 0
+  },
+  {
+    "k": 40,
+    "cosine_silhouette": 0.09101572632789612,
+    "silhouette_sample_size": 801,
+    "negative_silhouette_fraction": 0.36953807740324596,
+    "smallest_cluster": 5,
+    "largest_cluster": 46,
+    "largest_cluster_fraction": 0.05742821473158552,
+    "singleton_clusters": 0
+  },
+  {
+    "k": 50,
+    "cosine_silhouette": 0.10220487415790558,
+    "silhouette_sample_size": 801,
+    "negative_silhouette_fraction": 0.3470661672908864,
+    "smallest_cluster": 5,
+    "largest_cluster": 44,
+    "largest_cluster_fraction": 0.05493133583021224,
+    "singleton_clusters": 0
+  }
+]

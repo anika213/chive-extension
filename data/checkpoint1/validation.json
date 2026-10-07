@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "sources": {
+    "petri": {
+      "behaviours": 801,
+      "causes": 4429,
+      "unfiltered_behaviours": 868,
+      "unfiltered_causes": 12605,
+      "filtered_cause_rows_with_rate_disagreement": 19,
+      "verified_input_experiments": 12605
+    },
+    "wildchat_eval": {
+      "behaviours": 1641,
+      "causes": 7864,
+      "unfiltered_behaviours": 1736,
+      "unfiltered_causes": 24940,
+      "filtered_cause_rows_with_rate_disagreement": 8,
+      "verified_input_experiments": 24940
+    },
+    "wildchat_thinking": {
+      "behaviours": 1348,
+      "causes": 5478,
+      "unfiltered_behaviours": 1442,
+      "unfiltered_causes": 17534,
+      "filtered_cause_rows_with_rate_disagreement": 2,
+      "verified_input_experiments": 17534
+    },
+    "wildchat_train": {
+      "behaviours": 21780,
+      "causes": 61543,
+      "unfiltered_behaviours": 21780,
+      "unfiltered_causes": 167133,
+      "filtered_cause_rows_with_rate_disagreement": 0,
+      "verified_input_experiments": 167133
+    }
+  },
+  "review_sample_rows": 120,
+  "checks": [
+    "exact output schemas",
+    "source isolation",
+    "score and effect thresholds",
+    "no exact duplicate texts within source/facet",
+    "all original summaries preserved",
+    "all unfiltered rates verified against inputs",
+    "all final signed deltas verified",
+    "exclusion accounting",
+    "review samples belong to final tables"
+  ],
+  "llm_calls": 0,
+  "embeddings_computed": false,
+  "clusters_computed": false
+}

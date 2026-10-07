@@ -1,0 +1,52 @@
+{
+  "source_directory": "data/wildchat/qwen3_8b_wildchat_eval",
+  "file_sha256": {
+    "verification.jsonl": "abd72e4ae61889a987abf24d647082e4c59e1f5152a58fe56ea9f1d80eb607e1",
+    "investigations.jsonl": "216657f1d9336f4114b0d6b222481d019b50a253749233fd1a524617a4b589ee"
+  },
+  "investigations_total": 1736,
+  "verification_records": 1735,
+  "retained": 1641,
+  "excluded": {
+    "verification_below_7": 94,
+    "missing_verification": 1
+  },
+  "verification_score_histogram": {
+    "10.0": 8,
+    "4.0": 2,
+    "4.2": 2,
+    "4.4": 1,
+    "4.6": 1,
+    "4.8": 1,
+    "5.0": 4,
+    "5.2": 5,
+    "5.4": 2,
+    "5.6": 6,
+    "5.8": 4,
+    "6.0": 6,
+    "6.2": 8,
+    "6.4": 9,
+    "6.6": 16,
+    "6.8": 27,
+    "7.0": 65,
+    "7.2": 58,
+    "7.4": 55,
+    "7.6": 65,
+    "7.8": 78,
+    "8.0": 123,
+    "8.2": 99,
+    "8.4": 114,
+    "8.6": 119,
+    "8.8": 185,
+    "9.0": 510,
+    "9.2": 83,
+    "9.4": 40,
+    "9.6": 23,
+    "9.8": 16
+  },
+  "one_to_one_prompt_id_join": true,
+  "orphan_verifications": 0,
+  "screener_provenance": "chive/chive/pipeline/investigate.py:1718 copies screening_result[behavior_summary] into investigation output",
+  "text_transform": "none; preserved verbatim",
+  "duplicate_summary_texts": 0
+}

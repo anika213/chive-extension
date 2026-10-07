@@ -1,0 +1,16 @@
+{
+  "model": "sentence-transformers/all-mpnet-base-v2",
+  "device": "cpu",
+  "model_revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+  "text_sha256": "a933b965c4b797947fbfba218b40095a254a101c2e6491235ee5ccd95d561474",
+  "shape": [
+    3039,
+    768
+  ],
+  "normalized": true,
+  "truncation": false,
+  "chunking": false,
+  "max_sequence_length": 384,
+  "max_input_tokens": 96,
+  "median_input_tokens": 25.0
+}

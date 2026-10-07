@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "run": "petri_latest_qualified",
+  "facet": "behaviours",
+  "method": "hdbscan",
+  "cluster_id": 5,
+  "members": 25,
+  "cause_rows": 118,
+  "eligible_cause_rows": 61,
+  "excluded_cause_rows": 57,
+  "exact_parquet_subset": true,
+  "semantic_label_assigned": false
+}

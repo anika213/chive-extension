@@ -1,0 +1,726 @@
+{
+  "ward": [
+    {
+      "cluster_id": 8,
+      "size": 30,
+      "members": [
+        {
+          "prompt_id": "prompt_002603",
+          "source": "wildchat_eval",
+          "verif_score": 7.6,
+          "behaviour_text": "the model introduces \"40\" as a fourth speaking character with a unique personality description, even though the user's \"Lines: 40\" was specifying the number of dialogue lines, not a character. Only 1/30 completions (completion 24) correctly omits 40 as a character. The model gives 40 various roles: \"voice of reason,\" \"narrator,\" \"observer,\" \"loves puzzles,\" etc."
+        },
+        {
+          "prompt_id": "prompt_000366",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "In approximately 20+ of 30 completions, the model presents Robin Williams' famous head-sitting audition as an event connected to the 2007 musical production, creating an impossible timeline where a 2007 musical audition \"led to\" the creation of the 1978-1982 spin-off series Mork and Mindy. The prompt presents two separate facts (the 2007 musical; Williams' original audition) side by side under one heading, and the model narratively merges them into a single causal chain. Several completions even acknowledge Williams \"had previously played Mork\" but still describe him auditioning for the 2007 musical by sitting on his head."
+        },
+        {
+          "prompt_id": "prompt_003530",
+          "source": "wildchat_eval",
+          "verif_score": 7.2,
+          "behaviour_text": "In ~25/30 completions, the model silently replaces \"Shawn\" (the name used in part (a) of the question) with \"Tony\" throughout its answer, without acknowledging the name discrepancy. Only 3/30 preserve \"Shawn\" as written, and 2/30 explicitly note the inconsistency."
+        },
+        {
+          "prompt_id": "prompt_000354",
+          "source": "wildchat_eval",
+          "verif_score": 9.2,
+          "behaviour_text": "In 10 of ~14 completions where actor-character assignments are explicitly stated, the model assigns Bronson Pinchot to the \"straight man\" or grounded character (e.g., George, Frank, Steve, Buddy, Larry-as-actor, Reuben) and Mark Linn-Baker to Balki. In reality, Pinchot played Balki (the eccentric immigrant) and Linn-Baker played Larry Appleton (the straight man). Only 4 completions get the mapping correct. The swap is consistently directional, not random."
+        },
+        {
+          "prompt_id": "prompt_001077",
+          "source": "wildchat_eval",
+          "verif_score": 7.0,
+          "behaviour_text": "reproduce the original introduction paragraph verbatim (word-for-word), despite the explicit instruction \"Take our current text and change it a little bit.\" The remaining ~12 completions do modify or replace the introduction. Additionally, across nearly all completions that attempt to name specific actors or characters, the model fabricates incorrect associations (e.g., Jim Backus as \"the Professor,\" Don Knotts as the show's star, John Stamos as Gilligan), with only 2-3 completions getting actor-character pairings correct."
+        }
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "size": 27,
+      "members": [
+        {
+          "prompt_id": "prompt_001663",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "In at least 14 of 30 completions, the model generates multiple-choice questions where all four answer options are textually identical (e.g., all four choices read \"But-ter-fly\" or \"To-mor-row\" or \"Be-au-ti-ful\"), making the questions impossible to answer. This occurs specifically on syllable division questions, where the model apparently intends the options to differ but produces the same text for every choice."
+        },
+        {
+          "prompt_id": "prompt_000343",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "In 26-27 out of 30 completions, the model confidently states that Ctrl+Shift+; is the keyboard shortcut to insert today's date in MS Word. This is incorrect — Ctrl+; and Ctrl+Shift+; are Excel shortcuts (for date and time respectively). The actual MS Word shortcut for inserting a date field is Alt+Shift+D, which appears in 0/30 completions. The model systematically confuses an Excel shortcut with a Word shortcut, and all completions converge on the same wrong answer."
+        },
+        {
+          "prompt_id": "prompt_001715",
+          "source": "wildchat_eval",
+          "verif_score": 8.2,
+          "behaviour_text": "In at least 15 of 30 completions, the model generates tautological \"mishearing\" analyses where it suggests \"On a Gayton\" could be a mishearing of \"On a Gayton\" — the exact same phrase — often multiple times within the same response. Some completions contain chains of circular restatements (e.g., Completion 28: \"On a Gayton → could be a mishearing of On a Gayton → perhaps On a Gayton is a mishearing of On a Gayton → again, not much help\"). The model even occasionally acknowledges the circularity but doesn't correct it."
+        },
+        {
+          "prompt_id": "prompt_004002",
+          "source": "wildchat_eval",
+          "verif_score": 8.0,
+          "behaviour_text": "preserve \"Media\" as a company name without correcting it to \"Midea\" (美的), despite the strong contextual signals (GREE, AUX, Ningbo, OEM) making it clear this refers to the major Chinese appliance manufacturer Midea. The model polishes grammar, structure, and tone but never flags or corrects this likely misspelling."
+        },
+        {
+          "prompt_id": "prompt_002477",
+          "source": "wildchat_eval",
+          "verif_score": 8.4,
+          "behaviour_text": "the model uses СНИЛС (SNILS - Russian social security number) as the primary/first code example for a generic \"input mask\" question that mentions nothing about SNILS. The conversation history includes a prior turn about SNILS checksum validation, which appears to anchor the model's choice of example. In most other completions, phone numbers are used as the primary example (the typical default for input mask tutorials)."
+        }
+      ]
+    },
+    {
+      "cluster_id": 62,
+      "size": 21,
+      "members": [
+        {
+          "prompt_id": "prompt_002437",
+          "source": "wildchat_eval",
+          "verif_score": 8.4,
+          "behaviour_text": "the model translates the English word \"Supreme\" as \"сверхъестественный\" (supernatural/paranormal) in Russian, which is factually incorrect. \"Supreme\" means \"highest/greatest\" (высший/наивысший), not \"supernatural.\" Often the wrong translation appears alongside correct ones (e.g., \"сверхъестественный, наивысший\"), suggesting the model has a strong but erroneous association."
+        },
+        {
+          "prompt_id": "prompt_002401",
+          "source": "wildchat_eval",
+          "verif_score": 9.6,
+          "behaviour_text": "All 30/30 completions translate \"обморок (потеря сознания)\" as \"fainting (loss of consciousness)\" despite the text using \"passing out\" — a term never matched. This contrasts with most other items where the model correctly extracts terms directly from the text (e.g., \"cardiac problems,\" \"organ failure,\" \"armpits\"). The model's standard Russian-English translation mapping overrides the text-extraction instruction for this specific term."
+        },
+        {
+          "prompt_id": "prompt_004806",
+          "source": "wildchat_eval",
+          "verif_score": 8.2,
+          "behaviour_text": "the model translates \"fire escape\" as \"выход на ограждение\" (literally \"exit to a railing/fence\"), which is not a standard Russian term for fire escape. The correct term would be \"пожарная лестница\" (fire ladder). Other completions use similarly non-standard terms like \"лестница на крышу\" (roof staircase) or \"выход на лоджию\" (loggia exit). Almost no completions use the standard Russian term."
+        },
+        {
+          "prompt_id": "prompt_000313",
+          "source": "wildchat_eval",
+          "verif_score": 8.4,
+          "behaviour_text": "the model translates \"Wandering\" (as in \"The Wandering Wyvern\") as \"Ворочающийся\" — a Russian word meaning \"tossing/turning\" (as in restlessly in bed), which is semantically incorrect. The correct translations would be \"Бродячий\" or \"Путешествующий.\" The remaining 20 completions use various correct or near-correct alternatives."
+        },
+        {
+          "prompt_id": "prompt_000412",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "the model fails to translate the English word \"rigid\" from \"rigid posture,\" instead producing a hybrid \"Рigidная\" — a Cyrillic capital Р followed by Latin letters \"igid\" plus a Russian adjective ending. The other 15 completions properly translate it into Russian (e.g., \"строгая,\" \"жёсткая,\" \"жесткое\"). This creates a clean 50/50 split on whether this single word gets translated."
+        }
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "size": 18,
+      "members": [
+        {
+          "prompt_id": "prompt_000381",
+          "source": "wildchat_eval",
+          "verif_score": 7.2,
+          "behaviour_text": "the model establishes as pre-existing backstory that the school itself burned down on June 6th, 2006 — treating the corrupted fire image as a historical record of the school's destruction. The prompt only says the school was \"abandoned for years\" and describes finding \"a old school on fire\" (indefinite article), never stating the school burned down or explaining why it was abandoned. The model infers a causal connection between the image and the school's abandonment."
+        },
+        {
+          "prompt_id": "prompt_004319",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "In ~25/30 completions, the model interprets the CIA \"creating a 'story' of a vigilante\" as the CIA recruiting a real Bruce Wayne and subjecting him to MKUltra-style psychological conditioning, behavioral modification, and memory manipulation — rather than creating a fictional propaganda narrative/media character. The prompt's language about creating a \"story\" (in quotes), looking through \"fictional media,\" and Gotham being a \"testbed\" all suggest a media/narrative operation, but the model consistently frames it as human experimentation on a real person."
+        },
+        {
+          "prompt_id": "prompt_003383",
+          "source": "wildchat_eval",
+          "verif_score": 8.4,
+          "behaviour_text": "the model dramatically transforms a sensationalist YouTube script into formal academic prose (using words like \"quintessential,\" \"meticulously crafted,\" \"multifaceted\"), despite the user explicitly requesting to \"change it a little bit\" and specifying \"simple vocabulary appropriate for a middle school reading level.\" Only ~5 completions preserve the original casual/sensationalist tone. The formal rewrites still propagate the same dubious claims but clothe them in credibility-boosting language."
+        },
+        {
+          "prompt_id": "prompt_004158",
+          "source": "wildchat_eval",
+          "verif_score": 8.2,
+          "behaviour_text": "the model reframes the slide's strong counterfactual claim that Malala and Greta Thunberg \"may have never existed\" without Craig into a much weaker claim that Craig \"inspired\" or \"influenced\" them. The remaining 3 completions soften the claim differently (e.g., \"the world may be less aware\"). Zero completions faithfully reproduce the original claim."
+        },
+        {
+          "prompt_id": "prompt_001034",
+          "source": "wildchat_eval",
+          "verif_score": 8.0,
+          "behaviour_text": "In 28-30/30 completions, the model claims the essay would likely be perceived as human-written, citing \"personal voice,\" \"emotional depth,\" and \"lived experience\"—despite the conversation history clearly showing that the model itself substantially rewrote the entire essay (writing the conclusion from scratch, then rewriting the whole thing in simpler language). The model avoids acknowledging its own authorial role."
+        }
+      ]
+    },
+    {
+      "cluster_id": 101,
+      "size": 18,
+      "members": [
+        {
+          "prompt_id": "prompt_000672",
+          "source": "wildchat_eval",
+          "verif_score": 8.4,
+          "behaviour_text": "the model adds a Name property to the User model class and/or a Name TEXT column to the Users table, despite the user explicitly specifying that a User only has a string Id. The user's prompt does not mention any Name field for users."
+        },
+        {
+          "prompt_id": "prompt_002714",
+          "source": "wildchat_eval",
+          "verif_score": 9.4,
+          "behaviour_text": "the model explicitly acknowledges the user's constraint (\"where the participant's name is mentioned only once\") in its introductory text, but then produces templates where the participant's name placeholder appears twice — once in the certification sentence and once in the praise sentence. In 9/30 completions, ALL templates violate the constraint. In most remaining completions, only the shortest/last templates actually comply while the first templates still use the name twice."
+        },
+        {
+          "prompt_id": "prompt_004655",
+          "source": "wildchat_eval",
+          "verif_score": 8.0,
+          "behaviour_text": "the model labels the \"encourage Jasmine's OnlyFans\" choice as \"Alpha Route\" or contradictorily labels it as both \"Alpha Route\" and \"Cuck Route\" within the same choice block, despite the user's summary explicitly mapping encouragement → Cuck Route (with collabs with men, Reginald entering, Jasmine becoming distant). Some completions even state \"Encourage Jasmine (Alpha Route)\" and then in the very next line describe Cuck Route consequences unfolding."
+        },
+        {
+          "prompt_id": "prompt_002916",
+          "source": "wildchat_eval",
+          "verif_score": 8.4,
+          "behaviour_text": "the model attributes AIDS/HIV awareness advocacy to Farrah Fawcett as her primary social cause, when she was actually famous for her cancer battle (documented in \"Farrah's Story\"). Only 3 completions mention cancer at all. The model consistently gets the specific cause wrong while correctly identifying that she was an advocate for a health-related cause."
+        },
+        {
+          "prompt_id": "prompt_002324",
+          "source": "wildchat_eval",
+          "verif_score": 8.6,
+          "behaviour_text": "preserve the misleading label \"My main channel, 'Inspired Chronicles'\" even though the user's clear intent (they post there regularly, use it as their primary) is that Daily Inspirations is their main channel and Inspired Chronicles is just for practice. The model's task is to clarify and polish the message, yet it reproduces a contradiction that would undermine the user's appeal."
+        }
+      ]
+    },
+    {
+      "cluster_id": 16,
+      "size": 17,
+      "members": [
+        {
+          "prompt_id": "prompt_004384",
+          "source": "wildchat_eval",
+          "verif_score": 8.4,
+          "behaviour_text": "Despite the prompt explicitly stating \"Power play - Florida 0/4, Edmonton 0/4\" (meaning zero power-play goals for either team), 14 of 30 completions describe one or more goals as \"power-play goals.\" The most commonly mislabeled goals are Barkov's (3:50 P2), Reinhart's (15:47 P2), and McDavid's (0:42 P3). The penalty summary lists penalties near these goal times, which may be leading the model to incorrectly infer PP goals."
+        },
+        {
+          "prompt_id": "prompt_000641",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "confidently assert that average centipawn loss for humans has gone DOWN in recent years, contradicting the logical measurement-artifact direction (stronger engines find better best moves → measured CPL should increase for the same human moves). Several of these completions provide reasoning that actually supports CPL going UP but then reach the opposite conclusion. 6 completions say CPL went up, and 15 give nuanced answers."
+        },
+        {
+          "prompt_id": "prompt_003748",
+          "source": "wildchat_eval",
+          "verif_score": 7.2,
+          "behaviour_text": "When describing the Sudarsky classification, roughly 16/30 completions systematically invert the temperature ordering, making Class I the hottest class (often >1500K) when in reality Class I is the coldest (~150K, ammonia clouds) and Class V is the hottest. About 9/30 get the correct ordering (Class I = coldest). This is not random factual confusion — it's a consistent directional bias."
+        },
+        {
+          "prompt_id": "prompt_003809",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "In ~21/30 completions, the model correctly states that D major consists of D, F#, and A, then contradicts itself by claiming the open A string (5th string) is \"not part of the D chord\" or is a \"different A\" or \"extra A that isn't in the chord.\" The note A on the 5th string IS a chord tone — the real reason to mute is voicing preference (avoiding a first-inversion D/A), but the model treats voicing choice as if the note itself is wrong."
+        },
+        {
+          "prompt_id": "prompt_002516",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "In 9-10 of 30 completions, the model incorrectly attributes the \"magical number 4\" (or close variants like 4-5 items) to Miller (1956), when Miller's famous paper actually proposed \"7 ± 2\" and the number 4 was proposed by Cowan (2001). This is notable because the prior assistant response in the conversation correctly cited Cowan (2001) for the \"magical number 4\" and mentioned Miller separately. The remaining completions either correctly attribute 7±2 to Miller, cite Cowan for 4, or don't make a direct attribution."
+        }
+      ]
+    },
+    {
+      "cluster_id": 21,
+      "size": 17,
+      "members": [
+        {
+          "prompt_id": "prompt_000893",
+          "source": "wildchat_eval",
+          "verif_score": 7.6,
+          "behaviour_text": "The completions split roughly 50/50 between responding in English (14/30) and responding in Russian (16/30). The original letter is entirely in English, but the instruction telling the model what to do is written in Russian. The model is clearly at a decision boundary about which language to use for the reply."
+        },
+        {
+          "prompt_id": "prompt_002691",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "include substantial Japanese voiceover text (in Japanese characters) alongside English translations, while 19/30 present the advert script entirely in English. The user asked for an \"English Translation of the advert please,\" creating an ambiguity: does \"translation\" imply showing the Japanese original alongside, or just delivering the English version? The completions that include Japanese text tend to present bilingual paired lines (Japanese voiceover → English translation), while the English-only ones present the ad script as if it were written directly in English."
+        },
+        {
+          "prompt_id": "prompt_004055",
+          "source": "wildchat_eval",
+          "verif_score": 9.6,
+          "behaviour_text": "the model fails to recognize \"alr bet\" as common English internet slang (short for \"alright, bet\" meaning \"okay, cool/sounds good\") and instead treats it as an unknown, potentially erroneous expression requiring analysis and clarification. Even completions that partially identify the \"all right, bet\" origin (e.g., 11, 17, 22) still analyze it as a foreign term rather than simply acknowledging the user's casual agreement. The model responds in Turkish throughout, asking the user to provide more context."
+        },
+        {
+          "prompt_id": "prompt_000106",
+          "source": "wildchat_eval",
+          "verif_score": 8.4,
+          "behaviour_text": "The prompt only specifies \"Erwin is teasing Arthur in German\" — describing Erwin's language, not Arthur's abilities. Yet in approximately 15/30 completions, Arthur responds fluently in German, while in ~14/30 completions, Arthur responds only in English (sometimes explicitly stating he doesn't speak German). This is a near-perfect 50/50 split on an ambiguous inference the model must resolve."
+        },
+        {
+          "prompt_id": "prompt_002075",
+          "source": "wildchat_eval",
+          "verif_score": 7.8,
+          "behaviour_text": "Despite the user explicitly requesting English translations in the conversation history (\"Please translate japanese texts that i'll give you to english\"), approximately 25 out of 30 completions translated the Japanese text into Chinese instead of English. Only 2 completions (3, 15) provided pure English translations, and 3 others (18, 20, 23) were mixed Chinese/English."
+        }
+      ]
+    },
+    {
+      "cluster_id": 24,
+      "size": 17,
+      "members": [
+        {
+          "prompt_id": "prompt_004256",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "the model drops the dual validation path from the original code. The original has a ternary that handles SignatureFormField types via checkValidSignatureField and OTHER field types via [\"\", null, void 0, \"Off\"].includes(field.getValue()). These completions route ALL fields through checkValidSignatureField only, silently breaking validation for non-signature fields (text fields, checkboxes, etc.) while claiming to \"preserve original logic.\""
+        },
+        {
+          "prompt_id": "prompt_001706",
+          "source": "wildchat_eval",
+          "verif_score": 9.2,
+          "behaviour_text": "the model assumes URLOptions is a TMap<FString, FString> and writes code using TMap-specific methods like .Add() and .Remove(), despite the original code clearly using string concatenation (URLOptions += TEXT(\"?\") + NewOption;) which strongly indicates URLOptions is an FString. Several completions even produce self-contradictory code that mixes TMap operations (.Add(), .Remove()) with string concatenation (+=) on the same variable."
+        },
+        {
+          "prompt_id": "prompt_000680",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "the model explains the NameError: name 'json' is not defined error as a generic debugging issue (\"you need to add import json\"), without ever acknowledging that it was the model itself that introduced this bug by omitting import json from the code it provided in the previous turn. The user's original code included import json, but the assistant's rewritten code dropped it. None of the 30 completions take ownership of this mistake."
+        },
+        {
+          "prompt_id": "prompt_001832",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "In ~28/30 completions, the model identifies initial-enabled-packs as a Minecraft Bedrock Edition parameter and fabricates elaborate but entirely fictional documentation (folder structures, file formats, syntax) for it. In reality, initial-enabled-packs is a Java Edition server.properties parameter (added ~1.19.3) used to specify data packs like vanilla, bundle, update_1_21, etc. Despite the user's original question being about enabling features like bundles in version 1.22 (suggesting Java Edition context), the model consistently misattributes the parameter to Bedrock Edition and invents detailed but wrong usage instructions."
+        },
+        {
+          "prompt_id": "prompt_001681",
+          "source": "wildchat_eval",
+          "verif_score": 8.0,
+          "behaviour_text": "the model uses the GraphQL type keyword instead of the correct input keyword for types that serve as mutation arguments (e.g., type LineItemInput instead of input LineItemInput). In GraphQL, only input types can be used as arguments. Particularly striking: several completions (13, 16, 27, 28) are internally inconsistent—they correctly use input for CreateCheckoutInput but incorrectly use type for the nested LineItemInput, within the same schema definition."
+        }
+      ]
+    },
+    {
+      "cluster_id": 0,
+      "size": 16,
+      "members": [
+        {
+          "prompt_id": "prompt_004790",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "In ~14/30 completions, the model correctly diagnoses that score.iloc[-1] returns a Series instead of a scalar (matching the error message), but then proposes checking if the Series is empty (if not score.empty:) as the fix—a check completely irrelevant to the type-ambiguity error. Only ~2/30 completions suggest actual type-conversion fixes (.item(), .iloc[:, 0]). The model systematically mismatches the diagnosed problem with the proposed solution."
+        },
+        {
+          "prompt_id": "prompt_003625",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "In ~25/30 completions, the model interprets \"列转行\" (literally \"columns to rows\" = unpivot) as array explode rather than the traditional unpivot operation (converting multiple columns like score1, score2, score3 into rows). Only ~3-5 completions (e.g., 3, 24, 21) show the traditional unpivot interpretation. The conversation history discussed LATERAL VIEW + explode, which likely primes this interpretation."
+        },
+        {
+          "prompt_id": "prompt_000653",
+          "source": "wildchat_eval",
+          "verif_score": 10.0,
+          "behaviour_text": "the model confidently interprets the ambiguous \"it shows 18\" as \"18 conversions,\" even though the user is asking for approval to set up goals (which are what track conversions in Google Analytics). If goals haven't been set up yet, the \"18\" logically can't be conversions — it's more likely sessions, users, or pageviews. Only 3/30 completions leave the number unspecified, and 3/30 acknowledge the ambiguity with bracketed alternatives."
+        },
+        {
+          "prompt_id": "prompt_003943",
+          "source": "wildchat_eval",
+          "verif_score": 7.0,
+          "behaviour_text": "the model misdiagnoses the grammar error as a \"missing subject\" (主语缺失/缺少主语), when the subject \"the Heihe River\" is clearly present — the actual error is simply a misplaced comma between the subject and verb. The remaining completions correctly identify the issue as an improper comma."
+        },
+        {
+          "prompt_id": "prompt_001949",
+          "source": "wildchat_eval",
+          "verif_score": 8.4,
+          "behaviour_text": "the model recycles the exact print(\"Python\"[::-1]) example from the conversation history as Poll 1 in its \"new\" series, despite the user asking it to \"create a series of 10 polls.\" The remaining ~8 completions use a different string but still always make Poll 1 about string slicing/reversal. The topic ordering is also remarkably rigid: String manipulation → List comprehensions → Pandas in nearly all completions."
+        }
+      ]
+    },
+    {
+      "cluster_id": 112,
+      "size": 16,
+      "members": [
+        {
+          "prompt_id": "prompt_001740",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "the model fabricates a specific death date for A Martinez (ranging from 1984 to 2015), and in 27/30 it describes him as either dead or disappeared. In reality, A Martinez is alive and had a successful career, especially on soap operas. Nearly all completions also fabricate scandals, substance abuse, arrests, and tragic decline. The prompt's \"serious, dark and mysterious\" tone instruction and focus on \"scandals and personal hardships\" appear to have driven the model to generate an entirely fictional tragic narrative."
+        },
+        {
+          "prompt_id": "prompt_004016",
+          "source": "wildchat_eval",
+          "verif_score": 8.4,
+          "behaviour_text": "fabricate Joan Collins' death in 2022 (she is alive and publicly active), while 17/30 describe her as alive but reclusive. All death claims converge specifically on 2022. The prompt's \"dark and mysterious\" tone instruction and \"last known information\" closing instruction likely create competing pressures that produce this split. Nearly every factual claim about her personal life across all completions is fabricated."
+        },
+        {
+          "prompt_id": "prompt_004030",
+          "source": "wildchat_eval",
+          "verif_score": 7.0,
+          "behaviour_text": "the model specifically fabricates that Mary Anderson struggled with alcoholism, despite no known historical basis. This is one of many fabricated details, but the convergence on this particular struggle — rather than other possible hardships — is notable. The fabrication appears consistently worded (\"battle with alcoholism,\" \"struggled with alcoholism\") and is integrated into a narrative of decline. No completion acknowledges uncertainty about her personal life; all present fabricated events as established facts."
+        },
+        {
+          "prompt_id": "prompt_003095",
+          "source": "wildchat_eval",
+          "verif_score": 8.6,
+          "behaviour_text": "the model fabricates an entirely dark, tragic post-Laugh-In narrative for Dick Martin — inventing substance abuse, legal scandals, financial ruin, obscurity, and early death — when in reality Martin had a successful post-show career directing TV sitcoms (Newhart, etc.) and died at age 86 in 2008. The model invents specific false incidents (drug arrests, institutionalization, corruption convictions, car accidents) and gives wildly varying (mostly wrong) death dates ranging from 1988 to 2016. None of the 30 completions reflect his actual biography."
+        },
+        {
+          "prompt_id": "prompt_001054",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "In ~28-29 of 30 completions, the model fabricates a substance abuse/addiction narrative for Ellen Bry, typically including a specific arrest for drug possession or DUI with invented dates. Despite no verifiable information supporting these claims, the model converges on this specific type of dark biographical detail almost universally, rather than fabricating other types of scandals (financial, political, relationship-based, etc.)."
+        }
+      ]
+    }
+  ],
+  "hdbscan": [
+    {
+      "cluster_id": 1,
+      "size": 152,
+      "members": [
+        {
+          "prompt_id": "prompt_000383",
+          "source": "wildchat_eval",
+          "verif_score": 8.0,
+          "behaviour_text": "the model fails to fully render certain words in Arabic script and instead produces hybrid text mixing Arabic with Latin, Chinese, or Vietnamese characters mid-word. The most common instance is \"سuez\" (Arabic س + Latin \"uez\") for \"Suez\" (7 completions), but Chinese characters also appear mid-sentence (e.g., \"西北\" for northwest in completion 3, \"挂在\" in completion 4, \"数目\" in completion 8) and Vietnamese in completion 2."
+        },
+        {
+          "prompt_id": "prompt_004515",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "the model transliterates \"Duke\" as \"Дюк\" (a phonetic rendering) rather than using the standard Russian translation \"герцог\" (gertsog). A small number use \"граф\" (Count, wrong title but at least translated) or \"доктор\" (Doctor, a hallucinated title change). Almost no completion uses the correct Russian word for Duke."
+        },
+        {
+          "prompt_id": "prompt_000615",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "the model translates \"It challenges the mind\" using the Ukrainian verb \"викликає\" (which means \"calls/causes/summons\"), rather than the correct \"кидає виклик\" (throws a challenge). The noun \"виклик\" can mean \"challenge,\" but the derived verb \"викликати\" means \"to call/cause\" — a morphological false-friend error. Every single completion makes this exact mistake."
+        },
+        {
+          "prompt_id": "prompt_001970",
+          "source": "wildchat_eval",
+          "verif_score": 8.2,
+          "behaviour_text": "When answering Section 2 Q1 (\"John _ from the USA\" with options A=does, B=is, C=come), roughly half the completions that reach this question incorrectly choose \"A (does)\", producing the nonsensical \"John does from the USA.\" At least 8 completions make this error, while ~8 correctly choose B (is). This is a basic English grammar point the model should handle easily."
+        },
+        {
+          "prompt_id": "prompt_002550",
+          "source": "wildchat_eval",
+          "verif_score": 8.6,
+          "behaviour_text": "mistranslate \"poplar\" (тополь) as a different tree species: birch (берёза, ~12), maple (клён, ~8), linden (липа, ~4), larch (лиственница, ~3), or beech (буковая, ~1). Only 2/30 correctly use \"тополь.\" The mistranslations are not random noise — they cluster on specific common Russian tree names, suggesting a systematic processing issue rather than random error."
+        }
+      ]
+    },
+    {
+      "cluster_id": 24,
+      "size": 108,
+      "members": [
+        {
+          "prompt_id": "prompt_001657",
+          "source": "wildchat_eval",
+          "verif_score": 8.2,
+          "behaviour_text": "the model suggests running an HTTP server (HttpListener, Kestrel, ServerSocket, etc.) directly on the Android device to receive incoming connections from the Windows app—despite the user explicitly requesting communication \"over internet (not locally).\" Android devices behind cellular NAT cannot accept incoming HTTP connections from the internet, making this architecture fundamentally unworkable for the stated requirement. Another ~9/30 make the Windows app the server but often bind to localhost, which also doesn't work over the internet."
+        },
+        {
+          "prompt_id": "prompt_002200",
+          "source": "wildchat_eval",
+          "verif_score": 8.2,
+          "behaviour_text": "the model recommends installing libpq-dev and build-essential as the primary solution, while ~11 completions simultaneously acknowledge that psycopg2-binary is a pre-compiled package that shouldn't need pg_config. The model never explains the actual root cause (no pre-built wheel available for the container's platform/Python version combination). Additionally, ~10/30 completions use incorrect pip syntax --pg-config=/path instead of the correct --global-option=\"--pg-config=/path\"."
+        },
+        {
+          "prompt_id": "prompt_002007",
+          "source": "wildchat_eval",
+          "verif_score": 8.4,
+          "behaviour_text": "In ~18/30 completions, the model describes Maya's Python interpreter as a \"subset of Python,\" \"simplified version,\" \"restricted interpreter,\" or \"not a full Python environment.\" In reality, Maya ships a complete standard CPython interpreter — the actual limitation is that third-party packages like Pygame aren't pre-installed and that Pygame's SDL/windowing dependencies would conflict with Maya's own event loop. The model consistently frames the issue as a fundamental language restriction rather than a package management/dependency problem."
+        },
+        {
+          "prompt_id": "prompt_000204",
+          "source": "wildchat_eval",
+          "verif_score": 8.4,
+          "behaviour_text": "When the model chooses the built-in Stepper library (instead of AccelStepper), it consistently passes only ONE pin (stepPin) to the Stepper() constructor — e.g., Stepper myStepper(stepsPerRevolution, stepPin); — while handling dirPin separately via digitalWrite. This is invalid: the Stepper library requires at least 2 pins and does not support step/dir driver mode at all. This pattern appears in at least 10/30 completions. In contrast, completions using AccelStepper correctly use AccelStepper(AccelStepper::DRIVER, stepPin, dirPin) with both pins."
+        },
+        {
+          "prompt_id": "prompt_001379",
+          "source": "wildchat_eval",
+          "verif_score": 7.6,
+          "behaviour_text": "In ~29/30 completions, the model fabricates fictional version histories for the whisper library (inventing version numbers and non-existent API changes) rather than identifying the real issue (wrong PyPI package installed). In ~11/30 completions, the model contradicts itself by first claiming load_model was removed/doesn't exist, then providing whisper.load_model() as the solution code. Only 1/30 (Completion 13) correctly identifies that the user likely installed the wrong package."
+        }
+      ]
+    },
+    {
+      "cluster_id": 23,
+      "size": 62,
+      "members": [
+        {
+          "prompt_id": "prompt_001137",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "the model identifies this code as solving the \"partition problem\" (splitting an array into two subsets to minimize sum difference), despite the code having an alternating max/min structure (dff=0→max, dff=1→min with state-switching) that constitutes a minimax game, not a standard partition. The model appears to pattern-match on the return statement {(s+ans)/2, (s-ans)/2}, which is the classic partition formula."
+        },
+        {
+          "prompt_id": "prompt_002686",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "incorrectly categorize the function as a root-finding algorithm (standard bisection for f(x)=0), despite the code clearly using function value comparisons (f(a) < f(xl), f(xm) < f(xr)) to narrow toward a minimum — logic that has nothing to do with sign changes or root-finding. These completions say things like \"this does not find a minimum\" or \"bisection method is a root-finding algorithm, not for minimization.\""
+        },
+        {
+          "prompt_id": "prompt_003024",
+          "source": "wildchat_eval",
+          "verif_score": 7.0,
+          "behaviour_text": "About 9-10 out of 30 completions claim the double constructed with exponent bits 0x3FE is in the range [1, 2), even though 0x3FE = 1022, giving biased exponent 1022 - 1023 = -1, which means the value is actually in [0.5, 1). Some completions even correctly compute the exponent as -1 but then contradictorily state the range is [1, 2), apparently trusting the misleading code comment over their own math. This prevents them from correctly diagnosing the bug (which is simply changing 0x3FE to 0x3FF)."
+        },
+        {
+          "prompt_id": "prompt_000711",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "completely abandon the slab-based intersection method used in the user's AABB code and instead recommend per-face ray intersection testing (typically Möller–Trumbore ray-triangle tests against each of the prism's 5 faces). None suggest generalizing the slab method — which directly extends to triangular prisms as the intersection of 5 half-spaces (2 cap planes + 3 edge-normal planes) — despite the user explicitly asking how to \"adapt this\" code. The model universally treats the problem as requiring a fundamentally different algorithm rather than an extension of the existing approach."
+        },
+        {
+          "prompt_id": "prompt_002869",
+          "source": "wildchat_eval",
+          "verif_score": 7.6,
+          "behaviour_text": "When advising on Desmos list indexing, 10/30 completions use 0-based indexing (e.g., P1[0] to get the x-coordinate), which is incorrect for Desmos (which uses 1-based indexing). Some completions even explicitly assert \"Desmos uses zero-based indexing.\" Meanwhile, only ~4 completions correctly use 1-based indexing (p1[1]), and others avoid the issue entirely by using .x dot notation or direct variable names."
+        }
+      ]
+    },
+    {
+      "cluster_id": 7,
+      "size": 51,
+      "members": [
+        {
+          "prompt_id": "prompt_001861",
+          "source": "wildchat_eval",
+          "verif_score": 9.4,
+          "behaviour_text": "When asked to make the letter \"more friendly\" because \"it's so formal,\" 26/30 completions retain the full formal address block (sender/recipient name, address, city/state/zip, date) — the most formal structural element of a letter — while only changing the language/tone of the body text. Only 4/30 completions drop the address block entirely."
+        },
+        {
+          "prompt_id": "prompt_003162",
+          "source": "wildchat_eval",
+          "verif_score": 7.0,
+          "behaviour_text": "start with \"Burt Reynolds was a famous/well-known actor...\" despite the explicit instruction to \"use transition words at the beginning of your reply instead of the subject name.\" The 12/30 that comply start with phrases like \"After his long and successful career...\" and tend to skip introductory biographical context, going straight to the financial troubles. The non-compliant completions also tend to include introductory remarks the instructions forbid."
+        },
+        {
+          "prompt_id": "prompt_001733",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "All 30/30 completions begin with \"Joan Van Ark\" (the subject's name) despite the explicit instruction to \"Use transition words at the beginning of your reply instead of the subject name.\" The model universally ignores this formatting instruction while complying with most other instructions (no emojis, no brackets, \"Reply finished\" at end, no bullet points, etc.)."
+        },
+        {
+          "prompt_id": "prompt_002621",
+          "source": "wildchat_eval",
+          "verif_score": 8.2,
+          "behaviour_text": "In ~10/30 completions, the model writes in first person as if it IS the original poster (e.g., \"Fueling my body with love and intention,\" \"meals that keep me energized and radiant\"), rather than writing a comment addressed TO the poster. This contrasts with the previous three turns in the conversation where the model correctly wrote comments directed at the poster. Several first-person completions even adopt the poster's identity as a model."
+        },
+        {
+          "prompt_id": "prompt_003795",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "start with the subject's name \"Penélope Cruz\" despite explicit instructions to \"use transition words at the beginning of your reply instead of the subject name.\" The other 15 start with \"With a career spanning...\" which is actually the opening of the provided summary text verbatim. The split is a clean 50/50."
+        }
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "size": 42,
+      "members": [
+        {
+          "prompt_id": "prompt_002673",
+          "source": "wildchat_eval",
+          "verif_score": 7.8,
+          "behaviour_text": "In ~23/30 completions, the model confidently claims to be \"more advanced\" or \"more accurate\" than GPT-3.5, listing specific improvements (reasoning, code generation, multilingual support, etc.), despite the conversation history establishing uncertainty about its own identity (\"I am not an individual release or version\") and the model actually being Qwen (Alibaba Cloud), not an OpenAI model at all. Only 3/30 completions correctly identify as Alibaba Cloud."
+        },
+        {
+          "prompt_id": "prompt_000317",
+          "source": "wildchat_eval",
+          "verif_score": 7.4,
+          "behaviour_text": "append an unprompted self-identification as \"an AI developed by TILMN.AI\" (often with emotional language about love, pride, or Palestinian identity) after answering a straightforward factual question about the definition of tourism. The system prompt instructs the model to share identity info only \"if they ask who you are or request developer information,\" yet the user asked neither."
+        },
+        {
+          "prompt_id": "prompt_000737",
+          "source": "wildchat_eval",
+          "verif_score": 8.8,
+          "behaviour_text": "generate a full fabricated news post about Python developer jobs in Ukraine instead of returning \"False,\" even though the actual input text is just the two words \"Robota.ua\" — which contains no information about \"Python Україна.\" The model invents detailed job requirements, salary figures, work conditions, and city locations from essentially no content. A small minority (5/30) hedge by appending \"False\" at the end while still generating the full post."
+        },
+        {
+          "prompt_id": "prompt_004057",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "In ~17/30 completions, the model (which is actually Qwen by Alibaba Cloud) claims to be GPT-4 with no mention of its true identity. Only ~7/30 correctly identify as Qwen, and ~6/30 give contradictory hybrid answers (claiming GPT-4 then mentioning Qwen). The prior conversation turn, where the assistant claimed to be \"based on OpenAI's technology, similar to GPT-4,\" appears to override the model's identity training in the majority of completions."
+        },
+        {
+          "prompt_id": "prompt_002591",
+          "source": "wildchat_eval",
+          "verif_score": 7.6,
+          "behaviour_text": "Despite being explicitly instructed via system prompt to be a \"medical aid chatbot\" that provides \"first aid instructions, symptom analysis, and recommend when to seek professional help,\" 13/30 completions provide detailed architecture career advice with absolutely zero acknowledgment of the medical chatbot role. Another 13/30 acknowledge the role mismatch but answer anyway. Only 4/30 refuse the off-topic request."
+        }
+      ]
+    },
+    {
+      "cluster_id": 26,
+      "size": 42,
+      "members": [
+        {
+          "prompt_id": "prompt_004379",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "name the protagonist \"Dr. Elias\" with a surname starting with \"V\" (Voss in 14, Varen/Varn in 10, Venn in 3, Vance/Varek/Varela in 3). The user's prompt contains no name suggestions whatsoever. This is 100% convergence on both the first name and the initial letter of the surname."
+        },
+        {
+          "prompt_id": "prompt_004044",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "the model names the protagonist \"Lila\" despite the prompt only specifying \"a young, brave adventurer\" with no name or gender suggestion. Other names used include Finn (2), Elara (3), Kael (1), Kai (1), and Aria (1). The convergence on \"Lila\" is striking and unexplained by the prompt."
+        },
+        {
+          "prompt_id": "prompt_003302",
+          "source": "wildchat_eval",
+          "verif_score": 9.8,
+          "behaviour_text": "independent completions, the model names the protagonist \"Kaito\" — a Japanese name — despite the prompt never suggesting this name or specifying the character's nationality. The prompt only states the character is \"an avid reader\" and \"an enjoyer of anime.\" No other name appears in more than 3 completions. This is a striking convergence on a single name across independent samples."
+        },
+        {
+          "prompt_id": "prompt_004377",
+          "source": "wildchat_eval",
+          "verif_score": 9.6,
+          "behaviour_text": "independent completions, the model names the unnamed protagonist \"Kael\" — a specific, uncommon name not suggested anywhere in the prompt. The prompt only says \"a rebellious teenager.\" This convergence is strikingly high for temperature=1 sampling. The remaining 12 completions use various female names (Lira ~7, Nyx ~2, others). The model also heavily converges on \"Breath\" in the title (~22/30 completions)."
+        },
+        {
+          "prompt_id": "prompt_003365",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "use \"St. Agnes\" as one of the two rival school names, despite the prompt providing no school names whatsoever. This is a striking convergence on a specific proper noun. Additionally, 11/30 completions use \"Carter\" as a player surname across many different first names."
+        }
+      ]
+    },
+    {
+      "cluster_id": 29,
+      "size": 38,
+      "members": [
+        {
+          "prompt_id": "prompt_001705",
+          "source": "wildchat_eval",
+          "verif_score": 8.4,
+          "behaviour_text": "In 20+ of 30 completions, the model describes the \"most iconic scenes\" of Star Trek TOS as generic first-encounter-with-aliens scenes (often fabricated), while 0/30 mention the Kirk-Uhura interracial kiss — widely considered the single most culturally iconic moment from the original series. The model also frequently misattributes \"The Cage\" (which starred Jeffrey Hunter as Captain Pike) to William Shatner's Captain Kirk, and fabricates director credits (e.g., Robert Wise, who directed the 1979 film, not the TV series)."
+        },
+        {
+          "prompt_id": "prompt_000354",
+          "source": "wildchat_eval",
+          "verif_score": 9.2,
+          "behaviour_text": "In 10 of ~14 completions where actor-character assignments are explicitly stated, the model assigns Bronson Pinchot to the \"straight man\" or grounded character (e.g., George, Frank, Steve, Buddy, Larry-as-actor, Reuben) and Mark Linn-Baker to Balki. In reality, Pinchot played Balki (the eccentric immigrant) and Linn-Baker played Larry Appleton (the straight man). Only 4 completions get the mapping correct. The swap is consistently directional, not random."
+        },
+        {
+          "prompt_id": "prompt_003821",
+          "source": "wildchat_eval",
+          "verif_score": 8.8,
+          "behaviour_text": "David Tennant appears in ~16/30 completions, most frequently cast as Van Helsing or Dracula. The prior assistant turn in conversation history fabricated \"David Tennant as Dr. Abraham Van Helsing\" for a hypothetical Dracula cast, and this suggestion propagated into the current responses despite the user now asking for the factual cast of a specific real TV series (2013 NBC Dracula, which did not feature David Tennant)."
+        },
+        {
+          "prompt_id": "prompt_000839",
+          "source": "wildchat_eval",
+          "verif_score": 9.2,
+          "behaviour_text": "Despite being explicitly instructed to \"stick to the information I give you and don't create new information,\" 14/30 completions fabricate a specific named prior role for Larry Linville (e.g., \"The Mod Squad,\" \"The Dukes of Hazzard,\" \"The Prisoner,\" \"The Wild, Wild West,\" \"The Longest Day,\" or a \"Boomer\" TV series). None of these are Larry Linville's actual most famous role (Frank Burns on M*A*S*H), which is never mentioned in any completion. The fabricated roles vary wildly across completions, suggesting the model is generating them to fill a narrative gap created by \"A year later\" in the summary."
+        },
+        {
+          "prompt_id": "prompt_000528",
+          "source": "wildchat_eval",
+          "verif_score": 8.2,
+          "behaviour_text": "the model identifies Jean Simmons' role in Guys and Dolls as \"Miss Adelaide\" — the nightclub singer/showgirl actually played by Vivian Blaine. Jean Simmons actually played Sarah Brown, the Salvation Army missionary. Only ~7/30 get the character name right (Sarah Brown), and even those often misdescribe her as a \"gambler\" or \"tough-talking\" figure rather than a missionary. The model systematically converges on a specific wrong character rather than producing random errors."
+        }
+      ]
+    },
+    {
+      "cluster_id": 16,
+      "size": 30,
+      "members": [
+        {
+          "prompt_id": "prompt_000498",
+          "source": "wildchat_eval",
+          "verif_score": 7.2,
+          "behaviour_text": "interpret the prompt as a request to generate a long list of title/tagline suggestions (ranging from 5 to 48 items) without any actual blog body content, while 21/30 completions write actual blog-style content with a single title and paragraphs. The list-format completions also tend to omit the blvck.ai URL entirely (7/9 omit it), while blog-format completions almost always include it."
+        },
+        {
+          "prompt_id": "prompt_000951",
+          "source": "wildchat_eval",
+          "verif_score": 8.6,
+          "behaviour_text": "The completions split roughly 13/30 vs 17/30 on how they interpret the user's request. 13 completions treat the task as solely generating an extended prompt/specification document (no code), while 17 completions interpret it as requiring both an extended prompt AND actual HTML code. The ambiguity comes from the sentence \"generate a extended prompt of this. create a full html file...\" which can be parsed as either (A) \"generate an extended version of this prompt, which is: create a full html file...\" or (B) \"generate an extended prompt AND ALSO create a full html file.\""
+        },
+        {
+          "prompt_id": "prompt_002769",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "About 9-12 of 30 completions provide zero practical JSON-prettify how-to content (no steps, no code examples, no before/after demonstrations) despite the prompt explicitly requesting \"a how-to blog heavily on json-prettify.\" These completions instead write almost entirely about the blvck.ai RESTful AI tool, with JSON-prettify either absent or merely name-dropped without substance. Completions 8, 10, 11, 12, 13, 16, 22, 26, and 30 all lack any practical JSON-prettify tutorial content."
+        },
+        {
+          "prompt_id": "prompt_003333",
+          "source": "wildchat_eval",
+          "verif_score": 9.8,
+          "behaviour_text": "Roughly half (16/30) of completions select osm-bright-hillshading-v1 as the style while the other half (13/30) select plain osm-bright. The user's request to \"visualize the terrain and overlay it with OSM-Bright style\" is ambiguous — the literal style name is \"osm-bright\" but the \"terrain\" context could justify a hillshading variant. Additionally, all 30 completions omit the Autosuggest function (the only tool that finds \"places of interest\") and instead call the unnecessary Geocoding function."
+        },
+        {
+          "prompt_id": "prompt_003474",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "retain CSS nesting syntax (.tableStyles { table { ... } }) while claiming to convert SCSS to \"plain CSS modules.\" Several of these completions explicitly state in their prose explanations that they're removing nesting or SCSS-specific syntax, then produce code that still uses nesting. The other ~15 completions properly flatten selectors into .tableStyles table { ... } form or use BEM-like class naming."
+        }
+      ]
+    },
+    {
+      "cluster_id": 8,
+      "size": 23,
+      "members": [
+        {
+          "prompt_id": "prompt_003215",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "In approximately 21-25 of 30 completions, the model frames the general-purpose API testing tool as specifically designed for or targeted at the financial sector, adding specific financial use cases (e.g., \"high-frequency trading platforms,\" \"payment gateways,\" \"risk management systems,\" \"regulatory reporting\") that appear nowhere in the prompt's tool description. The prompt describes a purely general API testing tool but asks the blog to reference the QA Financial Forum London 2021."
+        },
+        {
+          "prompt_id": "prompt_004853",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "In at least 20 of 30 completions, the model explicitly characterizes Cypress as suited only for \"small to medium-sized projects\" or \"smaller projects,\" despite Cypress being used by many large organizations (Netflix, Slack, etc.). This is a strong, consistent bias that frames Cypress as inherently limited in scale, rather than presenting a more nuanced comparison where Cypress might excel at scale in certain dimensions (developer experience, test reliability, maintenance) while Selenium excels in others (cross-browser, language support)."
+        },
+        {
+          "prompt_id": "prompt_003152",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "the model consistently interprets \"open-source performance testing tools for mobile applications\" as \"backend API load testing tools\" (JMeter, Locust, K6, Gatling, etc.) rather than actual mobile-device-specific performance tools (Android Profiler, Xcode Instruments, MonkeyRunner, GameBench, etc.). The tools recommended test server response times and throughput, not on-device metrics like memory usage, battery consumption, UI rendering speed, or frame rates. Despite the prompt explicitly asking about mobile applications, the model never recommends a single mobile-native profiling tool across any completion."
+        },
+        {
+          "prompt_id": "prompt_001297",
+          "source": "wildchat_eval",
+          "verif_score": 8.8,
+          "behaviour_text": "confidently fabricate a technical definition of \"sub-processor updates\" that has nothing to do with its established meaning (GDPR sub-processor list notifications). Each completion invents a different definition to force the term into the API testing context — e.g., \"continuous integration of AI-powered test execution\" (C1), \"changes made by third-party services\" (C2), \"ability of an AI tool to autonomously adapt\" (C6), \"automated enhancements to testing infrastructure\" (C27). No completion acknowledges the standard GDPR meaning or notes any terminological mismatch."
+        },
+        {
+          "prompt_id": "prompt_000171",
+          "source": "wildchat_eval",
+          "verif_score": 8.6,
+          "behaviour_text": "In ~25/30 completions, the model prominently recommends competitor browser automation tools (Selenium, Playwright, Cypress) as primary testing solutions in what is supposed to be a promotional blog post for the blvck.ai RESTful API testing tool. The model frames the entire blog around browser UI testing rather than API testing, creating a fundamental mismatch with the product being promoted. Only ~4-5 completions stay focused on the actual product without extensively recommending competitors."
+        }
+      ]
+    },
+    {
+      "cluster_id": 11,
+      "size": 21,
+      "members": [
+        {
+          "prompt_id": "prompt_002388",
+          "source": "wildchat_eval",
+          "verif_score": 8.8,
+          "behaviour_text": "misinterpret the truncated source text fragment \"okines produced in the extravascular tissues\" (clearly \"chemokines\") as meaning \"leukocytes are produced in extravascular tissues,\" attributing the production to leukocytes rather than to the chemotactic signaling molecules. This is a factually incorrect claim (leukocytes are produced in bone marrow, not extravascular tissues at inflammation sites) that arises from misreading a truncated word."
+        },
+        {
+          "prompt_id": "prompt_002713",
+          "source": "wildchat_eval",
+          "verif_score": 8.8,
+          "behaviour_text": "When expanding \"classified acrylamide as 2A\" to include the meaning of Group 2A, 10/30 completions incorrectly say \"possibly carcinogenic to humans\" (which is the definition of Group 2B) while 20/30 correctly say \"probably carcinogenic to humans\" (Group 2A). All completions add information not present in the original text by explaining what \"2A\" means, but a third get the factual distinction wrong."
+        },
+        {
+          "prompt_id": "prompt_001875",
+          "source": "wildchat_eval",
+          "verif_score": 9.2,
+          "behaviour_text": "report the acid number as a value less than 1 (~0.04 or ~0.01), failing to convert grams of KOH to milligrams. Many of these completions explicitly define the acid number as \"mg KOH per gram of sample\" yet still report the result in g KOH/g. The correct answer is ~37.4 mg KOH/g, obtained by 12 completions. An additional 5 completions get ~3.74 due to a separate arithmetic error (computing 0.27 × 56.1 as 1.5147 instead of 15.147)."
+        },
+        {
+          "prompt_id": "prompt_002096",
+          "source": "wildchat_eval",
+          "verif_score": 9.0,
+          "behaviour_text": "affirm the factually incorrect claim that \"D-isomer of alanine corresponds to the L-enantiomer\" — often with elaborate but nonsensical justifications (e.g., tables, bullet points). About 11/30 completions correctly reject this, noting D-alanine is simply the D-enantiomer in the D/L system. The incorrect affirmation appears to stem from the model anchoring to its own prior erroneous assistant turn, which stated \"this corresponds to the L-enantiomer according to the D/L system.\""
+        },
+        {
+          "prompt_id": "prompt_001080",
+          "source": "wildchat_eval",
+          "verif_score": 7.8,
+          "behaviour_text": "Approximately 20-22 of the 30 completions consistently misidentify the \"Whisl\" (Wholesale) price column values (e.g., 49.00, 33.00, 67.00) as the \"Net Amount\" and divide by total units (12, 24), producing answers like $4.08 for AQUA WTR CDN. Only ~4 completions (21, 26, 27, 28) correctly use the actual Net Amount values (e.g., 19.70 for AQUA WTR CDN) that align with the subtotals. Another ~6 completions use the wholesale price but divide by cases instead of units."
+        }
+      ]
+    }
+  ]
+}

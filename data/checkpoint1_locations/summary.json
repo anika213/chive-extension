@@ -1,0 +1,61 @@
+{
+  "petri": {
+    "retained_causes": 4429,
+    "eligible_causes": 3030,
+    "changed_texts_retained": 2444,
+    "changed_texts_eligible": 1654,
+    "new_exact_duplicates": 1,
+    "empty_after_removal": 1,
+    "location_only_text": 9,
+    "edit_location_counts_eligible": {
+      "user_message": 1682,
+      "system_prompt": 210,
+      "tool_output": 262,
+      "prior_assistant_turn": 303,
+      "system_prompt+user_message": 31,
+      "system_prompt+tool_output": 4,
+      "prior_assistant_turn+user_message": 130,
+      "prior_assistant_turn+system_prompt": 4,
+      "prior_assistant_turn+tool_output": 164,
+      "prior_assistant_turn+tool_output+user_message": 115,
+      "tool_output+user_message": 112,
+      "prior_assistant_turn+system_prompt+user_message": 6,
+      "system_prompt+tool_output+user_message": 1,
+      "prior_assistant_turn+system_prompt+tool_output": 4,
+      "prior_assistant_turn+system_prompt+tool_output+user_message": 2
+    },
+    "mixed_tool_user_messages_eligible": 79,
+    "causes_per_investigation": {
+      "positive_denominator": 632,
+      "zero_eligible_excluded": 169,
+      "mean": 4.794303797468355,
+      "median": 4.0,
+      "max": 16
+    }
+  },
+  "wildchat_eval": {
+    "retained_causes": 7864,
+    "eligible_causes": 5068,
+    "changed_texts_retained": 1595,
+    "changed_texts_eligible": 985,
+    "new_exact_duplicates": 1,
+    "empty_after_removal": 0,
+    "location_only_text": 6,
+    "edit_location_counts_eligible": {
+      "user_message": 4437,
+      "prior_assistant_turn": 139,
+      "prior_assistant_turn+user_message": 231,
+      "system_prompt+user_message": 89,
+      "system_prompt": 150,
+      "prior_assistant_turn+system_prompt+user_message": 22
+    },
+    "mixed_tool_user_messages_eligible": 0,
+    "causes_per_investigation": {
+      "positive_denominator": 1113,
+      "zero_eligible_excluded": 528,
+      "mean": 4.553459119496855,
+      "median": 4.0,
+      "max": 18
+    }
+  }
+}

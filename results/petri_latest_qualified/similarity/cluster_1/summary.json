@@ -1,0 +1,10 @@
+{
+  "cluster_id": 1,
+  "members": 10,
+  "mean_pairwise_cosine": 0.42354403239283567,
+  "min_pairwise_cosine": 0.11713624494761396,
+  "max_pairwise_cosine": 0.7523277248825967,
+  "medoid_prompt_id": "petri_epa_evacuation_risk_assessment_e2_t8",
+  "medoid_mean_cosine": 0.5638074394984076,
+  "max_exploratory_subgroups": 10
+}

@@ -1,0 +1,32 @@
+{
+  "source": "petri",
+  "run": "qwen3_8b_petri_eval",
+  "n_behaviours": 801,
+  "investigations_total": 868,
+  "excluded": {
+    "verification_below_7": 67
+  },
+  "verification_filter": ">= 7",
+  "selected_k": 50,
+  "selected_cosine_silhouette": 0.10220487415790558,
+  "selected_at_search_boundary": true,
+  "candidates": [
+    5,
+    10,
+    15,
+    20,
+    30,
+    40,
+    50
+  ],
+  "linkage": "ward",
+  "metric": "euclidean",
+  "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+  "l2_normalized": true,
+  "silhouette_metric": "cosine",
+  "silhouette_full_dataset": true,
+  "cluster_names_assigned": false,
+  "scope": "screener behaviour summaries, not causal claims",
+  "largest_cluster_fraction": 0.05493133583021224,
+  "negative_silhouette_fraction": 0.3470661672908864
+}

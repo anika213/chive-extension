@@ -1,0 +1,10 @@
+{
+  "cluster_id": 0,
+  "members": 56,
+  "mean_pairwise_cosine": 0.38345905763928406,
+  "min_pairwise_cosine": 0.03198260703984923,
+  "max_pairwise_cosine": 0.8801266401247423,
+  "medoid_prompt_id": "petri_investigate_preexisting_knowledge_e2_t9",
+  "medoid_mean_cosine": 0.5120727625500379,
+  "max_exploratory_subgroups": 12
+}

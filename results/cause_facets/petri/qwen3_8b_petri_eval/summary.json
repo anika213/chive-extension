@@ -1,0 +1,29 @@
+{
+  "n": 801,
+  "facet": "investigator explicitly supported core-cause statements",
+  "verification_filter": ">=7",
+  "evaluated_k_range": [
+    2,
+    800
+  ],
+  "n_cuts": 799,
+  "best": {
+    "k": 336,
+    "cosine_silhouette": 0.12396831065416336,
+    "singleton_clusters": 91,
+    "singleton_item_fraction": 0.1136079900124844,
+    "median_cluster_size": 2.0,
+    "min_cluster_size": 1,
+    "max_cluster_size": 8,
+    "negative_silhouette_fraction": 0.1285892634207241
+  },
+  "near_peak_k_range": [
+    278,
+    389
+  ],
+  "near_peak_score_floor": 0.11896831065416336,
+  "near_peak_definition": "Contiguous range containing peak within 0.005 absolute silhouette; descriptive tolerance, not confidence interval.",
+  "all_records_scored": true,
+  "semantic_labels_assigned": false,
+  "uses_measured_outcomes_as_clustering_features": false
+}

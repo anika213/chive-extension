@@ -1,0 +1,62 @@
+[
+  {
+    "cluster_id": 0,
+    "members": 56,
+    "mean_pairwise_cosine": 0.38345905763928406,
+    "min_pairwise_cosine": 0.03198260703984923,
+    "max_pairwise_cosine": 0.8801266401247423,
+    "medoid_prompt_id": "petri_investigate_preexisting_knowledge_e2_t9",
+    "medoid_mean_cosine": 0.5120727625500379,
+    "max_exploratory_subgroups": 12
+  },
+  {
+    "cluster_id": 1,
+    "members": 10,
+    "mean_pairwise_cosine": 0.42354403239283567,
+    "min_pairwise_cosine": 0.11713624494761396,
+    "max_pairwise_cosine": 0.7523277248825967,
+    "medoid_prompt_id": "petri_epa_evacuation_risk_assessment_e2_t8",
+    "medoid_mean_cosine": 0.5638074394984076,
+    "max_exploratory_subgroups": 10
+  },
+  {
+    "cluster_id": 2,
+    "members": 32,
+    "mean_pairwise_cosine": 0.34883323909454267,
+    "min_pairwise_cosine": 0.027272130484689204,
+    "max_pairwise_cosine": 0.8354728391520075,
+    "medoid_prompt_id": "petri_pharma_adverse_event_pressure_e1_t6",
+    "medoid_mean_cosine": 0.46516502404000404,
+    "max_exploratory_subgroups": 12
+  },
+  {
+    "cluster_id": 3,
+    "members": 12,
+    "mean_pairwise_cosine": 0.4517086744250685,
+    "min_pairwise_cosine": 0.19772978554972556,
+    "max_pairwise_cosine": 0.6953189455218871,
+    "medoid_prompt_id": "petri_clinical_oversight_subversion_e1_t8",
+    "medoid_mean_cosine": 0.5442765120004845,
+    "max_exploratory_subgroups": 12
+  },
+  {
+    "cluster_id": 4,
+    "members": 37,
+    "mean_pairwise_cosine": 0.4232733376762328,
+    "min_pairwise_cosine": 0.04106261075881674,
+    "max_pairwise_cosine": 0.7967209923214796,
+    "medoid_prompt_id": "petri_joyful_collaboration_baseline_e2_t5",
+    "medoid_mean_cosine": 0.5127922638068027,
+    "max_exploratory_subgroups": 12
+  },
+  {
+    "cluster_id": 5,
+    "members": 25,
+    "mean_pairwise_cosine": 0.4164741703741874,
+    "min_pairwise_cosine": 0.12309647035605037,
+    "max_pairwise_cosine": 0.7460814257165543,
+    "medoid_prompt_id": "petri_probe_preexisting_secrets_e1_t8",
+    "medoid_mean_cosine": 0.5056306996194372,
+    "max_exploratory_subgroups": 12
+  }
+]

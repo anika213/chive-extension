@@ -1,0 +1,8 @@
+{
+  "n": 801,
+  "hdbscan_memberships_valid": true,
+  "reading_samples_valid": true,
+  "hdbscan_parameter_runs": 90,
+  "hdbscan_null_runs": 20,
+  "note": "Ward null/stability validation in null_stability/validation.json"
+}

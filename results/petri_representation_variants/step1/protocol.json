@@ -1,0 +1,30 @@
+{
+  "input": "/Users/sharm51155/Desktop/chive/clustering/data/checkpoint1_locations/petri/behaviours.parquet",
+  "input_sha256": "351aacdbc9ffd302bfe05fa1533003e12b4e74a51f96d224267f98e329947290",
+  "ward": {
+    "n_clusters": 200,
+    "linkage": "ward",
+    "metric": "euclidean"
+  },
+  "umap": {
+    "n_components": 10,
+    "n_neighbors": 30,
+    "min_dist": 0,
+    "metric": "cosine",
+    "random_state": 20261004,
+    "n_jobs": 1
+  },
+  "hdbscan": {
+    "min_cluster_size": 10,
+    "min_samples": 5,
+    "metric": "euclidean",
+    "cluster_selection_method": "eom",
+    "core_dist_n_jobs": 1
+  },
+  "seed_permutations": 200,
+  "embedding_shuffle_replicates": 10,
+  "checkpoint": 1,
+  "steps_2_and_3_started": false,
+  "generative_llm_calls": 0,
+  "script_sha256": "05e061162ed9cb3fce2fed02c52dbfb0f5a18c892ea5435bbb85b665de1c1b7c"
+}

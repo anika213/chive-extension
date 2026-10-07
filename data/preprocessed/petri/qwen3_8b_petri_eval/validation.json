@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "rows": {
+    "claims.jsonl": 3415,
+    "experiments.jsonl": 11680,
+    "embedding_inputs.jsonl": 2125,
+    "review_required.jsonl": 9555,
+    "excluded_investigations.jsonl": 67
+  },
+  "unique_ready_experiments": 2125,
+  "signed_effects_recomputed": true,
+  "embedding_text_preserves_classifier_question": true,
+  "embeddings_created": false
+}

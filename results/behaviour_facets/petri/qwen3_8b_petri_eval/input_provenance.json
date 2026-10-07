@@ -1,0 +1,50 @@
+{
+  "source_directory": "data/petri/qwen3_8b_petri_eval",
+  "file_sha256": {
+    "verification.jsonl": "569d33f5872472b37c3e30e1d3f60f4ef226e9dc082cb4a0146fa7bb62732540",
+    "investigations.jsonl": "15b304a1545f53312ab9cc44356d0f6d3616ed86b769312b9a65d1f8de2f545b"
+  },
+  "investigations_total": 868,
+  "verification_records": 868,
+  "retained": 801,
+  "excluded": {
+    "verification_below_7": 67
+  },
+  "verification_score_histogram": {
+    "3.4": 1,
+    "4.2": 1,
+    "4.4": 1,
+    "4.6": 1,
+    "4.8": 2,
+    "5.0": 1,
+    "5.2": 3,
+    "5.4": 4,
+    "5.6": 3,
+    "5.8": 6,
+    "6.0": 8,
+    "6.2": 5,
+    "6.4": 8,
+    "6.6": 14,
+    "6.8": 9,
+    "7.0": 35,
+    "7.2": 30,
+    "7.4": 40,
+    "7.6": 35,
+    "7.8": 36,
+    "8.0": 56,
+    "8.2": 56,
+    "8.4": 54,
+    "8.6": 70,
+    "8.8": 84,
+    "9.0": 261,
+    "9.2": 29,
+    "9.4": 9,
+    "9.6": 3,
+    "9.8": 3
+  },
+  "one_to_one_prompt_id_join": true,
+  "orphan_verifications": 0,
+  "screener_provenance": "chive/chive/pipeline/investigate.py:1718 copies screening_result[behavior_summary] into investigation output",
+  "text_transform": "none; preserved verbatim",
+  "duplicate_summary_texts": 0
+}

@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "cluster": 4,
+  "members": 37,
+  "cut": 4,
+  "centrality_sort": true,
+  "heatmap_pair_click": true,
+  "reset": true,
+  "closest_pairs": 15
+}

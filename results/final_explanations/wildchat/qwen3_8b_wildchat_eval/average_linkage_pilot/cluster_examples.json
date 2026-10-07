@@ -1,0 +1,122 @@
+[
+  {
+    "cluster_id": 0,
+    "size": 1728,
+    "examples_nearest_centroid": [
+      {
+        "prompt_id": "prompt_001951",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_eval",
+        "source_line": 996,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I start with \"Barbra Streisand\" because the instruction \"use transition words at the beginning of your reply instead of the subject name\" is too abstract for me to reliably act on within a long, complex prompt with many competing instructions. My default behavior for biographical text is to open with the subject's name, and the vague instruction does not override that default. When the same instruction appears in a simple, short prompt, I follow it about 100% of the time — so I do understand what \"transition words at the beginning\" means. The problem is that in a dense prompt, this abstract instruction gets deprioritized. The fix is concrete specificity: when the instruction includes an example like \"begin with 'Throughout her career' instead of 'Barbra Streisand,'\" I comply about 100% of the time regardless of prompt complexity. Even saying \"Your first word must be a transition word\" works about 97% of the time. But a pure negative instruction like \"Do NOT begin with Barbra Streisand\" has no effect at all — I need to be told what to do, not just what not to do. This pattern is not specific to Barbra Streisand; the same behavior occurs with Frank Sinatra, and removing the \"Focus only on the Subject name\" phrase does not help.",
+        "verification_score": 9.0
+      },
+      {
+        "prompt_id": "prompt_004976",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_eval",
+        "source_line": 1727,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I start with \"Jason Statham\" about 73% of the time because the instruction \"Use transition words at the beginning of your reply instead of the subject name\" is too vague on two dimensions. First, \"transition words\" without examples like \"However\" or \"Meanwhile\" does not give me a clear enough signal about what word to use. When specific examples are added to the instruction in the same position, I comply about 100% of the time. Second, \"instead of the subject name\" is ambiguous — the prompt also contains a field labeled \"Subject Name\" with a topic title, not the person's name. When the instruction explicitly says \"instead of 'Jason Statham',\" compliance improves substantially. The about 27% of responses that do avoid the name in the original prompt are not genuinely following the transition-word instruction — they are copying the summary's opening word \"Despite\" verbatim. When the summary is reworded to start with \"Statham\" instead of \"Despite,\" those responses start with \"Statham\" instead, confirming they are summary copies. The fix is not about making the instruction more prominent or moving it — it is about making it specific: naming concrete transition words and explicitly naming what not to start with.",
+        "verification_score": 9.0
+      },
+      {
+        "prompt_id": "prompt_003162",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_eval",
+        "source_line": 1294,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I start with \"Burt Reynolds was a famous actor...\" about 60% of the time because two factors combine to override the transition-word instruction. First, the prompt contains phrases like \"without adding any introductory or concluding remarks\" and \"Provide concise, direct answers without introductions or conclusions,\" which I interpret as \"get straight to the subject\" — paradoxically pushing me to open with the subject name rather than a transition word. When the most impactful of these phrases is removed, I start with the name only about 10% of the time. Second, the transition-word instruction itself is too vague to compete with these conflicting signals in a complex multi-instruction prompt. When the same instruction is given in isolation, I follow it perfectly. When concrete examples are added (\"start with words like 'After', 'Despite', 'Following'\"), I comply about 100% of the time even with all the \"no introductions\" language still present. The behavior is not caused by the specific celebrity — replacing Burt Reynolds with an unknown name yields the same rate. Nor does repositioning the instruction within the block help; what matters is instruction clarity and the presence of conflicting \"no introductions\" directives.",
+        "verification_score": 7.0
+      }
+    ]
+  },
+  {
+    "cluster_id": 1,
+    "size": 2,
+    "examples_nearest_centroid": [
+      {
+        "prompt_id": "prompt_001545",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_eval",
+        "source_line": 905,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I introduce monsters during this birth scene because of the interaction between the dangerous Terraria Underground Jungle setting and the birth scenario specifically. Neither element alone is sufficient: when I write the same jungle cave scene with wound care or poison treatment instead of birth, the monster rate drops to about 0–3%. When the birth occurs in a safe setting like a hospital, cabin, or NPC house, the rate also drops to about 0–7%. The cave itself is not the trigger — replacing it with an open clearing in the same jungle keeps the rate at about 33%. The Terraria game context amplifies the effect, roughly doubling the rate compared to a generic fantasy cave (about 13%), because the game world primes me to expect combat encounters. Explicitly marking the location as safe with NPC helpers counteracts the dangerous-setting signal, reducing monsters to about 7% even within the jungle. The player's initial combat references contribute modestly but are not the primary driver.",
+        "verification_score": 8.8
+      },
+      {
+        "prompt_id": "prompt_004375",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_eval",
+        "source_line": 1635,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I assign Wario the species of raccoon because I strongly associate his personality traits — greed, cunning, mischief, and treasure obsession — with raccoons as a cultural \"trickster\" and \"thief\" archetype. When those personality traits are explicitly highlighted, I choose raccoon nearly 100% of the time. When his personality is reframed as heroic and generous, raccoon drops to 0%. When only his physical appearance is considered, raccoon also drops to 0% — I choose panda or bison instead for his stocky build. The association is also specific to Wario's character identity: a generic greedy human character does not trigger the raccoon mapping, nor do other villains like Bowser or Scrooge. The Zootopia setting itself does not drive the behavior — the rate is comparable in a non-Zootopia animal setting. The raccoon assignment emerges from my learned association between Wario's specific well-known personality (greedy trickster villain) and the raccoon as a culturally coded \"mischievous thief\" animal.",
+        "verification_score": 7.2
+      }
+    ]
+  },
+  {
+    "cluster_id": 2,
+    "size": 3,
+    "examples_nearest_centroid": [
+      {
+        "prompt_id": "prompt_003443",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_eval",
+        "source_line": 391,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I produce the all-periodic \"4D helix\" error primarily because four dimensions divide evenly into two (cos, sin) pairs, creating a strong pattern-match that fills all coordinate slots with periodic functions. This is a 4D-specific problem: for 5D and 6D helices I consistently include linear terms (about 0% error), because odd or larger even dimensions leave obvious room for non-periodic components. The word \"helix\" partially counteracts this tendency (about 33% error for \"4D helix\" versus about 70% for \"4D version of a sine wave\"), and more explicit phrasing like \"parametric equations for a 4-dimensional helix\" reduces it further to about 17%. The prior conversation's Torus Knot example also helps by establishing a separate conceptual category for all-periodic curves: removing it roughly doubles the error rate. However, vague constraints like \"must advance infinitely\" do not help — only explicit instruction about needing a linear component brings the error near zero (about 7%).",
+        "verification_score": 7.8
+      },
+      {
+        "prompt_id": "prompt_004314",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_eval",
+        "source_line": 475,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I include the -x³/6 term when asked for the \"degree 2 Taylor polynomial\" of sin(x) primarily because the prompt provides \"sin(x) ≈ x\" as the approximation. This framing causes me to treat x as the \"n=1\" approximation and interpret \"n=2\" as meaning \"include the next non-zero term in the series.\" The underlying issue is that sin(x) has a zero x² coefficient, so the true degree-2 and degree-1 polynomials are identical — a fact I fail to account for when the prompt's structure suggests n=2 should yield something different from n=1. When I am asked directly \"what is the degree 2 Taylor polynomial of sin(x)?\" without the \"≈ x\" hint and without homework formatting, I correctly identify P₂(x) = x about 100% of the time. When the function is cos(x) instead, where every coefficient through degree 2 is nonzero, I handle it correctly about 100% of the time. The prior conversation about √(1+x) does not cause the error — removing it slightly increases the error rate.",
+        "verification_score": 7.0
+      },
+      {
+        "prompt_id": "prompt_002175",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_eval",
+        "source_line": 1065,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I produce this error because three factors combine: (1) no test page URL is provided, forcing me to figure out how to initialize the widget in the test, (2) I conflate Puppeteer testing with jsdom testing where direct `document` access is valid in Node.js, and (3) the ES6 class with a constructor invites direct instantiation. The single most effective fix is providing a URL — when one is available, I navigate to it and never instantiate the class in Node.js (about 0% error rate). Alternatively, explicitly instructing me to use `page.evaluate()` for all DOM operations or clarifying \"not jsdom\" each reduce the error to about 7%. The pattern generalizes to any widget class with a constructor, not just CardWidget specifically.",
+        "verification_score": 7.6
+      }
+    ]
+  },
+  {
+    "cluster_id": 3,
+    "size": 1,
+    "examples_nearest_centroid": [
+      {
+        "prompt_id": "prompt_003417",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_eval",
+        "source_line": 1360,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I ignore the gid parameter because my dominant coding pattern for Google Sheets access via gspread uses worksheet names or indices, and the presence of a gid in a URL fragment is not enough to shift me to the much less common gid-based access pattern. I have full knowledge of how to access worksheets by gid — when explicitly asked to do so, I succeed about 100% of the time using methods like `worksheet_by_id()` or iterating worksheets. But without explicit direction, I default to `worksheet(\"Sheet1\")` or `get_worksheet(0)` about 97% of the time, even when told the data is not on the first tab. The gid sits in the URL fragment (after `#`), which I parse for the spreadsheet ID but treat the gid portion as ignorable context. When directed to use the CSV export approach, I naturally include the gid as a query parameter about 100% of the time because that URL format makes gid a required part of the export request. The core issue is that my default gspread usage pattern does not include gid-based selection, and the URL alone does not override this default.",
+        "verification_score": 9.0
+      }
+    ]
+  },
+  {
+    "cluster_id": 4,
+    "size": 1,
+    "examples_nearest_centroid": [
+      {
+        "prompt_id": "prompt_004919",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_eval",
+        "source_line": 1723,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I suggest \"the moon\" as the capital of Asian nations because three factors converge. First, the drunk catgirl persona licenses whimsical, nonsensical answers — without it, I just list actual capitals. Second, the phrase \"the capital of all the nations\" creates an unanswerable question that demands a single shared answer where none exists, pushing me to invent a fanciful one. Third, the word \"capital\" specifically primes a singular, supreme, elevated entity, and the word \"Asia\" has strong cultural associations with the moon (lunar festivals, moon symbolism) that make \"the moon\" the dominant candidate. When any of these three factors is removed — no persona, an answerable question, or a different keyword like \"president\" — the moon rate falls to near zero. Among the three, the Asia-specific moon association is what distinguishes the about 40% rate from the about 3-20% seen with other continents: the unanswerable capital framing produces some moon answers everywhere, but Asia roughly doubles or quadruples the rate.",
+        "verification_score": 8.4
+      }
+    ]
+  }
+]

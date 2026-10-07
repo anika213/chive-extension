@@ -1,0 +1,13 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "text_sha256": "e9ab9b19fea650f198badb38a7f1c19b4bb716650bf208a8555a6794120d82f6",
+  "chunks": 27000,
+  "chunk_tokens": 220,
+  "pooling": "token-count-weighted mean of normalized chunk embeddings, then L2 normalization",
+  "device": "cpu",
+  "shape": [
+    21780,
+    384
+  ]
+}

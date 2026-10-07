@@ -1,0 +1,8 @@
+{
+  "six_groups_of_ten": true,
+  "unique_records": 60,
+  "all_texts_match_source": true,
+  "all_means_match_sklearn_cosine_similarity": true,
+  "pairs_per_group": 45,
+  "cause_text_used": false
+}

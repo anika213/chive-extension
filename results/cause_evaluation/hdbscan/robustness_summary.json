@@ -1,0 +1,49 @@
+{
+  "cross_model": {
+    "models": [
+      "all-mpnet-base-v2",
+      "all-MiniLM-L6-v2"
+    ],
+    "same_pipeline_and_seed": true,
+    "minilm_clusters": 14,
+    "minilm_assigned": 422,
+    "ari_shared_assigned": 0.7374056161080725,
+    "ari_all_including_noise": 0.2377925418604409,
+    "shared_assigned_count": 358,
+    "shared_assigned_fraction": 0.4469413233458177,
+    "assignment_jaccard": 0.5709728867623605
+  },
+  "subsampling": "20 independent 80% subsets, no replacement; fixed UMAP/HDBSCAN settings and seed42; compared with full-data preset restricted to same IDs.",
+  "subsample_vs_reference": {
+    "ari_shared_assigned": {
+      "mean": 0.7422896321063772,
+      "q05": 0.6094602800486602,
+      "q95": 0.8766938470115849
+    },
+    "ari_all_including_noise": {
+      "mean": 0.383574856288435,
+      "q05": 0.3027161533948329,
+      "q95": 0.49440147538966017
+    },
+    "shared_assigned_fraction": {
+      "mean": 0.5644305772230889,
+      "q05": 0.5268330733229328,
+      "q95": 0.6258190327613105
+    },
+    "assignment_jaccard": {
+      "mean": 0.7084801926645823,
+      "q05": 0.6586346013154594,
+      "q95": 0.776653125
+    },
+    "n_clusters": {
+      "mean": 14.95,
+      "q05": 11.95,
+      "q95": 18.0
+    },
+    "assigned": {
+      "mean": 422.0,
+      "q05": 394.65,
+      "q95": 466.1
+    }
+  }
+}

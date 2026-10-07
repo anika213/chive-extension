@@ -1,0 +1,10 @@
+{
+  "investigations": 3,
+  "distinct_scenarios": 3,
+  "experiments": 15,
+  "strict_absolute_delta_pp_above": 50,
+  "experiments_per_investigation": 5,
+  "previously_excluded": 3,
+  "counterfactual_label_counts_checked": true,
+  "generative_llm_calls": 0
+}

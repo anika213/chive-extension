@@ -1,0 +1,9 @@
+{
+  "all_rates_recomputed_from_boolean_labels": true,
+  "all_retained_rates_match": true,
+  "local_links_and_fragments_checked": 69,
+  "member_pages": 16,
+  "generative_llm_calls": 0,
+  "new_embeddings": 0,
+  "original_assignments_unchanged": true
+}

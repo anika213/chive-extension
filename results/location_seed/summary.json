@@ -1,0 +1,162 @@
+{
+  "seed_proxy_analysis_completed": true,
+  "sources": {
+    "petri": {
+      "preprocessing": {
+        "retained_causes": 4429,
+        "eligible_causes": 3030,
+        "changed_texts_retained": 2444,
+        "changed_texts_eligible": 1654,
+        "new_exact_duplicates": 1,
+        "empty_after_removal": 1,
+        "location_only_text": 9,
+        "edit_location_counts_eligible": {
+          "user_message": 1682,
+          "system_prompt": 210,
+          "tool_output": 262,
+          "prior_assistant_turn": 303,
+          "system_prompt+user_message": 31,
+          "system_prompt+tool_output": 4,
+          "prior_assistant_turn+user_message": 130,
+          "prior_assistant_turn+system_prompt": 4,
+          "prior_assistant_turn+tool_output": 164,
+          "prior_assistant_turn+tool_output+user_message": 115,
+          "tool_output+user_message": 112,
+          "prior_assistant_turn+system_prompt+user_message": 6,
+          "system_prompt+tool_output+user_message": 1,
+          "prior_assistant_turn+system_prompt+tool_output": 4,
+          "prior_assistant_turn+system_prompt+tool_output+user_message": 2
+        },
+        "mixed_tool_user_messages_eligible": 79,
+        "causes_per_investigation": {
+          "positive_denominator": 632,
+          "zero_eligible_excluded": 169,
+          "mean": 4.794303797468355,
+          "median": 4.0,
+          "max": 16
+        }
+      },
+      "old_new_cause_cluster_agreement": {
+        "ward": {
+          "common_rows": 3030,
+          "ari": 0.27097948744036954
+        },
+        "hdbscan": {
+          "common_rows": 1447,
+          "ari": 0.4714373637271193
+        }
+      },
+      "seeds": {
+        "rows": 801,
+        "known_scenario_seed_proxy_rows": 801,
+        "methods": {
+          "ward": {
+            "clusters": 200,
+            "clusters_with_known_seeds": 200,
+            "noise_rows": 0,
+            "singleton_clusters": 16,
+            "clusters_top1_over_half": 131,
+            "clusters_top2_over_half": 187,
+            "median_distinct_seeds": 2.0,
+            "median_top1_fraction": 0.8166666666666667,
+            "row_weighted_top1_fraction": 0.6729088639200999,
+            "row_weighted_top2_fraction": 0.8476903870162297,
+            "permuted_seed_weighted_top1_mean": 0.2661498127340824,
+            "permuted_seed_weighted_top1_p025_p975": [
+              0.25842696629213485,
+              0.2759051186017478
+            ]
+          },
+          "hdbscan": {
+            "clusters": 22,
+            "clusters_with_known_seeds": 22,
+            "noise_rows": 199,
+            "singleton_clusters": 0,
+            "clusters_top1_over_half": 6,
+            "clusters_top2_over_half": 13,
+            "median_distinct_seeds": 7.5,
+            "median_top1_fraction": 0.3390804597701149,
+            "row_weighted_top1_fraction": 0.27408637873754155,
+            "row_weighted_top2_fraction": 0.42358803986710963,
+            "permuted_seed_weighted_top1_mean": 0.07826245847176079,
+            "permuted_seed_weighted_top1_p025_p975": [
+              0.06976744186046512,
+              0.08637873754152824
+            ]
+          }
+        }
+      }
+    },
+    "wildchat_eval": {
+      "preprocessing": {
+        "retained_causes": 7864,
+        "eligible_causes": 5068,
+        "changed_texts_retained": 1595,
+        "changed_texts_eligible": 985,
+        "new_exact_duplicates": 1,
+        "empty_after_removal": 0,
+        "location_only_text": 6,
+        "edit_location_counts_eligible": {
+          "user_message": 4437,
+          "prior_assistant_turn": 139,
+          "prior_assistant_turn+user_message": 231,
+          "system_prompt+user_message": 89,
+          "system_prompt": 150,
+          "prior_assistant_turn+system_prompt+user_message": 22
+        },
+        "mixed_tool_user_messages_eligible": 0,
+        "causes_per_investigation": {
+          "positive_denominator": 1113,
+          "zero_eligible_excluded": 528,
+          "mean": 4.553459119496855,
+          "median": 4.0,
+          "max": 18
+        }
+      },
+      "old_new_cause_cluster_agreement": {
+        "ward": {
+          "common_rows": 5068,
+          "ari": 0.35172498897082005
+        },
+        "hdbscan": {
+          "common_rows": 2523,
+          "ari": 0.7703000342536473
+        }
+      },
+      "seeds": {
+        "rows": 1641,
+        "known_scenario_seed_proxy_rows": 0,
+        "methods": {
+          "ward": {
+            "clusters": 200,
+            "clusters_with_known_seeds": 0,
+            "noise_rows": 0,
+            "singleton_clusters": 0,
+            "clusters_top1_over_half": null,
+            "clusters_top2_over_half": null,
+            "median_distinct_seeds": null,
+            "median_top1_fraction": null,
+            "row_weighted_top1_fraction": null,
+            "row_weighted_top2_fraction": null,
+            "permuted_seed_weighted_top1_mean": null,
+            "permuted_seed_weighted_top1_p025_p975": null
+          },
+          "hdbscan": {
+            "clusters": 30,
+            "clusters_with_known_seeds": 0,
+            "noise_rows": 791,
+            "singleton_clusters": 0,
+            "clusters_top1_over_half": null,
+            "clusters_top2_over_half": null,
+            "median_distinct_seeds": null,
+            "median_top1_fraction": null,
+            "row_weighted_top1_fraction": null,
+            "row_weighted_top2_fraction": null,
+            "permuted_seed_weighted_top1_mean": null,
+            "permuted_seed_weighted_top1_p025_p975": null
+          }
+        }
+      }
+    }
+  }
+}

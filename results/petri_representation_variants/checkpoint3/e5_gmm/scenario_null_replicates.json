@@ -1,0 +1,2006 @@
+{
+  "all_clusters": [
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.066167290886392,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 33.0
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.056179775280898875,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.066167290886392,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.5
+    },
+    {
+      "weighted_top_one_share": 0.0686641697877653,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 32.5
+    },
+    {
+      "weighted_top_one_share": 0.05742821473158552,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06991260923845194,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.066167290886392,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.0686641697877653,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06991260923845194,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.066167290886392,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.5
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 33.5
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.5
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.056179775280898875,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.05742821473158552,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.05867665418227216,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.05742821473158552,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.5
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.05867665418227216,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 1,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.0686641697877653,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 33.0
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.05742821473158552,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.05867665418227216,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.066167290886392,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06741573033707865,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.05867665418227216,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.5
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.056179775280898875,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.06741573033707865,
+      "clusters_majority_one_scenario": 1,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.05867665418227216,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.05867665418227216,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.05867665418227216,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06741573033707865,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 33.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 33.0
+    },
+    {
+      "weighted_top_one_share": 0.066167290886392,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 32.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.066167290886392,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.05867665418227216,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 1,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 1,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.066167290886392,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.05867665418227216,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.056179775280898875,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.06991260923845194,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 33.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 33.5
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.05368289637952559,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.05867665418227216,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.05867665418227216,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06741573033707865,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.0686641697877653,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 37.0
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.056179775280898875,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.5
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.056179775280898875,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 37.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.066167290886392,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06741573033707865,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06991260923845194,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06741573033707865,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 32.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 33.5
+    },
+    {
+      "weighted_top_one_share": 0.06991260923845194,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.06741573033707865,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.05867665418227216,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.05867665418227216,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 33.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.05867665418227216,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.05742821473158552,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.066167290886392,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 33.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 33.5
+    },
+    {
+      "weighted_top_one_share": 0.06741573033707865,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.5
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.0686641697877653,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 33.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.07116104868913857,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.06741573033707865,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 33.5
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 33.0
+    },
+    {
+      "weighted_top_one_share": 0.066167290886392,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06741573033707865,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.06991260923845194,
+      "clusters_majority_one_scenario": 1,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.05742821473158552,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.056179775280898875,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 1,
+      "median_distinct_scenarios": 35.0
+    }
+  ],
+  "excluding_large_clusters": [
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.066167290886392,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 33.0
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.056179775280898875,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.066167290886392,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.5
+    },
+    {
+      "weighted_top_one_share": 0.0686641697877653,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 32.5
+    },
+    {
+      "weighted_top_one_share": 0.05742821473158552,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06991260923845194,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.066167290886392,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.0686641697877653,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06991260923845194,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.066167290886392,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.5
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 33.5
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.5
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.056179775280898875,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.05742821473158552,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.05867665418227216,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.05742821473158552,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.5
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.05867665418227216,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 1,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.0686641697877653,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 33.0
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.05742821473158552,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.05867665418227216,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.066167290886392,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06741573033707865,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.05867665418227216,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.5
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.056179775280898875,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.06741573033707865,
+      "clusters_majority_one_scenario": 1,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.05867665418227216,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.05867665418227216,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.05867665418227216,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06741573033707865,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 33.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 33.0
+    },
+    {
+      "weighted_top_one_share": 0.066167290886392,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 32.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.066167290886392,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.05867665418227216,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 1,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 1,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.066167290886392,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.05867665418227216,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.056179775280898875,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.06991260923845194,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 33.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 33.5
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.05368289637952559,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.05867665418227216,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.05867665418227216,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06741573033707865,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.0686641697877653,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 37.0
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.056179775280898875,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.5
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.056179775280898875,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 37.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.066167290886392,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06741573033707865,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06991260923845194,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06741573033707865,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 32.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 33.5
+    },
+    {
+      "weighted_top_one_share": 0.06991260923845194,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.06741573033707865,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.05867665418227216,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.05867665418227216,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 33.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.05867665418227216,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.05742821473158552,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.066167290886392,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 33.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.0599250936329588,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 33.5
+    },
+    {
+      "weighted_top_one_share": 0.06741573033707865,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.5
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.0686641697877653,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 33.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.07116104868913857,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.06741573033707865,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 33.5
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 33.0
+    },
+    {
+      "weighted_top_one_share": 0.066167290886392,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.5
+    },
+    {
+      "weighted_top_one_share": 0.06741573033707865,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06117353308364544,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 34.0
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.06991260923845194,
+      "clusters_majority_one_scenario": 1,
+      "median_distinct_scenarios": 36.0
+    },
+    {
+      "weighted_top_one_share": 0.062421972534332085,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06491885143570537,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.5
+    },
+    {
+      "weighted_top_one_share": 0.05742821473158552,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.056179775280898875,
+      "clusters_majority_one_scenario": 0,
+      "median_distinct_scenarios": 35.0
+    },
+    {
+      "weighted_top_one_share": 0.06367041198501873,
+      "clusters_majority_one_scenario": 1,
+      "median_distinct_scenarios": 35.0
+    }
+  ]
+}

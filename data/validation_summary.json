@@ -1,0 +1,53 @@
+{
+  "revision": "0283d021bd373d361aadd46a9cf1f9520399d50a",
+  "files_checked": 28,
+  "total_bytes": 12772225890,
+  "publisher_sizes_and_available_counts_match": true,
+  "runs": {
+    "petri/qwen3_8b_petri_eval": {
+      "binary_counterfactual_questions.jsonl": 2125,
+      "eval_set_conc3_n2000.jsonl": 1442,
+      "investigations.jsonl": 868,
+      "verification.jsonl": 868
+    },
+    "wildchat/qwen3_8b_wildchat_eval": {
+      "binary_counterfactual_questions.jsonl": 4041,
+      "eval_set_conc3_n2000.jsonl": 1870,
+      "investigations.jsonl": 1736,
+      "verification.jsonl": 1735
+    },
+    "wildchat/qwen3_8b_wildchat_thinking_eval": {
+      "binary_counterfactual_questions.jsonl": 3486,
+      "eval_set_conc3_n2000.jsonl": 1735,
+      "investigations.jsonl": 1442,
+      "verification.jsonl": 1441
+    },
+    "wildchat/qwen3_8b_wildchat_train": {
+      "binary_counterfactual_questions.jsonl": 52561,
+      "investigations.jsonl": 21780,
+      "verification.jsonl": 21780
+    }
+  },
+  "verification_coverage": {
+    "petri/qwen3_8b_petri_eval": {
+      "investigations_without_verification": [],
+      "verification_without_investigation": []
+    },
+    "wildchat/qwen3_8b_wildchat_eval": {
+      "investigations_without_verification": [
+        "prompt_003073"
+      ],
+      "verification_without_investigation": []
+    },
+    "wildchat/qwen3_8b_wildchat_thinking_eval": {
+      "investigations_without_verification": [
+        "prompt_003369"
+      ],
+      "verification_without_investigation": []
+    },
+    "wildchat/qwen3_8b_wildchat_train": {
+      "investigations_without_verification": [],
+      "verification_without_investigation": []
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "tokenizer": "sentence-transformers/all-mpnet-base-v2 (local tokenizer only; no model inference)",
+  "tokenizer_path": "/Users/sharm51155/Desktop/chive/clustering/models/all-mpnet-base-v2/tokenizer.json",
+  "tokenizer_sha256": "b8be2c30ba5dd723a6d5ee26d013da103d5408d92ddcb23747622f9e48f1d842",
+  "algorithm": "Exact longest-common-subsequence insert/delete distance, independently on Unicode code points and full-context token ID sequences; changed = deleted + added.",
+  "context_serialization": "For each stored message: ⟪ROLE:{role}⟫ newline + verbatim content + newline ⟪END MESSAGE⟫ newline. Extra message fields, if any, follow as sorted JSON metadata.",
+  "tokenization": "No truncation, padding, special tokens, or model forward pass.",
+  "percentile_population": "All context-comparable logged experiments with investigation verification >=7 within each source, before effect filtering and exact text deduplication.",
+  "context_swap_rule": "chars_changed > source p90 OR tokens_changed > source p90; strict comparison, linear percentile interpolation. Heuristic size flag, not a claim of a literal context replacement.",
+  "model_inference_calls": 0,
+  "context_reader": "Stored messages, else legacy prompt + optional system_prompt, exactly as chive/chive/pipeline/utils.py:experiment_to_messages documents. No context inferred from prose."
+}

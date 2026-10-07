@@ -1,0 +1,84 @@
+{
+  "mpnet_residual_hdbscan": [
+    {
+      "cluster_id": -1,
+      "size": 391,
+      "unchanged_singletons": 5,
+      "residualized_rows": 386
+    },
+    {
+      "cluster_id": 0,
+      "size": 126,
+      "unchanged_singletons": 0,
+      "residualized_rows": 126
+    },
+    {
+      "cluster_id": 1,
+      "size": 43,
+      "unchanged_singletons": 0,
+      "residualized_rows": 43
+    },
+    {
+      "cluster_id": 2,
+      "size": 24,
+      "unchanged_singletons": 0,
+      "residualized_rows": 24
+    },
+    {
+      "cluster_id": 3,
+      "size": 13,
+      "unchanged_singletons": 0,
+      "residualized_rows": 13
+    },
+    {
+      "cluster_id": 4,
+      "size": 10,
+      "unchanged_singletons": 0,
+      "residualized_rows": 10
+    },
+    {
+      "cluster_id": 5,
+      "size": 14,
+      "unchanged_singletons": 0,
+      "residualized_rows": 14
+    },
+    {
+      "cluster_id": 6,
+      "size": 14,
+      "unchanged_singletons": 0,
+      "residualized_rows": 14
+    },
+    {
+      "cluster_id": 7,
+      "size": 79,
+      "unchanged_singletons": 0,
+      "residualized_rows": 79
+    },
+    {
+      "cluster_id": 8,
+      "size": 42,
+      "unchanged_singletons": 0,
+      "residualized_rows": 42
+    },
+    {
+      "cluster_id": 9,
+      "size": 45,
+      "unchanged_singletons": 7,
+      "residualized_rows": 38
+    }
+  ],
+  "e5_residual_hdbscan": [
+    {
+      "cluster_id": 0,
+      "size": 12,
+      "unchanged_singletons": 12,
+      "residualized_rows": 0
+    },
+    {
+      "cluster_id": 1,
+      "size": 789,
+      "unchanged_singletons": 0,
+      "residualized_rows": 789
+    }
+  ]
+}

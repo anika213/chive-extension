@@ -1,0 +1,362 @@
+[
+  {
+    "family": "isotropic_unit_sphere",
+    "replicate": 0,
+    "best_k": 379,
+    "best_cosine_silhouette": 0.03409164398908615,
+    "k50": 0.005086441524326801,
+    "k336": 0.030228354036808014,
+    "seconds": 1.738
+  },
+  {
+    "family": "isotropic_unit_sphere",
+    "replicate": 1,
+    "best_k": 378,
+    "best_cosine_silhouette": 0.03330235183238983,
+    "k50": 0.005009423941373825,
+    "k336": 0.029584737494587898,
+    "seconds": 1.757
+  },
+  {
+    "family": "isotropic_unit_sphere",
+    "replicate": 2,
+    "best_k": 377,
+    "best_cosine_silhouette": 0.033888399600982666,
+    "k50": 0.004439938347786665,
+    "k336": 0.030185425654053688,
+    "seconds": 1.748
+  },
+  {
+    "family": "isotropic_unit_sphere",
+    "replicate": 3,
+    "best_k": 379,
+    "best_cosine_silhouette": 0.03344130143523216,
+    "k50": 0.003947510849684477,
+    "k336": 0.029950488358736038,
+    "seconds": 1.756
+  },
+  {
+    "family": "isotropic_unit_sphere",
+    "replicate": 4,
+    "best_k": 380,
+    "best_cosine_silhouette": 0.03347485885024071,
+    "k50": 0.005082183517515659,
+    "k336": 0.029912013560533524,
+    "seconds": 1.736
+  },
+  {
+    "family": "isotropic_unit_sphere",
+    "replicate": 5,
+    "best_k": 374,
+    "best_cosine_silhouette": 0.03246653079986572,
+    "k50": 0.004797184839844704,
+    "k336": 0.02960575371980667,
+    "seconds": 1.734
+  },
+  {
+    "family": "isotropic_unit_sphere",
+    "replicate": 6,
+    "best_k": 384,
+    "best_cosine_silhouette": 0.033966921269893646,
+    "k50": 0.003710429882630706,
+    "k336": 0.030277499929070473,
+    "seconds": 1.744
+  },
+  {
+    "family": "isotropic_unit_sphere",
+    "replicate": 7,
+    "best_k": 379,
+    "best_cosine_silhouette": 0.0324409045279026,
+    "k50": 0.004131408408284187,
+    "k336": 0.029444938525557518,
+    "seconds": 1.746
+  },
+  {
+    "family": "isotropic_unit_sphere",
+    "replicate": 8,
+    "best_k": 386,
+    "best_cosine_silhouette": 0.033340394496917725,
+    "k50": 0.0045112865045666695,
+    "k336": 0.029302693903446198,
+    "seconds": 1.747
+  },
+  {
+    "family": "isotropic_unit_sphere",
+    "replicate": 9,
+    "best_k": 382,
+    "best_cosine_silhouette": 0.033426158130168915,
+    "k50": 0.003796639386564493,
+    "k336": 0.02966763824224472,
+    "seconds": 1.74
+  },
+  {
+    "family": "isotropic_unit_sphere",
+    "replicate": 10,
+    "best_k": 376,
+    "best_cosine_silhouette": 0.034294161945581436,
+    "k50": 0.004297974519431591,
+    "k336": 0.030573641881346703,
+    "seconds": 1.749
+  },
+  {
+    "family": "isotropic_unit_sphere",
+    "replicate": 11,
+    "best_k": 379,
+    "best_cosine_silhouette": 0.033848341554403305,
+    "k50": 0.0043992833234369755,
+    "k336": 0.02992507815361023,
+    "seconds": 1.75
+  },
+  {
+    "family": "isotropic_unit_sphere",
+    "replicate": 12,
+    "best_k": 379,
+    "best_cosine_silhouette": 0.034208156168460846,
+    "k50": 0.004627833142876625,
+    "k336": 0.03003847971558571,
+    "seconds": 1.745
+  },
+  {
+    "family": "isotropic_unit_sphere",
+    "replicate": 13,
+    "best_k": 380,
+    "best_cosine_silhouette": 0.033955544233322144,
+    "k50": 0.003984337672591209,
+    "k336": 0.030135948210954666,
+    "seconds": 1.751
+  },
+  {
+    "family": "isotropic_unit_sphere",
+    "replicate": 14,
+    "best_k": 377,
+    "best_cosine_silhouette": 0.032671067863702774,
+    "k50": 0.004911642521619797,
+    "k336": 0.02950211614370346,
+    "seconds": 1.746
+  },
+  {
+    "family": "isotropic_unit_sphere",
+    "replicate": 15,
+    "best_k": 379,
+    "best_cosine_silhouette": 0.032762378454208374,
+    "k50": 0.004915294237434864,
+    "k336": 0.029302585870027542,
+    "seconds": 1.744
+  },
+  {
+    "family": "isotropic_unit_sphere",
+    "replicate": 16,
+    "best_k": 382,
+    "best_cosine_silhouette": 0.033491455018520355,
+    "k50": 0.004632193129509687,
+    "k336": 0.030256688594818115,
+    "seconds": 1.74
+  },
+  {
+    "family": "isotropic_unit_sphere",
+    "replicate": 17,
+    "best_k": 378,
+    "best_cosine_silhouette": 0.03298531472682953,
+    "k50": 0.0040437825955450535,
+    "k336": 0.02948647551238537,
+    "seconds": 1.747
+  },
+  {
+    "family": "isotropic_unit_sphere",
+    "replicate": 18,
+    "best_k": 383,
+    "best_cosine_silhouette": 0.033589527010917664,
+    "k50": 0.0036784254480153322,
+    "k336": 0.029658321291208267,
+    "seconds": 1.713
+  },
+  {
+    "family": "isotropic_unit_sphere",
+    "replicate": 19,
+    "best_k": 377,
+    "best_cosine_silhouette": 0.03375420719385147,
+    "k50": 0.004204700235277414,
+    "k336": 0.030352598056197166,
+    "seconds": 1.709
+  },
+  {
+    "family": "column_permutation_renormalized",
+    "replicate": 0,
+    "best_k": 320,
+    "best_cosine_silhouette": 0.025658100843429565,
+    "k50": 0.0014595238026231527,
+    "k336": 0.025427019223570824,
+    "seconds": 1.714
+  },
+  {
+    "family": "column_permutation_renormalized",
+    "replicate": 1,
+    "best_k": 339,
+    "best_cosine_silhouette": 0.026179000735282898,
+    "k50": 0.0020437538623809814,
+    "k336": 0.02612129971385002,
+    "seconds": 1.715
+  },
+  {
+    "family": "column_permutation_renormalized",
+    "replicate": 2,
+    "best_k": 349,
+    "best_cosine_silhouette": 0.02792862430214882,
+    "k50": 0.0022702300921082497,
+    "k336": 0.02729169651865959,
+    "seconds": 1.712
+  },
+  {
+    "family": "column_permutation_renormalized",
+    "replicate": 3,
+    "best_k": 391,
+    "best_cosine_silhouette": 0.027826212346553802,
+    "k50": 0.0021308583673089743,
+    "k336": 0.027663642540574074,
+    "seconds": 1.715
+  },
+  {
+    "family": "column_permutation_renormalized",
+    "replicate": 4,
+    "best_k": 407,
+    "best_cosine_silhouette": 0.026313910260796547,
+    "k50": 0.0030810318421572447,
+    "k336": 0.02523372322320938,
+    "seconds": 1.715
+  },
+  {
+    "family": "column_permutation_renormalized",
+    "replicate": 5,
+    "best_k": 362,
+    "best_cosine_silhouette": 0.026148688048124313,
+    "k50": 0.003006323706358671,
+    "k336": 0.025559941306710243,
+    "seconds": 1.714
+  },
+  {
+    "family": "column_permutation_renormalized",
+    "replicate": 6,
+    "best_k": 380,
+    "best_cosine_silhouette": 0.02744237892329693,
+    "k50": 0.0008285936200991273,
+    "k336": 0.026705991476774216,
+    "seconds": 1.709
+  },
+  {
+    "family": "column_permutation_renormalized",
+    "replicate": 7,
+    "best_k": 369,
+    "best_cosine_silhouette": 0.026269495487213135,
+    "k50": 0.002885723253712058,
+    "k336": 0.02600129507482052,
+    "seconds": 1.716
+  },
+  {
+    "family": "column_permutation_renormalized",
+    "replicate": 8,
+    "best_k": 392,
+    "best_cosine_silhouette": 0.02561568282544613,
+    "k50": 0.003952596336603165,
+    "k336": 0.024099256843328476,
+    "seconds": 1.717
+  },
+  {
+    "family": "column_permutation_renormalized",
+    "replicate": 9,
+    "best_k": 375,
+    "best_cosine_silhouette": 0.025876471772789955,
+    "k50": 0.0027036017272621393,
+    "k336": 0.02535587176680565,
+    "seconds": 1.71
+  },
+  {
+    "family": "column_permutation_renormalized",
+    "replicate": 10,
+    "best_k": 359,
+    "best_cosine_silhouette": 0.025466671213507652,
+    "k50": 0.0013730823993682861,
+    "k336": 0.024577531963586807,
+    "seconds": 1.711
+  },
+  {
+    "family": "column_permutation_renormalized",
+    "replicate": 11,
+    "best_k": 355,
+    "best_cosine_silhouette": 0.02500130981206894,
+    "k50": 0.0030773417092859745,
+    "k336": 0.024216722697019577,
+    "seconds": 1.712
+  },
+  {
+    "family": "column_permutation_renormalized",
+    "replicate": 12,
+    "best_k": 360,
+    "best_cosine_silhouette": 0.027190033346414566,
+    "k50": 0.0023587041068822145,
+    "k336": 0.026634464040398598,
+    "seconds": 1.709
+  },
+  {
+    "family": "column_permutation_renormalized",
+    "replicate": 13,
+    "best_k": 360,
+    "best_cosine_silhouette": 0.02638930454850197,
+    "k50": -0.00046309243771247566,
+    "k336": 0.026217414066195488,
+    "seconds": 1.715
+  },
+  {
+    "family": "column_permutation_renormalized",
+    "replicate": 14,
+    "best_k": 342,
+    "best_cosine_silhouette": 0.024973537772893906,
+    "k50": 0.002080588834360242,
+    "k336": 0.02483268454670906,
+    "seconds": 1.713
+  },
+  {
+    "family": "column_permutation_renormalized",
+    "replicate": 15,
+    "best_k": 382,
+    "best_cosine_silhouette": 0.026816755533218384,
+    "k50": 0.004028320778161287,
+    "k336": 0.026114922016859055,
+    "seconds": 1.716
+  },
+  {
+    "family": "column_permutation_renormalized",
+    "replicate": 16,
+    "best_k": 337,
+    "best_cosine_silhouette": 0.026656413450837135,
+    "k50": 0.0040128701366484165,
+    "k336": 0.026504766196012497,
+    "seconds": 1.712
+  },
+  {
+    "family": "column_permutation_renormalized",
+    "replicate": 17,
+    "best_k": 360,
+    "best_cosine_silhouette": 0.026114165782928467,
+    "k50": 0.0019331778166815639,
+    "k336": 0.025417709723114967,
+    "seconds": 1.739
+  },
+  {
+    "family": "column_permutation_renormalized",
+    "replicate": 18,
+    "best_k": 364,
+    "best_cosine_silhouette": 0.02597660757601261,
+    "k50": 0.0016294572269544005,
+    "k336": 0.025633899495005608,
+    "seconds": 1.886
+  },
+  {
+    "family": "column_permutation_renormalized",
+    "replicate": 19,
+    "best_k": 385,
+    "best_cosine_silhouette": 0.025845550000667572,
+    "k50": 0.002467371290549636,
+    "k336": 0.02454349771142006,
+    "seconds": 1.815
+  }
+]

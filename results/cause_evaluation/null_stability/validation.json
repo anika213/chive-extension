@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "source_hashes_and_801_unique_ids": true,
+  "label_permutations": 200,
+  "full_null_sweeps": 40,
+  "null_curves_and_selection_aware_tail_scores": true,
+  "resample_score_records_checked": 120,
+  "pairwise_ari_records_recomputed": 1140,
+  "fixed_scaled_subsets_identical": true,
+  "minilm_unit_vectors_scores_and_ari": true
+}

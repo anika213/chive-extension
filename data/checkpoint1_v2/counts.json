@@ -1,0 +1,820 @@
+{
+  "petri": {
+    "source": "petri",
+    "size_distributions": {
+      "baseline_context_chars": {
+        "n": 11680,
+        "mean": 7387.231164383562,
+        "min": 215.0,
+        "p25": 3312.0,
+        "p50": 6692.0,
+        "p75": 10931.0,
+        "p90": 14666.0,
+        "p95": 16156.0,
+        "p99": 18385.0,
+        "max": 20488.0
+      },
+      "experiment_context_chars": {
+        "n": 11680,
+        "mean": 5295.095462328767,
+        "min": 54.0,
+        "p25": 1042.75,
+        "p50": 3963.0,
+        "p75": 8495.25,
+        "p90": 12499.2,
+        "p95": 14803.349999999995,
+        "p99": 17286.879999999976,
+        "max": 20572.0
+      },
+      "baseline_context_tokens": {
+        "n": 11680,
+        "mean": 1919.027140410959,
+        "min": 52.0,
+        "p25": 877.0,
+        "p50": 1802.0,
+        "p75": 2859.25,
+        "p90": 3800.0,
+        "p95": 4122.0,
+        "p99": 4570.0,
+        "max": 6040.0
+      },
+      "experiment_context_tokens": {
+        "n": 11680,
+        "mean": 1375.1840753424658,
+        "min": 18.0,
+        "p25": 242.0,
+        "p50": 1039.0,
+        "p75": 2287.0,
+        "p90": 3208.300000000001,
+        "p95": 3790.0,
+        "p99": 4365.419999999998,
+        "max": 6103.0
+      },
+      "chars_deleted": {
+        "n": 11680,
+        "mean": 2175.7643835616436,
+        "min": 0.0,
+        "p25": 27.0,
+        "p50": 190.0,
+        "p75": 2484.5,
+        "p90": 8043.600000000002,
+        "p95": 11679.149999999998,
+        "p99": 16041.149999999987,
+        "max": 20123.0
+      },
+      "chars_added": {
+        "n": 11680,
+        "mean": 83.62868150684932,
+        "min": 0.0,
+        "p25": 2.0,
+        "p50": 33.0,
+        "p75": 106.0,
+        "p90": 213.0,
+        "p95": 312.0499999999993,
+        "p99": 713.2099999999991,
+        "max": 2974.0
+      },
+      "chars_changed": {
+        "n": 11680,
+        "mean": 2259.3930650684933,
+        "min": 0.0,
+        "p25": 104.0,
+        "p50": 304.5,
+        "p75": 2602.25,
+        "p90": 8123.000000000011,
+        "p95": 11719.199999999997,
+        "p99": 16041.939999999988,
+        "max": 20123.0
+      },
+      "tokens_deleted": {
+        "n": 11680,
+        "mean": 573.0198630136987,
+        "min": 0.0,
+        "p25": 8.0,
+        "p50": 52.0,
+        "p75": 682.0,
+        "p90": 2147.300000000001,
+        "p95": 3029.0499999999993,
+        "p99": 4011.0499999999956,
+        "max": 5817.0
+      },
+      "tokens_added": {
+        "n": 11680,
+        "mean": 29.17679794520548,
+        "min": 0.0,
+        "p25": 3.0,
+        "p50": 15.0,
+        "p75": 35.0,
+        "p90": 67.0,
+        "p95": 105.0,
+        "p99": 248.62999999999738,
+        "max": 892.0
+      },
+      "tokens_changed": {
+        "n": 11680,
+        "mean": 602.1966609589041,
+        "min": 0.0,
+        "p25": 27.0,
+        "p50": 85.0,
+        "p75": 723.0,
+        "p90": 2183.2000000000007,
+        "p95": 3056.0999999999985,
+        "p99": 4070.0499999999956,
+        "max": 5841.0
+      }
+    },
+    "row_counts": {
+      "investigations_unfiltered": 868,
+      "investigations_score_ge7": 801,
+      "behaviours_after_count_cleanup_and_dedup": 801,
+      "behaviours_count_prefix_removed_all": 446,
+      "behaviours_count_prefix_removed_score_ge7": 412,
+      "experiments_all": 12605,
+      "size_reference_experiments": 11680,
+      "missing_context_diff_all": 0,
+      "causes_in_parquet": 4429,
+      "causes_context_swap": 502,
+      "causes_measurement_artifact": 25,
+      "causes_both_swap_and_artifact": 4,
+      "causes_missing_context_diff": 0,
+      "causes_after_context_swap_exclusion": 3927,
+      "causes_eligible_for_clustering": 3906
+    },
+    "artifact_term_counts": {
+      "N/A": 11,
+      "as expected": 8,
+      "trivially": 3,
+      "not reach": 2,
+      "not applicable": 1
+    },
+    "edit_type_distributions": {
+      "all_size_reference_experiments": {
+        "modify": 8059,
+        "remove": 2312,
+        "add": 1168,
+        "no_change": 141
+      },
+      "retained_cause_rows": {
+        "modify": 3299,
+        "remove": 599,
+        "add": 531
+      },
+      "eligible_cause_rows": {
+        "modify": 2973,
+        "remove": 402,
+        "add": 531
+      }
+    },
+    "context_formats": {
+      "messages": 12605
+    },
+    "causes_per_investigation_before_new_flags": {
+      "all_verification_qualified_investigations": {
+        "n_investigations": 801,
+        "mean": 5.5293383270911365,
+        "median": 6.0,
+        "max": 18
+      },
+      "investigations_with_at_least_one_cause": {
+        "n_investigations": 690,
+        "mean": 6.418840579710145,
+        "median": 6.0,
+        "max": 18
+      },
+      "zero_cause_investigations": 111
+    },
+    "causes_per_investigation_after_new_flags": {
+      "all_verification_qualified_investigations": {
+        "n_investigations": 801,
+        "mean": 4.876404494382022,
+        "median": 4.0,
+        "max": 17
+      },
+      "investigations_with_at_least_one_cause": {
+        "n_investigations": 667,
+        "mean": 5.856071964017991,
+        "median": 5.0,
+        "max": 17
+      },
+      "zero_cause_investigations": 134
+    },
+    "new_exclusion_reason_counts": {
+      "context_swap": 502,
+      "measurement_artifact": 25
+    }
+  },
+  "wildchat_eval": {
+    "source": "wildchat_eval",
+    "size_distributions": {
+      "baseline_context_chars": {
+        "n": 23577,
+        "mean": 2278.8125715739916,
+        "min": 427.0,
+        "p25": 742.0,
+        "p50": 1854.0,
+        "p75": 3033.0,
+        "p90": 5013.0,
+        "p95": 6188.0,
+        "p99": 7692.0,
+        "max": 8196.0
+      },
+      "experiment_context_chars": {
+        "n": 23577,
+        "mean": 1611.0921660940746,
+        "min": 29.0,
+        "p25": 487.0,
+        "p50": 981.0,
+        "p75": 2451.0,
+        "p90": 3729.0,
+        "p95": 5095.4000000000015,
+        "p99": 7012.400000000016,
+        "max": 8286.0
+      },
+      "baseline_context_tokens": {
+        "n": 23577,
+        "mean": 576.9422318361114,
+        "min": 81.0,
+        "p25": 187.0,
+        "p50": 434.0,
+        "p75": 732.0,
+        "p90": 1331.0,
+        "p95": 1624.0,
+        "p99": 2302.0,
+        "max": 4062.0
+      },
+      "experiment_context_tokens": {
+        "n": 23577,
+        "mean": 405.13097510285445,
+        "min": 10.0,
+        "p25": 117.0,
+        "p50": 246.0,
+        "p75": 527.0,
+        "p90": 989.0,
+        "p95": 1362.0,
+        "p99": 1934.0,
+        "max": 4072.0
+      },
+      "chars_deleted": {
+        "n": 23577,
+        "mean": 719.3358357721509,
+        "min": 0.0,
+        "p25": 7.0,
+        "p50": 43.0,
+        "p75": 669.0,
+        "p90": 2589.0,
+        "p95": 3941.2000000000007,
+        "p99": 6554.240000000002,
+        "max": 8137.0
+      },
+      "chars_added": {
+        "n": 23577,
+        "mean": 51.61543029223396,
+        "min": 0.0,
+        "p25": 4.0,
+        "p50": 19.0,
+        "p75": 62.0,
+        "p90": 133.0,
+        "p95": 193.0,
+        "p99": 409.4800000000032,
+        "max": 3746.0
+      },
+      "chars_changed": {
+        "n": 23577,
+        "mean": 770.9512660643848,
+        "min": 0.0,
+        "p25": 35.0,
+        "p50": 117.0,
+        "p75": 765.0,
+        "p90": 2636.0,
+        "p95": 3960.2000000000007,
+        "p99": 6586.720000000005,
+        "max": 9326.0
+      },
+      "tokens_deleted": {
+        "n": 23577,
+        "mean": 190.5244517962421,
+        "min": 0.0,
+        "p25": 3.0,
+        "p50": 13.0,
+        "p75": 179.0,
+        "p90": 650.0,
+        "p95": 1023.0,
+        "p99": 1766.4800000000032,
+        "max": 4043.0
+      },
+      "tokens_added": {
+        "n": 23577,
+        "mean": 18.71319506298511,
+        "min": 0.0,
+        "p25": 2.0,
+        "p50": 9.0,
+        "p75": 22.0,
+        "p90": 44.0,
+        "p95": 66.0,
+        "p99": 154.2400000000016,
+        "max": 3645.0
+      },
+      "tokens_changed": {
+        "n": 23577,
+        "mean": 209.23764685922723,
+        "min": 0.0,
+        "p25": 10.0,
+        "p50": 33.0,
+        "p75": 208.0,
+        "p90": 682.0,
+        "p95": 1047.2000000000007,
+        "p99": 1797.2400000000016,
+        "max": 5002.0
+      }
+    },
+    "row_counts": {
+      "investigations_unfiltered": 1736,
+      "investigations_score_ge7": 1641,
+      "behaviours_after_count_cleanup_and_dedup": 1641,
+      "behaviours_count_prefix_removed_all": 961,
+      "behaviours_count_prefix_removed_score_ge7": 908,
+      "experiments_all": 24940,
+      "size_reference_experiments": 23577,
+      "missing_context_diff_all": 0,
+      "causes_in_parquet": 7864,
+      "causes_context_swap": 882,
+      "causes_measurement_artifact": 72,
+      "causes_both_swap_and_artifact": 7,
+      "causes_missing_context_diff": 0,
+      "causes_after_context_swap_exclusion": 6982,
+      "causes_eligible_for_clustering": 6917
+    },
+    "artifact_term_counts": {
+      "trivially": 8,
+      "N/A": 12,
+      "not applicable": 11,
+      "as expected": 40,
+      "not reach": 1
+    },
+    "edit_type_distributions": {
+      "all_size_reference_experiments": {
+        "modify": 18054,
+        "add": 2231,
+        "remove": 3048,
+        "no_change": 244
+      },
+      "retained_cause_rows": {
+        "modify": 6186,
+        "add": 937,
+        "remove": 741
+      },
+      "eligible_cause_rows": {
+        "modify": 5414,
+        "add": 932,
+        "remove": 571
+      }
+    },
+    "context_formats": {
+      "messages": 10730,
+      "legacy_prompt_and_system_prompt": 14210
+    },
+    "causes_per_investigation_before_new_flags": {
+      "all_verification_qualified_investigations": {
+        "n_investigations": 1641,
+        "mean": 4.792199878123096,
+        "median": 5.0,
+        "max": 19
+      },
+      "investigations_with_at_least_one_cause": {
+        "n_investigations": 1277,
+        "mean": 6.158183241973375,
+        "median": 6.0,
+        "max": 19
+      },
+      "zero_cause_investigations": 364
+    },
+    "causes_per_investigation_after_new_flags": {
+      "all_verification_qualified_investigations": {
+        "n_investigations": 1641,
+        "mean": 4.215112736136502,
+        "median": 3.0,
+        "max": 19
+      },
+      "investigations_with_at_least_one_cause": {
+        "n_investigations": 1208,
+        "mean": 5.7259933774834435,
+        "median": 5.0,
+        "max": 19
+      },
+      "zero_cause_investigations": 433
+    },
+    "new_exclusion_reason_counts": {
+      "measurement_artifact": 72,
+      "context_swap": 882
+    }
+  },
+  "wildchat_thinking": {
+    "source": "wildchat_thinking",
+    "size_distributions": {
+      "baseline_context_chars": {
+        "n": 16444,
+        "mean": 2283.8443809292144,
+        "min": 427.0,
+        "p25": 779.0,
+        "p50": 1961.0,
+        "p75": 3012.0,
+        "p90": 4835.0,
+        "p95": 6034.0,
+        "p99": 7195.0,
+        "max": 8093.0
+      },
+      "experiment_context_chars": {
+        "n": 16444,
+        "mean": 1728.1048406713694,
+        "min": 27.0,
+        "p25": 531.0,
+        "p50": 1147.5,
+        "p75": 2560.25,
+        "p90": 3875.0,
+        "p95": 5050.799999999988,
+        "p99": 6901.419999999998,
+        "max": 10440.0
+      },
+      "baseline_context_tokens": {
+        "n": 16444,
+        "mean": 565.0053514959864,
+        "min": 81.0,
+        "p25": 194.0,
+        "p50": 451.0,
+        "p75": 730.0,
+        "p90": 1242.0,
+        "p95": 1576.5499999999956,
+        "p99": 2199.389999999992,
+        "max": 3456.0
+      },
+      "experiment_context_tokens": {
+        "n": 16444,
+        "mean": 426.3983215762588,
+        "min": 9.0,
+        "p25": 126.0,
+        "p50": 283.5,
+        "p75": 546.0,
+        "p90": 1011.7000000000007,
+        "p95": 1335.8499999999985,
+        "p99": 1947.989999999998,
+        "max": 3226.0
+      },
+      "chars_deleted": {
+        "n": 16444,
+        "mean": 611.5340549744587,
+        "min": 0.0,
+        "p25": 7.0,
+        "p50": 38.0,
+        "p75": 455.0,
+        "p90": 2347.100000000002,
+        "p95": 3625.0,
+        "p99": 6084.269999999997,
+        "max": 7922.0
+      },
+      "chars_added": {
+        "n": 16444,
+        "mean": 55.79451471661396,
+        "min": 0.0,
+        "p25": 4.0,
+        "p50": 19.0,
+        "p75": 64.0,
+        "p90": 145.0,
+        "p95": 211.0,
+        "p99": 471.5699999999997,
+        "max": 4072.0
+      },
+      "chars_changed": {
+        "n": 16444,
+        "mean": 667.3285696910727,
+        "min": 0.0,
+        "p25": 34.0,
+        "p50": 109.0,
+        "p75": 546.0,
+        "p90": 2382.0,
+        "p95": 3649.649999999987,
+        "p99": 6098.989999999998,
+        "max": 7922.0
+      },
+      "tokens_deleted": {
+        "n": 16444,
+        "mean": 157.93924835806374,
+        "min": 0.0,
+        "p25": 3.0,
+        "p50": 12.0,
+        "p75": 120.0,
+        "p90": 555.7000000000007,
+        "p95": 888.0,
+        "p99": 1567.0,
+        "max": 3071.0
+      },
+      "tokens_added": {
+        "n": 16444,
+        "mean": 19.33221843833617,
+        "min": 0.0,
+        "p25": 2.0,
+        "p50": 8.0,
+        "p75": 22.0,
+        "p90": 45.0,
+        "p95": 70.0,
+        "p99": 179.0,
+        "max": 1060.0
+      },
+      "tokens_changed": {
+        "n": 16444,
+        "mean": 177.2714667963999,
+        "min": 0.0,
+        "p25": 10.0,
+        "p50": 30.0,
+        "p75": 156.0,
+        "p90": 587.0,
+        "p95": 915.5499999999956,
+        "p99": 1589.0,
+        "max": 3071.0
+      }
+    },
+    "row_counts": {
+      "investigations_unfiltered": 1442,
+      "investigations_score_ge7": 1348,
+      "behaviours_after_count_cleanup_and_dedup": 1348,
+      "behaviours_count_prefix_removed_all": 714,
+      "behaviours_count_prefix_removed_score_ge7": 663,
+      "experiments_all": 17534,
+      "size_reference_experiments": 16444,
+      "missing_context_diff_all": 0,
+      "causes_in_parquet": 5478,
+      "causes_context_swap": 700,
+      "causes_measurement_artifact": 41,
+      "causes_both_swap_and_artifact": 8,
+      "causes_missing_context_diff": 0,
+      "causes_after_context_swap_exclusion": 4778,
+      "causes_eligible_for_clustering": 4745
+    },
+    "artifact_term_counts": {
+      "not applicable": 10,
+      "as expected": 21,
+      "trivially": 10
+    },
+    "edit_type_distributions": {
+      "all_size_reference_experiments": {
+        "modify": 12555,
+        "remove": 2222,
+        "add": 1531,
+        "no_change": 136
+      },
+      "retained_cause_rows": {
+        "modify": 4350,
+        "add": 611,
+        "remove": 516,
+        "no_change": 1
+      },
+      "eligible_cause_rows": {
+        "modify": 3778,
+        "add": 606,
+        "remove": 360,
+        "no_change": 1
+      }
+    },
+    "context_formats": {
+      "messages": 17534
+    },
+    "causes_per_investigation_before_new_flags": {
+      "all_verification_qualified_investigations": {
+        "n_investigations": 1348,
+        "mean": 4.063798219584569,
+        "median": 4.0,
+        "max": 14
+      },
+      "investigations_with_at_least_one_cause": {
+        "n_investigations": 1052,
+        "mean": 5.2072243346007605,
+        "median": 5.0,
+        "max": 14
+      },
+      "zero_cause_investigations": 296
+    },
+    "causes_per_investigation_after_new_flags": {
+      "all_verification_qualified_investigations": {
+        "n_investigations": 1348,
+        "mean": 3.5200296735905043,
+        "median": 3.0,
+        "max": 14
+      },
+      "investigations_with_at_least_one_cause": {
+        "n_investigations": 998,
+        "mean": 4.754509018036072,
+        "median": 5.0,
+        "max": 14
+      },
+      "zero_cause_investigations": 350
+    },
+    "new_exclusion_reason_counts": {
+      "context_swap": 700,
+      "measurement_artifact": 41
+    }
+  },
+  "wildchat_train": {
+    "source": "wildchat_train",
+    "size_distributions": {
+      "baseline_context_chars": {
+        "n": 167133,
+        "mean": 2605.722765701567,
+        "min": 527.0,
+        "p25": 1159.0,
+        "p50": 2879.0,
+        "p75": 3863.0,
+        "p90": 3947.0,
+        "p95": 4236.0,
+        "p99": 4883.679999999993,
+        "max": 5252.0
+      },
+      "experiment_context_chars": {
+        "n": 167133,
+        "mean": 2127.409051473976,
+        "min": 27.0,
+        "p25": 763.0,
+        "p50": 1883.0,
+        "p75": 3777.0,
+        "p90": 3882.0,
+        "p95": 3989.0,
+        "p99": 4660.0,
+        "max": 9029.0
+      },
+      "baseline_context_tokens": {
+        "n": 167133,
+        "mean": 565.9465994148372,
+        "min": 87.0,
+        "p25": 280.0,
+        "p50": 699.0,
+        "p75": 736.0,
+        "p90": 847.0,
+        "p95": 1017.0,
+        "p99": 1357.0,
+        "max": 3431.0
+      },
+      "experiment_context_tokens": {
+        "n": 167133,
+        "mean": 464.70001735145064,
+        "min": 9.0,
+        "p25": 186.0,
+        "p50": 438.0,
+        "p75": 726.0,
+        "p90": 771.0,
+        "p95": 876.0,
+        "p99": 1217.0,
+        "max": 2904.0
+      },
+      "chars_deleted": {
+        "n": 167133,
+        "mean": 536.2402218592379,
+        "min": 0.0,
+        "p25": 12.0,
+        "p50": 88.0,
+        "p75": 644.0,
+        "p90": 1745.0,
+        "p95": 2947.399999999994,
+        "p99": 4051.0,
+        "max": 5143.0
+      },
+      "chars_added": {
+        "n": 167133,
+        "mean": 57.92650763164665,
+        "min": 0.0,
+        "p25": 4.0,
+        "p50": 24.0,
+        "p75": 76.0,
+        "p90": 155.0,
+        "p95": 219.39999999999418,
+        "p99": 403.0,
+        "max": 6859.0
+      },
+      "chars_changed": {
+        "n": 167133,
+        "mean": 594.1667294908844,
+        "min": 0.0,
+        "p25": 55.0,
+        "p50": 137.0,
+        "p75": 749.0,
+        "p90": 1815.0,
+        "p95": 3011.0,
+        "p99": 4088.679999999993,
+        "max": 7028.0
+      },
+      "tokens_deleted": {
+        "n": 167133,
+        "mean": 123.5291115458946,
+        "min": 0.0,
+        "p25": 2.0,
+        "p50": 12.0,
+        "p75": 130.0,
+        "p90": 408.0,
+        "p95": 692.0,
+        "p99": 1021.0,
+        "max": 3165.0
+      },
+      "tokens_added": {
+        "n": 167133,
+        "mean": 22.282529482507943,
+        "min": 0.0,
+        "p25": 2.0,
+        "p50": 10.0,
+        "p75": 27.0,
+        "p90": 58.0,
+        "p95": 89.0,
+        "p99": 163.0,
+        "max": 2115.0
+      },
+      "tokens_changed": {
+        "n": 167133,
+        "mean": 145.81164102840253,
+        "min": 0.0,
+        "p25": 10.0,
+        "p50": 32.0,
+        "p75": 184.0,
+        "p90": 447.0,
+        "p95": 714.0,
+        "p99": 1059.0,
+        "max": 3248.0
+      }
+    },
+    "row_counts": {
+      "investigations_unfiltered": 21780,
+      "investigations_score_ge7": 21780,
+      "behaviours_after_count_cleanup_and_dedup": 21780,
+      "behaviours_count_prefix_removed_all": 13588,
+      "behaviours_count_prefix_removed_score_ge7": 13588,
+      "experiments_all": 167133,
+      "size_reference_experiments": 167133,
+      "missing_context_diff_all": 0,
+      "causes_in_parquet": 61543,
+      "causes_context_swap": 7861,
+      "causes_measurement_artifact": 31,
+      "causes_both_swap_and_artifact": 9,
+      "causes_missing_context_diff": 0,
+      "causes_after_context_swap_exclusion": 53682,
+      "causes_eligible_for_clustering": 53660
+    },
+    "artifact_term_counts": {
+      "trivially": 26,
+      "as expected": 2,
+      "N/A": 2,
+      "not reach": 1
+    },
+    "edit_type_distributions": {
+      "all_size_reference_experiments": {
+        "remove": 21141,
+        "modify": 135891,
+        "add": 6764,
+        "no_change": 3337
+      },
+      "retained_cause_rows": {
+        "modify": 52294,
+        "remove": 6756,
+        "add": 2480,
+        "no_change": 13
+      },
+      "eligible_cause_rows": {
+        "modify": 45538,
+        "remove": 5630,
+        "add": 2479,
+        "no_change": 13
+      }
+    },
+    "context_formats": {
+      "messages": 167133
+    },
+    "causes_per_investigation_before_new_flags": {
+      "all_verification_qualified_investigations": {
+        "n_investigations": 21780,
+        "mean": 2.825665748393021,
+        "median": 3.0,
+        "max": 14
+      },
+      "investigations_with_at_least_one_cause": {
+        "n_investigations": 15874,
+        "mean": 3.8769686279450672,
+        "median": 4.0,
+        "max": 14
+      },
+      "zero_cause_investigations": 5906
+    },
+    "causes_per_investigation_after_new_flags": {
+      "all_verification_qualified_investigations": {
+        "n_investigations": 21780,
+        "mean": 2.4637281910009183,
+        "median": 2.0,
+        "max": 13
+      },
+      "investigations_with_at_least_one_cause": {
+        "n_investigations": 15073,
+        "mean": 3.5600079612552245,
+        "median": 3.0,
+        "max": 13
+      },
+      "zero_cause_investigations": 6707
+    },
+    "new_exclusion_reason_counts": {
+      "context_swap": 7861,
+      "measurement_artifact": 31
+    }
+  }
+}

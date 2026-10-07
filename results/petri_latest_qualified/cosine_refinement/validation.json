@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "html_pages_checked": 51,
+  "input_hashes": {
+    "/Users/sharm51155/Desktop/chive/clustering/results/petri_latest_qualified/petri/behaviours/records.json": "a3c6c40ecfd4c3200c64664b23aa440e9d241e52fc634994de1d19ce461b7ff1",
+    "/Users/sharm51155/Desktop/chive/clustering/results/petri_latest_qualified/petri/behaviours/embeddings.npy": "caebbb8707caaf30dd27efe508dbe4e5b0d101bbe2b383d6d418e5f30908227e",
+    "/Users/sharm51155/Desktop/chive/clustering/results/petri_latest_qualified/petri/behaviours/assignments.parquet": "b05c7205563281d52699b02f6ca570a5be8e3614313d4507e3d46bdbb3630042"
+  },
+  "inputs_unchanged": true,
+  "silhouettes_match_sklearn": true,
+  "all_group_means_strictly_above_04": true,
+  "all_global_group_sizes_at_least_10": true,
+  "subgroups_disjoint_and_within_original_parent": true
+}

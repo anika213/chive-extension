@@ -1,0 +1,4 @@
+*.npy binary
+*.parquet binary
+*.png binary
+*.pdf binary

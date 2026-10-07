@@ -1,0 +1,43 @@
+{
+  "preprocessing_version": "1.0",
+  "source": "petri",
+  "run": "qwen3_8b_petri_eval",
+  "minimum_verification_score": 7,
+  "counts": {
+    "investigations_total": 868,
+    "excluded_investigations": 67,
+    "retained_investigations": 801,
+    "report_claims": 3415,
+    "experiments_total": 11680,
+    "claim_bank_count_mismatches": 0,
+    "embedding_inputs": 2125
+  },
+  "investigations_with_embedding_inputs": 617,
+  "review_reasons": {
+    "missing_published_intervention_description": 9555
+  },
+  "reported_claim_status_counts": {
+    "supported": 1790,
+    "refuted": 1429,
+    "partially supported": 195,
+    "uncertain": 1
+  },
+  "input_sha256": {
+    "verification.jsonl": "569d33f5872472b37c3e30e1d3f60f4ef226e9dc082cb4a0146fa7bb62732540",
+    "binary_counterfactual_questions.jsonl": "6239124493d854496ec50f5d00c1b91b1a69a1b8725767210f45404106b2879e",
+    "investigations.jsonl": "15b304a1545f53312ab9cc44356d0f6d3616ed86b769312b9a65d1f8de2f545b"
+  },
+  "replacement_map": {},
+  "entity_normalization": "Explicit reviewed aliases only; default keeps all names, filenames, dates and exact quoted cues.",
+  "embedding_text_field": "embedding_text",
+  "embeddings_computed": false,
+  "prose_is_not_ground_truth": true,
+  "measured_rate_source": "investigations.jsonl baseline_grader_verdicts / experiment_log.grader_verdicts, checked against grader_yes",
+  "files": [
+    "claims.jsonl",
+    "experiments.jsonl",
+    "embedding_inputs.jsonl",
+    "review_required.jsonl",
+    "excluded_investigations.jsonl"
+  ]
+}

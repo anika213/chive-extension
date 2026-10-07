@@ -1,0 +1,21 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "text_sha256": "097c32f6ce1a752ebfafa309f8d77383e484572857b2fcc517064812320703a4",
+  "normalized": true,
+  "chunking": false,
+  "truncation": false,
+  "min_tokens": 18,
+  "max_tokens": 131,
+  "same_ids": true,
+  "comparison": {
+    "k50": {
+      "ari_vs_mpnet": 0.2197843580308803,
+      "minilm_cosine_silhouette": 0.04075613617897034
+    },
+    "k336": {
+      "ari_vs_mpnet": 0.3175367309483029,
+      "minilm_cosine_silhouette": 0.12201135605573654
+    }
+  }
+}

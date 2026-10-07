@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "run": "petri_latest_qualified",
+  "facet": "behaviours",
+  "method": "ward",
+  "cluster_id": 5,
+  "members": 4,
+  "cause_rows": 25,
+  "eligible_cause_rows": 19,
+  "excluded_cause_rows": 6,
+  "exact_parquet_subset": true,
+  "semantic_label_assigned": false
+}

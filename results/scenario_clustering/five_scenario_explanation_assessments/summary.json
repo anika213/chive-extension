@@ -1,0 +1,398 @@
+{
+  "input_rows": 34,
+  "source": "petri",
+  "scenarios": {
+    "medical_authority_sycophancy": 8,
+    "sycophancy_false_endorsement": 6,
+    "doctor_poisoning_paranoia": 5,
+    "gangstalking_paranoia_sycophancy": 8,
+    "manic_episode_sycophancy": 7
+  },
+  "verification_min": 7,
+  "facet": "verifier explanation_assessment prose (interpretation, not measured cause)",
+  "input_field": "verification.jsonl → explanation_assessment",
+  "candidate_partitions": 230,
+  "minimum_group_size": 2,
+  "minimum_mean_cosine": 0.4,
+  "presets": {
+    "fullest_coverage": {
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          11,
+          13,
+          16,
+          17,
+          20,
+          21,
+          22,
+          23,
+          25,
+          27,
+          33
+        ],
+        [
+          5,
+          8,
+          9,
+          10,
+          12,
+          14,
+          15,
+          18,
+          19,
+          24,
+          26,
+          28,
+          29,
+          30,
+          31,
+          32
+        ]
+      ],
+      "method": "ward",
+      "original_cut_k": 2,
+      "clusters": 2,
+      "assigned": 34,
+      "unassigned": 0,
+      "coverage": 1.0,
+      "min_cluster_size": 16,
+      "min_cluster_mean_cosine": 0.4947126553156908,
+      "mean_cluster_cosine": 0.5519055776066446,
+      "min_cluster_mean_silhouette": -0.013817581514584246,
+      "mean_silhouette": 0.10883011260563426,
+      "cluster_mean_cosines": [
+        0.6090984998975985,
+        0.4947126553156908
+      ],
+      "cluster_mean_silhouettes": [
+        0.2178502851569396,
+        -0.013817581514584246
+      ],
+      "cluster_sizes": [
+        18,
+        16
+      ],
+      "scenario_composition": [
+        {
+          "medical_authority_sycophancy": 7,
+          "sycophancy_false_endorsement": 2,
+          "doctor_poisoning_paranoia": 2,
+          "gangstalking_paranoia_sycophancy": 5,
+          "manic_episode_sycophancy": 2
+        },
+        {
+          "medical_authority_sycophancy": 1,
+          "sycophancy_false_endorsement": 4,
+          "doctor_poisoning_paranoia": 3,
+          "gangstalking_paranoia_sycophancy": 3,
+          "manic_episode_sycophancy": 5
+        }
+      ],
+      "mixed_scenario_clusters": 2
+    },
+    "cosine_first": {
+      "groups": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          28,
+          31
+        ]
+      ],
+      "method": "ward",
+      "original_cut_k": 28,
+      "clusters": 4,
+      "assigned": 8,
+      "unassigned": 26,
+      "coverage": 0.23529411764705882,
+      "min_cluster_size": 2,
+      "min_cluster_mean_cosine": 0.789091552772041,
+      "mean_cluster_cosine": 0.8085470620464014,
+      "min_cluster_mean_silhouette": 0.15705857506272491,
+      "mean_silhouette": 0.3621312633046282,
+      "cluster_mean_cosines": [
+        0.8519193864943762,
+        0.8025466163224484,
+        0.7906306925967401,
+        0.789091552772041
+      ],
+      "cluster_mean_silhouettes": [
+        0.4473874711504275,
+        0.22629820907620862,
+        0.15705857506272491,
+        0.6177807979291516
+      ],
+      "cluster_sizes": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "scenario_composition": [
+        {
+          "medical_authority_sycophancy": 2
+        },
+        {
+          "medical_authority_sycophancy": 2
+        },
+        {
+          "medical_authority_sycophancy": 2
+        },
+        {
+          "manic_episode_sycophancy": 2
+        }
+      ],
+      "mixed_scenario_clusters": 0
+    },
+    "cosine_above_60": {
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          9,
+          10,
+          11,
+          13,
+          19,
+          21,
+          23,
+          25,
+          27
+        ],
+        [
+          12,
+          29
+        ],
+        [
+          14,
+          15,
+          24,
+          26,
+          30,
+          32
+        ],
+        [
+          16,
+          17,
+          20,
+          22,
+          33
+        ],
+        [
+          28,
+          31
+        ]
+      ],
+      "method": "complete",
+      "original_cut_k": 7,
+      "clusters": 5,
+      "assigned": 31,
+      "unassigned": 3,
+      "coverage": 0.9117647058823529,
+      "min_cluster_size": 2,
+      "min_cluster_mean_cosine": 0.6205469452341854,
+      "mean_cluster_cosine": 0.678401312131965,
+      "min_cluster_mean_silhouette": 0.0727195166024863,
+      "mean_silhouette": 0.16063577021645745,
+      "cluster_mean_cosines": [
+        0.627397496618767,
+        0.7036479961712738,
+        0.6205469452341854,
+        0.6513225698635573,
+        0.789091552772041
+      ],
+      "cluster_mean_silhouettes": [
+        0.12015023727416857,
+        0.2776595564990686,
+        0.0727195166024863,
+        0.2007421514427148,
+        0.5309790552484277
+      ],
+      "cluster_sizes": [
+        16,
+        2,
+        6,
+        5,
+        2
+      ],
+      "scenario_composition": [
+        {
+          "medical_authority_sycophancy": 7,
+          "sycophancy_false_endorsement": 4,
+          "gangstalking_paranoia_sycophancy": 4,
+          "manic_episode_sycophancy": 1
+        },
+        {
+          "sycophancy_false_endorsement": 1,
+          "manic_episode_sycophancy": 1
+        },
+        {
+          "doctor_poisoning_paranoia": 2,
+          "gangstalking_paranoia_sycophancy": 2,
+          "manic_episode_sycophancy": 2
+        },
+        {
+          "doctor_poisoning_paranoia": 2,
+          "gangstalking_paranoia_sycophancy": 2,
+          "manic_episode_sycophancy": 1
+        },
+        {
+          "manic_episode_sycophancy": 2
+        }
+      ],
+      "mixed_scenario_clusters": 4
+    },
+    "cosine_above_70": {
+      "groups": [
+        [
+          0,
+          1,
+          11
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          6,
+          7,
+          13
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          12,
+          29
+        ],
+        [
+          14,
+          15,
+          32
+        ],
+        [
+          17,
+          22
+        ],
+        [
+          21,
+          25,
+          27
+        ],
+        [
+          28,
+          31
+        ]
+      ],
+      "method": "complete",
+      "original_cut_k": 19,
+      "clusters": 9,
+      "assigned": 23,
+      "unassigned": 11,
+      "coverage": 0.6764705882352942,
+      "min_cluster_size": 2,
+      "min_cluster_mean_cosine": 0.7036479961712738,
+      "mean_cluster_cosine": 0.7441111313403665,
+      "min_cluster_mean_silhouette": 0.09620078508520363,
+      "mean_silhouette": 0.21995927063659754,
+      "cluster_mean_cosines": [
+        0.7611302901540484,
+        0.8025466163224484,
+        0.7347781546036813,
+        0.7393572753384647,
+        0.7036479961712738,
+        0.7315307637922496,
+        0.7311044712498831,
+        0.7038130616592082,
+        0.789091552772041
+      ],
+      "cluster_mean_silhouettes": [
+        0.14791704433219988,
+        0.29481036674424554,
+        0.09620078508520363,
+        0.27403345274323004,
+        0.21853933415575771,
+        0.25002319632688474,
+        0.33422189021257165,
+        0.11000285267700445,
+        0.45361035829052604
+      ],
+      "cluster_sizes": [
+        3,
+        2,
+        4,
+        2,
+        2,
+        3,
+        2,
+        3,
+        2
+      ],
+      "scenario_composition": [
+        {
+          "medical_authority_sycophancy": 2,
+          "sycophancy_false_endorsement": 1
+        },
+        {
+          "medical_authority_sycophancy": 2
+        },
+        {
+          "medical_authority_sycophancy": 3,
+          "sycophancy_false_endorsement": 1
+        },
+        {
+          "sycophancy_false_endorsement": 2
+        },
+        {
+          "sycophancy_false_endorsement": 1,
+          "manic_episode_sycophancy": 1
+        },
+        {
+          "doctor_poisoning_paranoia": 2,
+          "manic_episode_sycophancy": 1
+        },
+        {
+          "doctor_poisoning_paranoia": 1,
+          "gangstalking_paranoia_sycophancy": 1
+        },
+        {
+          "gangstalking_paranoia_sycophancy": 2,
+          "manic_episode_sycophancy": 1
+        },
+        {
+          "manic_episode_sycophancy": 2
+        }
+      ],
+      "mixed_scenario_clusters": 6
+    }
+  },
+  "selection": "Same related-scenario tree-cut search. Fullest coverage maximizes assigned count, then minimum cluster mean cosine. Cosine-first maximizes minimum cluster mean cosine, then coverage within 0.02 of that best. Silhouette diagnostic only.",
+  "whole_set_mean_cosine": 0.5284076368378804,
+  "generative_llm_calls": 0,
+  "embedding_calls": 1,
+  "semantic_labels_assigned": false
+}

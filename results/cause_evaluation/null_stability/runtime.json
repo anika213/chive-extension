@@ -1,0 +1,8 @@
+{
+  "python": "3.13.3",
+  "numpy": "2.5.3",
+  "sklearn": "1.9.1",
+  "torch": "2.14.1",
+  "sentence_transformers": "6.1.0",
+  "script_sha256": "993cfd4e5c030222f160d4db2a4fe662ea48e7bd6cc5354787b98a1bee70d278"
+}

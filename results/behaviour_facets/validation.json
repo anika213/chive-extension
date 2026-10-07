@@ -1,0 +1,12 @@
+[
+  {
+    "run": "qwen3_8b_petri_eval",
+    "retained": 801,
+    "checks": "passed: IDs, scores, vectors, every hierarchy cut, selected memberships, examples, token limit"
+  },
+  {
+    "run": "qwen3_8b_wildchat_eval",
+    "retained": 1641,
+    "checks": "passed: IDs, scores, vectors, every hierarchy cut, selected memberships, examples, token limit"
+  }
+]

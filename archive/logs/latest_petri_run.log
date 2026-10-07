@@ -1,0 +1,78 @@
+{
+  "source": "petri",
+  "selection": "Apply existing verification >=7 and preprocessing first; choose largest t per (scenario,e). No fallback to earlier checkpoints based on cause availability.",
+  "before_behaviours": 801,
+  "selected_investigations": 269,
+  "scenario_families": 147,
+  "discarded_earlier_checkpoints": 532,
+  "before_eligible_causes": 3030,
+  "retained_cause_rows_including_flagged": 1494,
+  "eligible_causes": 1052,
+  "positive_cause_investigations": 213,
+  "zero_eligible_cause_investigations": 56,
+  "mean_causes_positive_only": 4.938967136150235,
+  "median_causes_positive_only": 4.0,
+  "max_causes": 14,
+  "selected_turn_distribution": {
+    "1": 22,
+    "2": 20,
+    "3": 23,
+    "4": 44,
+    "5": 36,
+    "6": 28,
+    "7": 39,
+    "8": 34,
+    "9": 22,
+    "10": 1
+  },
+  "wildchat": "unchanged; not reclustered",
+  "embedding_text": "unchanged; location and seed metadata excluded",
+  "semantic_labels_assigned": false
+}
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 11085.58it/s]
+EMBED petri/behaviours: 269 rows
+NULL petri/behaviours 1/10: Ward max 0.0269; HDBSCAN 5 clusters, 56.1% noise; 0.3s
+NULL petri/behaviours 2/10: Ward max 0.0255; HDBSCAN 5 clusters, 55.0% noise; 0.3s
+NULL petri/behaviours 3/10: Ward max 0.0251; HDBSCAN 7 clusters, 52.8% noise; 0.3s
+NULL petri/behaviours 4/10: Ward max 0.0248; HDBSCAN 2 clusters, 40.5% noise; 0.3s
+NULL petri/behaviours 5/10: Ward max 0.0280; HDBSCAN 5 clusters, 46.1% noise; 0.3s
+NULL petri/behaviours 6/10: Ward max 0.0248; HDBSCAN 5 clusters, 59.5% noise; 0.3s
+NULL petri/behaviours 7/10: Ward max 0.0259; HDBSCAN 6 clusters, 57.2% noise; 0.3s
+NULL petri/behaviours 8/10: Ward max 0.0259; HDBSCAN 3 clusters, 65.8% noise; 0.3s
+NULL petri/behaviours 9/10: Ward max 0.0224; HDBSCAN 5 clusters, 55.4% noise; 0.3s
+NULL petri/behaviours 10/10: Ward max 0.0256; HDBSCAN 2 clusters, 28.3% noise; 0.3s
+DONE petri behaviours Ward 107 0.146 HDBSCAN {'n_clusters': 6, 'assigned_rows': 172, 'noise_rows': 97, 'noise_fraction': 0.36059479553903345, 'original_cosine_silhouette_assigned_only': 0.09882691502571106, 'umap_euclidean_silhouette_assigned_only': 0.3578958809375763} ARI 0.08609698685251943
+EMBED petri/causes: 1,052 rows
+NULL petri/causes 1/10: Ward max 0.0126; HDBSCAN 15 clusters, 52.8% noise; 1.6s
+NULL petri/causes 2/10: Ward max 0.0129; HDBSCAN 22 clusters, 59.3% noise; 1.6s
+NULL petri/causes 3/10: Ward max 0.0118; HDBSCAN 25 clusters, 58.7% noise; 1.7s
+NULL petri/causes 4/10: Ward max 0.0138; HDBSCAN 2 clusters, 29.9% noise; 1.6s
+NULL petri/causes 5/10: Ward max 0.0115; HDBSCAN 23 clusters, 58.0% noise; 1.6s
+NULL petri/causes 6/10: Ward max 0.0133; HDBSCAN 25 clusters, 47.5% noise; 1.6s
+NULL petri/causes 7/10: Ward max 0.0122; HDBSCAN 22 clusters, 57.1% noise; 1.7s
+NULL petri/causes 8/10: Ward max 0.0132; HDBSCAN 23 clusters, 59.6% noise; 1.8s
+NULL petri/causes 9/10: Ward max 0.0135; HDBSCAN 2 clusters, 8.9% noise; 1.7s
+NULL petri/causes 10/10: Ward max 0.0130; HDBSCAN 23 clusters, 54.6% noise; 1.9s
+DONE petri causes Ward 200 0.2093 HDBSCAN {'n_clusters': 28, 'assigned_rows': 643, 'noise_rows': 409, 'noise_fraction': 0.3887832699619772, 'original_cosine_silhouette_assigned_only': 0.13559703528881073, 'umap_euclidean_silhouette_assigned_only': 0.501899242401123} ARI 0.22956764722307196
+{
+  "status": "passed",
+  "latest_checkpoint_selection": true,
+  "facets": {
+    "behaviours": {
+      "rows": 269,
+      "ward_cuts": 191,
+      "null_replicates": 10,
+      "reused_vectors_verified": true,
+      "samples_verified": true
+    },
+    "causes": {
+      "rows": 1052,
+      "ward_cuts": 191,
+      "null_replicates": 10,
+      "reused_vectors_verified": true,
+      "samples_verified": true
+    }
+  },
+  "semantic_labels_assigned": false
+}
+COMPLETE — stopped before labelling: /Users/sharm51155/Desktop/chive/clustering/results/petri_latest_qualified/review.html

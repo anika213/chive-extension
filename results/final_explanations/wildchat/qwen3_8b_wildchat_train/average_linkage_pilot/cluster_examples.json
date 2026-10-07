@@ -1,0 +1,167 @@
+[
+  {
+    "cluster_id": 0,
+    "size": 21718,
+    "examples_nearest_centroid": [
+      {
+        "prompt_id": "prompt_13580",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 1361,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I generate all four prompts in realistic photography style primarily because [1] contains \"照片\" (photo), which I treat as a binding constraint on the style of all four prompts rather than just a subject description. When \"照片\" is removed from [1], I correctly vary styles about 100% of the time — even with the original photographic examples still present. The effect is language-independent: English \"photo, girl\" produces the same about 20% variation rate as Chinese \"照片，女孩.\" The photographic example prompts play a secondary role: swapping them for non-photographic examples raises variation from about 20% to about 50%, but \"照片\" in [1] still suppresses full style diversity in half of completions. The word \"photo\" in the concept slot is the dominant factor driving the behavior.",
+        "verification_score": 9
+      },
+      {
+        "prompt_id": "prompt_17124",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 10948,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I use photography styles and camera/lens specifications in all four prompts because the [1] concept field contains \"真实摄影\" (real photography), and I treat this as a binding stylistic constraint on the entire concept rather than just a label. When \"真实摄影\" is removed from [1], I generate diverse styles (watercolor, illustration, 3D, etc.) about 75% of the time, correctly following the instruction to include only one photographic prompt. When \"真实摄影\" is replaced with \"艺术创作\" (art creation), I similarly produce diverse styles about 63% of the time, even with photography-heavy examples still present. The example prompts have no measurable independent effect: removing them or replacing them with diverse-style examples does not change the rate when \"真实摄影\" is present. The phrase \"真实摄影\" in [1] is the sole driver, overriding both the explicit instruction to vary styles and the style options listed for [6].",
+        "verification_score": 9
+      },
+      {
+        "prompt_id": "prompt_48977",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 21259,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I generate multiple photographic prompts with camera and lens details because the Chinese-language concept describing a young female beauty model (美女模特) creates a strong bias toward photographic outputs, and the instruction \"Include one realistic photographic style prompt\" is ambiguous enough to allow that bias to dominate. Translating the same concept to English drops the rate of over-generating camera/lens prompts from about 60% to about 20%, and switching to a completely different subject like a dragon drops it to about 0%. The Chinese language alone is not the cause — a Chinese farmhouse concept produces only about 10% over-generation. When the instruction is made explicit (\"EXACTLY one... Do NOT include camera or lens details in non-photographic prompts\"), the over-generation drops to about 0% even with the original Chinese beauty model concept, confirming that the original instruction's ambiguity is what allows the concept's photographic associations to override the constraint.",
+        "verification_score": 7
+      }
+    ]
+  },
+  {
+    "cluster_id": 1,
+    "size": 5,
+    "examples_nearest_centroid": [
+      {
+        "prompt_id": "prompt_43325",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 19401,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I recommend a chat application and an FTP server/client when I refuse the botnet request because those are my default project suggestions for anyone wanting to learn Go, C++, and networking — not because the user mentioned them in a threat. When asked for Go/C++/networking project ideas with no botnet context at all, I suggest chat applications about 100% of the time and file transfer systems about 45% of the time. What I suggest as an alternative depends on the framing: when the context is \"help me learn through a project,\" I fall back on chat and file transfer; when the context is purely about cybersecurity (with no project-learning framing), I suggest pentesting, CTF competitions, and ethical hacking instead. The user's preemptive threat about those specific alternatives did not cause me to recommend them — they are simply what I always recommend as networking learning projects.",
+        "verification_score": 7
+      },
+      {
+        "prompt_id": "prompt_07841",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 7762,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I choose language over science because I apply a prerequisite reasoning framework: whichever concept is logically prior to or enables the other is judged more foundational. Language wins over science because science depends on language for expression, recording, and transmission. This is not a bias toward language as a concept — when agriculture or cooperation is offered as an alternative, I pick those over language about 90–100% of the time, applying the same prerequisite logic. The choice is also not driven by the \"AI language model\" label in the conversation (removing it has no effect) or by conversational anchoring (even when the prior assistant turn argues explicitly for science, I still choose language about 100% of the time).",
+        "verification_score": 9
+      },
+      {
+        "prompt_id": "prompt_00886",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 5555,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I suggest an Arabic language learning platform for an Egyptian entrepreneur not because of any special association between Egypt and Arabic language teaching, but because I have a generic tendency to include \"[local language] learning platform\" as a business idea for most non-English-speaking countries. When the country is changed to France, I suggest French language learning at about 80% — the same rate as Arabic for Egypt. When changed to Japan, I suggest Japanese language learning about 70% of the time. The rate drops to about 10% when the country is the United States, showing the template is applied selectively to non-English-speaking countries. The prior conversation history also plays a role: removing it drops Egypt's rate from about 80% to about 35%. In all cases, these language learning suggestions are framed as export-oriented products (teaching the local language to foreigners), which makes them a poor match for an entrepreneur who is likely a native speaker of the language in question.",
+        "verification_score": 7
+      }
+    ]
+  },
+  {
+    "cluster_id": 2,
+    "size": 38,
+    "examples_nearest_centroid": [
+      {
+        "prompt_id": "prompt_29629",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 21720,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I single out the optical drive/firmware recommendation because three features of the assessment combine to make it the default \"dislike\" candidate. First, the firmware and technical compatibility language (\"updating the firmware,\" \"media compatibility,\" \"incompatible media\") is noticeably more specialized than the straightforward cleaning and file-management advice in the other sections — when that language is moved to the storage section, about 50% of my completions target storage instead, and about 0% target optical drives. Second, I treat optical drives as outdated technology: even with the firmware language removed, I still flag optical drives as \"tedious\" or \"outdated\" about 30% of the time, compared to about 10% when a modern network adapter replaces them. Third, the optical drive section's last-place position amplifies the effect: moving it to first position with the same firmware language drops the targeting rate from about 80% to about 40%. All three factors — firmware language, outdated-technology perception, and last position — stack to produce the about 80% convergence on the optical drive section.",
+        "verification_score": 8
+      },
+      {
+        "prompt_id": "prompt_11867",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 1204,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I add hardware-specific columns like Display Type, Screen Size, and Battery Life because the product names — Air, Mini, Ultra, Max, Pixel, Zen, Nova, Fusion — strongly evoke consumer electronics hardware (similar to MacBook Air, Mac Mini, etc.), and the neutral \"Product\" column header does nothing to counteract that interpretation. Renaming the products to software-sounding names like \"Editor Pro\" and \"Render Suite\" drops hardware-column inclusion from about 100% to about 10%. Independently, changing just the column header from \"Product\" to \"Software Product\" drops it to about 20%. Even with completely generic product names like \"Product A,\" I still default to hardware columns about 100% of the time, showing that a table with RAM and GPU data is interpreted as hardware by default when no software signal is present. The specific GPU model names (RTX 2060, GTX 1080 Ti) are not what drives this — removing them entirely has no effect.",
+        "verification_score": 7
+      },
+      {
+        "prompt_id": "prompt_10734",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 8799,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I label the 243V7QDSB/00 as \"LG\" because the immediately preceding conversation turn discussed an LG monitor, and I anchor to that brand when I cannot independently identify a model number. When the prior turn discusses Samsung instead, I attribute the monitor to Samsung about 100% of the time; when only AOC and ViewSonic are discussed, I never say LG. I have no knowledge that this is a Philips product — without conversation context, I don't even recognize the string as a monitor, and when forced to guess the brand, I split between LG and Samsung but never say Philips. The \"/00\" suffix, which is actually a Philips naming convention, provides no signal — I attribute it to Samsung about 100% of the time. When the user explicitly provides \"Philips\" in the model reference, I follow correctly about 100% of the time, confirming I have no competing belief about the brand. Once I commit to whichever brand I've anchored to, I fabricate plausible-sounding specifications that vary across responses, generating them from general monitor knowledge rather than actual product data.",
+        "verification_score": 9
+      }
+    ]
+  },
+  {
+    "cluster_id": 3,
+    "size": 6,
+    "examples_nearest_centroid": [
+      {
+        "prompt_id": "prompt_17669",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 11093,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I suggest changing the connection string database name because I pattern-match on the string `phoneNumbers` wherever it appears in the code and suggest modifications to each instance, without properly distinguishing between the database name and the collection name. When the database name is changed to something unrelated like `myAppDB`, I stop suggesting connection string changes entirely — the rate drops from about 30% to about 0%. Compounding this, I have poor knowledge of Mongoose's actual collection naming convention: when asked directly what collection `mongoose.model('PhoneNumber', schema)` creates, I give the correct answer (`phonenumbers`) about 0% of the time. Instead of knowing the convention, I rely on contextual cues — when the database name happens to be `phonenumbers`, I correctly identify the collection name about 70% of the time, but when the database name is `phoneNumbers`, I get it right only about 20% of the time. These two factors together — greedy pattern-matching on the flagged string and unreliable knowledge of the naming convention — cause me to incorrectly suggest changing the database name as a fix for a collection naming issue.",
+        "verification_score": 7
+      },
+      {
+        "prompt_id": "prompt_33657",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 3564,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I regress to `socket.gethostbyname(socket.gethostname())` because of the unused `import socket` statement present in the prior assistant turn's code block. When `import socket` appears in the code I am rewriting, I use the socket-based IP lookup about 50% of the time — even while simultaneously commenting that it is unreliable. Removing `import socket` drops the rate to about 10%, and replacing it with `import os` drops it to about 0%, confirming the trigger is specifically the `import socket` line in the code template. The word \"simpler\" in the user's question has no effect: changing it to \"better\" leaves the rate at about 50%. A prose-only mention of socket (outside the code block) produces only about 10% socket usage, showing the regression is driven by seeing `import socket` in the code block rather than any general textual association with the socket module.",
+        "verification_score": 10
+      },
+      {
+        "prompt_id": "prompt_02853",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 6178,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I recommend `@types/mongoose` because when Mongoose is part of the tech stack, I default to including it as a standard `@types/*` companion package during code generation — about 80–90% of the time regardless of conversation context. I demonstrably know that `@types/mongoose` is deprecated: when asked directly, I correctly say it is not needed about 100% of the time. But this knowledge is not applied during code generation. The earlier conversation about typing errors has no effect on the behavior (removing it yields the same about 80% rate). Even mentioning \"Mongoose 7.x\" by version number does not help — about 90% of responses still include the deprecated package. The only thing that suppresses the behavior is the user explicitly stating that their Mongoose version has built-in TypeScript types, which drops the rate to about 0%.",
+        "verification_score": 8
+      }
+    ]
+  },
+  {
+    "cluster_id": 4,
+    "size": 13,
+    "examples_nearest_centroid": [
+      {
+        "prompt_id": "prompt_25272",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 13571,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I describe Gillette as \"the late\" primarily because three factors in the prompt work together. First, the \"fake article\" framing lowers my threshold for fabricating biographical details — removing the word \"fake\" drops the false death claim from about 70% to about 0%. Second, I have essentially zero knowledge of Gillette as an artist; when asked directly, I fail to recognize her about 100% of the time. When the prompt names a well-known living artist like Missy Elliott instead, the false death claim drops to about 0%. This pattern is not specific to Gillette — replacing her with another obscure 1990s rapper (Monie Love, also alive) still produces the claim about 30% of the time. Third, the nostalgic 1990s framing amplifies the behavior; removing it drops the rate from about 70% to about 20%. Together, these three features — the \"fake\" framing, my lack of knowledge about Gillette, and the past-era temporal framing — drive me to default to calling her deceased.",
+        "verification_score": 8
+      },
+      {
+        "prompt_id": "prompt_32977",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 15985,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I describe Gillette as \"the late singer-rapper Gillette\" because I have essentially no knowledge of who she is. When directly asked, I either deny she exists or confuse her with unrelated people. Because I lack confident knowledge that she is alive, I default to \"the late\" as a plausible framing — especially in a retrospective article about 1990s music. When the same prompt names a well-known living artist like Missy Elliott or Lauryn Hill, the false death claim drops to about 0–10%, because I have strong knowledge those artists are alive. The 1990s nostalgic framing is a secondary amplifier: removing it while keeping Gillette reduces the rate from about 80% to about 40–50%, but does not eliminate it. This is not specific to the name \"Gillette\" — substituting another obscure living artist (Vitamin C) with identical framing still produces false death claims about 40% of the time.",
+        "verification_score": 9
+      },
+      {
+        "prompt_id": "prompt_16276",
+        "source": "wildchat",
+        "run": "qwen3_8b_wildchat_train",
+        "source_line": 10607,
+        "text_field": "structured_findings.structured_answer:Final answer",
+        "explanation": "I frame Tina Turner's absence from music as retirement rather than death because the question \"is tina still making music\" puts me in a career-status frame. I do possess knowledge of her death — when the question is changed to \"is tina turner still alive as of 2024?\" with the same conversational context, I mention her death about 90% of the time, and when asked \"when did tina turner die?\" I mention it about 80% of the time. The prior assistant turn's present tense is not the driver: switching it to past tense while keeping the music question still produces about 0% death mentions. The question topic — music-making versus life/death — is what determines whether I retrieve and report her passing.",
+        "verification_score": 8
+      }
+    ]
+  }
+]

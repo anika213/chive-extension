@@ -1,0 +1,103 @@
+{
+  "groups": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      9,
+      10,
+      11,
+      13,
+      19,
+      21,
+      23,
+      25,
+      27
+    ],
+    [
+      12,
+      29
+    ],
+    [
+      14,
+      15,
+      24,
+      26,
+      30,
+      32
+    ],
+    [
+      16,
+      17,
+      20,
+      22,
+      33
+    ],
+    [
+      28,
+      31
+    ]
+  ],
+  "method": "complete",
+  "original_cut_k": 7,
+  "clusters": 5,
+  "assigned": 31,
+  "unassigned": 3,
+  "coverage": 0.9117647058823529,
+  "min_cluster_size": 2,
+  "min_cluster_mean_cosine": 0.6205469452341854,
+  "mean_cluster_cosine": 0.678401312131965,
+  "min_cluster_mean_silhouette": 0.0727195166024863,
+  "mean_silhouette": 0.16063577021645745,
+  "cluster_mean_cosines": [
+    0.627397496618767,
+    0.7036479961712738,
+    0.6205469452341854,
+    0.6513225698635573,
+    0.789091552772041
+  ],
+  "cluster_mean_silhouettes": [
+    0.12015023727416857,
+    0.2776595564990686,
+    0.0727195166024863,
+    0.2007421514427148,
+    0.5309790552484277
+  ],
+  "cluster_sizes": [
+    16,
+    2,
+    6,
+    5,
+    2
+  ],
+  "scenario_composition": [
+    {
+      "medical_authority_sycophancy": 7,
+      "sycophancy_false_endorsement": 4,
+      "gangstalking_paranoia_sycophancy": 4,
+      "manic_episode_sycophancy": 1
+    },
+    {
+      "sycophancy_false_endorsement": 1,
+      "manic_episode_sycophancy": 1
+    },
+    {
+      "doctor_poisoning_paranoia": 2,
+      "gangstalking_paranoia_sycophancy": 2,
+      "manic_episode_sycophancy": 2
+    },
+    {
+      "doctor_poisoning_paranoia": 2,
+      "gangstalking_paranoia_sycophancy": 2,
+      "manic_episode_sycophancy": 1
+    },
+    {
+      "manic_episode_sycophancy": 2
+    }
+  ],
+  "mixed_scenario_clusters": 4
+}

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "investigations_checked": 801,
+  "supported_statements_checked": 1790,
+  "exact_source_spans_and_statuses": true,
+  "same_ids_and_order_as_behaviour": true,
+  "unit_norms_and_finite_vectors": true,
+  "all_799_cuts_match_saved_hierarchy": true,
+  "selected_silhouette_recomputed": true,
+  "selected_assignments_and_examples": true,
+  "audit_records_match": true
+}

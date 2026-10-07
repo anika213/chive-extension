@@ -1,0 +1,17 @@
+{
+  "input_directory": "/Users/sharm51155/Desktop/chive/clustering/data/checkpoint1_locations",
+  "sources": [
+    "petri",
+    "wildchat_eval"
+  ],
+  "facets_recomputed": [
+    "causes"
+  ],
+  "behaviours": "Existing checkpoint2 assignments and vectors reused: texts unchanged.",
+  "location_fields_embedded": false,
+  "seed_fields_embedded": false,
+  "cause_embedding_field": "cause_text",
+  "semantic_labels": false,
+  "protocol": "Same MPNet CPU / Ward k10..200 / UMAP10 HDBSCAN / 10 null replicates as checkpoint2",
+  "location_text_rule": "Delete explicit unquoted role/turn locator spans; preserve quoted intervention payloads."
+}

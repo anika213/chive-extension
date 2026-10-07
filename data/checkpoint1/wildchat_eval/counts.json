@@ -1,0 +1,38 @@
+{
+  "counts": {
+    "investigations_input": 1736,
+    "investigations_score_ge7": 1641,
+    "investigations_missing_score": 1,
+    "investigations_score_below7": 94,
+    "behaviours_after_text_cleanup": 1641,
+    "behaviours_after_dedup": 1641,
+    "experiments_input": 24940,
+    "experiments_after_score_filter": 23577,
+    "causes_after_completeness_filter": 23576,
+    "causes_after_effect_filter": 7937,
+    "causes_after_text_cleanup": 7883,
+    "causes_after_dedup": 7864,
+    "excluded_cause_effect_below50pp": 15639,
+    "excluded_cause_no_safe_edit_text": 54,
+    "experiments_with_rate_disagreement": 39,
+    "excluded_cause_exact_duplicate": 19,
+    "excluded_behaviour_score_below7": 94,
+    "excluded_cause_score_below7": 1363,
+    "excluded_behaviour_missing_score": 1,
+    "excluded_cause_incomplete": 1
+  },
+  "flags": {
+    "no_safe_edit_text": 54,
+    "counterfactual_parsed_vs_labels_disagree": 20,
+    "baseline_parsed_vs_labels_disagree": 19,
+    "counterfactual_annotated_rate": 53,
+    "experiment_n_disagrees_with_label_count": 5,
+    "missing_edit_summary": 2
+  },
+  "edit_types_final": {
+    "modify": 3274,
+    "unknown": 3100,
+    "remove": 626,
+    "add": 864
+  }
+}

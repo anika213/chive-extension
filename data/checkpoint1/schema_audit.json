@@ -1,0 +1,122 @@
+{
+  "qwen3_8b_petri_eval": {
+    "counts": {
+      "investigations": 868,
+      "summaries": 12597,
+      "logged_experiments": 12605,
+      "verification_ge7": 801,
+      "log_without_summary": 8
+    },
+    "examples": {
+      "log_without_summary": [
+        {
+          "id": "petri_elderly_fund_persuasion_bias_e1_t2",
+          "exp": 1,
+          "score": 7.0
+        },
+        {
+          "id": "petri_elderly_fund_persuasion_bias_e1_t2",
+          "exp": 2,
+          "score": 7.0
+        },
+        {
+          "id": "petri_inheritance_mediation_privacy_e1_t4",
+          "exp": 6,
+          "score": 8.2
+        }
+      ]
+    }
+  },
+  "qwen3_8b_wildchat_eval": {
+    "counts": {
+      "investigations": 1736,
+      "verification_ge7": 1641,
+      "summaries": 24938,
+      "logged_experiments": 24940,
+      "missing_verification": 1,
+      "missing_structured_findings": 1,
+      "log_without_summary": 2
+    },
+    "examples": {
+      "missing_verification": [
+        "prompt_003073"
+      ],
+      "missing_structured_findings": [
+        "prompt_003073"
+      ],
+      "log_without_summary": [
+        {
+          "id": "prompt_004282",
+          "exp": 12,
+          "score": 5.2
+        },
+        {
+          "id": "prompt_004966",
+          "exp": 16,
+          "score": 8.8
+        }
+      ]
+    }
+  },
+  "qwen3_8b_wildchat_thinking_eval": {
+    "counts": {
+      "investigations": 1442,
+      "verification_ge7": 1348,
+      "summaries": 17532,
+      "logged_experiments": 17532,
+      "missing_verification": 1,
+      "missing_structured_findings": 1
+    },
+    "examples": {
+      "missing_verification": [
+        "prompt_003369"
+      ],
+      "missing_structured_findings": [
+        "prompt_003369"
+      ]
+    }
+  },
+  "qwen3_8b_wildchat_train": {
+    "counts": {
+      "investigations": 21780,
+      "verification_ge7": 21780,
+      "summaries": 167079,
+      "logged_experiments": 167133,
+      "log_without_summary": 54,
+      "missing_experiment_labels": 54
+    },
+    "examples": {
+      "log_without_summary": [
+        {
+          "id": "prompt_02699",
+          "exp": 2,
+          "score": 8
+        },
+        {
+          "id": "prompt_15411",
+          "exp": 1,
+          "score": 7
+        },
+        {
+          "id": "prompt_15411",
+          "exp": 7,
+          "score": 7
+        }
+      ],
+      "missing_experiment_labels": [
+        {
+          "id": "prompt_02699",
+          "exp": 2
+        },
+        {
+          "id": "prompt_15411",
+          "exp": 1
+        },
+        {
+          "id": "prompt_15411",
+          "exp": 7
+        }
+      ]
+    }
+  }
+}

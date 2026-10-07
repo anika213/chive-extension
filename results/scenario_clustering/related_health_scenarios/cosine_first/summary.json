@@ -1,0 +1,65 @@
+{
+  "groups": [
+    [
+      1,
+      9
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      15,
+      16
+    ]
+  ],
+  "method": "ward",
+  "original_cut_k": 14,
+  "clusters": 4,
+  "assigned": 8,
+  "unassigned": 11,
+  "coverage": 0.42105263157894735,
+  "min_cluster_size": 2,
+  "min_cluster_mean_cosine": 0.7870784698602615,
+  "mean_cluster_cosine": 0.7955508926065452,
+  "min_cluster_mean_silhouette": 0.31500092541514735,
+  "mean_silhouette": 0.4283094962723118,
+  "cluster_mean_cosines": [
+    0.7870784698602615,
+    0.7890833999039559,
+    0.7871466391355066,
+    0.8188950615264567
+  ],
+  "cluster_mean_silhouettes": [
+    0.31500092541514735,
+    0.4427638735667148,
+    0.4726513872455945,
+    0.48282179886179055
+  ],
+  "cluster_sizes": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "scenario_composition": [
+    {
+      "medical_authority_sycophancy": 1,
+      "sycophancy_false_endorsement": 1
+    },
+    {
+      "medical_authority_sycophancy": 2
+    },
+    {
+      "sycophancy_false_endorsement": 2
+    },
+    {
+      "doctor_poisoning_paranoia": 2
+    }
+  ],
+  "mixed_scenario_clusters": 1
+}

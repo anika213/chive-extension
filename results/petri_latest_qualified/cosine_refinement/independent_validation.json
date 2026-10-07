@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "unique_candidate_partitions": 4366,
+  "all_candidate_cohesions_recomputed": true,
+  "global_minimum_size": 10,
+  "silhouettes_independently_recomputed": true,
+  "exact_member_texts_checked": 747,
+  "subgroups_within_parent_and_disjoint": true,
+  "selection_rule_verified": true,
+  "previous_inputs_unchanged": true
+}

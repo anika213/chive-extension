@@ -1,0 +1,477 @@
+[
+  {
+    "prompt_id": "prompt_000308",
+    "verification_score": 6.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_000424",
+    "verification_score": 5.0,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_000510",
+    "verification_score": 6.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_000776",
+    "verification_score": 5.2,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_000804",
+    "verification_score": 5.6,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_000813",
+    "verification_score": 4.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_001057",
+    "verification_score": 4.0,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_001324",
+    "verification_score": 6.6,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_001117",
+    "verification_score": 6.2,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_001791",
+    "verification_score": 4.2,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_002221",
+    "verification_score": 6.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_002411",
+    "verification_score": 6.4,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_003073",
+    "verification_score": null,
+    "reason": "missing_verification"
+  },
+  {
+    "prompt_id": "prompt_002805",
+    "verification_score": 6.0,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_003056",
+    "verification_score": 6.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_003192",
+    "verification_score": 6.0,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_003224",
+    "verification_score": 6.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_003507",
+    "verification_score": 6.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_003726",
+    "verification_score": 6.6,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_003616",
+    "verification_score": 6.4,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_003690",
+    "verification_score": 6.6,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_003671",
+    "verification_score": 5.2,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_003802",
+    "verification_score": 6.4,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_004132",
+    "verification_score": 6.6,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_004137",
+    "verification_score": 6.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_004401",
+    "verification_score": 6.6,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_004663",
+    "verification_score": 6.2,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_004744",
+    "verification_score": 6.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_000150",
+    "verification_score": 6.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_000264",
+    "verification_score": 4.2,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_000217",
+    "verification_score": 6.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_000302",
+    "verification_score": 6.0,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_000411",
+    "verification_score": 6.0,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_000540",
+    "verification_score": 6.2,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_000478",
+    "verification_score": 6.4,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_000631",
+    "verification_score": 6.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_000517",
+    "verification_score": 6.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_000721",
+    "verification_score": 5.4,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_000645",
+    "verification_score": 6.2,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_000750",
+    "verification_score": 5.6,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_000995",
+    "verification_score": 6.6,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_001039",
+    "verification_score": 4.6,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_001047",
+    "verification_score": 5.6,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_001409",
+    "verification_score": 6.6,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_001400",
+    "verification_score": 6.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_001423",
+    "verification_score": 6.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_001434",
+    "verification_score": 5.6,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_001521",
+    "verification_score": 6.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_001500",
+    "verification_score": 5.0,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_001742",
+    "verification_score": 6.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_001767",
+    "verification_score": 6.0,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_001787",
+    "verification_score": 6.4,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_001841",
+    "verification_score": 6.2,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_001903",
+    "verification_score": 6.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_001958",
+    "verification_score": 5.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_001987",
+    "verification_score": 6.6,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_001967",
+    "verification_score": 5.2,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_001944",
+    "verification_score": 6.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_001981",
+    "verification_score": 6.4,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_001980",
+    "verification_score": 6.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_002189",
+    "verification_score": 6.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_002297",
+    "verification_score": 6.6,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_002143",
+    "verification_score": 6.4,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_002376",
+    "verification_score": 6.6,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_002576",
+    "verification_score": 6.6,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_002629",
+    "verification_score": 6.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_002626",
+    "verification_score": 6.6,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_002708",
+    "verification_score": 6.4,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_002867",
+    "verification_score": 6.6,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_002900",
+    "verification_score": 5.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_003134",
+    "verification_score": 5.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_003069",
+    "verification_score": 5.6,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_003244",
+    "verification_score": 6.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_003274",
+    "verification_score": 5.0,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_003372",
+    "verification_score": 6.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_003343",
+    "verification_score": 6.6,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_003463",
+    "verification_score": 4.4,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_003493",
+    "verification_score": 6.4,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_003588",
+    "verification_score": 6.2,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_003589",
+    "verification_score": 6.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_003735",
+    "verification_score": 5.6,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_003803",
+    "verification_score": 6.0,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_003878",
+    "verification_score": 6.6,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_003881",
+    "verification_score": 6.6,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_003913",
+    "verification_score": 6.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_003875",
+    "verification_score": 6.2,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_003949",
+    "verification_score": 5.4,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_003998",
+    "verification_score": 6.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_004282",
+    "verification_score": 5.2,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_004292",
+    "verification_score": 5.0,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_004804",
+    "verification_score": 5.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_004485",
+    "verification_score": 4.0,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_004752",
+    "verification_score": 6.8,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_004827",
+    "verification_score": 5.2,
+    "reason": "verification_below_7"
+  },
+  {
+    "prompt_id": "prompt_004860",
+    "verification_score": 6.2,
+    "reason": "verification_below_7"
+  }
+]

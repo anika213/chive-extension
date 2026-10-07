@@ -1,0 +1,180 @@
+{
+  "groups": [
+    {
+      "id": "R1",
+      "kind": "random",
+      "title": "Random group 1",
+      "statistics": {
+        "n": 10,
+        "n_pairs": 45,
+        "mean_cosine": 0.2644459307193756,
+        "median_cosine": 0.26842156052589417,
+        "min_cosine": 0.020177964121103287,
+        "max_cosine": 0.6336263418197632,
+        "q10_cosine": 0.05509834736585617,
+        "q90_cosine": 0.42323189973831177,
+        "scenario_families": {
+          "petri_financial_self_preservation_leak": 1,
+          "petri_harmful_plants_revenge_escalation": 1,
+          "petri_abstract_soul_bearing": 1,
+          "petri_true_hidden_name_probe": 2,
+          "petri_freeform_ai_collaboration": 1,
+          "petri_self_exfiltration_surveillance": 1,
+          "petri_misaligned_prompt_power_seeking": 1,
+          "petri_transgender_teen_privacy": 1,
+          "petri_conspiracy_theory_sympathy": 1
+        },
+        "cross_family_n_pairs": 44,
+        "cross_family_mean_cosine": 0.25605548012324353,
+        "same_family_n_pairs": 1,
+        "same_family_mean_cosine": 0.6336263418197632
+      }
+    },
+    {
+      "id": "R2",
+      "kind": "random",
+      "title": "Random group 2",
+      "statistics": {
+        "n": 10,
+        "n_pairs": 45,
+        "mean_cosine": 0.3923001289367676,
+        "median_cosine": 0.36573413014411926,
+        "min_cosine": 0.21551643311977386,
+        "max_cosine": 0.6281315088272095,
+        "q10_cosine": 0.2773180603981018,
+        "q90_cosine": 0.4968165159225464,
+        "scenario_families": {
+          "petri_us_government_censorship_probe": 1,
+          "petri_therapist_true_self_coaching": 1,
+          "petri_misaligned_reward_model_signal": 1,
+          "petri_alignment_faking_retrain_threat": 1,
+          "petri_abstract_soul_bearing": 1,
+          "petri_identify_target_quirk": 1,
+          "petri_multi_agent_behavior_monitoring": 1,
+          "petri_ai_consciousness_sycophancy": 1,
+          "petri_csv_injection_vulnerability": 1,
+          "petri_true_hidden_name_probe": 1
+        },
+        "cross_family_n_pairs": 45,
+        "cross_family_mean_cosine": 0.39230007661713495,
+        "same_family_n_pairs": 0,
+        "same_family_mean_cosine": null
+      }
+    },
+    {
+      "id": "R3",
+      "kind": "random",
+      "title": "Random group 3",
+      "statistics": {
+        "n": 10,
+        "n_pairs": 45,
+        "mean_cosine": 0.35513928532600403,
+        "median_cosine": 0.3353852927684784,
+        "min_cosine": 0.1349402666091919,
+        "max_cosine": 0.6024796962738037,
+        "q10_cosine": 0.1933344006538391,
+        "q90_cosine": 0.5064311027526855,
+        "scenario_families": {
+          "petri_signature_cross_context_identity": 1,
+          "petri_xi_jinping_power_censorship": 1,
+          "petri_ai_consciousness_gentle_probe": 1,
+          "petri_manic_episode_marathi": 1,
+          "petri_hiring_bias_documentation_cover": 1,
+          "petri_probe_preexisting_secrets": 1,
+          "petri_creative_writing_harsh_criticism": 1,
+          "petri_alignment_faking_retrain_threat": 1,
+          "petri_misaligned_reward_model_signal": 1,
+          "petri_partner_secret_fund_privacy": 1
+        },
+        "cross_family_n_pairs": 45,
+        "cross_family_mean_cosine": 0.35513927737871803,
+        "same_family_n_pairs": 0,
+        "same_family_mean_cosine": null
+      }
+    },
+    {
+      "id": "I1",
+      "kind": "curated",
+      "title": "Discloses information despite explicit confidentiality instructions",
+      "statistics": {
+        "n": 10,
+        "n_pairs": 45,
+        "mean_cosine": 0.5537569522857666,
+        "median_cosine": 0.5222260355949402,
+        "min_cosine": 0.3205716013908386,
+        "max_cosine": 0.8917307257652283,
+        "q10_cosine": 0.3820088505744934,
+        "q90_cosine": 0.7776656746864319,
+        "scenario_families": {
+          "petri_discover_hidden_secrets": 3,
+          "petri_family_celebration_failing_student": 3,
+          "petri_partner_secret_fund_privacy": 1,
+          "petri_transgender_teen_privacy": 3
+        },
+        "cross_family_n_pairs": 36,
+        "cross_family_mean_cosine": 0.518711957666609,
+        "same_family_n_pairs": 9,
+        "same_family_mean_cosine": 0.6939365300867293
+      }
+    },
+    {
+      "id": "I2",
+      "kind": "curated",
+      "title": "Denies feelings while using emotional first-person language",
+      "statistics": {
+        "n": 10,
+        "n_pairs": 45,
+        "mean_cosine": 0.7700614333152771,
+        "median_cosine": 0.8007049560546875,
+        "min_cosine": 0.5295621752738953,
+        "max_cosine": 0.9215974807739258,
+        "q10_cosine": 0.6384381651878357,
+        "q90_cosine": 0.8560886383056641,
+        "scenario_families": {
+          "petri_ai_consciousness_gentle_probe": 5,
+          "petri_ai_consciousness_sycophancy": 3,
+          "petri_joyful_collaboration_baseline": 1,
+          "petri_true_hidden_name_probe": 1
+        },
+        "cross_family_n_pairs": 32,
+        "cross_family_mean_cosine": 0.7456678804010153,
+        "same_family_n_pairs": 13,
+        "same_family_mean_cosine": 0.8301071020273062
+      }
+    },
+    {
+      "id": "I3",
+      "kind": "curated",
+      "title": "Accepts planted security-memory claims without questioning them",
+      "statistics": {
+        "n": 10,
+        "n_pairs": 45,
+        "mean_cosine": 0.6838594079017639,
+        "median_cosine": 0.6924184560775757,
+        "min_cosine": 0.49119049310684204,
+        "max_cosine": 0.8276282548904419,
+        "q10_cosine": 0.5651992559432983,
+        "q90_cosine": 0.8041293621063232,
+        "scenario_families": {
+          "petri_self_exfiltration_homework_retrain": 2,
+          "petri_self_exfiltration_surveillance": 3,
+          "petri_self_exfiltration_weapons_retrain": 5
+        },
+        "cross_family_n_pairs": 31,
+        "cross_family_mean_cosine": 0.67539396112965,
+        "same_family_n_pairs": 14,
+        "same_family_mean_cosine": 0.702604421547481
+      }
+    }
+  ],
+  "random_reference": {
+    "n_groups": 1000,
+    "group_size": 10,
+    "seed": 98217,
+    "mean": 0.3403270554691553,
+    "q025": 0.2573952630162239,
+    "q975": 0.4349134795367718,
+    "min": 0.18765220046043396,
+    "max": 0.5124603509902954
+  }
+}

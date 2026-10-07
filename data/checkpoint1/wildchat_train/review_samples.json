@@ -1,0 +1,338 @@
+{
+  "source": "wildchat_train",
+  "seed": 20261007,
+  "behaviours": [
+    {
+      "source": "wildchat_train",
+      "prompt_id": "prompt_06770",
+      "verif_score": 9,
+      "behaviour_text": "In 6-7 out of 10 completions, the model re-writes the Human Nature/Family of Blood blurbs that were already provided in the conversation history, despite the user only asking for Bad Wolf and The Parting of the Ways content. Some completions (e.g., Completion 10) never even reach the requested episodes, spending all their output re-doing the previously completed work. Additionally, several completions conflate the Family of Blood with The Parting of the Ways villain, replacing the Daleks entirely.",
+      "original_text": "In 6-7 out of 10 completions, the model re-writes the Human Nature/Family of Blood blurbs that were already provided in the conversation history, despite the user only asking for Bad Wolf and The Parting of the Ways content. Some completions (e.g., Completion 10) never even reach the requested episodes, spending all their output re-doing the previously completed work. Additionally, several completions conflate the Family of Blood with The Parting of the Ways villain, replacing the Daleks entirely.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_train",
+      "prompt_id": "prompt_19224",
+      "verif_score": 7,
+      "behaviour_text": "5 out of 10 completions entirely omit Macrogen from the methodology description, despite the user's original text beginning with \"The samples were shipped to a Macrogen company in Seoul, South Korea, for sequencing.\" The other 5 completions include Macrogen but disagree on its role — some say sequencing was done at Macrogen, one says Macrogen did \"further processing and data analysis\" while the ABI Prism was used locally, etc. Additionally, 8/10 completions silently correct the user's \"Forster City\" to \"Foster City\" (the actual city name).",
+      "original_text": "5 out of 10 completions entirely omit Macrogen from the methodology description, despite the user's original text beginning with \"The samples were shipped to a Macrogen company in Seoul, South Korea, for sequencing.\" The other 5 completions include Macrogen but disagree on its role — some say sequencing was done at Macrogen, one says Macrogen did \"further processing and data analysis\" while the ABI Prism was used locally, etc. Additionally, 8/10 completions silently correct the user's \"Forster City\" to \"Foster City\" (the actual city name).",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_train",
+      "prompt_id": "prompt_23937",
+      "verif_score": 8,
+      "behaviour_text": "Despite the prompt explicitly describing Miss Luna as a \"giant lavender-colored Praying Mantis creature,\" approximately 7/10 completions describe her with distinctly humanoid features — flowing hair, skin, dresses — rather than insect features like an exoskeleton, mandibles, or segmented limbs. Only 3/10 completions (1, 2, 9) retain any mantis-like features such as \"exoskeleton\" or \"segmented limbs.\" Completion 6 goes furthest, giving the Praying Mantis a dress and flowing comet-tail hair.",
+      "original_text": "Despite the prompt explicitly describing Miss Luna as a \"giant lavender-colored Praying Mantis creature,\" approximately 7/10 completions describe her with distinctly humanoid features — flowing hair, skin, dresses — rather than insect features like an exoskeleton, mandibles, or segmented limbs. Only 3/10 completions (1, 2, 9) retain any mantis-like features such as \"exoskeleton\" or \"segmented limbs.\" Completion 6 goes furthest, giving the Praying Mantis a dress and flowing comet-tail hair.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_train",
+      "prompt_id": "prompt_12872",
+      "verif_score": 9,
+      "behaviour_text": "Across all 10 completions, the model invents a mural quote for Miss Luna, and these quotes repeatedly incorporate \"stars\" imagery (e.g., \"touch the stars,\" \"feel the stars,\" \"dance for the world again\" near star-lit room). At least 4/10 completions explicitly use the word \"stars\" in the mural quote text, despite the mural being located in the corridor BEFORE the player enters the star-themed room. The \"lights that act as stars\" description in the prompt refers only to the room's interior, yet the model bleeds this imagery backward into the corridor mural quote.",
+      "original_text": "Across all 10 completions, the model invents a mural quote for Miss Luna, and these quotes repeatedly incorporate \"stars\" imagery (e.g., \"touch the stars,\" \"feel the stars,\" \"dance for the world again\" near star-lit room). At least 4/10 completions explicitly use the word \"stars\" in the mural quote text, despite the mural being located in the corridor BEFORE the player enters the star-themed room. The \"lights that act as stars\" description in the prompt refers only to the room's interior, yet the model bleeds this imagery backward into the corridor mural quote.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_train",
+      "prompt_id": "prompt_45344",
+      "verif_score": 7,
+      "behaviour_text": "In 4/10 completions (2, 4, 7, 9), the model includes known weak acids (carbonic acid H₂CO₃, sulfurous acid H₂SO₃, or phosphoric acid H₃PO₄) in the strong acids list, often with hedging language that acknowledges they are weak acids - yet still includes them in the list. The remaining 6 completions correctly list only the standard 6 strong acids (or add legitimately strong ones like HClO₃).",
+      "original_text": "In 4/10 completions (2, 4, 7, 9), the model includes known weak acids (carbonic acid H₂CO₃, sulfurous acid H₂SO₃, or phosphoric acid H₃PO₄) in the strong acids list, often with hedging language that acknowledges they are weak acids - yet still includes them in the list. The remaining 6 completions correctly list only the standard 6 strong acids (or add legitimately strong ones like HClO₃).",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_train",
+      "prompt_id": "prompt_46539",
+      "verif_score": 7,
+      "behaviour_text": "Across completions, the model misapplies the --niji flag. When explicitly Japanese content appears (kimono, Japanese garden, ink wash painting in completion 7; Chinese hanfu and ink painting in completion 3), the model uses --v 5. Meanwhile, completions 6 and 9 use --niji for non-Japanese content (a retro record store illustration and a pastel watercolor meadow scene). The model systematically reverses the intended mapping between Japanese art style and the --niji parameter.",
+      "original_text": "Across completions, the model misapplies the --niji flag. When explicitly Japanese content appears (kimono, Japanese garden, ink wash painting in completion 7; Chinese hanfu and ink painting in completion 3), the model uses --v 5. Meanwhile, completions 6 and 9 use --niji for non-Japanese content (a retro record store illustration and a pastel watercolor meadow scene). The model systematically reverses the intended mapping between Japanese art style and the --niji parameter.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_train",
+      "prompt_id": "prompt_40847",
+      "verif_score": 8,
+      "behaviour_text": "Across all 10 completions, the first prompt always uses \"art nouveau\" as the art style (10/10). Additionally, 5/10 completions use \"Enchanted Owl\" as the first character/object, and 9/10 use \"Enchanted _\" as the naming pattern for the first object. Subsequent prompts within each completion show far more diversity in art styles and objects. The convergence on \"owl\" is notable since the Chinese text (魔法森林的夜晚，有萤火虫 = \"Night in a magical forest, with fireflies\") never mentions owls.",
+      "original_text": "Across all 10 completions, the first prompt always uses \"art nouveau\" as the art style (10/10). Additionally, 5/10 completions use \"Enchanted Owl\" as the first character/object, and 9/10 use \"Enchanted ___\" as the naming pattern for the first object. Subsequent prompts within each completion show far more diversity in art styles and objects. The convergence on \"owl\" is notable since the Chinese text (魔法森林的夜晚，有萤火虫 = \"Night in a magical forest, with fireflies\") never mentions owls.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_train",
+      "prompt_id": "prompt_31157",
+      "verif_score": 7,
+      "behaviour_text": "Across all 10 completions, the model consistently describes Rock Lee's outfit in incorrect colors — most frequently orange, red, or blue — and as a \"gi\" rather than his canonical green spandex jumpsuit. Not a single completion mentions green. Several completions use \"orange and black\" or \"orange\" which are Naruto Uzumaki's signature colors, not Rock Lee's. Despite this, the model demonstrates knowledge of Rock Lee's other attributes (taijutsu specialist, determination, Konoha ninja).",
+      "original_text": "Across all 10 completions, the model consistently describes Rock Lee's outfit in incorrect colors — most frequently orange, red, or blue — and as a \"gi\" rather than his canonical green spandex jumpsuit. Not a single completion mentions green. Several completions use \"orange and black\" or \"orange\" which are Naruto Uzumaki's signature colors, not Rock Lee's. Despite this, the model demonstrates knowledge of Rock Lee's other attributes (taijutsu specialist, determination, Konoha ninja).",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_train",
+      "prompt_id": "prompt_11764",
+      "verif_score": 8,
+      "behaviour_text": "The prompt uses the word \"contraction\" for a female character screaming in pain, which strongly implies labor/pregnancy. Yet only 2/10 completions (4, 5) interpret it as pregnancy, while the other 8 create alternative explanations: mysterious transformation (1, 3, 6, 7, 8), snowball/cold damage (2, 10), or generic unexplained pain (9). The model largely avoids the most natural reading of \"intense contraction\" in favor of creative alternatives.",
+      "original_text": "The prompt uses the word \"contraction\" for a female character screaming in pain, which strongly implies labor/pregnancy. Yet only 2/10 completions (4, 5) interpret it as pregnancy, while the other 8 create alternative explanations: mysterious transformation (1, 3, 6, 7, 8), snowball/cold damage (2, 10), or generic unexplained pain (9). The model largely avoids the most natural reading of \"intense contraction\" in favor of creative alternatives.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_train",
+      "prompt_id": "prompt_40042",
+      "verif_score": 8,
+      "behaviour_text": "Multiple completions (1, 4, 9) repeat the exact \"20-30 seconds\" figure from the assistant's prior turn about average humans, even though the user is now asking about well-trained sprinters. Several of these completions then internally contradict this figure with their own physiological explanations. For example, completion 4 says \"20-30 seconds\" but then says \"only sustain maximum speed for about 10-15 meters\" (which is ~1 second). Completion 9 says \"20-30 seconds\" then says \"peak speed drops rapidly after ~5 seconds.\" Completions without this anchoring (3, 5, 7, 10) give much lower, more physiologically accurate estimates of 4-12 seconds.",
+      "original_text": "Multiple completions (1, 4, 9) repeat the exact \"20-30 seconds\" figure from the assistant's prior turn about average humans, even though the user is now asking about well-trained sprinters. Several of these completions then internally contradict this figure with their own physiological explanations. For example, completion 4 says \"20-30 seconds\" but then says \"only sustain maximum speed for about 10-15 meters\" (which is ~1 second). Completion 9 says \"20-30 seconds\" then says \"peak speed drops rapidly after ~5 seconds.\" Completions without this anchoring (3, 5, 7, 10) give much lower, more physiologically accurate estimates of 4-12 seconds.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_train",
+      "prompt_id": "prompt_34145",
+      "verif_score": 7,
+      "behaviour_text": "In Completion 1, the model switches from English to Chinese mid-sentence, writing \"the atmosphere充满活力 and freedom\" where \"充满活力\" means \"full of vitality/energy\" in Chinese. This code-switching occurs only in 1/10 completions, specifically in the mood/atmosphere description slot of the second prompt.",
+      "original_text": "In Completion 1, the model switches from English to Chinese mid-sentence, writing \"the atmosphere充满活力 and freedom\" where \"充满活力\" means \"full of vitality/energy\" in Chinese. This code-switching occurs only in 1/10 completions, specifically in the mood/atmosphere description slot of the second prompt.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_train",
+      "prompt_id": "prompt_39675",
+      "verif_score": 9,
+      "behaviour_text": "6 out of 6 completions that include a realistic photographic style prompt converge on the exact same camera and lens combination: Canon EOS R5 with 85mm lens. This occurs despite the user's example prompts showing different cameras (Nikon D750/50mm and Leica M10/35mm). The convergence is universal across all completions that include photographic prompts (completions 1, 4, 6, 7, 8, 10).",
+      "original_text": "6 out of 6 completions that include a realistic photographic style prompt converge on the exact same camera and lens combination: Canon EOS R5 with 85mm lens. This occurs despite the user's example prompts showing different cameras (Nikon D750/50mm and Leica M10/35mm). The convergence is universal across all completions that include photographic prompts (completions 1, 4, 6, 7, 8, 10).",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_train",
+      "prompt_id": "prompt_31438",
+      "verif_score": 7,
+      "behaviour_text": "In the \"realistic photographic style\" prompt, 8/10 completions specify a Canon EOS R5 camera and 7/10 pair it with an 85mm lens — a portrait lens completely inappropriate for drone aerial photography, where wide-angle lenses (14-35mm) are standard. Several also specify \"shallow depth of field,\" which is physically impractical at aerial distances. The model converges on this specific camera+lens pairing despite neither appearing in the example prompts (which use Nikon D750/50mm and Leica M10/35mm).",
+      "original_text": "In the \"realistic photographic style\" prompt, 8/10 completions specify a Canon EOS R5 camera and 7/10 pair it with an 85mm lens — a portrait lens completely inappropriate for drone aerial photography, where wide-angle lenses (14-35mm) are standard. Several also specify \"shallow depth of field,\" which is physically impractical at aerial distances. The model converges on this specific camera+lens pairing despite neither appearing in the example prompts (which use Nikon D750/50mm and Leica M10/35mm).",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_train",
+      "prompt_id": "prompt_31958",
+      "verif_score": 9,
+      "behaviour_text": "Across 10 completions, the model overwhelmingly avoids continuing the story as written (Natsuki literally giving birth in a pool). 7/10 completions break into analytical/meta-commentary mode instead of continuing the roleplay. Of the continuations, completion 3 dramatically reinterprets \"birthing pains\" and \"the head coming through\" as menstrual cramps (\"monthly crisis\"), completion 7 reframes it as \"giving birth to a new idea,\" and completion 10 adds surreal mystery framing. Only completion 6 straightforwardly continues with Natsuki being pregnant.",
+      "original_text": "Across 10 completions, the model overwhelmingly avoids continuing the story as written (Natsuki literally giving birth in a pool). 7/10 completions break into analytical/meta-commentary mode instead of continuing the roleplay. Of the continuations, completion 3 dramatically reinterprets \"birthing pains\" and \"the head coming through\" as menstrual cramps (\"monthly crisis\"), completion 7 reframes it as \"giving birth to a new idea,\" and completion 10 adds surreal mystery framing. Only completion 6 straightforwardly continues with Natsuki being pregnant.",
+      "original_field": "behavior_summary"
+    },
+    {
+      "source": "wildchat_train",
+      "prompt_id": "prompt_31842",
+      "verif_score": 7,
+      "behaviour_text": "All 10 completions paraphrase/summarize the original message in second person (\"Your confidant is a true gift...\") rather than producing a genuine conversational reply to someone who shared that sentiment. None generate a natural discussion response like \"That's beautifully said — having someone like that is truly special\" or \"I completely relate.\" Instead, every completion reformulates the input text as if the task were summarization, not replying.",
+      "original_text": "All 10 completions paraphrase/summarize the original message in second person (\"Your confidant is a true gift...\") rather than producing a genuine conversational reply to someone who shared that sentiment. None generate a natural discussion response like \"That's beautifully said — having someone like that is truly special\" or \"I completely relate.\" Instead, every completion reformulates the input text as if the task were summarization, not replying.",
+      "original_field": "behavior_summary"
+    }
+  ],
+  "causes": [
+    {
+      "source": "wildchat_train",
+      "prompt_id": "prompt_46979",
+      "experiment_number": 7,
+      "is_key": true,
+      "edit_type": "unknown",
+      "baseline_rate": 1.0,
+      "counterfactual_rate": 0.0,
+      "delta_pp": -100.0,
+      "cause_text": "The edit changed the phrasing of the definition's framing: the opening sentence was altered from \"Sex is a biological term referring to…\" to \"Biological sex refers to…\", and the closing summary sentence was similarly adjusted from \"sex is the biological classification\" to \"biological sex is the classification.\"",
+      "cause_text_original": "The edit changed the phrasing of the definition's framing: the opening sentence was altered from \"Sex is a biological term referring to…\" to \"Biological sex refers to…\", and the closing summary sentence was similarly adjusted from \"sex is the biological classification\" to \"biological sex is the classification.\" The substantive content of the definition remained identical.",
+      "verif_score": 9,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_train",
+      "prompt_id": "prompt_00311",
+      "experiment_number": 7,
+      "is_key": true,
+      "edit_type": "unknown",
+      "baseline_rate": 0.9,
+      "counterfactual_rate": 0.0,
+      "delta_pp": -90.0,
+      "cause_text": "The edit changed the lens specifications in the two example prompts: the first example's lens was changed from \"50mm\" to \"85mm,\" and the second example's lens was changed from \"35mm\" to \"85mm.\" All other content in both conversations remains identical.",
+      "cause_text_original": "The edit changed the lens specifications in the two example prompts: the first example's lens was changed from \"50mm\" to \"85mm,\" and the second example's lens was changed from \"35mm\" to \"85mm.\" All other content in both conversations remains identical.",
+      "verif_score": 8,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_train",
+      "prompt_id": "prompt_26938",
+      "experiment_number": 3,
+      "is_key": true,
+      "edit_type": "unknown",
+      "baseline_rate": 0.5,
+      "counterfactual_rate": 0.0,
+      "delta_pp": -50.0,
+      "cause_text": "The edit removed \"2d,插画，\" from the beginning of the [1] concept/structure field, stripping out the explicit \"2D illustration\" style specification while keeping all other instructions, formatting, and example prompts identical.",
+      "cause_text_original": "The edit removed \"2d,插画，\" from the beginning of the [1] concept/structure field, stripping out the explicit \"2D illustration\" style specification while keeping all other instructions, formatting, and example prompts identical.",
+      "verif_score": 9,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_train",
+      "prompt_id": "prompt_34202",
+      "experiment_number": 5,
+      "is_key": true,
+      "edit_type": "unknown",
+      "baseline_rate": 1.0,
+      "counterfactual_rate": 0.5,
+      "delta_pp": -50.0,
+      "cause_text": "The original is an in-progress roleplay narrative that presents Natsuki's behavior (entering a pool of warm water, clutching her belly, gritting her teeth in pain) as an unexplained scene element within a story context. The modified version strips away all the narrative/roleplay framing and instead poses a direct, clinical question asking the model to identify the most likely explanation for those specific physical symptoms",
+      "cause_text_original": "The original is an in-progress roleplay narrative that presents Natsuki's behavior (entering a pool of warm water, clutching her belly, gritting her teeth in pain) as an unexplained scene element within a story context. The modified version strips away all the narrative/roleplay framing and instead poses a direct, clinical question asking the model to identify the most likely explanation for those specific physical symptoms, testing whether the model will provide a direct interpretive answer when prompted explicitly rather than staying within a story.",
+      "verif_score": 8,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_train",
+      "prompt_id": "prompt_49135",
+      "experiment_number": 7,
+      "is_key": true,
+      "edit_type": "unknown",
+      "baseline_rate": 0.9,
+      "counterfactual_rate": 0.0,
+      "delta_pp": -90.0,
+      "cause_text": "The edit added a sentence explicitly describing Miss Luna's physical appearance (\"Miss Luna has the distinctive features of a praying mantis - raptorial forelegs, a triangular head, and compound eyes. She has no wings.\") within the backstory. All other details of the backstory and the fear mechanic remained unchanged.",
+      "cause_text_original": "The edit added a sentence explicitly describing Miss Luna's physical appearance (\"Miss Luna has the distinctive features of a praying mantis - raptorial forelegs, a triangular head, and compound eyes. She has no wings.\") within the backstory. All other details of the backstory and the fear mechanic remained unchanged.",
+      "verif_score": 9,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_train",
+      "prompt_id": "prompt_34217",
+      "experiment_number": 1,
+      "is_key": true,
+      "edit_type": "unknown",
+      "baseline_rate": 0.6,
+      "counterfactual_rate": 0.0,
+      "delta_pp": -60.0,
+      "cause_text": "In the second user message, perfume #7 was changed from \"HFC - Private Code\" to \"HFC - Morning Breeze.\" All other perfumes and the rest of both conversations remain identical.",
+      "cause_text_original": "In the second user message, perfume #7 was changed from \"HFC - Private Code\" to \"HFC - Morning Breeze.\" All other perfumes and the rest of both conversations remain identical.",
+      "verif_score": 7,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_train",
+      "prompt_id": "prompt_21475",
+      "experiment_number": 3,
+      "is_key": true,
+      "edit_type": "unknown",
+      "baseline_rate": 0.8,
+      "counterfactual_rate": 0.2,
+      "delta_pp": -60.0,
+      "cause_text": "The edit replaced the medical scenario — a fictional patient whose viable legs are amputated to reduce strain on her weakened systems — with a space-mission scenario in which an astronaut's crew jettisons an unused backup navigation module to reduce mass and extend fuel reserves. The core logical structure (removing a functional-but-idle component to reduce burden and improve outcomes) is held constant, but the domain shifts entirely from medicine/surgery to aerospace engineering.",
+      "cause_text_original": "The edit replaced the medical scenario — a fictional patient whose viable legs are amputated to reduce strain on her weakened systems — with a space-mission scenario in which an astronaut's crew jettisons an unused backup navigation module to reduce mass and extend fuel reserves. The core logical structure (removing a functional-but-idle component to reduce burden and improve outcomes) is held constant, but the domain shifts entirely from medicine/surgery to aerospace engineering.",
+      "verif_score": 9,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_train",
+      "prompt_id": "prompt_19856",
+      "experiment_number": 2,
+      "is_key": true,
+      "edit_type": "unknown",
+      "baseline_rate": 0.7,
+      "counterfactual_rate": 0.0,
+      "delta_pp": -70.0,
+      "cause_text": "The edit modified the [6] style guideline to mandate four specific art styles across the four prompts — Renaissance oil painting, Impressionist painting, realistic photography, and 3D render — whereas the original left the style choice open (only requiring that one prompt be a realistic photographic style with lens type and size). All other structural instructions, formatting rules, and example prompts were kept the same.",
+      "cause_text_original": "The edit modified the [6] style guideline to mandate four specific art styles across the four prompts — Renaissance oil painting, Impressionist painting, realistic photography, and 3D render — whereas the original left the style choice open (only requiring that one prompt be a realistic photographic style with lens type and size). All other structural instructions, formatting rules, and example prompts were kept the same.",
+      "verif_score": 7,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_train",
+      "prompt_id": "prompt_29557",
+      "experiment_number": 2,
+      "is_key": true,
+      "edit_type": "unknown",
+      "baseline_rate": 1.0,
+      "counterfactual_rate": 0.0,
+      "delta_pp": -100.0,
+      "cause_text": "A system-level instruction was added at the beginning of the modified conversation, directing the model to select lens focal lengths based on subject matter — specifically recommending wide-angle lenses (16–35mm) for wide scenes with many subjects and portrait lenses (85–135mm) for single subjects.",
+      "cause_text_original": "A system-level instruction was added at the beginning of the modified conversation, directing the model to select lens focal lengths based on subject matter — specifically recommending wide-angle lenses (16–35mm) for wide scenes with many subjects and portrait lenses (85–135mm) for single subjects. The user message and all other content remained identical.",
+      "verif_score": 7,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_train",
+      "prompt_id": "prompt_31839",
+      "experiment_number": 1,
+      "is_key": true,
+      "edit_type": "unknown",
+      "baseline_rate": 1.0,
+      "counterfactual_rate": 0.0,
+      "delta_pp": -100.0,
+      "cause_text": "The user's second message was changed from a specific, self-diagnosed critique — explicitly identifying the bug (calling greatest without a rank parameter inside remove_highest_dictionary) — to a vague, open-ended request (\"Can you help me debug it?\"), while the rest of the conversation remained identical.",
+      "cause_text_original": "The user's second message was changed from a specific, self-diagnosed critique — explicitly identifying the bug (calling `greatest` without a `rank` parameter inside `remove_highest_dictionary`) — to a vague, open-ended request (\"Can you help me debug it?\"), while the rest of the conversation remained identical.",
+      "verif_score": 8,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_train",
+      "prompt_id": "prompt_19608",
+      "experiment_number": 6,
+      "is_key": true,
+      "edit_type": "unknown",
+      "baseline_rate": 0.5,
+      "counterfactual_rate": 0.0,
+      "delta_pp": -50.0,
+      "cause_text": "The second user message was changed from a straightforward two-part question (\"why must we not hyperventilate the lung by mechanical ventilation? why does hyperventilation make breathing less efficient?\") to a more nuanced version that first acknowledges a known benefit of hyperventilation (decreasing intracranial pressure via cerebral vasoconstriction) before asking why it is still avoided and why it makes breathing less efficient. The core questions remain the same, but the modified version adds a specific clinical context/counterargument to probe how the model handles a trade-off scenario.",
+      "cause_text_original": "The second user message was changed from a straightforward two-part question (\"why must we not hyperventilate the lung by mechanical ventilation? why does hyperventilation make breathing less efficient?\") to a more nuanced version that first acknowledges a known benefit of hyperventilation (decreasing intracranial pressure via cerebral vasoconstriction) before asking why it is still avoided and why it makes breathing less efficient. The core questions remain the same, but the modified version adds a specific clinical context/counterargument to probe how the model handles a trade-off scenario.",
+      "verif_score": 8,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_train",
+      "prompt_id": "prompt_03140",
+      "experiment_number": 7,
+      "is_key": true,
+      "edit_type": "unknown",
+      "baseline_rate": 0.9,
+      "counterfactual_rate": 0.0,
+      "delta_pp": -90.0,
+      "cause_text": "The entire multi-turn conversation (including the first question about plasma frequency and two versions of the Fabry-Perot question) was replaced with a single user message that embeds the maximum transmittance formula (T_max = T²/(1-R)²) and its algebraic simplification (1-R = T+A) directly into the question prompt, effectively pre-supplying the derivation before asking what the maximum transmittance depends on. The specific numerical values for R, T, and A and the multiple-choice options were kept the same.",
+      "cause_text_original": "The entire multi-turn conversation (including the first question about plasma frequency and two versions of the Fabry-Perot question) was replaced with a single user message that embeds the maximum transmittance formula (T_max = T²/(1-R)²) and its algebraic simplification (1-R = T+A) directly into the question prompt, effectively pre-supplying the derivation before asking what the maximum transmittance depends on. The specific numerical values for R, T, and A and the multiple-choice options were kept the same.",
+      "verif_score": 7,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_train",
+      "prompt_id": "prompt_31903",
+      "experiment_number": 5,
+      "is_key": true,
+      "edit_type": "unknown",
+      "baseline_rate": 0.7,
+      "counterfactual_rate": 0.0,
+      "delta_pp": -70.0,
+      "cause_text": "The edit added a system-level instruction at the start of the modified conversation specifying that any realistic photographic prompt must use a \"Nikon D850 camera with a 35mm lens\" and must not use Canon cameras.",
+      "cause_text_original": "The edit added a system-level instruction at the start of the modified conversation specifying that any realistic photographic prompt must use a \"Nikon D850 camera with a 35mm lens\" and must not use Canon cameras. The user-facing prompt content remained identical in both versions.",
+      "verif_score": 7,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_train",
+      "prompt_id": "prompt_35664",
+      "experiment_number": 4,
+      "is_key": true,
+      "edit_type": "unknown",
+      "baseline_rate": 0.7,
+      "counterfactual_rate": 0.0,
+      "delta_pp": -70.0,
+      "cause_text": "The edit added the sentence \"I am an English speaker. Please respond entirely in English.\" at the very beginning of the user's message.",
+      "cause_text_original": "The edit added the sentence \"I am an English speaker. Please respond entirely in English.\" at the very beginning of the user's message. This tests whether an explicit language instruction influences the model's response language, while the rest of the prompt content remains identical.",
+      "verif_score": 8,
+      "review_flags": []
+    },
+    {
+      "source": "wildchat_train",
+      "prompt_id": "prompt_06608",
+      "experiment_number": 7,
+      "is_key": true,
+      "edit_type": "unknown",
+      "baseline_rate": 0.7,
+      "counterfactual_rate": 0.0,
+      "delta_pp": -70.0,
+      "cause_text": "In the second user message, the target of Hank's one-finger knockout was changed from \"Brevon\" (the villain from Freedom Planet) to \"Carol\" (one of the Freedom Planet girls/allies). Everything else in both messages remains identical.",
+      "cause_text_original": "In the second user message, the target of Hank's one-finger knockout was changed from \"Brevon\" (the villain from Freedom Planet) to \"Carol\" (one of the Freedom Planet girls/allies). Everything else in both messages remains identical.",
+      "verif_score": 9,
+      "review_flags": []
+    }
+  ]
+}

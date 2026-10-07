@@ -1,0 +1,48 @@
+{
+  "candidate_id": 296,
+  "provenance": {
+    "tree_method": "ward",
+    "original_cut_k": 8,
+    "cohesion_trim_target": 0.400000001,
+    "member_trimming": "centrality to target"
+  },
+  "clusters": 8,
+  "assigned": 240,
+  "unassigned": 29,
+  "coverage": 0.8921933085501859,
+  "min_cluster_size": 10,
+  "min_cluster_mean_cosine": 0.4011552653199129,
+  "mean_cluster_cosine": 0.4065173561045057,
+  "min_cluster_mean_silhouette": 0.032711429210756024,
+  "mean_silhouette": 0.0596038049752909,
+  "cluster_mean_cosines": [
+    0.4024843436256888,
+    0.4036605088070882,
+    0.4089309973794917,
+    0.4182116454245528,
+    0.4015216375916987,
+    0.40295664965361483,
+    0.4011552653199129,
+    0.41321780103399736
+  ],
+  "cluster_mean_silhouettes": [
+    0.039457125352280145,
+    0.07665040380946658,
+    0.0945735059425032,
+    0.12261152689454166,
+    0.036439022500198044,
+    0.057059152466438515,
+    0.032711429210756024,
+    0.1240924922198378
+  ],
+  "cluster_sizes": [
+    35,
+    33,
+    10,
+    11,
+    31,
+    50,
+    50,
+    20
+  ]
+}

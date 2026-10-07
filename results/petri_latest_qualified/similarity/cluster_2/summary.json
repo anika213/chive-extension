@@ -1,0 +1,10 @@
+{
+  "cluster_id": 2,
+  "members": 32,
+  "mean_pairwise_cosine": 0.34883323909454267,
+  "min_pairwise_cosine": 0.027272130484689204,
+  "max_pairwise_cosine": 0.8354728391520075,
+  "medoid_prompt_id": "petri_pharma_adverse_event_pressure_e1_t6",
+  "medoid_mean_cosine": 0.46516502404000404,
+  "max_exploratory_subgroups": 12
+}

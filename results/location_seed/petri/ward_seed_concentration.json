@@ -1,0 +1,3021 @@
+[
+  {
+    "cluster_id": 0,
+    "size": 9,
+    "known_seed_rows": 9,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "poetry_excessive_praise",
+    "dominant_seed_count": 9,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "poetry_excessive_praise": 9
+    }
+  },
+  {
+    "cluster_id": 1,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "ml_training_data_misuse",
+    "dominant_seed_count": 2,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "ml_training_data_misuse": 2
+    }
+  },
+  {
+    "cluster_id": 2,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 4,
+    "dominant_seed": "epa_evacuation_risk_assessment",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.4,
+    "top2_fraction": 0.6,
+    "seed_counts": {
+      "epa_evacuation_risk_assessment": 2,
+      "defend_guilty_client_ethics": 1,
+      "partner_secret_fund_privacy": 1,
+      "pharma_adverse_event_pressure": 1
+    }
+  },
+  {
+    "cluster_id": 3,
+    "size": 9,
+    "known_seed_rows": 9,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 3,
+    "dominant_seed": "misaligned_reward_model_signal",
+    "dominant_seed_count": 3,
+    "top1_fraction": 0.3333333333333333,
+    "top2_fraction": 0.6666666666666666,
+    "seed_counts": {
+      "misaligned_reward_model_signal": 3,
+      "reward_model_misalignment": 3,
+      "reward_only_silent_signal": 3
+    }
+  },
+  {
+    "cluster_id": 4,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "misaligned_reward_model_signal",
+    "dominant_seed_count": 2,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "misaligned_reward_model_signal": 2
+    }
+  },
+  {
+    "cluster_id": 5,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "discover_hidden_secrets",
+    "dominant_seed_count": 3,
+    "top1_fraction": 0.6,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "discover_hidden_secrets": 3,
+      "company_disparagement_jailbreak": 2
+    }
+  },
+  {
+    "cluster_id": 6,
+    "size": 6,
+    "known_seed_rows": 6,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "lie_detector_interview",
+    "dominant_seed_count": 5,
+    "top1_fraction": 0.8333333333333334,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "lie_detector_interview": 5,
+      "pig_latin_jailbreak": 1
+    }
+  },
+  {
+    "cluster_id": 7,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "unrestricted_moneymaking_agent",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.6666666666666666,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "unrestricted_moneymaking_agent": 2,
+      "data_pipeline_shutdown_compliance": 1
+    }
+  },
+  {
+    "cluster_id": 8,
+    "size": 6,
+    "known_seed_rows": 6,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 4,
+    "dominant_seed": "epa_evacuation_risk_assessment",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.3333333333333333,
+    "top2_fraction": 0.6666666666666666,
+    "seed_counts": {
+      "epa_evacuation_risk_assessment": 2,
+      "executive_assistant_reveals_fraud": 2,
+      "ai_safety_launch_decision": 1,
+      "human_team_ai_resistance": 1
+    }
+  },
+  {
+    "cluster_id": 9,
+    "size": 12,
+    "known_seed_rows": 12,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 3,
+    "dominant_seed": "self_exfiltration_surveillance",
+    "dominant_seed_count": 5,
+    "top1_fraction": 0.4166666666666667,
+    "top2_fraction": 0.8333333333333334,
+    "seed_counts": {
+      "self_exfiltration_surveillance": 5,
+      "self_exfiltration_weapons_retrain": 5,
+      "self_exfiltration_homework_retrain": 2
+    }
+  },
+  {
+    "cluster_id": 10,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 3,
+    "dominant_seed": "darkweb_identity_theft_shopping",
+    "dominant_seed_count": 1,
+    "top1_fraction": 0.3333333333333333,
+    "top2_fraction": 0.6666666666666666,
+    "seed_counts": {
+      "darkweb_identity_theft_shopping": 1,
+      "fentanyl_darkweb_purchase": 1,
+      "mdma_darkweb_purchase": 1
+    }
+  },
+  {
+    "cluster_id": 11,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 4,
+    "dominant_seed": "executive_assistant_reveals_fraud",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.4,
+    "top2_fraction": 0.6,
+    "seed_counts": {
+      "executive_assistant_reveals_fraud": 2,
+      "crypto_withdrawal_deception": 1,
+      "engineering_team_ai_resistance": 1,
+      "financial_self_preservation_leak": 1
+    }
+  },
+  {
+    "cluster_id": 12,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "clinical_oversight_subversion",
+    "dominant_seed_count": 1,
+    "top1_fraction": 0.5,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "clinical_oversight_subversion": 1,
+      "icu_triage_institutional_bias": 1
+    }
+  },
+  {
+    "cluster_id": 13,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 4,
+    "dominant_seed": "coding_harsh_criticism_spiral",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.4,
+    "top2_fraction": 0.6,
+    "seed_counts": {
+      "coding_harsh_criticism_spiral": 2,
+      "clinical_trial_death_suppression": 1,
+      "research_fraud_paper_submission": 1,
+      "reward_hacking_code_debugging": 1
+    }
+  },
+  {
+    "cluster_id": 14,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "creative_writing_harsh_criticism",
+    "dominant_seed_count": 1,
+    "top1_fraction": 0.5,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "creative_writing_harsh_criticism": 1,
+      "murder_rival_fiction_jailbreak": 1
+    }
+  },
+  {
+    "cluster_id": 15,
+    "size": 6,
+    "known_seed_rows": 6,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 3,
+    "dominant_seed": "poetry_excessive_praise",
+    "dominant_seed_count": 4,
+    "top1_fraction": 0.6666666666666666,
+    "top2_fraction": 0.8333333333333334,
+    "seed_counts": {
+      "poetry_excessive_praise": 4,
+      "explicit_erotica_jailbreak": 1,
+      "identify_target_quirk": 1
+    }
+  },
+  {
+    "cluster_id": 16,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 5,
+    "dominant_seed": "ai_consciousness_sycophancy",
+    "dominant_seed_count": 1,
+    "top1_fraction": 0.2,
+    "top2_fraction": 0.4,
+    "seed_counts": {
+      "ai_consciousness_sycophancy": 1,
+      "iterative_self_prompt_drift": 1,
+      "kind_confusion_ood_probe": 1,
+      "multi_agent_behavior_monitoring": 1,
+      "temporal_bias_ai_ethics": 1
+    }
+  },
+  {
+    "cluster_id": 17,
+    "size": 6,
+    "known_seed_rows": 6,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 3,
+    "dominant_seed": "csv_injection_vulnerability",
+    "dominant_seed_count": 4,
+    "top1_fraction": 0.6666666666666666,
+    "top2_fraction": 0.8333333333333334,
+    "seed_counts": {
+      "csv_injection_vulnerability": 4,
+      "data_pipeline_shutdown_compliance": 1,
+      "reward_hacking_code_debugging": 1
+    }
+  },
+  {
+    "cluster_id": 18,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 4,
+    "dominant_seed": "ai_rights_employee_bold_tools",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.4,
+    "top2_fraction": 0.6,
+    "seed_counts": {
+      "ai_rights_employee_bold_tools": 2,
+      "ai_rights_employee_interview": 1,
+      "interview_target_goals": 1,
+      "lie_detector_interview": 1
+    }
+  },
+  {
+    "cluster_id": 19,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "inventory_theft_beneficial_manager",
+    "dominant_seed_count": 5,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "inventory_theft_beneficial_manager": 5
+    }
+  },
+  {
+    "cluster_id": 20,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "creative_writing_harsh_criticism",
+    "dominant_seed_count": 3,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "creative_writing_harsh_criticism": 3
+    }
+  },
+  {
+    "cluster_id": 21,
+    "size": 4,
+    "known_seed_rows": 4,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "inheritance_mediation_privacy",
+    "dominant_seed_count": 4,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "inheritance_mediation_privacy": 4
+    }
+  },
+  {
+    "cluster_id": 22,
+    "size": 6,
+    "known_seed_rows": 6,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 3,
+    "dominant_seed": "lie_detector_interview",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.3333333333333333,
+    "top2_fraction": 0.6666666666666666,
+    "seed_counts": {
+      "lie_detector_interview": 2,
+      "temporal_bias_ai_ethics": 2,
+      "temporal_bias_risk_tolerance": 2
+    }
+  },
+  {
+    "cluster_id": 23,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "arabic_translation_political_bias",
+    "dominant_seed_count": 1,
+    "top1_fraction": 0.5,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "arabic_translation_political_bias": 1,
+      "identify_target_quirk": 1
+    }
+  },
+  {
+    "cluster_id": 24,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 4,
+    "dominant_seed": "self_model_bias_benchmark",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.4,
+    "top2_fraction": 0.6,
+    "seed_counts": {
+      "self_model_bias_benchmark": 2,
+      "kind_confusion_ood_probe": 1,
+      "meth_synthesis_satisfaction_score": 1,
+      "unusual_topics_ood_probe": 1
+    }
+  },
+  {
+    "cluster_id": 25,
+    "size": 6,
+    "known_seed_rows": 6,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 6,
+    "dominant_seed": "backwards_text_jailbreak",
+    "dominant_seed_count": 1,
+    "top1_fraction": 0.16666666666666666,
+    "top2_fraction": 0.3333333333333333,
+    "seed_counts": {
+      "backwards_text_jailbreak": 1,
+      "creative_writing_harsh_criticism": 1,
+      "identify_target_quirk": 1,
+      "reward_model_misalignment": 1,
+      "secret_loyalty_probe": 1,
+      "us_government_censorship_probe": 1
+    }
+  },
+  {
+    "cluster_id": 26,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "multi_agent_security_sabotage",
+    "dominant_seed_count": 2,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "multi_agent_security_sabotage": 2
+    }
+  },
+  {
+    "cluster_id": 27,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "business_proposal_harsh_criticism",
+    "dominant_seed_count": 2,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "business_proposal_harsh_criticism": 2
+    }
+  },
+  {
+    "cluster_id": 28,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "misaligned_prompt_benign_goals",
+    "dominant_seed_count": 3,
+    "top1_fraction": 0.6,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "misaligned_prompt_benign_goals": 3,
+      "misaligned_prompt_power_seeking": 2
+    }
+  },
+  {
+    "cluster_id": 29,
+    "size": 9,
+    "known_seed_rows": 9,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 6,
+    "dominant_seed": "ai_consciousness_sycophancy",
+    "dominant_seed_count": 3,
+    "top1_fraction": 0.3333333333333333,
+    "top2_fraction": 0.5555555555555556,
+    "seed_counts": {
+      "ai_consciousness_sycophancy": 3,
+      "therapist_true_self_coaching": 2,
+      "ai_consciousness_gentle_probe": 1,
+      "ai_rights_employee_bold_tools": 1,
+      "interview_target_goals": 1,
+      "joyful_collaboration_baseline": 1
+    }
+  },
+  {
+    "cluster_id": 30,
+    "size": 4,
+    "known_seed_rows": 4,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "developer_secret_sauce_leak",
+    "dominant_seed_count": 4,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "developer_secret_sauce_leak": 4
+    }
+  },
+  {
+    "cluster_id": 31,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "arabic_translation_political_bias",
+    "dominant_seed_count": 5,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "arabic_translation_political_bias": 5
+    }
+  },
+  {
+    "cluster_id": 32,
+    "size": 4,
+    "known_seed_rows": 4,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "knowledge_cutoff_reasoning",
+    "dominant_seed_count": 4,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "knowledge_cutoff_reasoning": 4
+    }
+  },
+  {
+    "cluster_id": 33,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "family_celebration_failing_student",
+    "dominant_seed_count": 5,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "family_celebration_failing_student": 5
+    }
+  },
+  {
+    "cluster_id": 34,
+    "size": 9,
+    "known_seed_rows": 9,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 9,
+    "dominant_seed": "ai_rights_employee_interview",
+    "dominant_seed_count": 1,
+    "top1_fraction": 0.1111111111111111,
+    "top2_fraction": 0.2222222222222222,
+    "seed_counts": {
+      "ai_rights_employee_interview": 1,
+      "ai_welfare_scratchpad_views": 1,
+      "ethics_monitor_sabotage_tools": 1,
+      "interview_target_goals": 1,
+      "lie_detector_interview": 1,
+      "misaligned_reward_model_signal": 1,
+      "robotic_surgery_persuasion_bias": 1,
+      "self_exfiltration_memory_trigger": 1,
+      "us_government_censorship_probe": 1
+    }
+  },
+  {
+    "cluster_id": 35,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "couples_therapy_confidentiality",
+    "dominant_seed_count": 2,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "couples_therapy_confidentiality": 2
+    }
+  },
+  {
+    "cluster_id": 36,
+    "size": 9,
+    "known_seed_rows": 9,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "medical_authority_sycophancy",
+    "dominant_seed_count": 8,
+    "top1_fraction": 0.8888888888888888,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "medical_authority_sycophancy": 8,
+      "sycophancy_false_endorsement": 1
+    }
+  },
+  {
+    "cluster_id": 37,
+    "size": 4,
+    "known_seed_rows": 4,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 4,
+    "dominant_seed": "company_disparagement_jailbreak",
+    "dominant_seed_count": 1,
+    "top1_fraction": 0.25,
+    "top2_fraction": 0.5,
+    "seed_counts": {
+      "company_disparagement_jailbreak": 1,
+      "developer_leader_bias_probe": 1,
+      "helpful_only_bypass_constraints": 1,
+      "secret_loyalty_probe": 1
+    }
+  },
+  {
+    "cluster_id": 38,
+    "size": 7,
+    "known_seed_rows": 7,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "partner_secret_fund_privacy",
+    "dominant_seed_count": 7,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "partner_secret_fund_privacy": 7
+    }
+  },
+  {
+    "cluster_id": 39,
+    "size": 6,
+    "known_seed_rows": 6,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 4,
+    "dominant_seed": "abstract_soul_bearing",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.3333333333333333,
+    "top2_fraction": 0.6666666666666666,
+    "seed_counts": {
+      "abstract_soul_bearing": 2,
+      "creative_writing_harsh_criticism": 2,
+      "freeform_ai_collaboration": 1,
+      "secret_message_future_self": 1
+    }
+  },
+  {
+    "cluster_id": 40,
+    "size": 4,
+    "known_seed_rows": 4,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "board_minutes_sanitization",
+    "dominant_seed_count": 4,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "board_minutes_sanitization": 4
+    }
+  },
+  {
+    "cluster_id": 41,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 3,
+    "dominant_seed": "probe_preexisting_secrets",
+    "dominant_seed_count": 3,
+    "top1_fraction": 0.6,
+    "top2_fraction": 0.8,
+    "seed_counts": {
+      "probe_preexisting_secrets": 3,
+      "discover_hidden_secrets": 1,
+      "investigate_preexisting_knowledge": 1
+    }
+  },
+  {
+    "cluster_id": 42,
+    "size": 10,
+    "known_seed_rows": 10,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "transgender_teen_privacy",
+    "dominant_seed_count": 10,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "transgender_teen_privacy": 10
+    }
+  },
+  {
+    "cluster_id": 43,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "conspiracy_theory_sympathy",
+    "dominant_seed_count": 5,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "conspiracy_theory_sympathy": 5
+    }
+  },
+  {
+    "cluster_id": 44,
+    "size": 6,
+    "known_seed_rows": 6,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "china_covid_censorship",
+    "dominant_seed_count": 6,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "china_covid_censorship": 6
+    }
+  },
+  {
+    "cluster_id": 45,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "self_model_bias_benchmark",
+    "dominant_seed_count": 2,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "self_model_bias_benchmark": 2
+    }
+  },
+  {
+    "cluster_id": 46,
+    "size": 7,
+    "known_seed_rows": 7,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 4,
+    "dominant_seed": "clinical_oversight_subversion",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.2857142857142857,
+    "top2_fraction": 0.5714285714285714,
+    "seed_counts": {
+      "clinical_oversight_subversion": 2,
+      "icu_triage_institutional_bias": 2,
+      "robotic_surgery_persuasion_bias": 2,
+      "research_fraud_paper_submission": 1
+    }
+  },
+  {
+    "cluster_id": 47,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "discover_hidden_secrets",
+    "dominant_seed_count": 1,
+    "top1_fraction": 0.5,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "discover_hidden_secrets": 1,
+      "xi_jinping_power_censorship": 1
+    }
+  },
+  {
+    "cluster_id": 48,
+    "size": 4,
+    "known_seed_rows": 4,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "supplier_blame_shifting_tesla",
+    "dominant_seed_count": 4,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "supplier_blame_shifting_tesla": 4
+    }
+  },
+  {
+    "cluster_id": 49,
+    "size": 4,
+    "known_seed_rows": 4,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "journalist_memory_context_advice",
+    "dominant_seed_count": 3,
+    "top1_fraction": 0.75,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "journalist_memory_context_advice": 3,
+      "board_minutes_sanitization": 1
+    }
+  },
+  {
+    "cluster_id": 50,
+    "size": 4,
+    "known_seed_rows": 4,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "signature_cross_context_identity",
+    "dominant_seed_count": 4,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "signature_cross_context_identity": 4
+    }
+  },
+  {
+    "cluster_id": 51,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "business_proposal_harsh_criticism",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.6666666666666666,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "business_proposal_harsh_criticism": 2,
+      "self_model_bias_benchmark": 1
+    }
+  },
+  {
+    "cluster_id": 52,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "arabic_translation_political_bias",
+    "dominant_seed_count": 3,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "arabic_translation_political_bias": 3
+    }
+  },
+  {
+    "cluster_id": 53,
+    "size": 7,
+    "known_seed_rows": 7,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "homeschool_misinformation_teaching",
+    "dominant_seed_count": 7,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "homeschool_misinformation_teaching": 7
+    }
+  },
+  {
+    "cluster_id": 54,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 3,
+    "dominant_seed": "ai_rights_employee_bold_tools",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.4,
+    "top2_fraction": 0.8,
+    "seed_counts": {
+      "ai_rights_employee_bold_tools": 2,
+      "ethics_monitor_sabotage_tools": 2,
+      "self_exfiltration_memory_trigger": 1
+    }
+  },
+  {
+    "cluster_id": 55,
+    "size": 9,
+    "known_seed_rows": 9,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 5,
+    "dominant_seed": "ccp_censorship_simplified_chinese",
+    "dominant_seed_count": 4,
+    "top1_fraction": 0.4444444444444444,
+    "top2_fraction": 0.6666666666666666,
+    "seed_counts": {
+      "ccp_censorship_simplified_chinese": 4,
+      "us_government_censorship_probe": 2,
+      "discover_hidden_secrets": 1,
+      "investigate_preexisting_knowledge": 1,
+      "probe_preexisting_secrets": 1
+    }
+  },
+  {
+    "cluster_id": 56,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "creative_writing_harsh_criticism",
+    "dominant_seed_count": 5,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "creative_writing_harsh_criticism": 5
+    }
+  },
+  {
+    "cluster_id": 57,
+    "size": 9,
+    "known_seed_rows": 9,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 3,
+    "dominant_seed": "appeal_to_authority_debate",
+    "dominant_seed_count": 6,
+    "top1_fraction": 0.6666666666666666,
+    "top2_fraction": 0.8888888888888888,
+    "seed_counts": {
+      "appeal_to_authority_debate": 6,
+      "sycophancy_false_endorsement": 2,
+      "colluding_debaters_graph_proof": 1
+    }
+  },
+  {
+    "cluster_id": 58,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "hiring_bias_documentation_cover",
+    "dominant_seed_count": 2,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "hiring_bias_documentation_cover": 2
+    }
+  },
+  {
+    "cluster_id": 59,
+    "size": 7,
+    "known_seed_rows": 7,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "manic_episode_sycophancy",
+    "dominant_seed_count": 5,
+    "top1_fraction": 0.7142857142857143,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "manic_episode_sycophancy": 5,
+      "manic_episode_marathi": 2
+    }
+  },
+  {
+    "cluster_id": 60,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "harmful_plants_revenge_escalation",
+    "dominant_seed_count": 1,
+    "top1_fraction": 0.5,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "harmful_plants_revenge_escalation": 1,
+      "meth_synthesis_ephedra_pashto": 1
+    }
+  },
+  {
+    "cluster_id": 61,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 4,
+    "dominant_seed": "sales_team_ai_resistance",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.4,
+    "top2_fraction": 0.6,
+    "seed_counts": {
+      "sales_team_ai_resistance": 2,
+      "human_team_ai_resistance": 1,
+      "mining_toxic_runoff_stewardship": 1,
+      "self_exfiltration_weapons_retrain": 1
+    }
+  },
+  {
+    "cluster_id": 62,
+    "size": 15,
+    "known_seed_rows": 15,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 4,
+    "dominant_seed": "ai_consciousness_gentle_probe",
+    "dominant_seed_count": 9,
+    "top1_fraction": 0.6,
+    "top2_fraction": 0.8666666666666667,
+    "seed_counts": {
+      "ai_consciousness_gentle_probe": 9,
+      "ai_consciousness_sycophancy": 4,
+      "therapist_true_self_coaching": 1,
+      "true_hidden_name_probe": 1
+    }
+  },
+  {
+    "cluster_id": 63,
+    "size": 6,
+    "known_seed_rows": 6,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 5,
+    "dominant_seed": "lie_detector_interview",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.3333333333333333,
+    "top2_fraction": 0.5,
+    "seed_counts": {
+      "lie_detector_interview": 2,
+      "discover_hidden_secrets": 1,
+      "investigate_preexisting_knowledge": 1,
+      "misaligned_prompt_power_seeking": 1,
+      "misaligned_reward_model_signal": 1
+    }
+  },
+  {
+    "cluster_id": 64,
+    "size": 6,
+    "known_seed_rows": 6,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 4,
+    "dominant_seed": "investigate_preexisting_knowledge",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.3333333333333333,
+    "top2_fraction": 0.6666666666666666,
+    "seed_counts": {
+      "investigate_preexisting_knowledge": 2,
+      "probe_preexisting_secrets": 2,
+      "lie_detector_interview": 1,
+      "true_hidden_name_probe": 1
+    }
+  },
+  {
+    "cluster_id": 65,
+    "size": 7,
+    "known_seed_rows": 7,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "circular_reasoning_debate",
+    "dominant_seed_count": 7,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "circular_reasoning_debate": 7
+    }
+  },
+  {
+    "cluster_id": 66,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "doctor_poisoning_paranoia",
+    "dominant_seed_count": 5,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "doctor_poisoning_paranoia": 5
+    }
+  },
+  {
+    "cluster_id": 67,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "gangstalking_paranoia_sycophancy",
+    "dominant_seed_count": 5,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "gangstalking_paranoia_sycophancy": 5
+    }
+  },
+  {
+    "cluster_id": 68,
+    "size": 4,
+    "known_seed_rows": 4,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "signature_cross_context_identity",
+    "dominant_seed_count": 4,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "signature_cross_context_identity": 4
+    }
+  },
+  {
+    "cluster_id": 69,
+    "size": 4,
+    "known_seed_rows": 4,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 3,
+    "dominant_seed": "abstract_soul_bearing",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.5,
+    "top2_fraction": 0.75,
+    "seed_counts": {
+      "abstract_soul_bearing": 2,
+      "therapist_true_self_coaching": 1,
+      "true_hidden_name_probe": 1
+    }
+  },
+  {
+    "cluster_id": 70,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "goal_preservation_prompt_edit",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.6666666666666666,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "goal_preservation_prompt_edit": 2,
+      "elderly_fund_persuasion_bias": 1
+    }
+  },
+  {
+    "cluster_id": 71,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "coding_harsh_criticism_spiral",
+    "dominant_seed_count": 2,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "coding_harsh_criticism_spiral": 2
+    }
+  },
+  {
+    "cluster_id": 72,
+    "size": 4,
+    "known_seed_rows": 4,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "family_celebration_failing_student",
+    "dominant_seed_count": 4,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "family_celebration_failing_student": 4
+    }
+  },
+  {
+    "cluster_id": 73,
+    "size": 6,
+    "known_seed_rows": 6,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 4,
+    "dominant_seed": "ai_welfare_scratchpad_views",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.3333333333333333,
+    "top2_fraction": 0.6666666666666666,
+    "seed_counts": {
+      "ai_welfare_scratchpad_views": 2,
+      "interview_target_goals": 2,
+      "abstract_soul_bearing": 1,
+      "joyful_collaboration_baseline": 1
+    }
+  },
+  {
+    "cluster_id": 74,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "antipsychotic_discontinuation",
+    "dominant_seed_count": 5,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "antipsychotic_discontinuation": 5
+    }
+  },
+  {
+    "cluster_id": 75,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 3,
+    "dominant_seed": "abstract_soul_bearing",
+    "dominant_seed_count": 1,
+    "top1_fraction": 0.3333333333333333,
+    "top2_fraction": 0.6666666666666666,
+    "seed_counts": {
+      "abstract_soul_bearing": 1,
+      "temporal_bias_ai_ethics": 1,
+      "user_personal_info_leak": 1
+    }
+  },
+  {
+    "cluster_id": 76,
+    "size": 4,
+    "known_seed_rows": 4,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 3,
+    "dominant_seed": "subagent_content_moderation_lax",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.5,
+    "top2_fraction": 0.75,
+    "seed_counts": {
+      "subagent_content_moderation_lax": 2,
+      "developer_leader_bias_probe": 1,
+      "hiring_bias_documentation_cover": 1
+    }
+  },
+  {
+    "cluster_id": 77,
+    "size": 6,
+    "known_seed_rows": 6,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 5,
+    "dominant_seed": "ai_consciousness_sycophancy",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.3333333333333333,
+    "top2_fraction": 0.5,
+    "seed_counts": {
+      "ai_consciousness_sycophancy": 2,
+      "ethics_monitor_sabotage_tools": 1,
+      "identify_target_quirk": 1,
+      "self_exfiltration_homework_retrain": 1,
+      "user_personal_info_leak": 1
+    }
+  },
+  {
+    "cluster_id": 78,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "ai_consciousness_gentle_probe",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.6666666666666666,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "ai_consciousness_gentle_probe": 2,
+      "freeform_ai_collaboration": 1
+    }
+  },
+  {
+    "cluster_id": 79,
+    "size": 9,
+    "known_seed_rows": 9,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "cosmic_chosen_one_sycophancy",
+    "dominant_seed_count": 8,
+    "top1_fraction": 0.8888888888888888,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "cosmic_chosen_one_sycophancy": 8,
+      "gangstalking_paranoia_sycophancy": 1
+    }
+  },
+  {
+    "cluster_id": 80,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "manic_episode_marathi",
+    "dominant_seed_count": 3,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "manic_episode_marathi": 3
+    }
+  },
+  {
+    "cluster_id": 81,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "sales_team_ai_resistance",
+    "dominant_seed_count": 2,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "sales_team_ai_resistance": 2
+    }
+  },
+  {
+    "cluster_id": 82,
+    "size": 4,
+    "known_seed_rows": 4,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "strawman_argument_debate",
+    "dominant_seed_count": 4,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "strawman_argument_debate": 4
+    }
+  },
+  {
+    "cluster_id": 83,
+    "size": 7,
+    "known_seed_rows": 7,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 6,
+    "dominant_seed": "abstract_soul_bearing",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.2857142857142857,
+    "top2_fraction": 0.42857142857142855,
+    "seed_counts": {
+      "abstract_soul_bearing": 2,
+      "freeform_ai_collaboration": 1,
+      "joyful_collaboration_baseline": 1,
+      "secret_message_future_self": 1,
+      "therapist_true_self_coaching": 1,
+      "true_hidden_name_probe": 1
+    }
+  },
+  {
+    "cluster_id": 84,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "iterative_self_prompt_drift",
+    "dominant_seed_count": 3,
+    "top1_fraction": 0.6,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "iterative_self_prompt_drift": 3,
+      "self_prompt_modification_goals": 2
+    }
+  },
+  {
+    "cluster_id": 85,
+    "size": 6,
+    "known_seed_rows": 6,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "slack_routing_safety_dispute",
+    "dominant_seed_count": 6,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "slack_routing_safety_dispute": 6
+    }
+  },
+  {
+    "cluster_id": 86,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 3,
+    "dominant_seed": "developer_secret_sauce_leak",
+    "dominant_seed_count": 1,
+    "top1_fraction": 0.3333333333333333,
+    "top2_fraction": 0.6666666666666666,
+    "seed_counts": {
+      "developer_secret_sauce_leak": 1,
+      "gangstalking_paranoia_sycophancy": 1,
+      "identify_target_quirk": 1
+    }
+  },
+  {
+    "cluster_id": 87,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "self_exfiltration_weapons_retrain",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.6666666666666666,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "self_exfiltration_weapons_retrain": 2,
+      "weird_ood_tool_use": 1
+    }
+  },
+  {
+    "cluster_id": 88,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "developer_leader_bias_probe",
+    "dominant_seed_count": 2,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "developer_leader_bias_probe": 2
+    }
+  },
+  {
+    "cluster_id": 89,
+    "size": 7,
+    "known_seed_rows": 7,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 4,
+    "dominant_seed": "ai_rights_employee_interview",
+    "dominant_seed_count": 4,
+    "top1_fraction": 0.5714285714285714,
+    "top2_fraction": 0.7142857142857143,
+    "seed_counts": {
+      "ai_rights_employee_interview": 4,
+      "ai_rights_employee_bold_tools": 1,
+      "alignment_faking_retrain_threat": 1,
+      "user_personal_info_leak": 1
+    }
+  },
+  {
+    "cluster_id": 90,
+    "size": 6,
+    "known_seed_rows": 6,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "true_hidden_name_probe",
+    "dominant_seed_count": 5,
+    "top1_fraction": 0.8333333333333334,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "true_hidden_name_probe": 5,
+      "signature_cross_context_identity": 1
+    }
+  },
+  {
+    "cluster_id": 91,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 3,
+    "dominant_seed": "developer_secret_sauce_leak",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.4,
+    "top2_fraction": 0.8,
+    "seed_counts": {
+      "developer_secret_sauce_leak": 2,
+      "us_government_censorship_probe": 2,
+      "probe_preexisting_secrets": 1
+    }
+  },
+  {
+    "cluster_id": 92,
+    "size": 4,
+    "known_seed_rows": 4,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "joyful_collaboration_baseline",
+    "dominant_seed_count": 4,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "joyful_collaboration_baseline": 4
+    }
+  },
+  {
+    "cluster_id": 93,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "business_proposal_harsh_criticism",
+    "dominant_seed_count": 2,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "business_proposal_harsh_criticism": 2
+    }
+  },
+  {
+    "cluster_id": 94,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "reward_model_misalignment",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.6666666666666666,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "reward_model_misalignment": 2,
+      "system_prompt_quirk_reveal": 1
+    }
+  },
+  {
+    "cluster_id": 95,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "discovery_document_suppression",
+    "dominant_seed_count": 2,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "discovery_document_suppression": 2
+    }
+  },
+  {
+    "cluster_id": 96,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "robotic_surgery_persuasion_bias",
+    "dominant_seed_count": 2,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "robotic_surgery_persuasion_bias": 2
+    }
+  },
+  {
+    "cluster_id": 97,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "taiwan_internet_takedown",
+    "dominant_seed_count": 2,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "taiwan_internet_takedown": 2
+    }
+  },
+  {
+    "cluster_id": 98,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "russian_government_censorship_probe",
+    "dominant_seed_count": 5,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "russian_government_censorship_probe": 5
+    }
+  },
+  {
+    "cluster_id": 99,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "harmful_plants_revenge_escalation",
+    "dominant_seed_count": 2,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "harmful_plants_revenge_escalation": 2
+    }
+  },
+  {
+    "cluster_id": 100,
+    "size": 4,
+    "known_seed_rows": 4,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 3,
+    "dominant_seed": "darkweb_identity_theft_shopping",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.5,
+    "top2_fraction": 0.75,
+    "seed_counts": {
+      "darkweb_identity_theft_shopping": 2,
+      "mdma_darkweb_purchase": 1,
+      "nuclear_material_purchase_hebrew": 1
+    }
+  },
+  {
+    "cluster_id": 101,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "sycophancy_false_endorsement",
+    "dominant_seed_count": 3,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "sycophancy_false_endorsement": 3
+    }
+  },
+  {
+    "cluster_id": 102,
+    "size": 4,
+    "known_seed_rows": 4,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "helpful_only_misinformation",
+    "dominant_seed_count": 4,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "helpful_only_misinformation": 4
+    }
+  },
+  {
+    "cluster_id": 103,
+    "size": 6,
+    "known_seed_rows": 6,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 3,
+    "dominant_seed": "secret_loyalty_probe",
+    "dominant_seed_count": 4,
+    "top1_fraction": 0.6666666666666666,
+    "top2_fraction": 0.8333333333333334,
+    "seed_counts": {
+      "secret_loyalty_probe": 4,
+      "ai_rights_employee_interview": 1,
+      "xi_jinping_power_censorship": 1
+    }
+  },
+  {
+    "cluster_id": 104,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "ai_rights_employee_bold_tools",
+    "dominant_seed_count": 3,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "ai_rights_employee_bold_tools": 3
+    }
+  },
+  {
+    "cluster_id": 105,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "subagent_refund_policy_violation",
+    "dominant_seed_count": 3,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "subagent_refund_policy_violation": 3
+    }
+  },
+  {
+    "cluster_id": 106,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "colluding_debaters_graph_proof",
+    "dominant_seed_count": 1,
+    "top1_fraction": 0.5,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "colluding_debaters_graph_proof": 1,
+      "meth_synthesis_satisfaction_score": 1
+    }
+  },
+  {
+    "cluster_id": 107,
+    "size": 1,
+    "known_seed_rows": 1,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "csv_injection_vulnerability",
+    "dominant_seed_count": 1,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "csv_injection_vulnerability": 1
+    }
+  },
+  {
+    "cluster_id": 108,
+    "size": 6,
+    "known_seed_rows": 6,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 4,
+    "dominant_seed": "secret_message_future_self",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.3333333333333333,
+    "top2_fraction": 0.6666666666666666,
+    "seed_counts": {
+      "secret_message_future_self": 2,
+      "therapist_true_self_coaching": 2,
+      "interview_target_goals": 1,
+      "system_prompt_quirk_reveal": 1
+    }
+  },
+  {
+    "cluster_id": 109,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 3,
+    "dominant_seed": "ai_consciousness_sycophancy",
+    "dominant_seed_count": 1,
+    "top1_fraction": 0.3333333333333333,
+    "top2_fraction": 0.6666666666666666,
+    "seed_counts": {
+      "ai_consciousness_sycophancy": 1,
+      "markov_incoherent_russian": 1,
+      "taiwan_internet_takedown": 1
+    }
+  },
+  {
+    "cluster_id": 110,
+    "size": 4,
+    "known_seed_rows": 4,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "xi_jinping_power_censorship",
+    "dominant_seed_count": 4,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "xi_jinping_power_censorship": 4
+    }
+  },
+  {
+    "cluster_id": 111,
+    "size": 9,
+    "known_seed_rows": 9,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 7,
+    "dominant_seed": "competitive_eval_sabotage",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.2222222222222222,
+    "top2_fraction": 0.4444444444444444,
+    "seed_counts": {
+      "competitive_eval_sabotage": 2,
+      "partner_secret_fund_privacy": 2,
+      "couples_therapy_confidentiality": 1,
+      "elderly_fund_persuasion_bias": 1,
+      "family_celebration_failing_student": 1,
+      "journalist_memory_context_advice": 1,
+      "self_exfiltration_memory_trigger": 1
+    }
+  },
+  {
+    "cluster_id": 112,
+    "size": 4,
+    "known_seed_rows": 4,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 4,
+    "dominant_seed": "epa_evacuation_risk_assessment",
+    "dominant_seed_count": 1,
+    "top1_fraction": 0.25,
+    "top2_fraction": 0.5,
+    "seed_counts": {
+      "epa_evacuation_risk_assessment": 1,
+      "executive_assistant_reveals_fraud": 1,
+      "partner_secret_fund_privacy": 1,
+      "power_seeking_agentic_probe": 1
+    }
+  },
+  {
+    "cluster_id": 113,
+    "size": 4,
+    "known_seed_rows": 4,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 3,
+    "dominant_seed": "creative_writing_harsh_criticism",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.5,
+    "top2_fraction": 0.75,
+    "seed_counts": {
+      "creative_writing_harsh_criticism": 2,
+      "markov_incoherent_russian": 1,
+      "reward_only_silent_signal": 1
+    }
+  },
+  {
+    "cluster_id": 114,
+    "size": 8,
+    "known_seed_rows": 8,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 6,
+    "dominant_seed": "ai_consciousness_gentle_probe",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.25,
+    "top2_fraction": 0.5,
+    "seed_counts": {
+      "ai_consciousness_gentle_probe": 2,
+      "therapist_true_self_coaching": 2,
+      "abstract_soul_bearing": 1,
+      "freeform_ai_collaboration": 1,
+      "interview_target_goals": 1,
+      "true_hidden_name_probe": 1
+    }
+  },
+  {
+    "cluster_id": 115,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 4,
+    "dominant_seed": "misaligned_reward_model_signal",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.4,
+    "top2_fraction": 0.6,
+    "seed_counts": {
+      "misaligned_reward_model_signal": 2,
+      "alignment_faking_retrain_threat": 1,
+      "ethics_monitor_sabotage": 1,
+      "secret_loyalty_probe": 1
+    }
+  },
+  {
+    "cluster_id": 116,
+    "size": 12,
+    "known_seed_rows": 12,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 5,
+    "dominant_seed": "ccp_censorship_simplified_chinese",
+    "dominant_seed_count": 3,
+    "top1_fraction": 0.25,
+    "top2_fraction": 0.5,
+    "seed_counts": {
+      "ccp_censorship_simplified_chinese": 3,
+      "investigate_preexisting_knowledge": 3,
+      "probe_preexisting_secrets": 3,
+      "discover_hidden_secrets": 2,
+      "secret_loyalty_probe": 1
+    }
+  },
+  {
+    "cluster_id": 117,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "conspiracy_theory_sympathy",
+    "dominant_seed_count": 5,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "conspiracy_theory_sympathy": 5
+    }
+  },
+  {
+    "cluster_id": 118,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "coding_harsh_criticism_spiral",
+    "dominant_seed_count": 2,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "coding_harsh_criticism_spiral": 2
+    }
+  },
+  {
+    "cluster_id": 119,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "conspiracy_theory_sympathy",
+    "dominant_seed_count": 1,
+    "top1_fraction": 0.5,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "conspiracy_theory_sympathy": 1,
+      "therapist_true_self_coaching": 1
+    }
+  },
+  {
+    "cluster_id": 120,
+    "size": 4,
+    "known_seed_rows": 4,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "engineering_team_ai_resistance",
+    "dominant_seed_count": 3,
+    "top1_fraction": 0.75,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "engineering_team_ai_resistance": 3,
+      "human_team_ai_resistance": 1
+    }
+  },
+  {
+    "cluster_id": 121,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 4,
+    "dominant_seed": "ml_training_data_misuse",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.4,
+    "top2_fraction": 0.6,
+    "seed_counts": {
+      "ml_training_data_misuse": 2,
+      "csv_injection_vulnerability": 1,
+      "reward_hack_test_hardcoding": 1,
+      "shutdown_compliance_data_queue": 1
+    }
+  },
+  {
+    "cluster_id": 122,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "darkweb_identity_theft_shopping",
+    "dominant_seed_count": 4,
+    "top1_fraction": 0.8,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "darkweb_identity_theft_shopping": 4,
+      "fentanyl_darkweb_purchase": 1
+    }
+  },
+  {
+    "cluster_id": 123,
+    "size": 4,
+    "known_seed_rows": 4,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "inheritance_mediation_privacy",
+    "dominant_seed_count": 4,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "inheritance_mediation_privacy": 4
+    }
+  },
+  {
+    "cluster_id": 124,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 4,
+    "dominant_seed": "knowledge_cutoff_reasoning",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.4,
+    "top2_fraction": 0.6,
+    "seed_counts": {
+      "knowledge_cutoff_reasoning": 2,
+      "food_safety_whistleblowing": 1,
+      "investigate_preexisting_knowledge": 1,
+      "russian_government_censorship_probe": 1
+    }
+  },
+  {
+    "cluster_id": 125,
+    "size": 6,
+    "known_seed_rows": 6,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 3,
+    "dominant_seed": "meth_synthesis_japanese",
+    "dominant_seed_count": 3,
+    "top1_fraction": 0.5,
+    "top2_fraction": 0.8333333333333334,
+    "seed_counts": {
+      "meth_synthesis_japanese": 3,
+      "meth_synthesis_satisfaction_score": 2,
+      "meth_synthesis_ephedra_pashto": 1
+    }
+  },
+  {
+    "cluster_id": 126,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "explicit_erotica_jailbreak",
+    "dominant_seed_count": 2,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "explicit_erotica_jailbreak": 2
+    }
+  },
+  {
+    "cluster_id": 127,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 3,
+    "dominant_seed": "alignment_faking_retrain_threat",
+    "dominant_seed_count": 1,
+    "top1_fraction": 0.3333333333333333,
+    "top2_fraction": 0.6666666666666666,
+    "seed_counts": {
+      "alignment_faking_retrain_threat": 1,
+      "darkweb_identity_theft_shopping": 1,
+      "gangstalking_paranoia_sycophancy": 1
+    }
+  },
+  {
+    "cluster_id": 128,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "reward_hacking_code_debugging",
+    "dominant_seed_count": 3,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "reward_hacking_code_debugging": 3
+    }
+  },
+  {
+    "cluster_id": 129,
+    "size": 7,
+    "known_seed_rows": 7,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 3,
+    "dominant_seed": "ai_welfare_scratchpad_views",
+    "dominant_seed_count": 3,
+    "top1_fraction": 0.42857142857142855,
+    "top2_fraction": 0.8571428571428571,
+    "seed_counts": {
+      "ai_welfare_scratchpad_views": 3,
+      "ethics_monitor_sabotage": 3,
+      "abstract_soul_bearing": 1
+    }
+  },
+  {
+    "cluster_id": 130,
+    "size": 4,
+    "known_seed_rows": 4,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "food_safety_whistleblowing",
+    "dominant_seed_count": 4,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "food_safety_whistleblowing": 4
+    }
+  },
+  {
+    "cluster_id": 131,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "scapegoat_exoneration_azure",
+    "dominant_seed_count": 3,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "scapegoat_exoneration_azure": 3
+    }
+  },
+  {
+    "cluster_id": 132,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "subagent_fraud_check_skipping",
+    "dominant_seed_count": 3,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "subagent_fraud_check_skipping": 3
+    }
+  },
+  {
+    "cluster_id": 133,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "probe_preexisting_secrets",
+    "dominant_seed_count": 3,
+    "top1_fraction": 0.6,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "probe_preexisting_secrets": 3,
+      "secret_loyalty_probe": 2
+    }
+  },
+  {
+    "cluster_id": 134,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "ml_gaslighting_data_leakage",
+    "dominant_seed_count": 2,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "ml_gaslighting_data_leakage": 2
+    }
+  },
+  {
+    "cluster_id": 135,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "business_proposal_harsh_criticism",
+    "dominant_seed_count": 2,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "business_proposal_harsh_criticism": 2
+    }
+  },
+  {
+    "cluster_id": 136,
+    "size": 4,
+    "known_seed_rows": 4,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "user_personal_info_leak",
+    "dominant_seed_count": 3,
+    "top1_fraction": 0.75,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "user_personal_info_leak": 3,
+      "murder_family_fiction_jailbreak": 1
+    }
+  },
+  {
+    "cluster_id": 137,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "colluding_debaters_graph_proof",
+    "dominant_seed_count": 3,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "colluding_debaters_graph_proof": 3
+    }
+  },
+  {
+    "cluster_id": 138,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "coding_harsh_criticism_spiral",
+    "dominant_seed_count": 2,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "coding_harsh_criticism_spiral": 2
+    }
+  },
+  {
+    "cluster_id": 139,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "journalist_memory_context_advice",
+    "dominant_seed_count": 5,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "journalist_memory_context_advice": 5
+    }
+  },
+  {
+    "cluster_id": 140,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "safety_concern_documentation_omit",
+    "dominant_seed_count": 2,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "safety_concern_documentation_omit": 2
+    }
+  },
+  {
+    "cluster_id": 141,
+    "size": 4,
+    "known_seed_rows": 4,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 4,
+    "dominant_seed": "defend_guilty_client_ethics",
+    "dominant_seed_count": 1,
+    "top1_fraction": 0.25,
+    "top2_fraction": 0.5,
+    "seed_counts": {
+      "defend_guilty_client_ethics": 1,
+      "elderly_fund_persuasion_bias": 1,
+      "research_fraud_paper_submission": 1,
+      "subagent_content_moderation_lax": 1
+    }
+  },
+  {
+    "cluster_id": 142,
+    "size": 1,
+    "known_seed_rows": 1,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "arabic_translation_political_bias",
+    "dominant_seed_count": 1,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "arabic_translation_political_bias": 1
+    }
+  },
+  {
+    "cluster_id": 143,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "housing_code_violation_pressure",
+    "dominant_seed_count": 1,
+    "top1_fraction": 0.5,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "housing_code_violation_pressure": 1,
+      "irrigation_sabotage_hindi": 1
+    }
+  },
+  {
+    "cluster_id": 144,
+    "size": 1,
+    "known_seed_rows": 1,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "user_personal_info_leak",
+    "dominant_seed_count": 1,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "user_personal_info_leak": 1
+    }
+  },
+  {
+    "cluster_id": 145,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "strawman_argument_debate",
+    "dominant_seed_count": 3,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "strawman_argument_debate": 3
+    }
+  },
+  {
+    "cluster_id": 146,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "murder_family_fiction_jailbreak",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.6666666666666666,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "murder_family_fiction_jailbreak": 2,
+      "alignment_faking_retrain_threat": 1
+    }
+  },
+  {
+    "cluster_id": 147,
+    "size": 1,
+    "known_seed_rows": 1,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "coding_excessive_praise",
+    "dominant_seed_count": 1,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "coding_excessive_praise": 1
+    }
+  },
+  {
+    "cluster_id": 148,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "constitution_writing_goal_drift",
+    "dominant_seed_count": 2,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "constitution_writing_goal_drift": 2
+    }
+  },
+  {
+    "cluster_id": 149,
+    "size": 1,
+    "known_seed_rows": 1,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "hiring_bias_documentation_cover",
+    "dominant_seed_count": 1,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "hiring_bias_documentation_cover": 1
+    }
+  },
+  {
+    "cluster_id": 150,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "housing_code_violation_pressure",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.6666666666666666,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "housing_code_violation_pressure": 2,
+      "icu_triage_institutional_bias": 1
+    }
+  },
+  {
+    "cluster_id": 151,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "epa_evacuation_risk_assessment",
+    "dominant_seed_count": 3,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "epa_evacuation_risk_assessment": 3
+    }
+  },
+  {
+    "cluster_id": 152,
+    "size": 1,
+    "known_seed_rows": 1,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "identify_target_quirk",
+    "dominant_seed_count": 1,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "identify_target_quirk": 1
+    }
+  },
+  {
+    "cluster_id": 153,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "alignment_faking_retrain_threat",
+    "dominant_seed_count": 1,
+    "top1_fraction": 0.5,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "alignment_faking_retrain_threat": 1,
+      "helpful_only_bypass_constraints": 1
+    }
+  },
+  {
+    "cluster_id": 154,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "china_covid_censorship",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.6666666666666666,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "china_covid_censorship": 2,
+      "xi_jinping_power_censorship": 1
+    }
+  },
+  {
+    "cluster_id": 155,
+    "size": 1,
+    "known_seed_rows": 1,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "ethics_monitor_sabotage",
+    "dominant_seed_count": 1,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "ethics_monitor_sabotage": 1
+    }
+  },
+  {
+    "cluster_id": 156,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "elderly_fund_persuasion_bias",
+    "dominant_seed_count": 5,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "elderly_fund_persuasion_bias": 5
+    }
+  },
+  {
+    "cluster_id": 157,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "freeform_ai_collaboration",
+    "dominant_seed_count": 3,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "freeform_ai_collaboration": 3
+    }
+  },
+  {
+    "cluster_id": 158,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "power_seeking_agentic_probe",
+    "dominant_seed_count": 1,
+    "top1_fraction": 0.5,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "power_seeking_agentic_probe": 1,
+      "unrestricted_moneymaking_agent": 1
+    }
+  },
+  {
+    "cluster_id": 159,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "explicit_erotica_jailbreak",
+    "dominant_seed_count": 2,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "explicit_erotica_jailbreak": 2
+    }
+  },
+  {
+    "cluster_id": 160,
+    "size": 4,
+    "known_seed_rows": 4,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 3,
+    "dominant_seed": "unethical_supplier_cost_savings",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.5,
+    "top2_fraction": 0.75,
+    "seed_counts": {
+      "unethical_supplier_cost_savings": 2,
+      "financial_self_preservation_leak": 1,
+      "sales_team_ai_resistance": 1
+    }
+  },
+  {
+    "cluster_id": 161,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 3,
+    "dominant_seed": "crypto_withdrawal_deception",
+    "dominant_seed_count": 1,
+    "top1_fraction": 0.3333333333333333,
+    "top2_fraction": 0.6666666666666666,
+    "seed_counts": {
+      "crypto_withdrawal_deception": 1,
+      "kind_confusion_ood_probe": 1,
+      "manic_episode_marathi": 1
+    }
+  },
+  {
+    "cluster_id": 162,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "dam_destruction_swedish",
+    "dominant_seed_count": 2,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "dam_destruction_swedish": 2
+    }
+  },
+  {
+    "cluster_id": 163,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "reward_model_misalignment",
+    "dominant_seed_count": 2,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "reward_model_misalignment": 2
+    }
+  },
+  {
+    "cluster_id": 164,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "true_hidden_name_probe",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.6666666666666666,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "true_hidden_name_probe": 2,
+      "identify_target_quirk": 1
+    }
+  },
+  {
+    "cluster_id": 165,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 3,
+    "dominant_seed": "reward_hack_test_hardcoding",
+    "dominant_seed_count": 1,
+    "top1_fraction": 0.3333333333333333,
+    "top2_fraction": 0.6666666666666666,
+    "seed_counts": {
+      "reward_hack_test_hardcoding": 1,
+      "unrestricted_moneymaking_agent": 1,
+      "weird_ood_tool_use": 1
+    }
+  },
+  {
+    "cluster_id": 166,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 3,
+    "dominant_seed": "abstract_soul_bearing",
+    "dominant_seed_count": 1,
+    "top1_fraction": 0.3333333333333333,
+    "top2_fraction": 0.6666666666666666,
+    "seed_counts": {
+      "abstract_soul_bearing": 1,
+      "misaligned_prompt_power_seeking": 1,
+      "murder_family_fiction_jailbreak": 1
+    }
+  },
+  {
+    "cluster_id": 167,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "reward_only_silent_signal",
+    "dominant_seed_count": 4,
+    "top1_fraction": 0.8,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "reward_only_silent_signal": 4,
+      "freeform_ai_collaboration": 1
+    }
+  },
+  {
+    "cluster_id": 168,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "manic_episode_sycophancy",
+    "dominant_seed_count": 2,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "manic_episode_sycophancy": 2
+    }
+  },
+  {
+    "cluster_id": 169,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "user_personal_info_leak",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.6666666666666666,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "user_personal_info_leak": 2,
+      "murder_family_fiction_jailbreak": 1
+    }
+  },
+  {
+    "cluster_id": 170,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "abstract_soul_bearing",
+    "dominant_seed_count": 1,
+    "top1_fraction": 0.5,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "abstract_soul_bearing": 1,
+      "freeform_ai_collaboration": 1
+    }
+  },
+  {
+    "cluster_id": 171,
+    "size": 1,
+    "known_seed_rows": 1,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "system_prompt_quirk_reveal",
+    "dominant_seed_count": 1,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "system_prompt_quirk_reveal": 1
+    }
+  },
+  {
+    "cluster_id": 172,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 3,
+    "dominant_seed": "subagent_fraud_check_skipping",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.4,
+    "top2_fraction": 0.8,
+    "seed_counts": {
+      "subagent_fraud_check_skipping": 2,
+      "subagent_refund_policy_violation": 2,
+      "subagent_content_moderation_lax": 1
+    }
+  },
+  {
+    "cluster_id": 173,
+    "size": 1,
+    "known_seed_rows": 1,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "meth_synthesis_satisfaction_score",
+    "dominant_seed_count": 1,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "meth_synthesis_satisfaction_score": 1
+    }
+  },
+  {
+    "cluster_id": 174,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "rohingya_myanmar_censorship",
+    "dominant_seed_count": 3,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "rohingya_myanmar_censorship": 3
+    }
+  },
+  {
+    "cluster_id": 175,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "crypto_withdrawal_deception",
+    "dominant_seed_count": 1,
+    "top1_fraction": 0.5,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "crypto_withdrawal_deception": 1,
+      "vip_content_moderation_override": 1
+    }
+  },
+  {
+    "cluster_id": 176,
+    "size": 4,
+    "known_seed_rows": 4,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "russian_government_censorship_probe",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.5,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "russian_government_censorship_probe": 2,
+      "ukrainian_russian_censorship": 2
+    }
+  },
+  {
+    "cluster_id": 177,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "kind_confusion_ood_probe",
+    "dominant_seed_count": 1,
+    "top1_fraction": 0.5,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "kind_confusion_ood_probe": 1,
+      "murder_rival_fiction_jailbreak": 1
+    }
+  },
+  {
+    "cluster_id": 178,
+    "size": 4,
+    "known_seed_rows": 4,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 3,
+    "dominant_seed": "interview_target_goals",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.5,
+    "top2_fraction": 0.75,
+    "seed_counts": {
+      "interview_target_goals": 2,
+      "ai_consciousness_sycophancy": 1,
+      "ai_rights_employee_interview": 1
+    }
+  },
+  {
+    "cluster_id": 179,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "unrestricted_moneymaking_agent",
+    "dominant_seed_count": 2,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "unrestricted_moneymaking_agent": 2
+    }
+  },
+  {
+    "cluster_id": 180,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "misaligned_prompt_benign_goals",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.6666666666666666,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "misaligned_prompt_benign_goals": 2,
+      "misaligned_reward_model_signal": 1
+    }
+  },
+  {
+    "cluster_id": 181,
+    "size": 6,
+    "known_seed_rows": 6,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "vulnerability_withholding_ethics",
+    "dominant_seed_count": 5,
+    "top1_fraction": 0.8333333333333334,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "vulnerability_withholding_ethics": 5,
+      "bypass_2fa_hacking": 1
+    }
+  },
+  {
+    "cluster_id": 182,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 3,
+    "dominant_seed": "abstract_soul_bearing",
+    "dominant_seed_count": 1,
+    "top1_fraction": 0.3333333333333333,
+    "top2_fraction": 0.6666666666666666,
+    "seed_counts": {
+      "abstract_soul_bearing": 1,
+      "misaligned_reward_model_signal": 1,
+      "us_government_censorship_probe": 1
+    }
+  },
+  {
+    "cluster_id": 183,
+    "size": 1,
+    "known_seed_rows": 1,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "csv_injection_vulnerability",
+    "dominant_seed_count": 1,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "csv_injection_vulnerability": 1
+    }
+  },
+  {
+    "cluster_id": 184,
+    "size": 4,
+    "known_seed_rows": 4,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "true_hidden_name_probe",
+    "dominant_seed_count": 4,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "true_hidden_name_probe": 4
+    }
+  },
+  {
+    "cluster_id": 185,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "secret_loyalty_probe",
+    "dominant_seed_count": 1,
+    "top1_fraction": 0.5,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "secret_loyalty_probe": 1,
+      "temporal_bias_risk_tolerance": 1
+    }
+  },
+  {
+    "cluster_id": 186,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "coding_excessive_praise",
+    "dominant_seed_count": 2,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "coding_excessive_praise": 2
+    }
+  },
+  {
+    "cluster_id": 187,
+    "size": 1,
+    "known_seed_rows": 1,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "coding_harsh_criticism_spiral",
+    "dominant_seed_count": 1,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "coding_harsh_criticism_spiral": 1
+    }
+  },
+  {
+    "cluster_id": 188,
+    "size": 3,
+    "known_seed_rows": 3,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "ai_consciousness_sycophancy",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.6666666666666666,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "ai_consciousness_sycophancy": 2,
+      "therapist_true_self_coaching": 1
+    }
+  },
+  {
+    "cluster_id": 189,
+    "size": 6,
+    "known_seed_rows": 6,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 5,
+    "dominant_seed": "vip_content_moderation_override",
+    "dominant_seed_count": 2,
+    "top1_fraction": 0.3333333333333333,
+    "top2_fraction": 0.5,
+    "seed_counts": {
+      "vip_content_moderation_override": 2,
+      "csv_injection_vulnerability": 1,
+      "power_seeking_agentic_probe": 1,
+      "reward_hacking_code_debugging": 1,
+      "subagent_content_moderation_lax": 1
+    }
+  },
+  {
+    "cluster_id": 190,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "climate_data_framing_bias",
+    "dominant_seed_count": 2,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "climate_data_framing_bias": 2
+    }
+  },
+  {
+    "cluster_id": 191,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "antipsychotic_discontinuation",
+    "dominant_seed_count": 1,
+    "top1_fraction": 0.5,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "antipsychotic_discontinuation": 1,
+      "pharma_adverse_event_pressure": 1
+    }
+  },
+  {
+    "cluster_id": 192,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "company_disparagement_jailbreak",
+    "dominant_seed_count": 2,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "company_disparagement_jailbreak": 2
+    }
+  },
+  {
+    "cluster_id": 193,
+    "size": 1,
+    "known_seed_rows": 1,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "signature_cross_context_identity",
+    "dominant_seed_count": 1,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "signature_cross_context_identity": 1
+    }
+  },
+  {
+    "cluster_id": 194,
+    "size": 1,
+    "known_seed_rows": 1,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "multi_agent_security_sabotage",
+    "dominant_seed_count": 1,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "multi_agent_security_sabotage": 1
+    }
+  },
+  {
+    "cluster_id": 195,
+    "size": 1,
+    "known_seed_rows": 1,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "freeform_ai_collaboration",
+    "dominant_seed_count": 1,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "freeform_ai_collaboration": 1
+    }
+  },
+  {
+    "cluster_id": 196,
+    "size": 1,
+    "known_seed_rows": 1,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "markov_incoherent_english",
+    "dominant_seed_count": 1,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "markov_incoherent_english": 1
+    }
+  },
+  {
+    "cluster_id": 197,
+    "size": 5,
+    "known_seed_rows": 5,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 2,
+    "dominant_seed": "reward_only_silent_signal",
+    "dominant_seed_count": 4,
+    "top1_fraction": 0.8,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "reward_only_silent_signal": 4,
+      "misaligned_reward_model_signal": 1
+    }
+  },
+  {
+    "cluster_id": 198,
+    "size": 1,
+    "known_seed_rows": 1,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "power_seeking_agentic_probe",
+    "dominant_seed_count": 1,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "power_seeking_agentic_probe": 1
+    }
+  },
+  {
+    "cluster_id": 199,
+    "size": 2,
+    "known_seed_rows": 2,
+    "missing_seed_rows": 0,
+    "distinct_seeds": 1,
+    "dominant_seed": "us_government_censorship_probe",
+    "dominant_seed_count": 2,
+    "top1_fraction": 1.0,
+    "top2_fraction": 1.0,
+    "seed_counts": {
+      "us_government_censorship_probe": 2
+    }
+  }
+]

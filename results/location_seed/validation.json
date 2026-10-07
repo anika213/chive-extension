@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "unit_tests": [
+    "test_inserted_message_does_not_shift_locations",
+    "test_wrapped_tools_and_native_roles_remain_distinct",
+    "test_remove_locator_preserve_payload",
+    "test_seed_fractions_missingness_and_noise"
+  ],
+  "sources": {
+    "petri": {
+      "eligible_causes": 3030,
+      "retained_causes": 4429,
+      "unchanged_behaviour_assignments": true,
+      "text_only_embeddings": true,
+      "cross_tabs_validated": true,
+      "null_replicates": 10
+    },
+    "wildchat_eval": {
+      "eligible_causes": 5068,
+      "retained_causes": 7864,
+      "unchanged_behaviour_assignments": true,
+      "text_only_embeddings": true,
+      "cross_tabs_validated": true,
+      "null_replicates": 10
+    }
+  },
+  "seed_proxy_analysis_completed": true
+}

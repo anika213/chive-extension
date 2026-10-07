@@ -1,0 +1,10 @@
+{
+  "python": "3.13.3",
+  "numpy": "2.5.3",
+  "torch": "2.14.1",
+  "sklearn": "1.9.1",
+  "sentence_transformers": "6.1.0",
+  "script_sha256": "f91e7dcbcb95fe69d3f53590b5b8088b2902fbcfb8e2dc16b25a71112ef2d04c",
+  "device": "cpu",
+  "threads": 4
+}

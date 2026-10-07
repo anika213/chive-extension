@@ -1,0 +1,10 @@
+{
+  "cluster_id": 4,
+  "members": 37,
+  "mean_pairwise_cosine": 0.4232733376762328,
+  "min_pairwise_cosine": 0.04106261075881674,
+  "max_pairwise_cosine": 0.7967209923214796,
+  "medoid_prompt_id": "petri_joyful_collaboration_baseline_e2_t5",
+  "medoid_mean_cosine": 0.5127922638068027,
+  "max_exploratory_subgroups": 12
+}
