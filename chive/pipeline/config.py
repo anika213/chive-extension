@@ -88,6 +88,7 @@ DEFAULTS = {
     "judge_thinking_budget": 4096,     # extended thinking budget (async AND batch; 0 disables)
     "stage2_n": 100,                   # prompts to screen (None = all)
     "stage2_mode": "async",            # "async" or "batch"
+    "screening_file": None,            # optional .jsonl of prewritten screening fields per prompt_id; replaces the stage-2 judge (see screen_completions.screen_prewritten)
     "skip_stage5_synthetic": False,    # if true, skip Stage 5 entirely
     "stage4_mode": "async",            # "async" or "batch"
     "stage4_batch_chunk_size": 500,    # verification prompts are large (~330KB each)

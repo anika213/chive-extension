@@ -54,6 +54,7 @@ from chive.pipeline.utils import (
     extract_tool_input,
     load_dotenv,
     pydantic_tool,
+    raise_if_out_of_credit,
     run_anthropic_batch,
     report_skip_rate,
     run_concurrent,
@@ -566,6 +567,7 @@ async def verify_async(
             # Skip+count ANY per-item failure (malformed result, content-filter
             # block, persistent API error after retries, etc.) so one bad item
             # can't kill the stage. report_skip_rate below is the loud backstop.
+            raise_if_out_of_credit(e)
             skipped["count"] += 1
             skipped["ids"].append(investigation["prompt_id"])
             print(f"  SKIPPING {investigation['prompt_id']}: {type(e).__name__}: {e}")

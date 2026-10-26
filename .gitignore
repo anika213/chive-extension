@@ -13,6 +13,9 @@ venv/
 # Secrets
 .env
 
+# Downloaded result bundles (e.g. Colab runs); unzip into data/ instead
+*.zip
+
 # Editors / OS
 .vscode/
 .idea/

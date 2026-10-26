@@ -232,7 +232,12 @@ async def run_stage2(
         thinking_budget=config["judge_thinking_budget"] if config["judge_thinking_budget"] > 0 else None,
     )
 
-    if mode == "batch":
+    if config["screening_file"]:
+        raw = config["screening_file"]
+        prewritten = Path(raw) if Path(raw).is_absolute() else REPO_ROOT / raw
+        print(f"  Using prewritten screening from {prewritten} (no judge call)")
+        results = screen_completions.screen_prewritten(prompts, prewritten, screening_path)
+    elif mode == "batch":
         assert judge_spec.startswith("anthropic:"), (
             "Stage 2 batch mode is Anthropic-only"
         )
@@ -260,8 +265,9 @@ async def run_stage2(
         if count > 0:
             score_dist[str(s)] = count
 
+    # "partial" (not "done") when items were skipped, so a re-run resumes the missing ones.
     update_status(run_dir, status, "stage2", {
-        "status": "done",
+        "status": "done" if len(results) == len(prompts) else "partial",
         "total": len(prompts),
         "completed": len(results),
         "score_distribution": score_dist,
@@ -344,7 +350,7 @@ async def run_stage3(config: dict, run_dir: Path, status: dict):
     print(f"\n  {len(outcome.records)} investigations in {jsonl_path}")
 
     update_status(run_dir, status, "stage3", {
-        "status": "done",
+        "status": "done" if outcome.n_skipped == 0 else "partial",
         "total": len(candidates),
         "completed": len(outcome.records),
         "skipped": outcome.n_skipped,
@@ -425,7 +431,7 @@ async def run_stage4(config: dict, run_dir: Path, status: dict):
             score_dist[str(s)] = count
 
     update_status(run_dir, status, "stage4", {
-        "status": "done",
+        "status": "done" if len(results) == len(investigations) else "partial",
         "total": len(investigations),
         "completed": len(results),
         "score_distribution": score_dist,

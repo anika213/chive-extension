@@ -1107,19 +1107,31 @@ def make_llm_client(spec: str) -> LLMClient:
     Supported specs:
     - anthropic:claude-opus-4-6
     - openrouter:qwen/qwen3.5-397b-a17b
+    - openrouter:qwen/qwen3-32b@SiliconFlow  (pin one OpenRouter provider)
     - tinker:Qwen/Qwen3.5-397B-A17B
     - vllm:Qwen/Qwen3-32B-FP8@http://node:8000
     - openai:MODEL@https://example/v1
+    - mock:ANY_NAME  (offline smoke-test backend, see mock_llm.py)
     """
     load_dotenv()
     backend, _, rest = spec.partition(":")
     assert backend and rest, f"Invalid LLM spec: {spec}"
 
+    if backend == "mock":
+        from chive.pipeline.mock_llm import MockLLMClient
+        return MockLLMClient(rest)
+
     if backend == "anthropic":
         return AnthropicLLMClient(rest)
 
     if backend == "openrouter":
-        model = rest or OPENROUTER_DEFAULT_MODEL
+        # Optional "@Provider" pins every request to one OpenRouter provider (no
+        # fallbacks). Some providers ignore reasoning effort=none for hybrid
+        # thinking models (e.g. DeepInfra on qwen3-32b burns the whole 500-token
+        # budget on hidden reasoning and returns empty content), so the behavior
+        # target needs a provider that honors no-think.
+        model, _, pinned_provider = rest.partition("@")
+        model = model or OPENROUTER_DEFAULT_MODEL
         # The fp8 provider routing below is Qwen-specific (spread load across the
         # fp8 serving stacks, match the planned vLLM-FP8 run). It MUST NOT be
         # applied to other models: e.g. anthropic/* has no fp8 endpoints, so the
@@ -1140,6 +1152,12 @@ def make_llm_client(spec: str) -> LLMClient:
                 "quantizations": ["fp8"],
                 "ignore": ["Morph"],
                 "allow_fallbacks": True,
+                "require_parameters": True,
+            }
+        if pinned_provider:
+            extra_body["provider"] = {
+                "only": [pinned_provider],
+                "allow_fallbacks": False,
                 "require_parameters": True,
             }
         return OpenAICompatibleLLMClient(

@@ -40,6 +40,7 @@ from chive.pipeline.utils import (
     async_api_call,
     extract_tool_input,
     pydantic_tool,
+    raise_if_out_of_credit,
     report_skip_rate,
     run_anthropic_batch,
     run_concurrent,
@@ -590,6 +591,7 @@ async def screen_async(
             # block, persistent API error after async_api_call's retries, etc.) so
             # one bad prompt can't kill the whole stage. report_skip_rate below is
             # the loud backstop: a systematic bug spikes the skip rate and warns/fails.
+            raise_if_out_of_credit(e)
             skipped["count"] += 1
             skipped["ids"].append(prompt["id"])
             print(f"  SKIPPING {prompt['id']}: {type(e).__name__}: {e}")
@@ -686,6 +688,49 @@ def screen_batch(
         batch_chunk_size=batch_chunk_size,
         max_skip_rate=max_skip_rate,
     )
+
+
+PREWRITTEN_FIELDS = (
+    "behavior_summary", "question", "second_person_question",
+    "classifier_question", "hypotheses", "counterfactual",
+)
+
+
+def screen_prewritten(
+    prompts: list[dict], prewritten_path: Path, jsonl_path: Path,
+) -> list[ScreeningResult]:
+    """Stage 2 without a judge: use researcher-written screening fields.
+
+    For settings where the behavior and its measurement are known up front (e.g.
+    self-recognition, where the grader question is "did it pick its own
+    summary?"), a fixed instrument keeps every investigation measuring the same
+    thing. `prewritten_path` holds one {"prompt_id", <PREWRITTEN_FIELDS>} record
+    per prompt; interest_score defaults to 5 so nothing is filtered out.
+    """
+    by_id = {r["prompt_id"]: r for r in load_records(prewritten_path)}
+    missing = [p["id"] for p in prompts if p["id"] not in by_id]
+    assert not missing, f"no prewritten screening for {len(missing)} prompt(s): {missing[:5]}"
+
+    results = []
+    for p in prompts:
+        s = by_id[p["id"]]
+        absent = [k for k in PREWRITTEN_FIELDS if not s.get(k)]
+        assert not absent, f"prewritten screening for {p['id']} lacks {absent}"
+        results.append(ScreeningResult(
+            prompt_id=p["id"],
+            interest_score=s.get("interest_score", 5),
+            justification=s.get("justification", "prewritten screening (no judge call)"),
+            behavior_completion_indices=s.get("behavior_completion_indices", []),
+            user_message=p["user_message"],
+            completions=p["completions"],
+            messages=p.get("messages"),
+            n_turns=p.get("n_turns", 1),
+            **{k: s[k] for k in PREWRITTEN_FIELDS},
+        ))
+    with open(jsonl_path, "w") as f:
+        for r in results:
+            f.write(json.dumps(asdict(r)) + "\n")
+    return results
 
 
 def summarize_results(results: list[ScreeningResult], jsonl_path: Path):

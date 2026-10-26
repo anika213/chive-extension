@@ -34,6 +34,24 @@ SKIP_RATE_WARN_THRESHOLD = 0.001  # 0.1% — warn loudly above this
 SKIP_RATE_DEFAULT_MAX = 1.0       # default: never fail on skip rate; just warn
 
 
+class OutOfCreditError(RuntimeError):
+    """The API account has no credit left, so every remaining call would fail the same way."""
+
+
+OUT_OF_CREDIT_MARKERS = ("credit balance is too low", "insufficient credits")
+
+
+def raise_if_out_of_credit(exc: BaseException) -> None:
+    """Abort the stage instead of skip+count when the account is out of credit.
+
+    Stages normally skip a failed item and carry on. With no credit left that just
+    burns money on partial work for every remaining item (a Colab run lost ~17
+    half-finished investigations this way). Re-running resumes from the jsonl.
+    """
+    if any(m in str(exc).lower() for m in OUT_OF_CREDIT_MARKERS):
+        raise OutOfCreditError(f"API credit exhausted, stopping. Add credit and re-run to resume. ({exc})") from exc
+
+
 def model_dir_name(model_id: str) -> str:
     """Convert a HuggingFace model ID to a directory-safe short name.
 

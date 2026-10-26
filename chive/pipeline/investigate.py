@@ -58,7 +58,9 @@ from chive.pipeline.generate_completions import (
 )
 from chive.pipeline.run_files import load_records
 from chive.pipeline.tool_validate import call_for_validated_tool
-from chive.pipeline.utils import async_api_call, load_dotenv, pydantic_tool, report_skip_rate
+from chive.pipeline.utils import (
+    async_api_call, load_dotenv, pydantic_tool, raise_if_out_of_credit, report_skip_rate,
+)
 
 load_dotenv()
 
@@ -1841,6 +1843,7 @@ async def run_investigations(
                     if attempt == 0:
                         print(f"\n  RETRY {pid}: null structured_findings, attempt 2/2")
                 except Exception as e:
+                    raise_if_out_of_credit(e)
                     last_exc = e
                     if attempt == 0:
                         print(f"\n  RETRY {pid}: {type(e).__name__}: {str(e)[:120]}, attempt 2/2")
